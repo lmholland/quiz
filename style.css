@@ -1,0 +1,101 @@
+@font-face {
+  font-family: 'sunny';
+  src: url("./assets/sunny.woff2") format("woff2");
+}
+
+html, body {
+  overflow: hidden;
+  margin: 0;
+  font-family: "sunny";
+}
+
+body {
+  background-color: beige;
+}
+
+#score-container {
+  margin: 0.5em;
+  display: flex;
+  justify-content: center;
+}
+
+#score {
+  color: black;
+  font-size: 20px;
+  text-align: center;
+  padding: 1vh 2vw;
+}
+
+#content {
+  max-height: 85vh;
+  margin: 0 5vw 5vh;
+  border-radius: 30px;
+  display: grid;
+}
+
+#question-container {
+  background-color: lightblue;
+  border-radius: 30px 30px 0px 0px;
+}
+
+#question-text {
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  padding: 0 2vw;
+}
+
+#question-image {
+  display: none;
+  max-width: 100%;
+  max-height: 40vh;
+  margin: 0 auto 3vh;
+}
+
+#answers-container {
+  background-color: darkblue;
+  border-radius: 0px 0px 30px 30px;
+  padding: 3vh 3vw;
+  display: grid;
+}
+
+.answer {
+  background-color: lightgray;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px 10px 10px 10px;
+  border: 1px solid black;
+  padding: 1vh 1vw;
+  justify-content: center;
+  align-content: center;
+}
+
+@media screen and (min-width : 200px) and (min-height : 200px) {
+  .answer img {
+    max-width: 20vw;
+    max-height: 20vh;
+  }
+}
+
+@media screen and (min-width : 400px) and (min-height : 400px) {
+  .answer img {
+    max-width: 25vw;
+    max-height: 25vh;
+  }
+}
+
+@media screen and (min-width : 600px) and (min-height : 600px) {
+  .answer img {
+    max-width: 30vw;
+    max-height: 30vh;
+  }
+}
+
+@media screen and (min-width : 800px) and (min-height : 800px) {
+  .answer img {
+    max-width: 35vw;
+    max-height: 35vh;
+  }
+}
+
+
