@@ -2717,7 +2717,7 @@
                 },
                 {
                     // 19
-                    question: `The ${getCurrencyUnit()} is used in which country?`,
+                    question: `The currency called the ${getCurrencyUnit()} is used in which country?`,
                     answer: `${randomCountry.country.name}`,
                     ansProp: "country",
                     ansSub: "name",
