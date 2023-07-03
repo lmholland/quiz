@@ -2,7 +2,20 @@
     let contentClone = document.getElementById("content").cloneNode(true);
     let score = 0;
 
+    screenHeight();
     generateQA();
+
+    function screenHeight(){
+        const fontSize = 16;
+        const height = window.innerHeight
+            ||  document.documentElement.clientHeight
+            ||  document.body.clientHeight;
+        const menuHeight = height/fontSize/2 + "em"
+        const sectionHeight = height/fontSize + "em";
+
+        document.getElementById("menu").style.height = menuHeight;
+        document.getElementById("home").style.height = sectionHeight;
+    }
 
     function generateQA(){
         const info = [
@@ -2717,7 +2730,7 @@
                 },
                 {
                     // 19
-                    question: `The currency called the ${getCurrencyUnit()} is used in which country?`,
+                    question: `The ${getCurrencyUnit()} is a currency used in which country?`,
                     answer: `${randomCountry.country.name}`,
                     ansProp: "country",
                     ansSub: "name",
