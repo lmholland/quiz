@@ -10,7 +10,7 @@ const downloadFiles = async () => {
         }
 
         try {
-            let name = `./images/${info[i].country.name}/symbol.jpg`;
+            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/symbol.jpg`;
             let url = `${info[i].symbol.url}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
@@ -29,7 +29,7 @@ const downloadFiles = async () => {
 
     for(let i=0; i < info.length; i++){
         try {
-            let name = `./images/${info[i].country.name}/flag.jpg`;
+            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/flag.jpg`;
             let url = `${info[i].flag.url}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
@@ -47,7 +47,7 @@ const downloadFiles = async () => {
 
     for(let i=0; i < info.length; i++){
         try {
-            let name = `./images/${info[i].country.name}/map.jpg`;
+            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/map.jpg`;
             let url = `${info[i].map.url}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
@@ -65,7 +65,7 @@ const downloadFiles = async () => {
 
     for(let i=0; i < info.length; i++){
         try {
-            let name = `./images/${info[i].country.name}/leader.jpg`;
+            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/leader.jpg`;
             let url = `${info[i].leader.imgUrl}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
