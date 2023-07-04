@@ -2,6 +2,8 @@
     let contentClone = document.getElementById("content").cloneNode(true);
     let score = 0;
 
+    window.addEventListener("resize", screenHeight);
+
     screenHeight();
     generateQA();
 
@@ -10,11 +12,9 @@
         const height = window.innerHeight
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
-        const menuHeight = height/fontSize/2 + "em"
-        const sectionHeight = height/fontSize + "em";
+        const contentHeight = ((height/fontSize) * 0.85) + "em"
 
-        document.getElementById("menu").style.height = menuHeight;
-        document.getElementById("home").style.height = sectionHeight;
+        document.getElementById("content").style.height = contentHeight;
     }
 
     function generateQA(){
@@ -2766,7 +2766,7 @@
                 },
             ];
             let qaNum = getQaNum();
-    
+
             qa = qaList[qaNum];
     
             function getCapitalType(){
@@ -3029,6 +3029,8 @@
             if(qa.questionImg){
                 document.getElementById("question-image").style.display = "flex";
                 document.getElementById("question-image").src = qa.questionImg;
+            } else {
+                document.getElementById("question-image").remove();
             }
     
             if(possibleAnswers[0].endsWith(".jpg")){

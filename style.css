@@ -6,6 +6,7 @@
 html, body {
   overflow: hidden;
   margin: 0;
+  padding: 0;
   font-family: "sunny";
 }
 
@@ -14,35 +15,33 @@ body {
 }
 
 #score-container {
-  margin: 0.5em;
   display: flex;
   justify-content: center;
 }
 
 #score {
-  color: black;
-  font-size: 1.5em;
-  text-align: center;
-  padding: 1em;
+  font-size: 2em;
 }
 
 #content {
-  max-height: 85vh;
-  margin: 0 5vw 5vh;
-  border-radius: 30px;
   display: grid;
+  margin: 1em;
+  border-radius: 1em;
 }
 
 #question-container {
+  display: grid;
   background-color: lightblue;
-  border-radius: 30px 30px 0px 0px;
+  border-radius: 1em 1em 0 0;
+  border: 0.1em gray solid;
 }
 
 #question-text {
-  color: black;
-  font-size: 30px;
+  font-size: 2em;
   text-align: center;
-  padding: 0 2vw;
+  padding: 0 1em;
+  justify-content: center;
+  align-content: center;
 }
 
 #question-image {
