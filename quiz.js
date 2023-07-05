@@ -1,6 +1,7 @@
 (() => {
     let contentClone = document.getElementById("content").cloneNode(true);
     let score = 0;
+    let aImgHeight;
 
     window.addEventListener("resize", screenHeight);
 
@@ -12,9 +13,22 @@
         const height = window.innerHeight
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
-        const contentHeight = ((height/fontSize) * 0.85) + "em"
+        const contentHeight = ((height/fontSize) * 0.85) + "em";
+        const qImgHeight = ((height/fontSize) * 0.40) + "em";
+        aImgHeight = ((height/fontSize) * 0.2) + "em";
 
         document.getElementById("content").style.height = contentHeight;
+
+        if(document.getElementById("question-image")){
+            document.getElementById("question-image").style.height = qImgHeight;
+        }
+
+        if(document.getElementById("aImg1")){
+            document.getElementById("aImg1").style.height = aImgHeight;
+            document.getElementById("aImg2").style.height = aImgHeight;
+            document.getElementById("aImg3").style.height = aImgHeight;
+            document.getElementById("aImg4").style.height = aImgHeight;
+        }
     }
 
     function generateQA(){
@@ -3044,6 +3058,11 @@
                 img3 = document.createElement("img");
                 img4 = document.createElement("img");
 
+                img1.setAttribute("id", "aImg1");
+                img2.setAttribute("id", "aImg2");
+                img3.setAttribute("id", "aImg3");
+                img4.setAttribute("id", "aImg4");
+
                 img1.src = possibleAnswers[0];
                 img2.src = possibleAnswers[1];
                 img3.src = possibleAnswers[2];
@@ -3053,6 +3072,11 @@
                 document.getElementById("answer2").appendChild(img2);
                 document.getElementById("answer3").appendChild(img3);
                 document.getElementById("answer4").appendChild(img4);
+
+                document.getElementById("aImg1").style.height = aImgHeight;
+                document.getElementById("aImg2").style.height = aImgHeight;
+                document.getElementById("aImg3").style.height = aImgHeight;
+                document.getElementById("aImg4").style.height = aImgHeight;
             } else {
                 document.getElementById("answer1").innerHTML = possibleAnswers[0];
                 document.getElementById("answer2").innerHTML = possibleAnswers[1];
