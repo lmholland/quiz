@@ -3082,7 +3082,7 @@
                 document.getElementById("answers-container").style.display = "flex";
                 document.getElementById("answers-container").style.flexWrap = "wrap";
                 document.getElementById("answers-container").style.justifyContent = "space-evenly";
-                document.getElementById("answers-container").style.alignItems = "center";
+                document.getElementById("answers-container").style.alignItems = "stretch";
 
                 img1 = document.createElement("img");
                 img2 = document.createElement("img");
