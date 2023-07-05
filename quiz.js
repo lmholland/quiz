@@ -1,21 +1,27 @@
 (() => {
     let contentClone = document.getElementById("content").cloneNode(true);
     let score = 0;
-    let aImgHeight;
+    let aImgHeight, aImgWidth;
 
-    window.addEventListener("resize", screenHeight);
+    window.addEventListener("resize", screenSize);
 
-    screenHeight();
+    screenSize();
     generateQA();
 
-    function screenHeight(){
+    function screenSize(){
         const fontSize = 16;
         const height = window.innerHeight
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
+        const width = window.innerWidth
+            ||  document.documentElement.clientWidth
+            ||  document.body.clientWidth;
+        console.log(height, width);
         const contentHeight = ((height/fontSize) * 0.85) + "em";
+        const nonImageWidth = ((width/fontSize) * 0.5) + "em";
         const qImgHeight = ((height/fontSize) * 0.40) + "em";
-        aImgHeight = ((height/fontSize) * 0.2) + "em";
+        aImgHeight = ((height/fontSize) * 0.1) + "em";
+        aImgWidth = ((width/fontSize) * 0.1) + "em";
 
         document.getElementById("content").style.height = contentHeight;
 
@@ -24,10 +30,35 @@
         }
 
         if(document.getElementById("aImg1")){
-            document.getElementById("aImg1").style.height = aImgHeight;
-            document.getElementById("aImg2").style.height = aImgHeight;
-            document.getElementById("aImg3").style.height = aImgHeight;
-            document.getElementById("aImg4").style.height = aImgHeight;
+            if(document.getElementById("aImg1").style.width >= document.getElementById("aImg1").style.height){
+                document.getElementById("aImg1").style.width = aImgWidth;
+            } else {
+                document.getElementById("aImg1").style.height = aImgHeight;
+            }
+        }
+
+        if(document.getElementById("aImg2")){
+            if(document.getElementById("aImg2").style.width >= document.getElementById("aImg2").style.height){
+                document.getElementById("aImg2").style.width = aImgWidth;
+            } else {
+                document.getElementById("aImg2").style.height = aImgHeight;
+            }
+        }
+
+        if(document.getElementById("aImg3")){
+            if(document.getElementById("aImg3").style.width >= document.getElementById("aImg3").style.height){
+                document.getElementById("aImg3").style.width = aImgWidth;
+            } else {
+                document.getElementById("aImg3").style.height = aImgHeight;
+            }
+        }
+
+        if(document.getElementById("aImg4")){
+            if(document.getElementById("aImg4").style.width >= document.getElementById("aImg4").style.height){
+                document.getElementById("aImg4").style.width = aImgWidth;
+            } else {
+                document.getElementById("aImg4").style.height = aImgHeight;
+            }
         }
     }
 
@@ -3073,10 +3104,29 @@
                 document.getElementById("answer3").appendChild(img3);
                 document.getElementById("answer4").appendChild(img4);
 
-                document.getElementById("aImg1").style.height = aImgHeight;
-                document.getElementById("aImg2").style.height = aImgHeight;
-                document.getElementById("aImg3").style.height = aImgHeight;
-                document.getElementById("aImg4").style.height = aImgHeight;
+                if(document.getElementById("aImg1").style.width >= document.getElementById("aImg1").style.height){
+                    document.getElementById("aImg1").style.width = aImgWidth;
+                } else {
+                    document.getElementById("aImg1").style.height = aImgHeight;
+                }
+
+                if(document.getElementById("aImg2").style.width >= document.getElementById("aImg2").style.height){
+                    document.getElementById("aImg2").style.width = aImgWidth;
+                } else {
+                    document.getElementById("aImg2").style.height = aImgHeight;
+                }
+
+                if(document.getElementById("aImg3").style.width >= document.getElementById("aImg3").style.height){
+                    document.getElementById("aImg3").style.width = aImgWidth;
+                } else {
+                    document.getElementById("aImg3").style.height = aImgHeight;
+                }
+
+                if(document.getElementById("aImg4").style.width >= document.getElementById("aImg4").style.height){
+                    document.getElementById("aImg4").style.width = aImgWidth;
+                } else {
+                    document.getElementById("aImg4").style.height = aImgHeight;
+                }
             } else {
                 document.getElementById("answer1").innerHTML = possibleAnswers[0];
                 document.getElementById("answer2").innerHTML = possibleAnswers[1];
