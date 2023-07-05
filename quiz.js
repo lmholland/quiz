@@ -5,7 +5,6 @@
 
     window.addEventListener("resize", screenSize);
 
-    screenSize();
     generateQA();
 
     function screenSize(){
@@ -20,8 +19,8 @@
         const contentHeight = ((height/fontSize) * 0.85) + "em";
         const nonImageWidth = ((width/fontSize) * 0.5) + "em";
         const qImgHeight = ((height/fontSize) * 0.40) + "em";
-        aImgHeight = ((height/fontSize) * 0.1) + "em";
-        aImgWidth = ((width/fontSize) * 0.1) + "em";
+        aImgHeight = ((height/fontSize) * 0.05) + "em";
+        aImgWidth = ((width/fontSize) * 0.07) + "em";
 
         document.getElementById("content").style.height = contentHeight;
 
@@ -2616,6 +2615,7 @@
 
         let currName;
     
+        screenSize();
         chooseQA();
         getAllAnswers();
         deduplicateAnswers();

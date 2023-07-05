@@ -38,9 +38,10 @@ body {
 
 #question-text {
   display: grid;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
-  padding: auto 1em;
+  margin: auto 1em;
+  /* padding: auto 10em; */
   justify-content: center;
   align-content: center;
 }
@@ -61,7 +62,7 @@ body {
 .answer {
   display: grid;
   background-color: lightgray;
-  font-size: 2em;
+  font-size: 3em;
   border-radius: 0.5em;
   border: 0.01em solid black;
   padding: 0.5em;
