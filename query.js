@@ -1,8 +1,8 @@
-const { info } = require('./currentInfo.js')
+const { info } = require('./newInfo.js')
 
 info.forEach(country => {
 
-    console.log(country.country.name, country.largestCity[0].name)
+    console.log(country.country.name, country.leader.pos)
 
 })
 

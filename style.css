@@ -41,7 +41,6 @@ body {
   font-size: 3em;
   text-align: center;
   margin: auto 1em;
-  /* padding: auto 10em; */
   justify-content: center;
   align-content: center;
 }
@@ -71,32 +70,5 @@ body {
   align-content: center;
 }
 
-/* @media screen and (min-width: 200px){
-  .answer img {
-    max-width: 20vw;
-    max-height: 20vh;
-  }
+@media only screen and (max-width: 103.125em) { /* 1650px */
 }
-
-@media screen and (min-width: 400px){
-  .answer img {
-    max-width: 25vw;
-    max-height: 25vh;
-  }
-}
-
-@media screen and (min-width: 600px){
-  .answer img {
-    max-width: 30vw;
-    max-height: 30vh;
-  }
-}
-
-@media screen and (min-width: 800px) {
-  .answer img {
-    max-width: 35vw;
-    max-height: 35vh;
-  }
-} */
-
-

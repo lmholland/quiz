@@ -2,6 +2,11 @@ let masterList = [];
 const timer = ms => new Promise(res => setTimeout(res, ms))
 const countryTotal = 195;
 const waitTime = 10000;
+const date = new Date();
+const month = date.toLocaleString('default', { month: 'long' });
+const day = date.getDate();
+const year = date.getFullYear();
+const formattedDate = `${month} ${day}, ${year}`;
 
 async function getData(){
     // country, leader
@@ -142,6 +147,9 @@ async function getData(){
                     case 149:   // Qatar
                         leader_00_112_2();
                         break; 
+                    case 168:   // Slovakia
+                        leader_00010_03_03();
+                        break;
                     case 179:   // Sudan
                         leader_0101_00_00();
                         break;
@@ -2917,6 +2925,7 @@ async function getData(){
     function writeToFile(){
         let file = require('fs').createWriteStream("newInfo.js");
         file.on('error', function(error) {console.log(error)});
+        file.write(`const lastChecked = "${formattedDate}";` + "\n");
         file.write("const info = [" + "\n");
         masterList.forEach(obj => { 
             file.write("    {" + "\n");
