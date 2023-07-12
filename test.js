@@ -1,19 +1,15 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/sudan");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Nicolás_Maduro");
         const data = require('cheerio').load(response.data);
+        const size= "500px";
 
-        try{
-            console.log(data(`a.image`)[1].children[0].attribs.src);
-            // pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
-            // mapURL = mapURL.replace(pxSize, size);
-            // masterList[i].map = {}
-            // masterList[i].map.url = mapURL;
-        } catch( error ) {
-            console.log(masterList[i].country.name, "mapURL");
-        }
-    
+        imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
+        pxSize = imgURL.substring(imgURL.indexOf(".jpeg/") + 6, imgURL.lastIndexOf("px"));
+        imgURL = imgURL.replace(pxSize, "500");
+        console.log(imgURL);
+
     } catch (error) {
     }
 

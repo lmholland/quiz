@@ -2,11 +2,6 @@ let masterList = [];
 const timer = ms => new Promise(res => setTimeout(res, ms))
 const countryTotal = 195;
 const waitTime = 10000;
-const date = new Date();
-const month = date.toLocaleString('default', { month: 'long' });
-const day = date.getDate();
-const year = date.getFullYear();
-const formattedDate = `${month} ${day}, ${year}`;
 
 async function getData(){
     // country, leader
@@ -490,14 +485,14 @@ async function getData(){
                     case 24:    // Brunei
                         flag_ai1_c0_svg();
                         break;
-                    case 185:   //  USA
+                    case 187:   // Uzbekistan
                         flag_ai1_c0_svg();
                         break;
                 }
 
                 function flag_ai0_c0_svg(){
                     try{
-                        flagURL = data(`a.image`)[0].children[0].attribs.src;
+                        flagURL = data(`a.mw-file-description`)[0].children[0].attribs.src;
                         pxSize = flagURL.substring(flagURL.indexOf(".svg/") + 5, flagURL.lastIndexOf("px") + 2);
                         flagURL = flagURL.replace(pxSize, size);
                         masterList[i].flag = {}
@@ -509,7 +504,7 @@ async function getData(){
 
                 function flag_ai1_c0_svg(){
                     try{
-                        flagURL = data(`a.image`)[1].children[0].attribs.src;
+                        flagURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
                         pxSize = flagURL.substring(flagURL.indexOf(".svg/") + 5, flagURL.lastIndexOf("px") + 2);
                         flagURL = flagURL.replace(pxSize, size);
                         masterList[i].flag = {}
@@ -534,8 +529,8 @@ async function getData(){
                     case 38:    // Congo-Kinshasa
                         symbol_ai1_c1_png();
                         break;
-                    case 43:    // Cyprus
-                        symbol_ai1_c1_png();
+                    case 76:    // India
+                        symbol_ai1_c1_gif();
                         break;
                     case 178:   // Turkey
                         symbol_none_turkey();
@@ -543,11 +538,26 @@ async function getData(){
                     case 185:   // USA
                         symbol_ai2_c1_svg();
                         break;
+                    case 187:   // Uzbekistan
+                        symbol_ai2_c1_svg();
+                        break;
+                }
+
+                function symbol_ai1_c1_gif(){
+                    try{
+                        symbolURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
+                        pxSize = symbolURL.substring(symbolURL.indexOf(".gif/") + 5, symbolURL.lastIndexOf("px") + 2);
+                        symbolURL = symbolURL.replace(pxSize, size);
+                        masterList[i].symbol = {}
+                        masterList[i].symbol.url = symbolURL;
+                    } catch(error) {
+                        console.log(masterList[i].country.name, "symbolURL");
+                    }
                 }
 
                 function symbol_ai1_c1_png(){
                     try{
-                        symbolURL = data(`a.image`)[1].children[0].attribs.src;
+                        symbolURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
                         pxSize = symbolURL.substring(symbolURL.indexOf(".png/") + 5, symbolURL.lastIndexOf("px") + 2);
                         symbolURL = symbolURL.replace(pxSize, size);
                         masterList[i].symbol = {}
@@ -559,7 +569,7 @@ async function getData(){
 
                 function symbol_ai1_c1_svg(){
                     try{
-                        symbolURL = data(`a.image`)[1].children[0].attribs.src;
+                        symbolURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
                         pxSize = symbolURL.substring(symbolURL.indexOf(".svg/") + 5, symbolURL.lastIndexOf("px") + 2);
                         symbolURL = symbolURL.replace(pxSize, size);
                         masterList[i].symbol = {}
@@ -571,7 +581,7 @@ async function getData(){
 
                 function symbol_ai2_c1_svg(){
                     try{
-                        symbolURL = data(`a.image`)[2].children[0].attribs.src;
+                        symbolURL = data(`a.mw-file-description`)[2].children[0].attribs.src;
                         pxSize = symbolURL.substring(symbolURL.indexOf(".svg/") + 5, symbolURL.lastIndexOf("px") + 2);
                         symbolURL = symbolURL.replace(pxSize, size);
                         masterList[i].symbol = {}
@@ -616,9 +626,6 @@ async function getData(){
                     case 41:    // Croatia
                         map_ai2_c0_png();
                         break;
-                    case 60:    // France
-                        map_ai4_c0_svg();
-                        break;
                     case 85:    // Japan
                         map_ai3_c0_svg();
                         break;
@@ -643,17 +650,17 @@ async function getData(){
                     case 184:   // UK
                         map_ai3_c0_svg();
                         break;
-                    case 185:   // USA
+                    case 186:   // Uruguay
                         map_ai3_c0_svg();
                         break;
-                    case 186:   // Uruguay
+                    case 187:   // Uzbekistan
                         map_ai3_c0_svg();
                         break;
                 }
 
                 function map_ai1_c0_svg(){
                     try{
-                        mapURL = data(`a.image`)[1].children[0].attribs.src;
+                        mapURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
                         masterList[i].map = {}
@@ -665,7 +672,7 @@ async function getData(){
 
                 function map_ai2_c0_png(){
                     try{
-                        mapURL = data(`a.image`)[2].children[0].attribs.src;
+                        mapURL = data(`a.mw-file-description`)[2].children[0].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(".png/") + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
                         masterList[i].map = {}
@@ -677,7 +684,7 @@ async function getData(){
 
                 function map_ai2_c0_svg(){
                     try{
-                        mapURL = data(`a.image`)[2].children[0].attribs.src;
+                        mapURL = data(`a.mw-file-description`)[2].children[0].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
                         masterList[i].map = {}
@@ -689,19 +696,7 @@ async function getData(){
 
                 function map_ai3_c0_svg(){
                     try{
-                        mapURL = data(`a.image`)[3].children[0].attribs.src;
-                        pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
-                        mapURL = mapURL.replace(pxSize, size);
-                        masterList[i].map = {}
-                        masterList[i].map.url = mapURL;
-                    } catch( error ) {
-                        console.log(masterList[i].country.name, "mapURL");
-                    }
-                }
-
-                function map_ai4_c0_svg(){
-                    try{
-                        mapURL = data(`a.image`)[4].children[0].attribs.src;
+                        mapURL = data(`a.mw-file-description`)[3].children[0].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
                         masterList[i].map = {}
@@ -981,7 +976,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 32:    // CAR
-                                language_nck0_k2();
+                                language_nc10k00();
                                 break;
                             case 33:    // Chad
                                 language_nc10k00();
@@ -1071,13 +1066,13 @@ async function getData(){
                                 language_nc310000();
                                 break;
                             case 110:   // Mexico
-                                language_c00_1();
+                                language_nc00();
                                 break;
                             case 116:   // Morocco
                                 language_nc10k00();
                                 break;
                             case 120:   // Nauru
-                                language_nc100_nc140();
+                                language_nc11k00();
                                 break;
                             case 123:   // New Zealand
                                 language_nc10k00();
@@ -1127,6 +1122,9 @@ async function getData(){
                             case 161:   // South Africa
                                 language_nc41k00_k2();
                                 break;
+                            case 164:   // Spain
+                                language_c00_1();
+                                break;
                             case 165:   // Sri Lanka
                                 language_nc10k00();
                                 break;
@@ -1158,7 +1156,7 @@ async function getData(){
                                 language_c1000();
                                 break;
                             case 184:   // UK
-                                language_nc50();
+                                language_nc11000();
                                 break;
                             case 185:   // USA
                                 language_c00_1();
@@ -1170,7 +1168,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 189:   // Vatican
-                                language_nc00_pnc100();
+                                language_nc10k00();
                                 break;
                             case 193:   // Zambia
                                 language_nc0();
@@ -1245,6 +1243,7 @@ async function getData(){
                                 ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
                                 ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
                                 ||  data(`th.infobox-label`)[j].children[0].data == "Official"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official and national language"
 
                             ){
                                 masterList[i].language = {};
@@ -1288,6 +1287,67 @@ async function getData(){
                             }
                         }
 
+                        function language_nc100(){
+                            if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[1].children[0].children[0].data];
+                            }
+                        }
+
+                        function language_nc10000(){
+                            if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
+                
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data];
+                            }
+                        }
+
+                        function language_nc100k0_k2(){
+                            if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Working languages"
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [];
+                
+                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children.length; k+=2){
+                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[k].children[0].data);
+                                }
+                            }
+                        }
+
+                        function language_nc100k0_k3(){
+                            if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Working languages"
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [];
+                
+                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children.length; k+=3){
+                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[k].children[0].data);
+                                }
+                            }
+                        }
+
                         function language_nc10k00(){
                             if( 
                                     data(`th.infobox-label`)[j].children[0].data == "Official language"
@@ -1302,6 +1362,22 @@ async function getData(){
                                 for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children.length; k++){
                                     masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[k].children[0].children[0].data);
                                 }
+                            }
+                        }
+
+                        function language_nc100_nc140(){
+                            if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [
+                                    data(`th.infobox-label`)[j].next.children[1].children[0].children[0].data,
+                                    data(`th.infobox-label`)[j].next.children[1].children[4].children[0].data
+                                ]
                             }
                         }
 
@@ -1323,20 +1399,6 @@ async function getData(){
                             }
                         }
 
-                        function language_nc11k00m1(){
-                            if(data(`th.infobox-label`)[j].children[0].data == "Official languages"){
-                                masterList[i].language = {};
-                                masterList[i].language.list = []
-                
-                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[1].children.length-1; k++){
-                                    try {
-                                        masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[1].children[k].children[0].children[0].data)
-                                    } catch (error) {
-                                    }
-                                }
-                            }
-                        }
-
                         function language_nc11k000(){
                             if( 
                                     data(`th.infobox-label`)[j].children[0].data == "Official language"
@@ -1350,6 +1412,20 @@ async function getData(){
 
                                 for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[1].children.length; k+=2){
                                     masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[1].children[k].children[0].children[0].children[0].data);
+                                }
+                            }
+                        }
+
+                        function language_nc11k00m1(){
+                            if(data(`th.infobox-label`)[j].children[0].data == "Official languages"){
+                                masterList[i].language = {};
+                                masterList[i].language.list = []
+                
+                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[1].children.length-1; k++){
+                                    try {
+                                        masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[1].children[k].children[0].children[0].data)
+                                    } catch (error) {
+                                    }
                                 }
                             }
                         }
@@ -1426,83 +1502,6 @@ async function getData(){
                             }
                         }
 
-                        function language_nc100(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[1].children[0].children[0].data];
-                            }
-                        }
-
-                        function language_nc100_nc140(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [
-                                    data(`th.infobox-label`)[j].next.children[1].children[0].children[0].data,
-                                    data(`th.infobox-label`)[j].next.children[1].children[4].children[0].data
-                                ]
-                            }
-                        }
-
-                        function language_nc100k0_k2(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working languages"
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [];
-                
-                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children.length; k+=2){
-                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[k].children[0].data);
-                                }
-                            }
-                        }
-
-                        function language_nc100k0_k3(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working languages"
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [];
-                
-                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children.length; k+=3){
-                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[k].children[0].data);
-                                }
-                            }
-                        }
-
-                        function language_nc10000(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
-                
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data];
-                            }
-                        }
-
                         function language_nc11000(){
                             if( 
                                     data(`th.infobox-label`)[j].children[0].data == "Official language"
@@ -1551,21 +1550,6 @@ async function getData(){
                             }
                         }
 
-                        function language_nc50(){
-                            if( 
-                                data(`th.infobox-label`)[j].children[0].data == "Official language"
-                            ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                            ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                            ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                            ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
-                            ||  data(`th.infobox-label`)[j].children[0].data == "Official"
-            
-                        ){
-                            masterList[i].language = {};
-                            masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[5].children[0].data];
-                        }
-                        }
-
                         function language_nc50k00(){
                             if( 
                                     data(`th.infobox-label`)[j].children[0].data == "Official language"
@@ -1578,9 +1562,9 @@ async function getData(){
                                 masterList[i].language.list = [];
                 
                                 for(let k=0; k < data(`th.infobox-label`)[j].next.children[5].children[0].children.length; k++){
-                                    if (k==4){
+                                    if (k==5){
                                         masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[3].children[0].data);
-                                    } else if (k==10){
+                                    } else if (k==9){
                                         masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[1].attribs.title);
                                     } else {
                                         masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[0].children[0].data);
@@ -2670,18 +2654,18 @@ async function getData(){
                             case 183:   // UAE
                                 tld_nc10000();
                                 break;
-                            case 185:   // US
-                                tld_nc20();
-                                break;
                         }
 
                         function tld_nc00(){
-                            if(
-                                data(`th.infobox-label`)[j].children[0].children[0].data == "Internet TLD"
-                            ){
-                                masterList[i].tld = {};
-                                masterList[i].tld.name = data(`th.infobox-label`)[j].next.children[0].children[0].data;
-                            }       
+                            try{
+                                if(
+                                    data(`th.infobox-label`)[j].children[0].children[0].data == "Internet TLD"
+                                ){
+                                    masterList[i].tld = {};
+                                    masterList[i].tld.name = data(`th.infobox-label`)[j].next.children[0].children[0].data;
+                                }       
+                            } catch(err){
+                            }
                         }
 
                         function tld_nc03010(){
@@ -2797,123 +2781,141 @@ async function getData(){
             function getLeaderImgURL(){
                 switch(i){
                     default:
-                        img_tii0_c00_jpg();
+                        img_tii0_c000_jpg();
                         break;
                     case 20:    // Bolivia
                         img_tii0_c00_png();
                         break;
                     case 24:    // Brunei
-                        img_tifd0_c0000_jpg();
+                        img_tii0_c000_jpg();
                         break;
                     case 26:    // Burkina Faso
-                        img_tii0_c00_jpg_aa1thumb();
+                        img_tii0_c000_jpg_aa1thumb();
                         break;
-                    case 54:    // Eritrea
-                        img_tii0_c00_JPG_cap();
+                    case 29:    // Cameroon
+                        img_tii0_c000_png();
                         break;
                     case 57:    // Ethiopia
-                        img_tii0_c00_jpeg();
-                        break;
-                    case 60:    // France
-                        img_tii0_c00_png();
+                        img_tii0_c000_jpeg();
                         break;
                     case 68:    // Guatemala
-                        img_tii0_c00_png();
+                        img_tii0_c000_png();
                         break;
                     case 76:    // India
-                        img_tii0_c00_png();
+                        img_tii0_c000_png();
                         break;
                     case 78:    // Iran
-                        img_tii0_c00_jpeg();
+                        img_tii0_c000_jpeg();
                         break;
-                    case 102:   // Malawi
-                        img_tii0_c00_png();
-                        break;
-                    case 105:   // Mali
-                        img_tii0_c00_png();
+                    case 101:   // Madagascar
+                        img_tii0_c000_png();
                         break;
                     case 120:   // Nauru
-                        img_tii0_c00_jpg_aa9thumb();
-                        break;
-                    case 130:   // Oman
-                        img_tii0_c00_jpg();
+                        img_tii0_c000_jpg_aa9thumb();
                         break;
                     case 146:   // St. Lucia
-                        img_tii0_c00_png();
-                        break;
-                    case 149:   // San Marino
-                        img_tii0_c00_jpg();
+                        img_tii0_c000_png();
                         break;
                     case 169:   // Switzerland
-                        img_tifd0_c0000_jpg();
+                        img_tifd0_c00000_jpg();
                         break;
                     case 170:   // Syria
-                        img_tii0_c00_jpeg();
+                        img_tii0_c000_jpeg();
                         break;
                     case 174:   // Togo
-                        img_tii0_c00_png();
+                        img_tii0_c000_png();
                         break;
                     case 188:   // Vanuatu
-                        img_tii0_c00_png();
+                        img_tii0_c000_png();
                         break;
                     case 190:   // Venezuela
                         img_tii0_c00_jpeg();
                         break;
                 }
 
-                function img_tifd0_c0000_jpg(){
-                    imgURL = data(`td.infobox-full-data`)[0].children[0].children[0].children[0].children[0].attribs.src;
-                    pxSize = imgURL.substring(imgURL.indexOf(".jpg/") + 5, imgURL.lastIndexOf("px"));
-                    imgURL = imgURL.replace(pxSize, "500");
-                    masterList[i].leader.imgUrl = imgURL;
+                function img_tifd0_c00000_jpg(){
+                    try {
+                        imgURL = data(`td.infobox-full-data`)[0].children[0].children[0].children[0].children[0].children[0].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(".jpg/") + 5, imgURL.lastIndexOf("px"));
+                        imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
 
-                function img_tii0_c00_jpg(){
-                    imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                    pxSize = imgURL.substring(imgURL.indexOf(".jpg/") + 5, imgURL.lastIndexOf("px"));
-                    imgURL = imgURL.replace(pxSize, "500");
-                    masterList[i].leader.imgUrl = imgURL;
+                function img_tii0_c000_jpg(){
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(".jpg/") + 5, imgURL.lastIndexOf("px"));
+                        imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
 
-                function img_tii0_c00_JPG_cap(){
-                    imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                    pxSize = imgURL.substring(imgURL.indexOf(".JPG/") + 5, imgURL.lastIndexOf("px"));
-                    imgURL = imgURL.replace(pxSize, "500");
-                    masterList[i].leader.imgUrl = imgURL;
+                function img_tii0_c000_png(){
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(".png/") + 5, imgURL.lastIndexOf("px"));
+                        imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
+                }
+
+                function img_tii0_c000_jpeg(){
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(".jpeg/") + 6, imgURL.lastIndexOf("px"));
+                        imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
 
                 function img_tii0_c00_jpeg(){
-                    imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                    pxSize = imgURL.substring(imgURL.indexOf(".jpeg/") + 6, imgURL.lastIndexOf("px"));
-                    imgURL = imgURL.replace(pxSize, "500");
-                    masterList[i].leader.imgUrl = imgURL;
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(".jpeg/") + 6, imgURL.lastIndexOf("px"));
+                        imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
 
                 function img_tii0_c00_png(){
-                    imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                    pxSize = imgURL.substring(imgURL.indexOf(".png/") + 5, imgURL.lastIndexOf("px"));
-                    imgURL = imgURL.replace(pxSize, "500");
-                    masterList[i].leader.imgUrl = imgURL;
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(".png/") + 5, imgURL.lastIndexOf("px"));
+                        imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
 
-                function img_tii0_c00_jpg_aa1thumb(){
-                    imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                    thumb = imgURL.substring(imgURL.indexOf("commons/"), imgURL.indexOf("/a/"));
-                    imgURL = imgURL.replace(thumb, "commons/thumb");
-                    resize = imgURL.substring(imgURL.indexOf("a1/") + 3);
-                    imgURL = imgURL.replace(resize, resize + "/500px-".concat(resize));
-                    masterList[i].leader.imgUrl = imgURL;
+                function img_tii0_c000_jpg_aa1thumb(){
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
+                        thumb = imgURL.substring(imgURL.indexOf("commons/"), imgURL.indexOf("/a/"));
+                        imgURL = imgURL.replace(thumb, "commons/thumb");
+                        resize = imgURL.substring(imgURL.indexOf("a1/") + 3);
+                        imgURL = imgURL.replace(resize, resize + "/500px-".concat(resize));
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
 
-                function img_tii0_c00_jpg_aa9thumb(){
-                    imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                    thumb = imgURL.substring(imgURL.indexOf("commons/"), imgURL.indexOf("/a/"));
-                    imgURL = imgURL.replace(thumb, "commons/thumb");
-                    resize = imgURL.substring(imgURL.indexOf("a9/") + 3);
-                    imgURL = imgURL.replace(resize, resize + "/500px-".concat(resize));
-                    masterList[i].leader.imgUrl = imgURL;
+                function img_tii0_c000_jpg_aa9thumb(){
+                    try {
+                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
+                        thumb = imgURL.substring(imgURL.indexOf("commons/"), imgURL.indexOf("/a/"));
+                        imgURL = imgURL.replace(thumb, "commons/thumb");
+                        resize = imgURL.substring(imgURL.indexOf("a9/") + 3);
+                        imgURL = imgURL.replace(resize, resize + "/500px-".concat(resize));
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
                 }
-
             }
         }
     } catch (error) {
@@ -2925,8 +2927,8 @@ async function getData(){
     function writeToFile(){
         let file = require('fs').createWriteStream("newInfo.js");
         file.on('error', function(error) {console.log(error)});
-        file.write(`const lastChecked = "${formattedDate}";` + "\n");
-        file.write("const info = [" + "\n");
+        file.write(`const lastChecked = "${getDate()}";` + "\n");
+        file.write("const newInfo = [" + "\n");
         masterList.forEach(obj => { 
             file.write("    {" + "\n");
             Object.keys(obj).forEach(key => {
@@ -2935,9 +2937,17 @@ async function getData(){
             file.write("    }, " + "\n");
         });
         file.write("]" + "\n");
-        file.write("module.exports = {info}")
+        file.write("module.exports = { newInfo }")
         file.end();
     } 
+
+    function getDate(){
+        const date = new Date();
+        const month = date.toLocaleString('default', { month: 'long' });
+        const day = date.getDate();
+        const year = date.getFullYear();
+        return `${month} ${day}, ${year}`;
+    }
 }
 
 getData();
