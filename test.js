@@ -1,7 +1,7 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Nicolás_Maduro");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Russ_Kun");
         const data = require('cheerio').load(response.data);
         const size= "500px";
 
@@ -36,18 +36,20 @@ async function getData(){
         //     }
         // }
 
-        leaderImg(4, "jpeg");
+        // leaderImg(3, "jpg");
 
-        function leaderImg(num, type){
-            try {
-                imgURL = data(`img`)[num].attribs.src;
-                pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + 5, imgURL.lastIndexOf("px"));
-                imgURL = imgURL.replace(pxSize, "500");
-                console.log(imgURL);
-                // masterList[i].leader.imgUrl = imgURL;
-            } catch(error){
-            }
-        }
+        // function leaderImg(num, type){
+        //     try {
+        //         imgURL = data(`img`)[num].attribs.src;
+        //         pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + 5, imgURL.lastIndexOf("px"));
+        //         imgURL = imgURL.replace(pxSize, "500");
+        //         console.log(imgURL);
+        //         // masterList[i].leader.imgUrl = imgURL;
+        //     } catch(error){
+        //     }
+        // }
+
+        leaderImg_uncropped(3);
 
     } catch (error) {
     }
