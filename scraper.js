@@ -466,243 +466,643 @@ async function getData(){
             const data = require('cheerio').load(response.data);
             let size = "500px";
 
-            getFlagImgURL();
-            getSymbolImgURL();
-            getMapImgURL();
+            getImgInfo();
             getTextInfo();
             console.log(i, masterList[i])
             await timer(waitTime);
 
-
-            function getFlagImgURL(){
-                switch(i){
-                    default:
-                        flag_ai0_c0_svg();
-                        break;
-                    case 5:     // Antigua
-                        flag_ai1_c0_svg();
-                        break;
-                    case 24:    // Brunei
-                        flag_ai1_c0_svg();
-                        break;
-                    case 187:   // Uzbekistan
-                        flag_ai1_c0_svg();
-                        break;
-                }
-
-                function flag_ai0_c0_svg(){
-                    try{
-                        flagURL = data(`a.mw-file-description`)[0].children[0].attribs.src;
-                        pxSize = flagURL.substring(flagURL.indexOf(".svg/") + 5, flagURL.lastIndexOf("px") + 2);
-                        flagURL = flagURL.replace(pxSize, size);
-                        masterList[i].flag = {}
-                        masterList[i].flag.url = flagURL;
-                    } catch (error) {
-                        console.log(masterList[i].country.name, "flagURL");
-                    }
-                }
-
-                function flag_ai1_c0_svg(){
-                    try{
-                        flagURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
-                        pxSize = flagURL.substring(flagURL.indexOf(".svg/") + 5, flagURL.lastIndexOf("px") + 2);
-                        flagURL = flagURL.replace(pxSize, size);
-                        masterList[i].flag = {}
-                        masterList[i].flag.url = flagURL;
-                    } catch (error) {
-                        console.log(masterList[i].country.name, "flagURL");
-                    }
-                }
-            }
-
-            function getSymbolImgURL(){
-                switch(i){
-                    default:
-                        symbol_ai1_c1_svg();
-                        break;
-                    case 5:     // Antigua
-                        symbol_ai2_c1_svg();
-                        break;
-                    case 24:    // Brunei
-                        symbol_ai2_c1_svg();
-                        break;
-                    case 38:    // Congo-Kinshasa
-                        symbol_ai1_c1_png();
-                        break;
-                    case 76:    // India
-                        symbol_ai1_c1_gif();
-                        break;
-                    case 178:   // Turkey
-                        symbol_none_turkey();
-                        break;
-                    case 185:   // USA
-                        symbol_ai2_c1_svg();
-                        break;
-                    case 187:   // Uzbekistan
-                        symbol_ai2_c1_svg();
-                        break;
-                }
-
-                function symbol_ai1_c1_gif(){
-                    try{
-                        symbolURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
-                        pxSize = symbolURL.substring(symbolURL.indexOf(".gif/") + 5, symbolURL.lastIndexOf("px") + 2);
-                        symbolURL = symbolURL.replace(pxSize, size);
-                        masterList[i].symbol = {}
-                        masterList[i].symbol.url = symbolURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "symbolURL");
-                    }
-                }
-
-                function symbol_ai1_c1_png(){
-                    try{
-                        symbolURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
-                        pxSize = symbolURL.substring(symbolURL.indexOf(".png/") + 5, symbolURL.lastIndexOf("px") + 2);
-                        symbolURL = symbolURL.replace(pxSize, size);
-                        masterList[i].symbol = {}
-                        masterList[i].symbol.url = symbolURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "symbolURL");
-                    }
-                }
-
-                function symbol_ai1_c1_svg(){
-                    try{
-                        symbolURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
-                        pxSize = symbolURL.substring(symbolURL.indexOf(".svg/") + 5, symbolURL.lastIndexOf("px") + 2);
-                        symbolURL = symbolURL.replace(pxSize, size);
-                        masterList[i].symbol = {}
-                        masterList[i].symbol.url = symbolURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "symbolURL");
-                    }
-                }
-
-                function symbol_ai2_c1_svg(){
-                    try{
-                        symbolURL = data(`a.mw-file-description`)[2].children[0].attribs.src;
-                        pxSize = symbolURL.substring(symbolURL.indexOf(".svg/") + 5, symbolURL.lastIndexOf("px") + 2);
-                        symbolURL = symbolURL.replace(pxSize, size);
-                        masterList[i].symbol = {}
-                        masterList[i].symbol.url = symbolURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "symbolURL");
-                    }
-                }
-
-                function symbol_none_turkey(){
-                    masterList[i].symbol = {};
-                    masterList[i].symbol.url = "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
-                }
-            }
-
-            function getMapImgURL(){
-                switch(i){
-                    default:
-                        map_ai2_c0_svg();
+            function getImgInfo(){
+                switch(i){  
+                    case 0:     // Afghanistan
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 1:     // Albania
-                        map_ai2_c0_png();
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
+                        break;
+                    case 2:     // Algeria
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 3:     // Andorra
-                        map_ai2_c0_png();
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "png");
+                        break;
+                    case 4:     // Angola
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 5:     // Antigua
-                        map_ai3_c0_svg();
+                        flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
+                        break;
+                    case 6:     // Argentina
+                        flag_symbol_map(4, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 7:     // Armenia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 8:     // Australia
+                        flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
+                        break;
+                    case 9:     // Austria
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 10:    // Azerbaijan
-                        map_ai3_c0_svg();
+                        flag_symbol_map(5, "svg", 6, "svg", 8, "svg");
+                        break;
+                    case 11:    // Bahamas
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 12:    // Bahrain
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 13:    // Bangladesh
-                        map_ai3_c0_svg();
+                        flag_symbol_map(5, "svg", 6, "svg", 8, "svg");
+                        break;
+                    case 14:    // Barbados
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 15:    // Belarus
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 16:    // Belgium
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 17:    // Belize
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 18:    // Benin
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 19:    // Bhutan
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 20:    // Bolivia
-                        map_ai3_c0_svg();
+                        flag_symbol_map(3, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 21:    // Bosnia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 22:    // Botswana
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 23:    // Brazil
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 24:    // Brunei
-                        map_ai3_c0_svg();
+                        flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
+                        break;
+                    case 25:    // Bulgaria
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 26:    // Burkina Faso
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 27:    // Burundi
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 28:    // Cambodia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 29:    // Cameroon
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 30:    // Canada
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 31:    // Cape Verde
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 32:    // CAR
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 33:    // Chad
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 34:    // Chile
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 35:    // China
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 36:    // Colombia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 37:    // Comoros
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 38:    // Congo-Kinshasa
+                        flag_symbol_map(3, "svg", 4, "png", 5, "svg");
+                        break;
+                    case 39:    // Congo-Brazzaville
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 40:    // Costa Rica
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 41:    // Croatia
-                        map_ai2_c0_png();
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        break;
+                    case 42:    // Cuba
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 43:    // Cyprus
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 44:    // Czechia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 45:    // Denmark
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 46:    // Djibouti
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 47:    // Dominica
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 48:    // DR
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 49:    // East Timor
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 50:    // Ecuador
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 51:    // Egypt
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 52:    // El Salvador
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 53:    // Eq Guinea
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 54:    // Eritrea
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 55:    // Estonia
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        break;
+                    case 56:    // Eswatini
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 57:    // Ethiopia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 58:    // Fiji
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 59:    // Finland
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        break;
+                    case 60:    // France
+                        flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
+                        break;
+                    case 61:    // Gabon
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 62:    // Gambia
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 63:    // Georgia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 64:    // Germany
+                        flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
+                        break;
+                    case 65:    // Ghana
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 66:    // Greece
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 67:    // Grenada
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 68:    // Guatemala
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 69:    // Guinea
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 70:    // Guinea-Bissau
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 71:    // Guyana
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 72:    // Haiti
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 73:    // Honduras
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 74:    // Hungary
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 75:    // Iceland
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 76:    // India
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 77:    // Indonesia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 78:    // Iran
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 79:    // Iraq
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 80:    // Ireland
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 81:    // Israel
+                        flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
+                        break;
+                    case 82:    // Italy
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 83:    // Ivory Coast
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 84:    // Jamaica
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 85:    // Japan
-                        map_ai3_c0_svg();
+                        flag_symbol_map(5, "svg", 6, "svg", 8, "svg");
                         break;
-                    case 112:   // Moldova
-                        map_ai2_c0_png();
+                    case 86:    // Jordan
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
-                    case 113:   // Monaco
-                        map_ai2_c0_png();
+                    case 87:    // Kazakhstan
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
-                    case 149:   // San Marino
-                        map_ai2_c0_png();
+                    case 88:    // Kenya
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
-                    case 157:   // Slovakia
-                        map_ai3_c0_svg();
+                    case 89:    // Kiribati
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
-                    case 162:   // South Korea
-                        map_ai3_c0_svg();
+                    case 90:    // Kuwait
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
-                    case 178:   // Turkey
-                        map_ai1_c0_svg();
+                    case 91:    // Kyrgyzstan
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
-                    case 184:   // UK
-                        map_ai3_c0_svg();
+                    case 92:    // Laos
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
-                    case 186:   // Uruguay
-                        map_ai3_c0_svg();
+                    case 93:    // Latvia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
-                    case 187:   // Uzbekistan
-                        map_ai3_c0_svg();
+                    case 94:    // Lebanon
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
+                    case 95:    // Lesotho
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 96:    // Liberia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 97:    // Libya
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 98:    // Liechtenstein
+                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        break;
+                    case 99:    // Lithuania
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 100:    // Luxembourg
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 101:    // Madagascar
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 102:    // Malawi
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 103:    // Malaysia
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 104:    // Maldives
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 105:    // Mali
+                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        break;
+                    case 106:    // Malta
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 107:    // Marshall Islands
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 108:    // Mauritania
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 109:    // Mauritius
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 110:    // Mexico
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 111:    // Micronesia
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 112:    // Moldova
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
+                        break;
+                    case 113:    // Monaco
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
+                        break;
+                    case 114:    // Mongolia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 115:    // Montenegro
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 116:    // Morocco
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 117:    // Mozambique
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 118:    // Myanmar
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 119:    // Namibia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 120:    // Nauru
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 121:    // Nepal
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 122:    // Netherlands
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
+                        break;
+                    case 123:    // New Zealand
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 124:    // Nicaragua
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 125:    // Niger
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 126:    // Nigeria
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 127:    // North Korea
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 128:    // North Macedonia
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 129:    // Norway
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 130:    // Oman
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 131:    // Pakistan
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 132:    // Palau
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 133:    // Palestine
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 134:    // Panama
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 135:    // PNG
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 136:    // Paraguay
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 137:    // Peru
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        break;
+                    case 138:    // Philippines
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 139:    // Poland
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 140:    // Portugal
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 141:    // Qatar
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 142:    // Romania
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 143:    // Russia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 144:    // Rwanda
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 145:    // St Kitts
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 146:    // St Lucia
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 147:    // St Vincent
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 148:    // Samoa
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 149:    // San Marino
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "png");
+                        break;
+                    case 150:    // Sao Tome
+                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        break;
+                    case 151:    // Saudi Arabia
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 152:    // Senegal
+                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        break;
+                    case 153:    // Serbia
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 154:    // Seychelles
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 155:    // Sierra Leone
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 156:    // Singapore
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 157:    // Slovakia
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        break;
+                    case 158:    // Slovenia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 159:    // Solomon Islands
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 160:    // Somalia
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 161:    // South Africa
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 162:    // South Korea
+                        flag_symbol_map(5, "svg", 7, "svg", 8, "svg");
+                        break;
+                    case 163:    // South Sudan
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 164:    // Spain
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 165:    // Sri Lanka
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 166:    // Sudan
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 167:    // Suriname
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 168:    // Sweden
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 169:    // Switzerland
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 170:    // Syria
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 171:    // Tajikistan
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 172:    // Tanzania
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 173:    // Thailand
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 174:    // Togo
+                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        break;
+                    case 175:    // Tonga
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 176:    // Trinidad
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 177:    // Tunisia
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 178:    // Turkey
+                        turkey_noSymbol(5, "svg", 6, "svg");
+                        break;
+                    case 179:    // Turkmenistan
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 180:    // Tuvalu
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 181:    // Uganda
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 182:    // Ukraine
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 183:    // UAE
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 184:    // UK
+                        flag_symbol_map(5, "svg", 6, "svg", 8, "svg");
+                        break;
+                    case 185:    // USA
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 186:    // Uruguay
+                        flag_symbol_map(2, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 187:    // Uzbekistan
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 188:    // Vanuatu
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 189:    // Vatican City
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        break;
+                    case 190:    // Venezuela
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        break;
+                    case 191:    // Vietnam
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 192:    // Yemen
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    case 193:    // Zambia
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        break;
+                    case 194:    // Zimbabwe
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        break;
+                    default:
                 }
 
-                function map_ai1_c0_svg(){
+                function flag_symbol_map(flagNum, flagType, symbolNum, symbolType, mapNum, mapType){
                     try{
-                        mapURL = data(`a.mw-file-description`)[1].children[0].attribs.src;
-                        pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
+                        flagURL = data(`img`)[flagNum].attribs.src;
+                        pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
+                        flagURL = flagURL.replace(pxSize, size);
+                        masterList[i].flag = {}
+                        masterList[i].flag.url = flagURL;
+        
+                        symbolURL = data(`img`)[symbolNum].attribs.src;
+                        pxSize = symbolURL.substring(symbolURL.indexOf(`.${symbolType}/`) + 5, symbolURL.lastIndexOf("px") + 2);
+                        symbolURL = symbolURL.replace(pxSize, size);
+                        masterList[i].symbol = {}
+                        masterList[i].symbol.url = symbolURL;
+        
+                        mapURL = data(`img`)[mapNum].attribs.src;
+                        pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
                         masterList[i].map = {}
-                        masterList[i].map.url = mapURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "mapURL");
+                        masterList[i].map.url = mapURL;        
+                    } catch (error) {
+                        console.log(`error in ${masterList[i].country.name}'s image urls`);
                     }
                 }
 
-                function map_ai2_c0_png(){
+                function turkey_noSymbol(flagNum, flagType, mapNum, mapType){
                     try{
-                        mapURL = data(`a.mw-file-description`)[2].children[0].attribs.src;
-                        pxSize = mapURL.substring(mapURL.indexOf(".png/") + 5, mapURL.lastIndexOf("px") + 2);
+                        flagURL = data(`img`)[flagNum].attribs.src;
+                        pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
+                        flagURL = flagURL.replace(pxSize, size);
+                        masterList[i].flag = {}
+                        masterList[i].flag.url = flagURL;
+        
+                        masterList[i].symbol = {}
+                        masterList[i].symbol.url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
+        
+                        mapURL = data(`img`)[mapNum].attribs.src;
+                        pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
                         masterList[i].map = {}
-                        masterList[i].map.url = mapURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "mapURL");
-                    }
-                }
-
-                function map_ai2_c0_svg(){
-                    try{
-                        mapURL = data(`a.mw-file-description`)[2].children[0].attribs.src;
-                        pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
-                        mapURL = mapURL.replace(pxSize, size);
-                        masterList[i].map = {}
-                        masterList[i].map.url = mapURL;
-                    } catch(error) {
-                        console.log(masterList[i].country.name, "mapURL");
-                    }
-                }
-
-                function map_ai3_c0_svg(){
-                    try{
-                        mapURL = data(`a.mw-file-description`)[3].children[0].attribs.src;
-                        pxSize = mapURL.substring(mapURL.indexOf(".svg/") + 5, mapURL.lastIndexOf("px") + 2);
-                        mapURL = mapURL.replace(pxSize, size);
-                        masterList[i].map = {}
-                        masterList[i].map.url = mapURL;
-                    } catch( error ) {
-                        console.log(masterList[i].country.name, "mapURL");
+                        masterList[i].map.url = mapURL;        
+                    } catch (error) {
+                        console.log(`error in ${masterList[i].country.name}'s image urls`);
                     }
                 }
             }
@@ -713,9 +1113,6 @@ async function getData(){
                         switch(i){
                             default:
                                 capital_1_nc00();
-                                break;
-                            case 20:    // Bolivia
-                                capital_2_nc00();
                                 break;
                             case 56:    // Eswatini
                                 capital_2_nc11000();
@@ -773,22 +1170,6 @@ async function getData(){
                                 masterList[i].capital.push({
                                     name: data(`th.infobox-label`)[j].next.children[1].children[0].children[1].children[0].children[0].data,
                                     type: data(`th.infobox-label`)[j].children[1].children[0].children[1].children[0].data.toLowerCase(),
-                                });
-                            }
-                        }
-
-                        function capital_2_nc00(){
-                            if(data(`th.infobox-label`)[j].children[0].data == "Capital"){
-                                masterList[i].capital = [];
-                                masterList[i].capital.push({
-                                    name: data(`th.infobox-label`)[j].next.children[0].children[0].data,
-                                    type: data(`th.infobox-label`)[j].next.children[2].children[0].data
-                                        .substring(1, data(`th.infobox-label`)[j].next.children[2].children[0].data.length-1).toLowerCase(),
-                                });
-                                masterList[i].capital.push({
-                                    name: data(`th.infobox-label`)[j].next.children[4].children[0].data,
-                                    type: data(`th.infobox-label`)[j].next.children[6].children[0].data
-                                        .substring(1, data(`th.infobox-label`)[j].next.children[6].children[0].data.length-1).toLowerCase(),
                                 });
                             }
                         }
@@ -855,7 +1236,6 @@ async function getData(){
                                 });
                             }
                         }
-
                     } catch(error){
                     }
 
@@ -2781,137 +3161,57 @@ async function getData(){
             function getLeaderImgURL(){
                 switch(i){
                     default:
-                        img_tii0_c000_jpg();
+                        leaderImg(3, "jpg");
+                        break;
+                    case 0:     // Afghanistan
+                        leaderImg(4, "jpg");
                         break;
                     case 20:    // Bolivia
-                        img_tii0_c00_png();
-                        break;
-                    case 24:    // Brunei
-                        img_tii0_c000_jpg();
-                        break;
-                    case 26:    // Burkina Faso
-                        img_tii0_c000_jpg_aa1thumb();
+                        leaderImg(3, "png");
                         break;
                     case 29:    // Cameroon
-                        img_tii0_c000_png();
+                        leaderImg(3, "png");
                         break;
                     case 57:    // Ethiopia
-                        img_tii0_c000_jpeg();
+                        leaderImg(5, "jpeg");
                         break;
                     case 68:    // Guatemala
-                        img_tii0_c000_png();
+                        leaderImg(3, "png");
                         break;
                     case 76:    // India
-                        img_tii0_c000_png();
+                        leaderImg(5, "png");
                         break;
                     case 78:    // Iran
-                        img_tii0_c000_jpeg();
+                        leaderImg(4, "jpeg");
                         break;
                     case 101:   // Madagascar
-                        img_tii0_c000_png();
-                        break;
-                    case 120:   // Nauru
-                        img_tii0_c000_jpg_aa9thumb();
+                        leaderImg(3, "png");
                         break;
                     case 146:   // St. Lucia
-                        img_tii0_c000_png();
+                        leaderImg(3, "png");
                         break;
                     case 169:   // Switzerland
-                        img_tifd0_c00000_jpg();
+                        leaderImg(4, "jpg");
                         break;
                     case 170:   // Syria
-                        img_tii0_c000_jpeg();
+                        leaderImg(4, "jpeg");
                         break;
                     case 174:   // Togo
-                        img_tii0_c000_png();
+                        leaderImg(3, "png");
                         break;
                     case 188:   // Vanuatu
-                        img_tii0_c000_png();
+                        leaderImg(3, "png");
                         break;
                     case 190:   // Venezuela
-                        img_tii0_c00_jpeg();
+                        leaderImg(4, "jpeg");
                         break;
                 }
 
-                function img_tifd0_c00000_jpg(){
+                function leaderImg(num, type){
                     try {
-                        imgURL = data(`td.infobox-full-data`)[0].children[0].children[0].children[0].children[0].children[0].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(".jpg/") + 5, imgURL.lastIndexOf("px"));
+                        imgURL = data(`img`)[num].attribs.src;
+                        pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + 5, imgURL.lastIndexOf("px"));
                         imgURL = imgURL.replace(pxSize, "500");
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c000_jpg(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(".jpg/") + 5, imgURL.lastIndexOf("px"));
-                        imgURL = imgURL.replace(pxSize, "500");
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c000_png(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(".png/") + 5, imgURL.lastIndexOf("px"));
-                        imgURL = imgURL.replace(pxSize, "500");
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c000_jpeg(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(".jpeg/") + 6, imgURL.lastIndexOf("px"));
-                        imgURL = imgURL.replace(pxSize, "500");
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c00_jpeg(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(".jpeg/") + 6, imgURL.lastIndexOf("px"));
-                        imgURL = imgURL.replace(pxSize, "500");
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c00_png(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(".png/") + 5, imgURL.lastIndexOf("px"));
-                        imgURL = imgURL.replace(pxSize, "500");
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c000_jpg_aa1thumb(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
-                        thumb = imgURL.substring(imgURL.indexOf("commons/"), imgURL.indexOf("/a/"));
-                        imgURL = imgURL.replace(thumb, "commons/thumb");
-                        resize = imgURL.substring(imgURL.indexOf("a1/") + 3);
-                        imgURL = imgURL.replace(resize, resize + "/500px-".concat(resize));
-                        masterList[i].leader.imgUrl = imgURL;
-                    } catch(error){
-                    }
-                }
-
-                function img_tii0_c000_jpg_aa9thumb(){
-                    try {
-                        imgURL = data(`td.infobox-image`)[0].children[0].children[0].children[0].attribs.src;
-                        thumb = imgURL.substring(imgURL.indexOf("commons/"), imgURL.indexOf("/a/"));
-                        imgURL = imgURL.replace(thumb, "commons/thumb");
-                        resize = imgURL.substring(imgURL.indexOf("a9/") + 3);
-                        imgURL = imgURL.replace(resize, resize + "/500px-".concat(resize));
                         masterList[i].leader.imgUrl = imgURL;
                     } catch(error){
                     }
