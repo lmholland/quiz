@@ -597,7 +597,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 41:    // Croatia
-                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
                         break;
                     case 42:    // Cuba
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -609,7 +609,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 45:    // Denmark
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 46:    // Djibouti
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -639,7 +639,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 55:    // Estonia
-                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 56:    // Eswatini
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -651,7 +651,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 59:    // Finland
-                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 60:    // France
                         flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
@@ -768,7 +768,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 98:    // Liechtenstein
-                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 99:    // Lithuania
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -789,7 +789,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 105:    // Mali
-                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 106:    // Malta
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -834,13 +834,13 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 120:    // Nauru
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 121:    // Nepal
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 122:    // Netherlands
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 123:    // New Zealand
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -858,7 +858,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 128:    // North Macedonia
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 129:    // Norway
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -894,7 +894,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 140:    // Portugal
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 141:    // Qatar
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -924,13 +924,13 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "png");
                         break;
                     case 150:    // Sao Tome
-                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 151:    // Saudi Arabia
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 152:    // Senegal
-                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 153:    // Serbia
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -996,7 +996,7 @@ async function getData(){
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 174:    // Togo
-                        flag_symbol_map(2, "svg", 3, "svg", 4, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 175:    // Tonga
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1011,7 +1011,7 @@ async function getData(){
                         turkey_noSymbol(5, "svg", 6, "svg");
                         break;
                     case 179:    // Turkmenistan
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 180:    // Tuvalu
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1020,7 +1020,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 182:    // Ukraine
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 183:    // UAE
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1032,10 +1032,10 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 186:    // Uruguay
-                        flag_symbol_map(2, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 187:    // Uzbekistan
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
                         break;
                     case 188:    // Vanuatu
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1094,7 +1094,7 @@ async function getData(){
                         masterList[i].flag.url = flagURL;
         
                         masterList[i].symbol = {}
-                        masterList[i].symbol.url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
+                        masterList[i].symbol.url = "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
         
                         mapURL = data(`img`)[mapNum].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
