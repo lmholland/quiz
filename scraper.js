@@ -3187,6 +3187,9 @@ async function getData(){
                     case 101:   // Madagascar
                         leaderImg(3, "png");
                         break;
+                    case 120:   // Nauru
+                        leaderImg_uncropped(3);
+                        break;
                     case 146:   // St. Lucia
                         leaderImg(3, "png");
                         break;
@@ -3212,6 +3215,18 @@ async function getData(){
                         imgURL = data(`img`)[num].attribs.src;
                         pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + 5, imgURL.lastIndexOf("px"));
                         imgURL = imgURL.replace(pxSize, "500");
+                        masterList[i].leader.imgUrl = imgURL;
+                    } catch(error){
+                    }
+                }
+
+                function leaderImg_uncropped(num){
+                    try {
+                        imgURL = data(`img`)[num].attribs.src;
+                        afterCommons = imgURL.substring(imgURL.lastIndexOf("commons/") + 8);
+                        imgURL = imgURL.replace(afterCommons, "thumb/" + afterCommons);
+                        fileName = imgURL.substring(imgURL.lastIndexOf("/") + 1);
+                        imgURL = imgURL.replace(fileName, fileName + "/500px-" + fileName);
                         masterList[i].leader.imgUrl = imgURL;
                     } catch(error){
                     }
