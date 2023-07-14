@@ -657,7 +657,7 @@ async function getData(){
                         flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
                         break;
                     case 61:    // Gabon
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 62:    // Gambia
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -714,7 +714,7 @@ async function getData(){
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 80:    // Ireland
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 81:    // Israel
                         flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
@@ -1005,7 +1005,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 177:    // Tunisia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 178:    // Turkey
                         turkey_noSymbol(5, "svg", 6, "svg");
@@ -1026,13 +1026,13 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 184:    // UK
-                        flag_symbol_map(5, "svg", 6, "svg", 8, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 185:    // USA
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 186:    // Uruguay
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(3, "svg", 5, "svg", 6, "svg");
                         break;
                     case 187:    // Uzbekistan
                         flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
@@ -3166,32 +3166,158 @@ async function getData(){
                     case 0:     // Afghanistan
                         leaderImg(4, "jpg");
                         break;
+                    case 3:     // Andorra
+                        leaderImg(4, "jpg");
+                        break;
+                    case 8:     // Australia
+                        leaderImg(4, "jpg");
+                        break;
+                    case 10:    // Azerbaijan
+                        leaderImg(4, "jpg");
+                        break;
+                    case 11:    // Bahamas
+                        leaderImg(4, "jpg");
+                        break;
+                    case 13:    // Bangladesh
+                        leaderImg(4, "jpg");
+                        break;
+                    case 15:    // Belarus
+                        leaderImg(4, "jpg");
+                        break;
+                    case 18:    // Benin
+                        leaderImg(4, "jpg");
+                        break;
                     case 20:    // Bolivia
                         leaderImg(3, "png");
+                        break;
+                    case 23:    // Brazil
+                        leaderImg(5, "jpg");
+                        break;
+                    case 24:    // Brunei
+                        leaderImg(1, "jpg");
+                        break;
+                    case 26:    // Burkina Faso
+                        leaderImg_thumbless(3);
                         break;
                     case 29:    // Cameroon
                         leaderImg(3, "png");
                         break;
+                    case 30:    // Canada
+                        leaderImg(5, "jpg");
+                        break;
+                    case 35:    // China
+                        leaderImg(4, "jpg");
+                        break;
+                    case 42:    // Cuba
+                        leaderImg(4, "jpg");
+                        break;
+                    case 51:    // Egypt
+                        leaderImg(4, "jpg");
+                        break;
+                    case 54:    // Eritrea
+                        leaderImg(4, "jpg");
+                        break;
                     case 57:    // Ethiopia
                         leaderImg(5, "jpeg");
+                        break;
+                    case 60:    // France
+                        leaderImg(4, "jpg");
                         break;
                     case 68:    // Guatemala
                         leaderImg(3, "png");
                         break;
+                    case 74:    // Hungary
+                        leaderImg(4, "jpg");
+                        break;
                     case 76:    // India
                         leaderImg(5, "png");
+                        break;
+                    case 77:    // Indonesia
+                        leaderImg(4, "jpg");
                         break;
                     case 78:    // Iran
                         leaderImg(4, "jpeg");
                         break;
+                    case 81:    // Israel
+                        leaderImg(4, "jpg");
+                        break;
+                    case 82:    // Italy
+                        leaderImg(4, "jpg");
+                        break;
+                    case 85:    // Japan
+                        leaderImg(4, "jpg");
+                        break;
+                    case 86:    // Jordan
+                        leaderImg(4, "jpg");
+                        break;
+                    case 88:    // Kenya
+                        leaderImg(4, "jpg");
+                        break;
+                    case 95:    // Lesotho
+                        leaderImg(5, "jpg");
+                        break;
                     case 101:   // Madagascar
                         leaderImg(3, "png");
                         break;
+                    case 108:   // Mauritania
+                        leaderImg(4, "jpg");
+                        break;
+                    case 109:   // Mauritius
+                        leaderImg(4, "jpg");
+                        break;
+                    case 110:   // Mexico
+                        leaderImg(4, "jpg");
+                        break;
+                    case 114:   // Mongolia
+                        leaderImg(4, "jpg");
+                        break;
+                    case 118:   // Myanmar
+                        leaderImg(4, "jpg");
+                        break;
                     case 120:   // Nauru
-                        leaderImg_uncropped(3);
+                        leaderImg_thumbless(3);
+                        break;
+                    case 121:   // Nepal
+                        leaderImg(4, "jpg");
+                        break;
+                    case 122:   // Netherlands
+                        leaderImg(4, "jpg");
+                        break;
+                    case 126:   // Nigeria
+                        leaderImg(4, "jpg");
+                        break;
+                    case 127:   // North Korea
+                        leaderImg(4, "jpg");
+                        break;
+                    case 128:   // North Macedonia
+                        leaderImg(4, "jpg");
+                        break;
+                    case 133:   // Palestine
+                        leaderImg(4, "jpg");
+                        break;
+                    case 134:   // Panama
+                        leaderImg(4, "jpg");
+                        break;
+                    case 138:   // Philippines
+                        leaderImg(4, "jpg");
+                        break;
+                    case 143:   // Russia
+                        leaderImg(4, "jpg");
                         break;
                     case 146:   // St. Lucia
                         leaderImg(3, "png");
+                        break;
+                    case 151:   // Saudi Arabia
+                        leaderImg(4, "jpg");
+                        break;
+                    case 153:   // Serbia
+                        leaderImg(4, "jpg");
+                        break;
+                    case 164:   // Spain
+                        leaderImg(4, "jpg");
+                        break;
+                    case 166:   // Sudan
+                        leaderImg(6, "jpg");
                         break;
                     case 169:   // Switzerland
                         leaderImg(4, "jpg");
@@ -3202,25 +3328,47 @@ async function getData(){
                     case 174:   // Togo
                         leaderImg(3, "png");
                         break;
+                    case 178:   // Turkey
+                        leaderImg(4, "jpg");
+                        break;
+                    case 179:   // Turkmenistan
+                        leaderImg(4, "jpg");
+                        break;
+                    case 182:   // Ukraine
+                        leaderImg(4, "jpg");
+                        break;
+                    case 184:   // UK
+                        leaderImg(4, "jpg");
+                        break;
+                    case 185:   // US
+                        leaderImg(4, "jpg");
+                        break;
                     case 188:   // Vanuatu
                         leaderImg(3, "png");
+                        break;
+                    case 189:   // Vatican
+                        leaderImg(4, "jpg");
                         break;
                     case 190:   // Venezuela
                         leaderImg(4, "jpeg");
                         break;
+                    case 193:   // Zambia
+                        leaderImg(4, "jpg");
+                        break;
+
                 }
 
                 function leaderImg(num, type){
                     try {
                         imgURL = data(`img`)[num].attribs.src;
-                        pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + 5, imgURL.lastIndexOf("px"));
+                        pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
                         imgURL = imgURL.replace(pxSize, "500");
                         masterList[i].leader.imgUrl = imgURL;
                     } catch(error){
                     }
                 }
 
-                function leaderImg_uncropped(num){
+                function leaderImg_thumbless(num){
                     try {
                         imgURL = data(`img`)[num].attribs.src;
                         afterCommons = imgURL.substring(imgURL.lastIndexOf("commons/") + 8);

@@ -1,4 +1,4 @@
-const lastChecked = "July 13, 2023";
+const lastChecked = "July 14, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -41,7 +41,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Andorra","url":"//en.wikipedia.org/wiki/Andorra"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Xavier Espot","url":"//en.wikipedia.org/wiki/Xavier_Espot_Zamora","imgUrl":"//up500px-Translation_to_english_arrow.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Xavier Espot","url":"//en.wikipedia.org/wiki/Xavier_Espot_Zamora","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Xavier_Espot_Zamora_i_Isabel_Santos_a_l%27assemblea_de_l%27OSCE_2017_%28cropped%29.jpg/500px-Xavier_Espot_Zamora_i_Isabel_Santos_a_l%27assemblea_de_l%27OSCE_2017_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Andorra.svg/500px-Flag_of_Andorra.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_Andorra.svg/500px-Coat_of_arms_of_Andorra.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/12/Location_Andorra_Europe.png/500px-Location_Andorra_Europe.png"}, 
@@ -106,7 +106,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Australia","url":"//en.wikipedia.org/wiki/Australia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Anthony Albanese","url":"//en.wikipedia.org/wiki/Anthony_Albanese","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Anthony Albanese","url":"//en.wikipedia.org/wiki/Anthony_Albanese","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Anthony_Albanese_portrait_%28cropped%29.jpg/500px-Anthony_Albanese_portrait_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Flag_of_Australia_%28converted%29.svg/500px-Flag_of_Australia_%28converted%29.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_Arms_of_Australia.svg/500px-Coat_of_Arms_of_Australia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Australia_with_AAT_%28orthographic_projection%29.svg/500px-Australia_with_AAT_%28orthographic_projection%29.svg.png"}, 
@@ -132,7 +132,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Azerbaijan","url":"//en.wikipedia.org/wiki/Azerbaijan"}, 
-        leader: {"title":"President","pos":"president","name":"Ilham Aliyev","url":"//en.wikipedia.org/wiki/Ilham_Aliyev","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Ilham Aliyev","url":"//en.wikipedia.org/wiki/Ilham_Aliyev","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Ilham_Aliyev_2022_%28cropped%29.jpg/500px-Ilham_Aliyev_2022_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/500px-Flag_of_Azerbaijan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Emblem_of_Azerbaijan.svg/500px-Emblem_of_Azerbaijan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Azerbaijan_with_Nagorno_Karabakh_region.svg/500px-Azerbaijan_with_Nagorno_Karabakh_region.svg.png"}, 
@@ -145,7 +145,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"The Bahamas","url":"//en.wikipedia.org/wiki/The_Bahamas"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Philip Davis","url":"//en.wikipedia.org/wiki/Philip_Davis_(Bahamian_politician)","imgUrl":"//up500px-Ambox_important.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Philip Davis","url":"//en.wikipedia.org/wiki/Philip_Davis_(Bahamian_politician)","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Philip_%22Brave%22_Davis_%28profile%29.jpg/500px-Philip_%22Brave%22_Davis_%28profile%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/500px-Flag_of_the_Bahamas.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Coat_of_arms_of_the_Bahamas.svg/500px-Coat_of_arms_of_the_Bahamas.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/de/The_Bahamas_on_the_globe_%28Americas_centered%29.svg/500px-The_Bahamas_on_the_globe_%28Americas_centered%29.svg.png"}, 
@@ -171,7 +171,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Bangladesh","url":"//en.wikipedia.org/wiki/Bangladesh"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"//en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"//up500px-Ambox_important.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"//en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sheikh_Hasina_in_New_York_-_2018_%2844057292035%29_%28cropped%29.jpg/500px-Sheikh_Hasina_in_New_York_-_2018_%2844057292035%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/500px-Flag_of_Bangladesh.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/81/National_emblem_of_Bangladesh.svg/500px-National_emblem_of_Bangladesh.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/500px-Bangladesh_%28orthographic_projection%29.svg.png"}, 
@@ -197,7 +197,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Belarus","url":"//en.wikipedia.org/wiki/Belarus"}, 
-        leader: {"title":"President","pos":"president","name":"Alexander Lukashenko","url":"//en.wikipedia.org/wiki/Alexander_Lukashenko","imgUrl":"//up500px-Extended-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Alexander Lukashenko","url":"//en.wikipedia.org/wiki/Alexander_Lukashenko","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Alexander_Lukashenko_2022_%28cropped%29%28b%29.jpg/500px-Alexander_Lukashenko_2022_%28cropped%29%28b%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Flag_of_Belarus.svg/500px-Flag_of_Belarus.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Coat_of_arms_of_Belarus_%282020%E2%80%93present%29.svg/500px-Coat_of_arms_of_Belarus_%282020%E2%80%93present%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Europe-Belarus_%28orthographic_projection%29.svg/500px-Europe-Belarus_%28orthographic_projection%29.svg.png"}, 
@@ -236,7 +236,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Benin","url":"//en.wikipedia.org/wiki/Benin"}, 
-        leader: {"title":"President","pos":"president","name":"Patrice Talon","url":"//en.wikipedia.org/wiki/Patrice_Talon","imgUrl":"//up500px-Translation_to_english_arrow.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Patrice Talon","url":"//en.wikipedia.org/wiki/Patrice_Talon","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Patrice_Talon_at_USAID_HQ_%284%29_%28cropped%29.jpg/500px-Patrice_Talon_at_USAID_HQ_%284%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Benin.svg/500px-Flag_of_Benin.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/13/Coat_of_arms_of_Benin.svg/500px-Coat_of_arms_of_Benin.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Benin_%28orthographic_projection_with_inset%29.svg/500px-Benin_%28orthographic_projection_with_inset%29.svg.png"}, 
@@ -301,7 +301,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Brazil","url":"//en.wikipedia.org/wiki/Brazil"}, 
-        leader: {"title":"President","pos":"president","name":"Luiz Inácio Lula da Silva","url":"//en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Luiz Inácio Lula da Silva","url":"//en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg/500px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/500px-Flag_of_Brazil.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Brazil.svg/500px-Coat_of_arms_of_Brazil.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BRA_orthographic.svg/500px-BRA_orthographic.svg.png"}, 
@@ -340,7 +340,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Burkina Faso","url":"//en.wikipedia.org/wiki/Burkina_Faso"}, 
-        leader: {"title":"President of the Patriotic Movement for Safeguard and Restoration","pos":"president of the Patriotic Movement for Safeguard and Restoration","name":"Ibrahim Traoré","url":"//en.wikipedia.org/wiki/Ibrahim_Traor%C3%A9","imgUrl":"500load.wikimedia.org/wikipedia/commons/a/a1/Ibrahim_Traor%C3%A9_%28cropped%29.jpg"}, 
+        leader: {"title":"President of the Patriotic Movement for Safeguard and Restoration","pos":"president of the Patriotic Movement for Safeguard and Restoration","name":"Ibrahim Traoré","url":"//en.wikipedia.org/wiki/Ibrahim_Traor%C3%A9","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Ibrahim_Traor%C3%A9_%28cropped%29.jpg/500px-Ibrahim_Traor%C3%A9_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/500px-Flag_of_Burkina_Faso.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Burkina_Faso.svg/500px-Coat_of_arms_of_Burkina_Faso.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/86/Burkina_Faso_%28orthographic_projection%29.svg/500px-Burkina_Faso_%28orthographic_projection%29.svg.png"}, 
@@ -392,7 +392,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Canada","url":"//en.wikipedia.org/wiki/Canada"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"//en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"//en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Justin_Trudeau_March_2022.jpg/500px-Justin_Trudeau_March_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/500px-Flag_of_Canada_%28Pantone%29.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/4/4f/Coat_of_arms_of_Canada.svg/500px-Coat_of_arms_of_Canada.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/500px-CAN_orthographic.svg.png"}, 
@@ -457,7 +457,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"China","url":"//en.wikipedia.org/wiki/China"}, 
-        leader: {"title":"General Secretary of the Communist Party","pos":"general secretary of the Communist Party","name":"Xi Jinping","url":"//en.wikipedia.org/wiki/Xi_Jinping","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"General Secretary of the Communist Party","pos":"general secretary of the Communist Party","name":"Xi Jinping","url":"//en.wikipedia.org/wiki/Xi_Jinping","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Xi_Jinping_2019_%2849060546152%29_2.jpg/500px-Xi_Jinping_2019_%2849060546152%29_2.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Flag_of_the_People%27s_Republic_of_China.svg/500px-Flag_of_the_People%27s_Republic_of_China.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/National_Emblem_of_the_People%27s_Republic_of_China_%282%29.svg/500px-National_Emblem_of_the_People%27s_Republic_of_China_%282%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/CHN_orthographic.svg/500px-CHN_orthographic.svg.png"}, 
@@ -548,7 +548,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Cuba","url":"//en.wikipedia.org/wiki/Cuba"}, 
-        leader: {"title":"First Secretary of the Communist Party","pos":"first secretary of the Communist Party","name":"Miguel Díaz-Canel","url":"//en.wikipedia.org/wiki/Miguel_D%C3%ADaz-Canel","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"First Secretary of the Communist Party","pos":"first secretary of the Communist Party","name":"Miguel Díaz-Canel","url":"//en.wikipedia.org/wiki/Miguel_D%C3%ADaz-Canel","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Miguel_D%C3%ADaz-Canel_2022-11-22_%28cropped%29.jpg/500px-Miguel_D%C3%ADaz-Canel_2022-11-22_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/500px-Flag_of_Cuba.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/58/Coat_of_arms_of_Cuba.svg/500px-Coat_of_arms_of_Cuba.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/16/CUB_orthographic.svg/500px-CUB_orthographic.svg.png"}, 
@@ -665,7 +665,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Egypt","url":"//en.wikipedia.org/wiki/Egypt"}, 
-        leader: {"title":"President","pos":"president","name":"Abdel Fattah el-Sisi","url":"//en.wikipedia.org/wiki/Abdel_Fattah_el-Sisi","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Abdel Fattah el-Sisi","url":"//en.wikipedia.org/wiki/Abdel_Fattah_el-Sisi","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/85/AbdelFattah_Elsisi_%28cropped%29.jpg/500px-AbdelFattah_Elsisi_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/500px-Flag_of_Egypt.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg/500px-Coat_of_arms_of_Egypt_%28Official%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/EGY_orthographic.svg/500px-EGY_orthographic.svg.png"}, 
@@ -704,7 +704,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Eritrea","url":"//en.wikipedia.org/wiki/Eritrea"}, 
-        leader: {"title":"President","pos":"president","name":"Isaias Afwerki","url":"//en.wikipedia.org/wiki/Isaias_Afwerki","imgUrl":"//up500px-Edit-clear.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Isaias Afwerki","url":"//en.wikipedia.org/wiki/Isaias_Afwerki","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Isaias_Afwerki_%282023-05-31%29.jpg/500px-Isaias_Afwerki_%282023-05-31%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/500px-Flag_of_Eritrea.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/36/Emblem_of_Eritrea_%28or_argent_azur%29.svg/500px-Emblem_of_Eritrea_%28or_argent_azur%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eritrea_%28Africa_orthographic_projection%29.svg/500px-Eritrea_%28Africa_orthographic_projection%29.svg.png"}, 
@@ -743,7 +743,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Ethiopia","url":"//en.wikipedia.org/wiki/Ethiopia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Abiy Ahmed","url":"//en.wikipedia.org/wiki/Abiy_Ahmed","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Abiy_Ahmed_with_LI_Yong_2018_%28cropped%29.jpeg500px-Abiy_Ahmed_with_LI_Yong_2018_%28cropped%29.jpeg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Abiy Ahmed","url":"//en.wikipedia.org/wiki/Abiy_Ahmed","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/90/Abiy_Ahmed_with_LI_Yong_2018_%28cropped%29.jpeg/500px-Abiy_Ahmed_with_LI_Yong_2018_%28cropped%29.jpeg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/71/Flag_of_Ethiopia.svg/500px-Flag_of_Ethiopia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Emblem_of_Ethiopia.svg/500px-Emblem_of_Ethiopia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Ethiopia_%28Africa_orthographic_projection%29.svg/500px-Ethiopia_%28Africa_orthographic_projection%29.svg.png"}, 
@@ -782,7 +782,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"France","url":"//en.wikipedia.org/wiki/France"}, 
-        leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"//en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"//en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emmanuel_Macron_2023_%28cropped%29.jpg/500px-Emmanuel_Macron_2023_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Armoiries_r%C3%A9publique_fran%C3%A7aise.svg/500px-Armoiries_r%C3%A9publique_fran%C3%A7aise.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EU-France_%28orthographic_projection%29.svg/500px-EU-France_%28orthographic_projection%29.svg.png"}, 
@@ -796,9 +796,9 @@ const newInfo = [
     {
         country: {"name":"Gabon","url":"//en.wikipedia.org/wiki/Gabon"}, 
         leader: {"title":"President","pos":"president","name":"Ali Bongo Ondimba","url":"//en.wikipedia.org/wiki/Ali_Bongo_Ondimba","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9d/President_Bongo_Ondimba_%2852054341321%29_%28cropped%29.jpg/500px-President_Bongo_Ondimba_%2852054341321%29_%28cropped%29.jpg"}, 
-        flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
-        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
-        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Location_Gabon_AU_Africa.svg/500px-Location_Gabon_AU_Africa.svg.png"}, 
+        flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
+        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
+        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Libreville","type":"capital"}], 
         language: {"list":["French"]}, 
         demonym: {"name":"Gabonese"}, 
@@ -964,7 +964,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Hungary","url":"//en.wikipedia.org/wiki/Hungary"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Viktor Orbán","url":"//en.wikipedia.org/wiki/Viktor_Orb%C3%A1n","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Viktor Orbán","url":"//en.wikipedia.org/wiki/Viktor_Orb%C3%A1n","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Viktor_Orb%C3%A1n_2022.jpg/500px-Viktor_Orb%C3%A1n_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/500px-Flag_of_Hungary.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/500px-Coat_of_arms_of_Hungary.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/60/EU-Hungary.svg/500px-EU-Hungary.svg.png"}, 
@@ -1003,7 +1003,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Indonesia","url":"//en.wikipedia.org/wiki/Indonesia"}, 
-        leader: {"title":"President","pos":"president","name":"Joko Widodo","url":"//en.wikipedia.org/wiki/Joko_Widodo","imgUrl":"//up500px-Pending-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Joko Widodo","url":"//en.wikipedia.org/wiki/Joko_Widodo","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/be/Joko_Widodo_2019_official_portrait.jpg/500px-Joko_Widodo_2019_official_portrait.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Indonesia.svg/500px-Flag_of_Indonesia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/90/National_emblem_of_Indonesia_Garuda_Pancasila.svg/500px-National_emblem_of_Indonesia_Garuda_Pancasila.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Indonesia_%28orthographic_projection%29.svg/500px-Indonesia_%28orthographic_projection%29.svg.png"}, 
@@ -1016,7 +1016,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Iran","url":"//en.wikipedia.org/wiki/Iran"}, 
-        leader: {"title":"Supreme Leader","pos":"supreme leader","name":"Ali Khamenei","url":"//en.wikipedia.org/wiki/Ali_Khamenei","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Khamenei_2023.jpeg500px-Khamenei_2023.jpeg"}, 
+        leader: {"title":"Supreme Leader","pos":"supreme leader","name":"Ali Khamenei","url":"//en.wikipedia.org/wiki/Ali_Khamenei","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Khamenei_2023.jpeg/500px-Khamenei_2023.jpeg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/500px-Flag_of_Iran.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Emblem_of_Iran.svg/500px-Emblem_of_Iran.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Iran_%28orthographic_projection%29.svg/500px-Iran_%28orthographic_projection%29.svg.png"}, 
@@ -1055,7 +1055,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Israel","url":"//en.wikipedia.org/wiki/Israel"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Benjamin Netanyahu","url":"//en.wikipedia.org/wiki/Benjamin_Netanyahu","imgUrl":"//up500px-Extended-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Benjamin Netanyahu","url":"//en.wikipedia.org/wiki/Benjamin_Netanyahu","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/500px-Benjamin_Netanyahu%2C_February_2023.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/500px-Flag_of_Israel.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Israel.svg/500px-Emblem_of_Israel.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Israel_%28orthographic_projection%29_with_occupied_territories.svg/500px-Israel_%28orthographic_projection%29_with_occupied_territories.svg.png"}, 
@@ -1068,7 +1068,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Italy","url":"//en.wikipedia.org/wiki/Italy"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Giorgia Meloni","url":"//en.wikipedia.org/wiki/Giorgia_Meloni","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Giorgia Meloni","url":"//en.wikipedia.org/wiki/Giorgia_Meloni","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Giorgia_Meloni_Official_2023_%28cropped%29.jpg/500px-Giorgia_Meloni_Official_2023_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/500px-Flag_of_Italy.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Emblem_of_Italy.svg/500px-Emblem_of_Italy.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/EU-Italy_%28orthographic_projection%29.svg/500px-EU-Italy_%28orthographic_projection%29.svg.png"}, 
@@ -1107,7 +1107,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Japan","url":"//en.wikipedia.org/wiki/Japan"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Fumio Kishida","url":"//en.wikipedia.org/wiki/Fumio_Kishida","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Fumio Kishida","url":"//en.wikipedia.org/wiki/Fumio_Kishida","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fumio_Kishida_20211005.jpg/500px-Fumio_Kishida_20211005.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/500px-Flag_of_Japan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Imperial_Seal_of_Japan.svg/500px-Imperial_Seal_of_Japan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/62/Japan_%28orthographic_projection%29.svg/500px-Japan_%28orthographic_projection%29.svg.png"}, 
@@ -1120,7 +1120,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Jordan","url":"//en.wikipedia.org/wiki/Jordan"}, 
-        leader: {"title":"King","pos":"king","name":"Abdullah II","url":"//en.wikipedia.org/wiki/Abdullah_II_of_Jordan","imgUrl":"//up500px-Symbol_support_vote.svg.png"}, 
+        leader: {"title":"King","pos":"king","name":"Abdullah II","url":"//en.wikipedia.org/wiki/Abdullah_II_of_Jordan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/King_Abdullah_II_%28cropped%29.jpg/500px-King_Abdullah_II_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Coat_of_arms_of_Jordan.svg/500px-Coat_of_arms_of_Jordan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jordan_%28orthographic_projection%29.svg/500px-Jordan_%28orthographic_projection%29.svg.png"}, 
@@ -1146,7 +1146,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Kenya","url":"//en.wikipedia.org/wiki/Kenya"}, 
-        leader: {"title":"President","pos":"president","name":"William Ruto","url":"//en.wikipedia.org/wiki/William_Ruto","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"William Ruto","url":"//en.wikipedia.org/wiki/William_Ruto","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/William_Ruto_2023.jpg/500px-William_Ruto_2023.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/500px-Flag_of_Kenya.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coat_of_arms_of_Kenya_%28Official%29.svg/500px-Coat_of_arms_of_Kenya_%28Official%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kenya_%28orthographic_projection%29.svg/500px-Kenya_%28orthographic_projection%29.svg.png"}, 
@@ -1237,7 +1237,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Lesotho","url":"//en.wikipedia.org/wiki/Lesotho"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sam Matekane","url":"//en.wikipedia.org/wiki/Sam_Matekane","imgUrl":"//up500px-Unbalanced_scales.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sam Matekane","url":"//en.wikipedia.org/wiki/Sam_Matekane","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Sam_Matekane_candidate_%28cropped%29.jpg/500px-Sam_Matekane_candidate_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Flag_of_Lesotho.svg/500px-Flag_of_Lesotho.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/42/Coat_of_arms_of_Lesotho.svg/500px-Coat_of_arms_of_Lesotho.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lesotho_%28orthographic_projection%29.svg/500px-Lesotho_%28orthographic_projection%29.svg.png"}, 
@@ -1406,7 +1406,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Mauritania","url":"//en.wikipedia.org/wiki/Mauritania"}, 
-        leader: {"title":"President","pos":"president","name":"Mohamed Ould Ghazouani","url":"//en.wikipedia.org/wiki/Mohamed_Ould_Ghazouani","imgUrl":"//up500px-Ambox_current_red_Americas.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Mohamed Ould Ghazouani","url":"//en.wikipedia.org/wiki/Mohamed_Ould_Ghazouani","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Official_presidential_portrait_of_Mohamed_Ould_Ghazouani.jpg/500px-Official_presidential_portrait_of_Mohamed_Ould_Ghazouani.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Flag_of_Mauritania.svg/500px-Flag_of_Mauritania.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Seal_of_Mauritania_%282018%29.svg/500px-Seal_of_Mauritania_%282018%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ac/Mauritania_%28orthographic_projection%29.svg/500px-Mauritania_%28orthographic_projection%29.svg.png"}, 
@@ -1419,7 +1419,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Mauritius","url":"//en.wikipedia.org/wiki/Mauritius"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pravind Jugnauth","url":"//en.wikipedia.org/wiki/Pravind_Jugnauth","imgUrl":"//up500px-Ambox_important.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pravind Jugnauth","url":"//en.wikipedia.org/wiki/Pravind_Jugnauth","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/The_Prime_Minister%2C_Shri_Narendra_Modi_meeting_the_Prime_Minister_of_the_Republic_of_Mauritius%2C_Mr._Pravind_Kumar_Jugnauth%2C_in_New_Delhi_on_December_06%2C_2019_%281%29_%28cropped%29.jpg/500px-thumbnail.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/500px-Flag_of_Mauritius.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coat_of_arms_of_Mauritius.svg/500px-Coat_of_arms_of_Mauritius.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mauritius_%28orthographic_projection_with_inset%29.svg/500px-Mauritius_%28orthographic_projection_with_inset%29.svg.png"}, 
@@ -1432,7 +1432,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Mexico","url":"//en.wikipedia.org/wiki/Mexico"}, 
-        leader: {"title":"President","pos":"president","name":"Andrés Manuel López Obrador","url":"//en.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Andrés Manuel López Obrador","url":"//en.wikipedia.org/wiki/Andr%C3%A9s_Manuel_L%C3%B3pez_Obrador","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Conferencia_de_prensa_del_Presidente_de_M%C3%A9xico_-_Mi%C3%A9rcoles_24_de_junio_de_2020_6_%28cropped%29.jpg/500px-Conferencia_de_prensa_del_Presidente_de_M%C3%A9xico_-_Mi%C3%A9rcoles_24_de_junio_de_2020_6_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/500px-Flag_of_Mexico.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Coat_of_arms_of_Mexico.svg/500px-Coat_of_arms_of_Mexico.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/06/MEX_orthographic.svg/500px-MEX_orthographic.svg.png"}, 
@@ -1484,7 +1484,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Mongolia","url":"//en.wikipedia.org/wiki/Mongolia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Luvsannamsrain Oyun-Erdene","url":"//en.wikipedia.org/wiki/Luvsannamsrain_Oyun-Erdene","imgUrl":"//up500px-Ambox_important.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Luvsannamsrain Oyun-Erdene","url":"//en.wikipedia.org/wiki/Luvsannamsrain_Oyun-Erdene","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Luvsannamsrain_Oyun-Erdene_2022.jpg/500px-Luvsannamsrain_Oyun-Erdene_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Flag_of_Mongolia.svg/500px-Flag_of_Mongolia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/State_emblem_of_Mongolia.svg/500px-State_emblem_of_Mongolia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Mongolia_%28orthographic_projection%29.svg/500px-Mongolia_%28orthographic_projection%29.svg.png"}, 
@@ -1536,7 +1536,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Myanmar","url":"//en.wikipedia.org/wiki/Myanmar"}, 
-        leader: {"title":"Chairman of the State Administration Council","pos":"chairman of the State Administration Council","name":"Min Aung Hlaing","url":"//en.wikipedia.org/wiki/Min_Aung_Hlaing","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"Chairman of the State Administration Council","pos":"chairman of the State Administration Council","name":"Min Aung Hlaing","url":"//en.wikipedia.org/wiki/Min_Aung_Hlaing","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/16/%D0%9C%D0%B8%D0%BD_%D0%90%D1%83%D0%BD_%D0%A5%D0%BB%D0%B0%D0%B9%D0%BD_%D0%B2_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%D0%B5_04_%2825-06-2021%29_%28cropped_3%29.jpg/500px-%D0%9C%D0%B8%D0%BD_%D0%90%D1%83%D0%BD_%D0%A5%D0%BB%D0%B0%D0%B9%D0%BD_%D0%B2_%D0%A2%D0%B0%D1%82%D0%B0%D1%80%D1%81%D1%82%D0%B0%D0%BD%D0%B5_04_%2825-06-2021%29_%28cropped_3%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Flag_of_Myanmar.svg/500px-Flag_of_Myanmar.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/89/State_seal_of_Myanmar.svg/500px-State_seal_of_Myanmar.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Myanmar_%28orthographic_projection%29.svg/500px-Myanmar_%28orthographic_projection%29.svg.png"}, 
@@ -1562,7 +1562,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Nauru","url":"//en.wikipedia.org/wiki/Nauru"}, 
-        leader: {"title":"President","pos":"president","name":"Russ Kun","url":"//en.wikipedia.org/wiki/Russ_Kun"}, 
+        leader: {"title":"President","pos":"president","name":"Russ Kun","url":"//en.wikipedia.org/wiki/Russ_Kun","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Russ_Kun_2020.jpg/500px-Russ_Kun_2020.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Flag_of_Nauru.svg/500px-Flag_of_Nauru.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Coat_of_arms_of_Nauru.svg/500px-Coat_of_arms_of_Nauru.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/21/NRU_orthographic.svg/500px-NRU_orthographic.svg.png"}, 
@@ -1575,7 +1575,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Nepal","url":"//en.wikipedia.org/wiki/Nepal"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pushpa Kamal Dahal","url":"//en.wikipedia.org/wiki/Pushpa_Kamal_Dahal"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pushpa Kamal Dahal","url":"//en.wikipedia.org/wiki/Pushpa_Kamal_Dahal","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pushpa_Kamal_Dahal_in_2023.jpg/500px-Pushpa_Kamal_Dahal_in_2023.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/500px-Flag_of_Nepal.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emblem_of_Nepal.svg/500px-Emblem_of_Nepal.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nepal_%28orthographic_projection%29.svg/500px-Nepal_%28orthographic_projection%29.svg.png"}, 
@@ -1588,7 +1588,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"the Netherlands","url":"//en.wikipedia.org/wiki/Kingdom_of_the_Netherlands"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mark Rutte","url":"//en.wikipedia.org/wiki/Mark_Rutte"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mark Rutte","url":"//en.wikipedia.org/wiki/Mark_Rutte","imgUrl":"//up500px-Semi-protection-shackle.svg.png"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/500px-Flag_of_the_Netherlands.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Koninklijk_wapen_van_het_koninkrijk_der_Nederlanden.svg/500px-Koninklijk_wapen_van_het_koninkrijk_der_Nederlanden.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kingdom_of_the_Netherlands_%28orthographic_projection%29.svg/500px-Kingdom_of_the_Netherlands_%28orthographic_projection%29.svg.png"}, 
@@ -1601,7 +1601,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"New Zealand","url":"//en.wikipedia.org/wiki/New_Zealand"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Chris Hipkins","url":"//en.wikipedia.org/wiki/Chris_Hipkins"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Chris Hipkins","url":"//en.wikipedia.org/wiki/Chris_Hipkins","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/5/54/Chris_Hipkins_NZ_Labour_%282%29.jpg/500px-Chris_Hipkins_NZ_Labour_%282%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Flag_of_New_Zealand.svg/500px-Flag_of_New_Zealand.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Coat_of_arms_of_New_Zealand.svg/500px-Coat_of_arms_of_New_Zealand.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/29/NZL_orthographic_NaturalEarth.svg/500px-NZL_orthographic_NaturalEarth.svg.png"}, 
@@ -1614,7 +1614,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Nicaragua","url":"//en.wikipedia.org/wiki/Nicaragua"}, 
-        leader: {"title":"President","pos":"president","name":"Daniel Ortega","url":"//en.wikipedia.org/wiki/Daniel_Ortega"}, 
+        leader: {"title":"President","pos":"president","name":"Daniel Ortega","url":"//en.wikipedia.org/wiki/Daniel_Ortega","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Daniel_Ortega_2014_%28cropped%29.jpg/500px-Daniel_Ortega_2014_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/500px-Flag_of_Nicaragua.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Coat_of_arms_of_Nicaragua.svg/500px-Coat_of_arms_of_Nicaragua.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/34/NIC_orthographic.svg/500px-NIC_orthographic.svg.png"}, 
@@ -1627,7 +1627,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Niger","url":"//en.wikipedia.org/wiki/Niger"}, 
-        leader: {"title":"President","pos":"president","name":"Mohamed Bazoum","url":"//en.wikipedia.org/wiki/Mohamed_Bazoum"}, 
+        leader: {"title":"President","pos":"president","name":"Mohamed Bazoum","url":"//en.wikipedia.org/wiki/Mohamed_Bazoum","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/df/Mohamed_Bazoum_%28cropped%29.jpg/500px-Mohamed_Bazoum_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/500px-Niger_%28orthographic_projection%29.svg.png"}, 
@@ -1640,7 +1640,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Nigeria","url":"//en.wikipedia.org/wiki/Nigeria"}, 
-        leader: {"title":"President","pos":"president","name":"Bola Tinubu","url":"//en.wikipedia.org/wiki/Bola_Tinubu"}, 
+        leader: {"title":"President","pos":"president","name":"Bola Tinubu","url":"//en.wikipedia.org/wiki/Bola_Tinubu","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Bola_Tinubu_portrait.jpg/500px-Bola_Tinubu_portrait.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_Nigeria.svg/500px-Flag_of_Nigeria.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Coat_of_arms_of_Nigeria.svg/500px-Coat_of_arms_of_Nigeria.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Nigeria_%28orthographic_projection%29.svg/500px-Nigeria_%28orthographic_projection%29.svg.png"}, 
@@ -1653,7 +1653,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"North Korea","url":"//en.wikipedia.org/wiki/North_Korea"}, 
-        leader: {"title":"General Secretary of the Workers' Party","pos":"general secretary of the Workers' Party","name":"Kim Jong Un","url":"//en.wikipedia.org/wiki/Kim_Jong_Un"}, 
+        leader: {"title":"General Secretary of the Workers' Party","pos":"general secretary of the Workers' Party","name":"Kim Jong Un","url":"//en.wikipedia.org/wiki/Kim_Jong_Un","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Kim_Jong-un_April_2019_%28cropped%29.jpg/500px-Kim_Jong-un_April_2019_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/51/Flag_of_North_Korea.svg/500px-Flag_of_North_Korea.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Emblem_of_North_Korea.svg/500px-Emblem_of_North_Korea.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Democratic_People%27s_Republic_of_Korea_%28orthographic_projection%29.svg/500px-Democratic_People%27s_Republic_of_Korea_%28orthographic_projection%29.svg.png"}, 
@@ -1666,7 +1666,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"North Macedonia","url":"//en.wikipedia.org/wiki/North_Macedonia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dimitar Kovačevski","url":"//en.wikipedia.org/wiki/Dimitar_Kova%C4%8Devski"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dimitar Kovačevski","url":"//en.wikipedia.org/wiki/Dimitar_Kova%C4%8Devski","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Prime_Minister_Dimitar_Kova%C4%8Devski_%28Kovachevski%29_of_North_Macedonia_in_Washington%2C_D.C._on_8_May_2023_-_52882131968_%28cropped%29.jpg/500px-Prime_Minister_Dimitar_Kova%C4%8Devski_%28Kovachevski%29_of_North_Macedonia_in_Washington%2C_D.C._on_8_May_2023_-_52882131968_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/500px-Flag_of_North_Macedonia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Coat_of_arms_of_North_Macedonia.svg/500px-Coat_of_arms_of_North_Macedonia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Europe-Republic_of_North_Macedonia.svg/500px-Europe-Republic_of_North_Macedonia.svg.png"}, 
@@ -1679,7 +1679,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Norway","url":"//en.wikipedia.org/wiki/Norway"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Jonas Gahr Støre","url":"//en.wikipedia.org/wiki/Jonas_Gahr_St%C3%B8re"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Jonas Gahr Støre","url":"//en.wikipedia.org/wiki/Jonas_Gahr_St%C3%B8re","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Nordic_prime_ministers%E2%80%99_meeting_in_Helsinki_1.11.2022_-_52469398971_%28cropped%29.jpg/500px-Nordic_prime_ministers%E2%80%99_meeting_in_Helsinki_1.11.2022_-_52469398971_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Norway.svg/500px-Flag_of_Norway.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Coat_of_arms_of_Norway.svg/500px-Coat_of_arms_of_Norway.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Europe-Norway_%28orthographic_projection%29.svg/500px-Europe-Norway_%28orthographic_projection%29.svg.png"}, 
@@ -1692,7 +1692,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Oman","url":"//en.wikipedia.org/wiki/Oman"}, 
-        leader: {"title":"Sultan and Prime Minister","pos":"sultan and prime minister","name":"Haitham bin Tariq","url":"//en.wikipedia.org/wiki/Haitham_bin_Tariq"}, 
+        leader: {"title":"Sultan and Prime Minister","pos":"sultan and prime minister","name":"Haitham bin Tariq","url":"//en.wikipedia.org/wiki/Haitham_bin_Tariq","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Secretary_Pompeo_Meets_with_the_Sultan_of_Oman_Haitham_bin_Tariq_Al_Said_%2849565463757%29_%28cropped%29.jpg/500px-Secretary_Pompeo_Meets_with_the_Sultan_of_Oman_Haitham_bin_Tariq_Al_Said_%2849565463757%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Oman.svg/500px-Flag_of_Oman.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7b/National_emblem_of_Oman.svg/500px-National_emblem_of_Oman.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e2/Oman_%28better%29_%28orthographic_projection%29.svg/500px-Oman_%28better%29_%28orthographic_projection%29.svg.png"}, 
@@ -1705,7 +1705,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Pakistan","url":"//en.wikipedia.org/wiki/Pakistan"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Shehbaz Sharif","url":"//en.wikipedia.org/wiki/Shehbaz_Sharif"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Shehbaz Sharif","url":"//en.wikipedia.org/wiki/Shehbaz_Sharif","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Shahbaz_Sharif_in_2022_%28cropped%29.jpg/500px-Shahbaz_Sharif_in_2022_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/500px-Flag_of_Pakistan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/500px-State_emblem_of_Pakistan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/PAK_orthographic.svg/500px-PAK_orthographic.svg.png"}, 
@@ -1718,7 +1718,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Palau","url":"//en.wikipedia.org/wiki/Palau"}, 
-        leader: {"title":"President","pos":"president","name":"Surangel Whipps Jr.","url":"//en.wikipedia.org/wiki/Surangel_Whipps_Jr."}, 
+        leader: {"title":"President","pos":"president","name":"Surangel Whipps Jr.","url":"//en.wikipedia.org/wiki/Surangel_Whipps_Jr.","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/69/Surangel_Whipps_Jr..jpg/500px-Surangel_Whipps_Jr..jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Palau.svg/500px-Flag_of_Palau.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Seal_of_Palau.svg/500px-Seal_of_Palau.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/500px-Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"}, 
@@ -1731,7 +1731,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Palestine","url":"//en.wikipedia.org/wiki/State_of_Palestine"}, 
-        leader: {"title":"President","pos":"president","name":"Mahmoud Abbas","url":"//en.wikipedia.org/wiki/Mahmoud_Abbas"}, 
+        leader: {"title":"President","pos":"president","name":"Mahmoud Abbas","url":"//en.wikipedia.org/wiki/Mahmoud_Abbas","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Mahmoud_Abbas_2021_%28cropped%29.jpg/500px-Mahmoud_Abbas_2021_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_Palestine.svg/500px-Flag_of_Palestine.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Coat_of_arms_of_Palestine.svg/500px-Coat_of_arms_of_Palestine.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/State_of_Palestine_%28orthographic_projection%29.svg/500px-State_of_Palestine_%28orthographic_projection%29.svg.png"}, 
@@ -1744,7 +1744,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Panama","url":"//en.wikipedia.org/wiki/Panama"}, 
-        leader: {"title":"President","pos":"president","name":"Laurentino Cortizo","url":"//en.wikipedia.org/wiki/Laurentino_Cortizo"}, 
+        leader: {"title":"President","pos":"president","name":"Laurentino Cortizo","url":"//en.wikipedia.org/wiki/Laurentino_Cortizo","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Laurentino_Cortizo_%2852134360482%29_%28cropped%29.jpg/500px-Laurentino_Cortizo_%2852134360482%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/500px-Flag_of_Panama.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Coat_of_arms_of_Panama.svg/500px-Coat_of_arms_of_Panama.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/39/PAN_orthographic.svg/500px-PAN_orthographic.svg.png"}, 
@@ -1757,7 +1757,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Papua New Guinea","url":"//en.wikipedia.org/wiki/Papua_New_Guinea"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"James Marape","url":"//en.wikipedia.org/wiki/James_Marape"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"James Marape","url":"//en.wikipedia.org/wiki/James_Marape","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/67/James_Marape_-_2023_%2852829685765%29_%28cropped%29.jpg/500px-James_Marape_-_2023_%2852829685765%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/500px-Flag_of_Papua_New_Guinea.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/National_emblem_of_Papua_New_Guinea.svg/500px-National_emblem_of_Papua_New_Guinea.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Papua_New_Guinea_%28orthographic_projection%29.svg/500px-Papua_New_Guinea_%28orthographic_projection%29.svg.png"}, 
@@ -1770,7 +1770,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Paraguay","url":"//en.wikipedia.org/wiki/Paraguay"}, 
-        leader: {"title":"President","pos":"president","name":"Mario Abdo Benítez","url":"//en.wikipedia.org/wiki/Mario_Abdo_Ben%C3%ADtez"}, 
+        leader: {"title":"President","pos":"president","name":"Mario Abdo Benítez","url":"//en.wikipedia.org/wiki/Mario_Abdo_Ben%C3%ADtez","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Mario_Abdo_Ben%C3%ADtez_2023_%28cropped%29.jpg/500px-Mario_Abdo_Ben%C3%ADtez_2023_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/500px-Flag_of_Paraguay.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Paraguay.svg/500px-Coat_of_arms_of_Paraguay.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/PRY_orthographic.svg/500px-PRY_orthographic.svg.png"}, 
@@ -1783,7 +1783,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Peru","url":"//en.wikipedia.org/wiki/Peru"}, 
-        leader: {"title":"President","pos":"president","name":"Dina Boluarte","url":"//en.wikipedia.org/wiki/Dina_Boluarte"}, 
+        leader: {"title":"President","pos":"president","name":"Dina Boluarte","url":"//en.wikipedia.org/wiki/Dina_Boluarte","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Dina_Boluarte_%28diciembre_2022%29.jpg/500px-Dina_Boluarte_%28diciembre_2022%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/500px-Flag_of_Peru.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Escudo_nacional_del_Per%C3%BA.svg/500px-Escudo_nacional_del_Per%C3%BA.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/07/PER_orthographic.svg/500px-PER_orthographic.svg.png"}, 
@@ -1796,7 +1796,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"the Philippines","url":"//en.wikipedia.org/wiki/Philippines"}, 
-        leader: {"title":"President","pos":"president","name":"Bongbong Marcos","url":"//en.wikipedia.org/wiki/Bongbong_Marcos"}, 
+        leader: {"title":"President","pos":"president","name":"Bongbong Marcos","url":"//en.wikipedia.org/wiki/Bongbong_Marcos","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/db/Ferdinand_R._Marcos_Jr_%28cropped%29.jpg/500px-Ferdinand_R._Marcos_Jr_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Flag_of_the_Philippines.svg/500px-Flag_of_the_Philippines.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Coat_of_arms_of_the_Philippines.svg/500px-Coat_of_arms_of_the_Philippines.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/PHL_orthographic.svg/500px-PHL_orthographic.svg.png"}, 
@@ -1809,7 +1809,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Poland","url":"//en.wikipedia.org/wiki/Poland"}, 
-        leader: {"title":"President","pos":"president","name":"Andrzej Duda","url":"//en.wikipedia.org/wiki/Andrzej_Duda"}, 
+        leader: {"title":"President","pos":"president","name":"Andrzej Duda","url":"//en.wikipedia.org/wiki/Andrzej_Duda","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Prezydent_Rzeczypospolitej_Polskiej_Andrzej_Duda.jpg/500px-Prezydent_Rzeczypospolitej_Polskiej_Andrzej_Duda.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/500px-Flag_of_Poland.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Herb_Polski.svg/500px-Herb_Polski.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/57/EU-Poland_%28orthographic_projection%29.svg/500px-EU-Poland_%28orthographic_projection%29.svg.png"}, 
@@ -1822,7 +1822,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Portugal","url":"//en.wikipedia.org/wiki/Portugal"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"António Costa","url":"//en.wikipedia.org/wiki/Ant%C3%B3nio_Costa"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"António Costa","url":"//en.wikipedia.org/wiki/Ant%C3%B3nio_Costa","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Ant%C3%B3nio_Costa_2017.jpg/500px-Ant%C3%B3nio_Costa_2017.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/500px-Flag_of_Portugal.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Portugal.svg/500px-Coat_of_arms_of_Portugal.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/EU-Portugal_%28orthographic_projection%29.svg/500px-EU-Portugal_%28orthographic_projection%29.svg.png"}, 
@@ -1835,7 +1835,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Qatar","url":"//en.wikipedia.org/wiki/Qatar"}, 
-        leader: {"title":"Emir","pos":"emir","name":"Tamim bin Hamad Al Thani","url":"//en.wikipedia.org/wiki/Tamim_bin_Hamad_Al_Thani"}, 
+        leader: {"title":"Emir","pos":"emir","name":"Tamim bin Hamad Al Thani","url":"//en.wikipedia.org/wiki/Tamim_bin_Hamad_Al_Thani","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/%D8%AA%D9%85%D9%8A%D9%85_%D8%A8%D9%86_%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%AE%D9%84%D9%8A%D9%81%D8%A9_%D8%A2%D9%84_%D8%AB%D8%A7%D9%86%D9%8A_%2849759678641%29_%28cropped%29.jpg/500px-%D8%AA%D9%85%D9%8A%D9%85_%D8%A8%D9%86_%D8%AD%D9%85%D8%AF_%D8%A8%D9%86_%D8%AE%D9%84%D9%8A%D9%81%D8%A9_%D8%A2%D9%84_%D8%AB%D8%A7%D9%86%D9%8A_%2849759678641%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Qatar.svg/500px-Flag_of_Qatar.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/5/5e/Emblem_of_Qatar_%282022%E2%80%93present%29.svg/500px-Emblem_of_Qatar_%282022%E2%80%93present%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/QAT_orthographic.svg/500px-QAT_orthographic.svg.png"}, 
@@ -1848,7 +1848,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Romania","url":"//en.wikipedia.org/wiki/Romania"}, 
-        leader: {"title":"President","pos":"president","name":"Klaus Iohannis","url":"//en.wikipedia.org/wiki/Klaus_Iohannis"}, 
+        leader: {"title":"President","pos":"president","name":"Klaus Iohannis","url":"//en.wikipedia.org/wiki/Klaus_Iohannis","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/18/EPP_Athens%2C_2-3_December%2C_2022_%2852539790143%29_%28cropped%29.jpg/500px-EPP_Athens%2C_2-3_December%2C_2022_%2852539790143%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/500px-Flag_of_Romania.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Romania.svg/500px-Coat_of_arms_of_Romania.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/EU-Romania_%28orthographic_projection%29.svg/500px-EU-Romania_%28orthographic_projection%29.svg.png"}, 
@@ -1861,7 +1861,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Russia","url":"//en.wikipedia.org/wiki/Russia"}, 
-        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"//en.wikipedia.org/wiki/Vladimir_Putin"}, 
+        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"//en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/5/51/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg/500px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/500px-Flag_of_Russia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg/500px-Coat_of_Arms_of_the_Russian_Federation.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg/500px-Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg.png"}, 
@@ -1874,7 +1874,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Rwanda","url":"//en.wikipedia.org/wiki/Rwanda"}, 
-        leader: {"title":"President","pos":"president","name":"Paul Kagame","url":"//en.wikipedia.org/wiki/Paul_Kagame"}, 
+        leader: {"title":"President","pos":"president","name":"Paul Kagame","url":"//en.wikipedia.org/wiki/Paul_Kagame","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Paul_Kagame_2014.jpg/500px-Paul_Kagame_2014.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Rwanda.svg/500px-Flag_of_Rwanda.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Coat_of_arms_of_Rwanda.svg/500px-Coat_of_arms_of_Rwanda.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Location_Rwanda_AU_Africa.svg/500px-Location_Rwanda_AU_Africa.svg.png"}, 
@@ -1887,7 +1887,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Saint Kitts and Nevis","url":"//en.wikipedia.org/wiki/Saint_Kitts_and_Nevis"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Terrance Drew","url":"//en.wikipedia.org/wiki/Terrance_Drew"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Terrance Drew","url":"//en.wikipedia.org/wiki/Terrance_Drew","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Terrance_Drew_2022.jpg/500px-Terrance_Drew_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Saint_Kitts_and_Nevis.svg/500px-Flag_of_Saint_Kitts_and_Nevis.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Coat_of_Arms_of_Saint_Kitts_and_Nevis.svg/500px-Coat_of_Arms_of_Saint_Kitts_and_Nevis.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/KNA_orthographic.svg/500px-KNA_orthographic.svg.png"}, 
@@ -1900,7 +1900,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Saint Lucia","url":"//en.wikipedia.org/wiki/Saint_Lucia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Philip J. Pierre","url":"//en.wikipedia.org/wiki/Philip_J._Pierre"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Philip J. Pierre","url":"//en.wikipedia.org/wiki/Philip_J._Pierre","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Philip_J_Pierre_Christmas_2020_%28cropped%29.png/500px-Philip_J_Pierre_Christmas_2020_%28cropped%29.png"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_Saint_Lucia.svg/500px-Flag_of_Saint_Lucia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Coat_of_arms_of_Saint_Lucia.svg/500px-Coat_of_arms_of_Saint_Lucia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/97/Saint_Lucia_on_the_globe_%28Americas_centered%29.svg/500px-Saint_Lucia_on_the_globe_%28Americas_centered%29.svg.png"}, 
@@ -1913,7 +1913,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Saint Vincent and the Grenadines","url":"//en.wikipedia.org/wiki/Saint_Vincent_and_the_Grenadines"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ralph Gonsalves","url":"//en.wikipedia.org/wiki/Ralph_Gonsalves"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ralph Gonsalves","url":"//en.wikipedia.org/wiki/Ralph_Gonsalves","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ralph_Gonsalves_2023.jpg/500px-Ralph_Gonsalves_2023.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Flag_of_Saint_Vincent_and_the_Grenadines.svg/500px-Flag_of_Saint_Vincent_and_the_Grenadines.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Coat_of_arms_of_Saint_Vincent_and_the_Grenadines.svg/500px-Coat_of_arms_of_Saint_Vincent_and_the_Grenadines.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/70/VCT_orthographic.svg/500px-VCT_orthographic.svg.png"}, 
@@ -1926,7 +1926,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Samoa","url":"//en.wikipedia.org/wiki/Samoa"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Fiamē Naomi Mataʻafa","url":"//en.wikipedia.org/wiki/Fiam%C4%93_Naomi_Mata%CA%BBafa"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Fiamē Naomi Mataʻafa","url":"//en.wikipedia.org/wiki/Fiam%C4%93_Naomi_Mata%CA%BBafa","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Fiam%C4%93_Naomi_Mata%CA%BBafa_2_June_2022.jpg/500px-Fiam%C4%93_Naomi_Mata%CA%BBafa_2_June_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Samoa.svg/500px-Flag_of_Samoa.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Coat_of_arms_of_Samoa.svg/500px-Coat_of_arms_of_Samoa.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Samoa_on_the_globe_%28Polynesia_centered%29.svg/500px-Samoa_on_the_globe_%28Polynesia_centered%29.svg.png"}, 
@@ -1939,7 +1939,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"San Marino","url":"//en.wikipedia.org/wiki/San_Marino"}, 
-        leader: {"title":"Secretary for Foreign and Political Affairs","pos":"secretary for Foreign and Political Affairs","name":"Luca Beccari","url":"//en.wikipedia.org/wiki/Luca_Beccari"}, 
+        leader: {"title":"Secretary for Foreign and Political Affairs","pos":"secretary for Foreign and Political Affairs","name":"Luca Beccari","url":"//en.wikipedia.org/wiki/Luca_Beccari","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Luca_Beccari_San_Marino_%28cropped%29.jpg/500px-Luca_Beccari_San_Marino_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Flag_of_San_Marino.svg/500px-Flag_of_San_Marino.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coat_of_arms_of_San_Marino.svg/500px-Coat_of_arms_of_San_Marino.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Location_San_Marino_Europe.png/500px-Location_San_Marino_Europe.png"}, 
@@ -1952,7 +1952,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"São Tomé and Príncipe","url":"//en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Patrice Trovoada","url":"//en.wikipedia.org/wiki/Patrice_Trovoada"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Patrice Trovoada","url":"//en.wikipedia.org/wiki/Patrice_Trovoada","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Dr._Partice_Emery_Trovoda%2C_October_28%2C_2015_%28cropped%29.jpg/500px-Dr._Partice_Emery_Trovoda%2C_October_28%2C_2015_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/500px-Flag_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg/500px-Coat_of_arms_of_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Location_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_AU_Africa.svg/500px-Location_S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe_AU_Africa.svg.png"}, 
@@ -1965,7 +1965,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Saudi Arabia","url":"//en.wikipedia.org/wiki/Saudi_Arabia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mohammed bin Salman","url":"//en.wikipedia.org/wiki/Mohammed_bin_Salman"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mohammed bin Salman","url":"//en.wikipedia.org/wiki/Mohammed_bin_Salman","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mohammad_bin_Salman_October_2019_%28cropped%29.jpg/500px-Mohammad_bin_Salman_October_2019_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/500px-Flag_of_Saudi_Arabia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Emblem_of_Saudi_Arabia.svg/500px-Emblem_of_Saudi_Arabia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Saudi_Arabia_%28orthographic_projection%29.svg/500px-Saudi_Arabia_%28orthographic_projection%29.svg.png"}, 
@@ -1978,7 +1978,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Senegal","url":"//en.wikipedia.org/wiki/Senegal"}, 
-        leader: {"title":"President","pos":"president","name":"Macky Sall","url":"//en.wikipedia.org/wiki/Macky_Sall"}, 
+        leader: {"title":"President","pos":"president","name":"Macky Sall","url":"//en.wikipedia.org/wiki/Macky_Sall","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/President_Macky_Sall_in_2020.jpg/500px-President_Macky_Sall_in_2020.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/500px-Flag_of_Senegal.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Coat_of_arms_of_Senegal.svg/500px-Coat_of_arms_of_Senegal.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Senegal_%28orthographic_projection%29.svg/500px-Senegal_%28orthographic_projection%29.svg.png"}, 
@@ -1991,7 +1991,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Serbia","url":"//en.wikipedia.org/wiki/Serbia"}, 
-        leader: {"title":"President","pos":"president","name":"Aleksandar Vučić","url":"//en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87"}, 
+        leader: {"title":"President","pos":"president","name":"Aleksandar Vučić","url":"//en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Aleksandar_Vu%C4%8Di%C4%87_2019_%28cropped%29.jpg/500px-Aleksandar_Vu%C4%8Di%C4%87_2019_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/500px-Flag_of_Serbia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Serbia.svg/500px-Coat_of_arms_of_Serbia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Serbia_%28orthographic_projection%29.svg/500px-Serbia_%28orthographic_projection%29.svg.png"}, 
@@ -2004,7 +2004,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Seychelles","url":"//en.wikipedia.org/wiki/Seychelles"}, 
-        leader: {"title":"President","pos":"president","name":"Wavel Ramkalawan","url":"//en.wikipedia.org/wiki/Wavel_Ramkalawan"}, 
+        leader: {"title":"President","pos":"president","name":"Wavel Ramkalawan","url":"//en.wikipedia.org/wiki/Wavel_Ramkalawan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/10/Wavel_Ramkalawan_-_president_of_Seychelles_%28cropped%29.jpg/500px-Wavel_Ramkalawan_-_president_of_Seychelles_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Seychelles.svg/500px-Flag_of_Seychelles.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Coat_of_arms_of_Seychelles.svg/500px-Coat_of_arms_of_Seychelles.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Location_Seychelles_AU_Africa.svg/500px-Location_Seychelles_AU_Africa.svg.png"}, 
@@ -2017,7 +2017,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Sierra Leone","url":"//en.wikipedia.org/wiki/Sierra_Leone"}, 
-        leader: {"title":"President","pos":"president","name":"Julius Maada Bio","url":"//en.wikipedia.org/wiki/Julius_Maada_Bio"}, 
+        leader: {"title":"President","pos":"president","name":"Julius Maada Bio","url":"//en.wikipedia.org/wiki/Julius_Maada_Bio","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Julius_Maada_Bio_-_2023_%28cropped%29.jpg/500px-Julius_Maada_Bio_-_2023_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/17/Flag_of_Sierra_Leone.svg/500px-Flag_of_Sierra_Leone.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Coat_of_arms_of_Sierra_Leone.svg/500px-Coat_of_arms_of_Sierra_Leone.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Sierra_Leone_%28orthographic_projection%29.svg/500px-Sierra_Leone_%28orthographic_projection%29.svg.png"}, 
@@ -2030,7 +2030,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Singapore","url":"//en.wikipedia.org/wiki/Singapore"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Lee Hsien Loong","url":"//en.wikipedia.org/wiki/Lee_Hsien_Loong"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Lee Hsien Loong","url":"//en.wikipedia.org/wiki/Lee_Hsien_Loong","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Fumio_Kishida_and_Lee_Hsien_Loong_before_the_funeral_of_Shinzo_Abe_%281%29_%28cropped%29.jpg/500px-Fumio_Kishida_and_Lee_Hsien_Loong_before_the_funeral_of_Shinzo_Abe_%281%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Singapore.svg/500px-Flag_of_Singapore.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Coat_of_arms_of_Singapore.svg/500px-Coat_of_arms_of_Singapore.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Singapore_on_the_globe_%28Southeast_Asia_centered%29_zoom.svg/500px-Singapore_on_the_globe_%28Southeast_Asia_centered%29_zoom.svg.png"}, 
@@ -2043,7 +2043,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Slovakia","url":"//en.wikipedia.org/wiki/Slovakia"}, 
-        leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"//en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor"}, 
+        leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"//en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PMSZ-78_%28cropped%29.jpg/500px-PMSZ-78_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/500px-Flag_of_Slovakia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/500px-Coat_of_arms_of_Slovakia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/500px-EU-Slovakia.svg.png"}, 
@@ -2056,7 +2056,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Slovenia","url":"//en.wikipedia.org/wiki/Slovenia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Robert Golob","url":"//en.wikipedia.org/wiki/Robert_Golob"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Robert Golob","url":"//en.wikipedia.org/wiki/Robert_Golob","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Robert_Golob_-_52114942369_%28cropped%29.jpg/500px-Robert_Golob_-_52114942369_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/500px-Flag_of_Slovenia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Coat_of_arms_of_Slovenia.svg/500px-Coat_of_arms_of_Slovenia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/500px-EU-Slovenia.svg.png"}, 
@@ -2069,7 +2069,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"the Solomon Islands","url":"//en.wikipedia.org/wiki/Solomon_Islands"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Manasseh Sogavare","url":"//en.wikipedia.org/wiki/Manasseh_Sogavare"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Manasseh Sogavare","url":"//en.wikipedia.org/wiki/Manasseh_Sogavare","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%81%D0%B5_%D0%A1%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%B5_%2828532489095%29.jpg/500px-%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%81%D0%B5_%D0%A1%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%B5_%2828532489095%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/500px-Flag_of_the_Solomon_Islands.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Coat_of_arms_of_the_Solomon_Islands.svg/500px-Coat_of_arms_of_the_Solomon_Islands.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg/500px-Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg.png"}, 
@@ -2082,7 +2082,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Somalia","url":"//en.wikipedia.org/wiki/Somalia"}, 
-        leader: {"title":"President","pos":"president","name":"Hassan Sheikh Mohamud","url":"//en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud"}, 
+        leader: {"title":"President","pos":"president","name":"Hassan Sheikh Mohamud","url":"//en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/82/His_Excellency_President_Hassan_Sheikh_Mohamud.jpg/500px-His_Excellency_President_Hassan_Sheikh_Mohamud.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/500px-Flag_of_Somalia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Somalia.svg/500px-Coat_of_arms_of_Somalia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Somalia_%28orthographic_projection%29.svg/500px-Somalia_%28orthographic_projection%29.svg.png"}, 
@@ -2095,7 +2095,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"South Africa","url":"//en.wikipedia.org/wiki/South_Africa"}, 
-        leader: {"title":"President","pos":"president","name":"Cyril Ramaphosa","url":"//en.wikipedia.org/wiki/Cyril_Ramaphosa"}, 
+        leader: {"title":"President","pos":"president","name":"Cyril Ramaphosa","url":"//en.wikipedia.org/wiki/Cyril_Ramaphosa","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Sunak_met_with_President_Ramaphosa_of_South_Africa_in_Number_10_-_2022_%28cropped%29.jpg/500px-Prime_Minister_Sunak_met_with_President_Ramaphosa_of_South_Africa_in_Number_10_-_2022_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/500px-Flag_of_South_Africa.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/2/21/Coat_of_arms_of_South_Africa.svg/500px-Coat_of_arms_of_South_Africa.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/ZAF_orthographic.svg/500px-ZAF_orthographic.svg.png"}, 
@@ -2108,7 +2108,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"South Korea","url":"//en.wikipedia.org/wiki/South_Korea"}, 
-        leader: {"title":"President","pos":"president","name":"Yoon Suk-yeol","url":"//en.wikipedia.org/wiki/Yoon_Suk-yeol"}, 
+        leader: {"title":"President","pos":"president","name":"Yoon Suk-yeol","url":"//en.wikipedia.org/wiki/Yoon_Suk-yeol","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/South_Korea_President_Yoon_Suk_Yeol_portrait.jpg/500px-South_Korea_President_Yoon_Suk_Yeol_portrait.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Flag_of_South_Korea.svg/500px-Flag_of_South_Korea.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Seal_of_South_Korea.svg/500px-Seal_of_South_Korea.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b1/Republic_of_Korea_%28orthographic_projection%29.svg/500px-Republic_of_Korea_%28orthographic_projection%29.svg.png"}, 
@@ -2121,7 +2121,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"South Sudan","url":"//en.wikipedia.org/wiki/South_Sudan"}, 
-        leader: {"title":"President","pos":"president","name":"Salva Kiir Mayardit","url":"//en.wikipedia.org/wiki/Salva_Kiir_Mayardit"}, 
+        leader: {"title":"President","pos":"president","name":"Salva Kiir Mayardit","url":"//en.wikipedia.org/wiki/Salva_Kiir_Mayardit","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/16/President_Barack_Obama_and_First_Lady_Michelle_Obama_greet_His_Excellency_Salva_Kiir_Mayardit%2C_President_of_the_Republic_of_South_Sudan_%28cropped%29.jpg/500px-President_Barack_Obama_and_First_Lady_Michelle_Obama_greet_His_Excellency_Salva_Kiir_Mayardit%2C_President_of_the_Republic_of_South_Sudan_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Flag_of_South_Sudan.svg/500px-Flag_of_South_Sudan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coat_of_arms_of_South_Sudan.svg/500px-Coat_of_arms_of_South_Sudan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4f/South_Sudan_%28orthographic_projection%29_highlighted.svg/500px-South_Sudan_%28orthographic_projection%29_highlighted.svg.png"}, 
@@ -2134,7 +2134,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Spain","url":"//en.wikipedia.org/wiki/Spain"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pedro Sánchez","url":"//en.wikipedia.org/wiki/Pedro_S%C3%A1nchez"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pedro Sánchez","url":"//en.wikipedia.org/wiki/Pedro_S%C3%A1nchez","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Pedro_S%C3%A1nchez_in_2023.jpg/500px-Pedro_S%C3%A1nchez_in_2023.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Bandera_de_Espa%C3%B1a.svg/500px-Bandera_de_Espa%C3%B1a.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/85/Escudo_de_Espa%C3%B1a_%28mazonado%29.svg/500px-Escudo_de_Espa%C3%B1a_%28mazonado%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/ca/EU-Spain_%28orthographic_projection%29.svg/500px-EU-Spain_%28orthographic_projection%29.svg.png"}, 
@@ -2147,7 +2147,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Sri Lanka","url":"//en.wikipedia.org/wiki/Sri_Lanka"}, 
-        leader: {"title":"President","pos":"president","name":"Ranil Wickremesinghe","url":"//en.wikipedia.org/wiki/Ranil_Wickremesinghe"}, 
+        leader: {"title":"President","pos":"president","name":"Ranil Wickremesinghe","url":"//en.wikipedia.org/wiki/Ranil_Wickremesinghe","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/78/Ranil_Wickremesinghe_before_the_funeral_of_Shinzo_Abe.jpg/500px-Ranil_Wickremesinghe_before_the_funeral_of_Shinzo_Abe.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Sri_Lanka.svg/500px-Flag_of_Sri_Lanka.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Emblem_of_Sri_Lanka.svg/500px-Emblem_of_Sri_Lanka.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/96/Sri_Lanka_%28orthographic_projection%29.svg/500px-Sri_Lanka_%28orthographic_projection%29.svg.png"}, 
@@ -2160,7 +2160,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Sudan","url":"//en.wikipedia.org/wiki/Sudan"}, 
-        leader: {"title":"Chairman","pos":"chairman","name":"Abdel Fattah al-Burhan","url":"//en.wikipedia.org/wiki/Abdel_Fattah_al-Burhan"}, 
+        leader: {"title":"Chairman","pos":"chairman","name":"Abdel Fattah al-Burhan","url":"//en.wikipedia.org/wiki/Abdel_Fattah_al-Burhan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Chairman_of_the_Sovereignty_Council_of_Sudan_Abdel_Fattah_Abdelrahman_Burhan_in_October_2019_%28cropped%29.jpg/500px-Chairman_of_the_Sovereignty_Council_of_Sudan_Abdel_Fattah_Abdelrahman_Burhan_in_October_2019_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Sudan.svg/500px-Flag_of_Sudan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Emblem_of_Sudan.svg/500px-Emblem_of_Sudan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/500px-Sudan_%28orthographic_projection%29_highlighted.svg.png"}, 
@@ -2173,7 +2173,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Suriname","url":"//en.wikipedia.org/wiki/Suriname"}, 
-        leader: {"title":"President","pos":"president","name":"Chan Santokhi","url":"//en.wikipedia.org/wiki/Chan_Santokhi"}, 
+        leader: {"title":"President","pos":"president","name":"Chan Santokhi","url":"//en.wikipedia.org/wiki/Chan_Santokhi","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/0/05/%D0%A7%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D0%BA%D0%B0%D0%BF%D0%B5%D1%80%D1%81%D0%B0%D0%B4_%D0%A1%D0%B0%D0%BD%D1%82%D0%BE%D1%85%D0%B8_%28cropped%29.jpg/500px-%D0%A7%D0%B0%D0%BD%D0%B4%D1%80%D0%B8%D0%BA%D0%B0%D0%BF%D0%B5%D1%80%D1%81%D0%B0%D0%B4_%D0%A1%D0%B0%D0%BD%D1%82%D0%BE%D1%85%D0%B8_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/60/Flag_of_Suriname.svg/500px-Flag_of_Suriname.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Coat_of_arms_of_Suriname.svg/500px-Coat_of_arms_of_Suriname.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/63/SURINAME_orthographic.svg/500px-SURINAME_orthographic.svg.png"}, 
@@ -2186,7 +2186,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Sweden","url":"//en.wikipedia.org/wiki/Sweden"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ulf Kristersson","url":"//en.wikipedia.org/wiki/Ulf_Kristersson"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ulf Kristersson","url":"//en.wikipedia.org/wiki/Ulf_Kristersson","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/90/P061521-697284_%28cropped%29.jpg/500px-P061521-697284_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/500px-Flag_of_Sweden.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Great_coat_of_arms_of_Sweden.svg/500px-Great_coat_of_arms_of_Sweden.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/EU-Sweden_%28orthographic_projection%29.svg/500px-EU-Sweden_%28orthographic_projection%29.svg.png"}, 
@@ -2199,7 +2199,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Switzerland","url":"//en.wikipedia.org/wiki/Switzerland"}, 
-        leader: {"title":"Federal Council","pos":"federal council","name":"Federal Council","url":"//en.wikipedia.org/wiki/Federal_Council_(Switzerland)"}, 
+        leader: {"title":"Federal Council","pos":"federal council","name":"Federal Council","url":"//en.wikipedia.org/wiki/Federal_Council_(Switzerland)","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Bundesratsfoto_2023.jpg/500px-Bundesratsfoto_2023.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/08/Flag_of_Switzerland_%28Pantone%29.svg/500px-Flag_of_Switzerland_%28Pantone%29.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Coat_of_Arms_of_Switzerland_%28Pantone%29.svg/500px-Coat_of_Arms_of_Switzerland_%28Pantone%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/61/Europe-Switzerland.svg/500px-Europe-Switzerland.svg.png"}, 
@@ -2212,7 +2212,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Syria","url":"//en.wikipedia.org/wiki/Syria"}, 
-        leader: {"title":"President","pos":"president","name":"Bashar al-Assad","url":"//en.wikipedia.org/wiki/Bashar_al-Assad"}, 
+        leader: {"title":"President","pos":"president","name":"Bashar al-Assad","url":"//en.wikipedia.org/wiki/Bashar_al-Assad","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bashar_al-Assad_meets_with_Khamenei_2022_%28cropped%29.jpeg/500px-Bashar_al-Assad_meets_with_Khamenei_2022_%28cropped%29.jpeg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/500px-Flag_of_Syria.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coat_of_arms_of_Syria.svg/500px-Coat_of_arms_of_Syria.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Syria_%28orthographic_projection%29_disputed.svg/500px-Syria_%28orthographic_projection%29_disputed.svg.png"}, 
@@ -2225,7 +2225,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Tajikistan","url":"//en.wikipedia.org/wiki/Tajikistan"}, 
-        leader: {"title":"President","pos":"president","name":"Emomali Rahmon","url":"//en.wikipedia.org/wiki/Emomali_Rahmon"}, 
+        leader: {"title":"President","pos":"president","name":"Emomali Rahmon","url":"//en.wikipedia.org/wiki/Emomali_Rahmon","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/2021_Moscow_Victory_Day_Parade_037_%28cropped%29.jpg/500px-2021_Moscow_Victory_Day_Parade_037_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/500px-Flag_of_Tajikistan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Emblem_of_Tajikistan.svg/500px-Emblem_of_Tajikistan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tajikistan_%28orthographic_projection%29.svg/500px-Tajikistan_%28orthographic_projection%29.svg.png"}, 
@@ -2238,7 +2238,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Tanzania","url":"//en.wikipedia.org/wiki/Tanzania"}, 
-        leader: {"title":"President","pos":"president","name":"Samia Suluhu Hassan","url":"//en.wikipedia.org/wiki/Samia_Suluhu_Hassan"}, 
+        leader: {"title":"President","pos":"president","name":"Samia Suluhu Hassan","url":"//en.wikipedia.org/wiki/Samia_Suluhu_Hassan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Samia_Suluhu_Hassan_in_May_2017.jpg/500px-Samia_Suluhu_Hassan_in_May_2017.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/500px-Flag_of_Tanzania.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_arms_of_Tanzania.svg/500px-Coat_of_arms_of_Tanzania.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tanzania_%28orthographic_projection%29.svg/500px-Tanzania_%28orthographic_projection%29.svg.png"}, 
@@ -2251,7 +2251,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Thailand","url":"//en.wikipedia.org/wiki/Thailand"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Prayut Chan-o-cha","url":"//en.wikipedia.org/wiki/Prayut_Chan-o-cha"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Prayut Chan-o-cha","url":"//en.wikipedia.org/wiki/Prayut_Chan-o-cha","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Prayut_Chan-o-cha_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Prayut_Chan-o-cha_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/500px-Flag_of_Thailand.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Thailand.svg/500px-Emblem_of_Thailand.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Thailand_%28orthographic_projection%29.svg/500px-Thailand_%28orthographic_projection%29.svg.png"}, 
@@ -2264,7 +2264,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Togo","url":"//en.wikipedia.org/wiki/Togo"}, 
-        leader: {"title":"President","pos":"president","name":"Faure Gnassingbé","url":"//en.wikipedia.org/wiki/Faure_Gnassingb%C3%A9"}, 
+        leader: {"title":"President","pos":"president","name":"Faure Gnassingbé","url":"//en.wikipedia.org/wiki/Faure_Gnassingb%C3%A9","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Faure_Gnassingb%C3%A9_2014.png/500px-Faure_Gnassingb%C3%A9_2014.png"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/500px-Flag_of_Togo.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Armoiries_du_Togo.svg/500px-Armoiries_du_Togo.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Location_Togo_AU_Africa.svg/500px-Location_Togo_AU_Africa.svg.png"}, 
@@ -2277,7 +2277,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Tonga","url":"//en.wikipedia.org/wiki/Tonga"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Siaosi Sovaleni","url":"//en.wikipedia.org/wiki/Siaosi_Sovaleni"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Siaosi Sovaleni","url":"//en.wikipedia.org/wiki/Siaosi_Sovaleni","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/82/Siaosi_Sovaleni_June_2022.jpg/500px-Siaosi_Sovaleni_June_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Tonga.svg/500px-Flag_of_Tonga.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/43/Coat_of_arms_of_Tonga.svg/500px-Coat_of_arms_of_Tonga.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Tonga_on_the_globe_%28Polynesia_centered%29.svg/500px-Tonga_on_the_globe_%28Polynesia_centered%29.svg.png"}, 
@@ -2290,7 +2290,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Trinidad and Tobago","url":"//en.wikipedia.org/wiki/Trinidad_and_Tobago"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"//en.wikipedia.org/wiki/Keith_Rowley"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"//en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/63/KeithRowley.jpg/500px-KeithRowley.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/500px-Flag_of_Trinidad_and_Tobago.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/500px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trinidad_and_Tobago_%28orthographic_projection%29.svg/500px-Trinidad_and_Tobago_%28orthographic_projection%29.svg.png"}, 
@@ -2303,10 +2303,10 @@ const newInfo = [
     }, 
     {
         country: {"name":"Tunisia","url":"//en.wikipedia.org/wiki/Tunisia"}, 
-        leader: {"title":"President","pos":"president","name":"Kaïs Saïed","url":"//en.wikipedia.org/wiki/Kais_Saied"}, 
-        flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/500px-Flag_of_Tunisia.svg.png"}, 
-        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/500px-Coat_of_arms_of_Tunisia.svg.png"}, 
-        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tunisia_location_%28orthographic_projection%29.svg/500px-Tunisia_location_%28orthographic_projection%29.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Kaïs Saïed","url":"//en.wikipedia.org/wiki/Kais_Saied","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/2/29/President_Kais_Sa%C3%AFed.jpg/500px-President_Kais_Sa%C3%AFed.jpg"}, 
+        flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/500px-Coat_of_arms_of_Tunisia.svg.png"}, 
+        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tunisia_location_%28orthographic_projection%29.svg/500px-Tunisia_location_%28orthographic_projection%29.svg.png"}, 
+        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/500px-Increase2.svg.png"}, 
         capital: [{"name":"Tunis","type":"capital"}], 
         language: {"list":["Arabic"]}, 
         demonym: {"name":"Tunisian"}, 
@@ -2316,7 +2316,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Turkey","url":"//en.wikipedia.org/wiki/Turkey"}, 
-        leader: {"title":"President","pos":"president","name":"Recep Tayyip Erdoğan","url":"//en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan"}, 
+        leader: {"title":"President","pos":"president","name":"Recep Tayyip Erdoğan","url":"//en.wikipedia.org/wiki/Recep_Tayyip_Erdo%C4%9Fan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Recep_Tayyip_Erdogan_in_Ukraine.jpg/500px-Recep_Tayyip_Erdogan_in_Ukraine.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Flag_of_Turkey.svg/500px-Flag_of_Turkey.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Turkey_%28orthographic_projection%29.svg/500px-Turkey_%28orthographic_projection%29.svg.png"}, 
@@ -2329,7 +2329,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Turkmenistan","url":"//en.wikipedia.org/wiki/Turkmenistan"}, 
-        leader: {"title":"Chairman of the People's Council","pos":"chairman of the People's Council","name":"Gurbanguly Berdimuhamedow","url":"//en.wikipedia.org/wiki/Gurbanguly_Berdimuhamedow"}, 
+        leader: {"title":"Chairman of the People's Council","pos":"chairman of the People's Council","name":"Gurbanguly Berdimuhamedow","url":"//en.wikipedia.org/wiki/Gurbanguly_Berdimuhamedow","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Gurbanguly_Berdimuhamedow_%282017-10-11%29_02.jpg/500px-Gurbanguly_Berdimuhamedow_%282017-10-11%29_02.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Turkmenistan.svg/500px-Flag_of_Turkmenistan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Emblem_of_Turkmenistan.svg/500px-Emblem_of_Turkmenistan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Turkmenistan_on_the_globe_%28Afro-Eurasia_centered%29.svg/500px-Turkmenistan_on_the_globe_%28Afro-Eurasia_centered%29.svg.png"}, 
@@ -2342,7 +2342,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Tuvalu","url":"//en.wikipedia.org/wiki/Tuvalu"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Kausea Natano","url":"//en.wikipedia.org/wiki/Kausea_Natano"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Kausea Natano","url":"//en.wikipedia.org/wiki/Kausea_Natano","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kausea_Natano_June_2022.jpg/500px-Kausea_Natano_June_2022.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/500px-Flag_of_Tuvalu.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coat_of_arms_of_Tuvalu.svg/500px-Coat_of_arms_of_Tuvalu.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tuvalu_on_the_globe_%28Polynesia_centered%29.svg/500px-Tuvalu_on_the_globe_%28Polynesia_centered%29.svg.png"}, 
@@ -2355,7 +2355,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Uganda","url":"//en.wikipedia.org/wiki/Uganda"}, 
-        leader: {"title":"President","pos":"president","name":"Yoweri Museveni","url":"//en.wikipedia.org/wiki/Yoweri_Museveni"}, 
+        leader: {"title":"President","pos":"president","name":"Yoweri Museveni","url":"//en.wikipedia.org/wiki/Yoweri_Museveni","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/9/93/Museveni_July_2012_Cropped.jpg/500px-Museveni_July_2012_Cropped.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Flag_of_Uganda.svg/500px-Flag_of_Uganda.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coat_of_arms_of_Uganda.svg/500px-Coat_of_arms_of_Uganda.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Location_Uganda_AU_Africa.svg/500px-Location_Uganda_AU_Africa.svg.png"}, 
@@ -2368,7 +2368,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Ukraine","url":"//en.wikipedia.org/wiki/Ukraine"}, 
-        leader: {"title":"President","pos":"president","name":"Volodymyr Zelenskyy","url":"//en.wikipedia.org/wiki/Volodymyr_Zelenskyy"}, 
+        leader: {"title":"President","pos":"president","name":"Volodymyr Zelenskyy","url":"//en.wikipedia.org/wiki/Volodymyr_Zelenskyy","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Volodymyr_Zelensky_%2851941720577%29_%28cropped%29.jpg/500px-Volodymyr_Zelensky_%2851941720577%29_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/500px-Flag_of_Ukraine.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/500px-Lesser_Coat_of_Arms_of_Ukraine.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ukraine_-_disputed_%28orthographic_projection%29.svg/500px-Ukraine_-_disputed_%28orthographic_projection%29.svg.png"}, 
@@ -2381,7 +2381,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"the United Arab Emirates","url":"//en.wikipedia.org/wiki/United_Arab_Emirates"}, 
-        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"//en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan"}, 
+        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"//en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mohamed_bin_Zayed_Al_Nahyan.jpg/500px-Mohamed_bin_Zayed_Al_Nahyan.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/500px-Flag_of_the_United_Arab_Emirates.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_the_United_Arab_Emirates.svg/500px-Emblem_of_the_United_Arab_Emirates.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Arab_Emirates_%28orthographic_projection%29.svg/500px-United_Arab_Emirates_%28orthographic_projection%29.svg.png"}, 
@@ -2394,10 +2394,10 @@ const newInfo = [
     }, 
     {
         country: {"name":"the United Kingdom","url":"//en.wikipedia.org/wiki/United_Kingdom"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Rishi Sunak","url":"//en.wikipedia.org/wiki/Rishi_Sunak"}, 
-        flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/500px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"}, 
-        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg.png"}, 
-        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Europe-UK_%28orthographic_projection%29.svg/500px-Europe-UK_%28orthographic_projection%29.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Rishi Sunak","url":"//en.wikipedia.org/wiki/Rishi_Sunak","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg/500px-Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg"}, 
+        flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg.png"}, 
+        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f7/Royal_Coat_of_Arms_of_the_United_Kingdom_%28Scotland%29.svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_%28Scotland%29.svg.png"}, 
+        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Europe-UK.svg/500px-Europe-UK.svg.png"}, 
         capital: [{"name":"London","type":"capital"}], 
         language: {"list":["English"]}, 
         demonym: {"name":"British"}, 
@@ -2407,7 +2407,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"the United States","url":"//en.wikipedia.org/wiki/United_States"}, 
-        leader: {"title":"President","pos":"president","name":"Joe Biden","url":"//en.wikipedia.org/wiki/Joe_Biden"}, 
+        leader: {"title":"President","pos":"president","name":"Joe Biden","url":"//en.wikipedia.org/wiki/Joe_Biden","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/500px-Joe_Biden_presidential_portrait.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/USA_orthographic.svg/500px-USA_orthographic.svg.png"}, 
@@ -2420,10 +2420,10 @@ const newInfo = [
     }, 
     {
         country: {"name":"Uruguay","url":"//en.wikipedia.org/wiki/Uruguay"}, 
-        leader: {"title":"President","pos":"president","name":"Luis Lacalle Pou","url":"//en.wikipedia.org/wiki/Luis_Alberto_Lacalle_Pou"}, 
+        leader: {"title":"President","pos":"president","name":"Luis Lacalle Pou","url":"//en.wikipedia.org/wiki/Luis_Alberto_Lacalle_Pou","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Foto_Oficial_Presidente_Luis_Lacalle_Pou_%28cropped%29.jpg/500px-Foto_Oficial_Presidente_Luis_Lacalle_Pou_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/500px-Flag_of_Uruguay.svg.png"}, 
-        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Coat_of_arms_of_Uruguay.svg/500px-Coat_of_arms_of_Uruguay.svg.png"}, 
-        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sol_de_Mayo-Bandera_de_Uruguay.svg/500px-Sol_de_Mayo-Bandera_de_Uruguay.svg.png"}, 
+        symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sol_de_Mayo-Bandera_de_Uruguay.svg/500px-Sol_de_Mayo-Bandera_de_Uruguay.svg.png"}, 
+        map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/43/URY_orthographic.svg/500px-URY_orthographic.svg.png"}, 
         capital: [{"name":"Montevideo","type":"capital"}], 
         language: {"list":["Spanish","Uruguayan Sign Language"]}, 
         demonym: {"name":"Uruguayan"}, 
@@ -2433,7 +2433,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Uzbekistan","url":"//en.wikipedia.org/wiki/Uzbekistan"}, 
-        leader: {"title":"President","pos":"president","name":"Shavkat Mirziyoyev","url":"//en.wikipedia.org/wiki/Shavkat_Mirziyoyev"}, 
+        leader: {"title":"President","pos":"president","name":"Shavkat Mirziyoyev","url":"//en.wikipedia.org/wiki/Shavkat_Mirziyoyev","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Shavkat_Mirziyoyev_official_portrait_%28cropped_2%29.jpg/500px-Shavkat_Mirziyoyev_official_portrait_%28cropped_2%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/500px-Flag_of_Uzbekistan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/500px-Emblem_of_Uzbekistan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Uzbekistan_on_the_globe_%28Uzbekistan_centered%29.svg/500px-Uzbekistan_on_the_globe_%28Uzbekistan_centered%29.svg.png"}, 
@@ -2446,7 +2446,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Vanuatu","url":"//en.wikipedia.org/wiki/Vanuatu"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ishmael Kalsakau","url":"//en.wikipedia.org/wiki/Ishmael_Kalsakau"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ishmael Kalsakau","url":"//en.wikipedia.org/wiki/Ishmael_Kalsakau","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Ishmael_Alatoi_Kalsakau_opposition_%28profile%29.png/500px-Ishmael_Alatoi_Kalsakau_opposition_%28profile%29.png"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Vanuatu.svg/500px-Flag_of_Vanuatu.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coat_of_arms_of_Vanuatu.svg/500px-Coat_of_arms_of_Vanuatu.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Vanuatu_on_the_globe_%28Polynesia_centered%29.svg/500px-Vanuatu_on_the_globe_%28Polynesia_centered%29.svg.png"}, 
@@ -2459,7 +2459,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Vatican City","url":"//en.wikipedia.org/wiki/Vatican_City"}, 
-        leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"//en.wikipedia.org/wiki/Pope_Francis"}, 
+        leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"//en.wikipedia.org/wiki/Pope_Francis","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Portrait_of_Pope_Francis_%282021%29.jpg/500px-Portrait_of_Pope_Francis_%282021%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/500px-Flag_of_the_Vatican_City.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Coat_of_arms_of_the_Vatican_City.svg/500px-Coat_of_arms_of_the_Vatican_City.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Location_of_the_Vatican_City_in_Europe.svg/500px-Location_of_the_Vatican_City_in_Europe.svg.png"}, 
@@ -2472,7 +2472,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Venezuela","url":"//en.wikipedia.org/wiki/Venezuela"}, 
-        leader: {"title":"President","pos":"president","name":"Nicolás Maduro","url":"//en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro"}, 
+        leader: {"title":"President","pos":"president","name":"Nicolás Maduro","url":"//en.wikipedia.org/wiki/Nicol%C3%A1s_Maduro","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Nicol%C3%A1s_Maduro_2022_%28cropped%29.jpeg/500px-Nicol%C3%A1s_Maduro_2022_%28cropped%29.jpeg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/500px-Flag_of_Venezuela.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/46/Coat_of_arms_of_Venezuela.svg/500px-Coat_of_arms_of_Venezuela.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/05/Venezuela_Orthographic_Map.svg/500px-Venezuela_Orthographic_Map.svg.png"}, 
@@ -2485,7 +2485,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Vietnam","url":"//en.wikipedia.org/wiki/Vietnam"}, 
-        leader: {"title":"General Secretary of the Communist Party","pos":"general secretary of the Communist Party","name":"Nguyễn Phú Trọng","url":"//en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng"}, 
+        leader: {"title":"General Secretary of the Communist Party","pos":"general secretary of the Communist Party","name":"Nguyễn Phú Trọng","url":"//en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/3/35/Kishida_Fumio_and_Nguyen_Phu_Trong_2022_%28cropped%29.jpg/500px-Kishida_Fumio_and_Nguyen_Phu_Trong_2022_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/500px-Flag_of_Vietnam.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Emblem_of_Vietnam.svg/500px-Emblem_of_Vietnam.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vietnam_%28orthographic_projection%29.svg/500px-Vietnam_%28orthographic_projection%29.svg.png"}, 
@@ -2498,7 +2498,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Yemen","url":"//en.wikipedia.org/wiki/Yemen"}, 
-        leader: {"title":"Chairman of the Presidential Leadership Council","pos":"chairman of the Presidential Leadership Council","name":"Rashad al-Alimi","url":"//en.wikipedia.org/wiki/Rashad_al-Alimi"}, 
+        leader: {"title":"Chairman of the Presidential Leadership Council","pos":"chairman of the Presidential Leadership Council","name":"Rashad al-Alimi","url":"//en.wikipedia.org/wiki/Rashad_al-Alimi","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Rashad_al-Alimi_-_2023_%28cropped%29.jpg/500px-Rashad_al-Alimi_-_2023_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/500px-Flag_of_Yemen.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Emblem_of_Yemen_%282%29.svg/500px-Emblem_of_Yemen_%282%29.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Yemen_on_the_globe_%28Yemen_centered%29.svg/500px-Yemen_on_the_globe_%28Yemen_centered%29.svg.png"}, 
@@ -2511,7 +2511,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Zambia","url":"//en.wikipedia.org/wiki/Zambia"}, 
-        leader: {"title":"President","pos":"president","name":"Hakainde Hichilema","url":"//en.wikipedia.org/wiki/Hakainde_Hichilema"}, 
+        leader: {"title":"President","pos":"president","name":"Hakainde Hichilema","url":"//en.wikipedia.org/wiki/Hakainde_Hichilema","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/Hakainde_Hichilema_2022_%28cropped%29.jpg/500px-Hakainde_Hichilema_2022_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Zambia.svg/500px-Flag_of_Zambia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/28/Coat_of_arms_of_Zambia.svg/500px-Coat_of_arms_of_Zambia.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/26/Zambia_%28orthographic_projection%29.svg/500px-Zambia_%28orthographic_projection%29.svg.png"}, 
@@ -2524,7 +2524,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Zimbabwe","url":"//en.wikipedia.org/wiki/Zimbabwe"}, 
-        leader: {"title":"President","pos":"president","name":"Emmerson Mnangagwa","url":"//en.wikipedia.org/wiki/Emmerson_Mnangagwa"}, 
+        leader: {"title":"President","pos":"president","name":"Emmerson Mnangagwa","url":"//en.wikipedia.org/wiki/Emmerson_Mnangagwa","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Emmerson_Mnangagwa_Official_Portrait_%28cropped%29.jpg/500px-Emmerson_Mnangagwa_Official_Portrait_%28cropped%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Flag_of_Zimbabwe.svg/500px-Flag_of_Zimbabwe.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coat_of_arms_of_Zimbabwe.svg/500px-Coat_of_arms_of_Zimbabwe.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Zimbabwe_%28orthographic_projection%29.svg/500px-Zimbabwe_%28orthographic_projection%29.svg.png"}, 
