@@ -71,4 +71,17 @@ body {
 }
 
 @media only screen and (max-width: 103.125em) { /* 1650px */
+  body {
+    background-color: white;
+  }
+
+  .answer {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 64.1875em) { /* 1027px */
+  body {
+    background-color: green;
+  }
 }
