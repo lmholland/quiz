@@ -1,7 +1,7 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Mark_Rutte");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government");
         const data = require('cheerio').load(response.data);
         const size= "500px";
 
@@ -36,22 +36,22 @@ async function getData(){
         //     }
         // }
 
-        // _______________________
+        // __________________________
 
-        leaderImg(4, "jpg");
+        // leaderImg(3, "jpg");
 
-        function leaderImg(num, type){
-            try {
-                imgURL = data(`img`)[num].attribs.src;
-                pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
-                imgURL = imgURL.replace(pxSize, "500");
-                console.log(imgURL);
-                // masterList[i].leader.imgUrl = imgURL;
-            } catch(error){
-            }
-        }
+        // function leaderImg(num, type){
+        //     try {
+        //         imgURL = data(`img`)[num].attribs.src;
+        //         pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
+        //         imgURL = imgURL.replace(pxSize, "500");
+        //         console.log(imgURL);
+        //         // masterList[i].leader.imgUrl = imgURL;
+        //     } catch(error){
+        //     }
+        // }
 
-        // ______________________
+        // __________________________
 
         // leaderImg_thumbless(3);
 
@@ -67,6 +67,11 @@ async function getData(){
         //     } catch(error){
         //     }
         // }
+
+        // ___________________________
+
+        console.log(data(`td.table-success`)[25].children[4].attribs.href)
+
 
     } catch (error) {
     }

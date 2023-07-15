@@ -1,4 +1,4 @@
-const lastChecked = "July 10, 2023";
+const lastChecked = "July 15, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -266,7 +266,7 @@ const currentInfo = [
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/500px-Flag_of_Bolivia.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Banner_of_the_Qulla_Suyu.svg/500px-Banner_of_the_Qulla_Suyu.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/83/BOL_orthographic.svg/500px-BOL_orthographic.svg.png"}, 
-        capital: [], 
+        capital: [{"name":"Sucre","type":"capital"}], 
         largestCity: [{"name":"Santa Cruz de la Sierra","type":"largest city"}], 
         language: {"list":["Spanish","Quechua","Aymara","Guarani"]}, 
         demonym: {"name":"Bolivian"}, 
@@ -314,7 +314,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Brunei","url":"//en.wikipedia.org/wiki/Brunei"}, 
-        leader: {"title":"Sultan","pos":"sultan","name":"Prime Minister","url":"//en.wikipedia.org/wiki/Prime_Minister_of_Brunei","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
+        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"//en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/500px-Flag_of_Brunei.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_Brunei.svg/500px-Emblem_of_Brunei.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Brunei_%28orthographic_projection%29.svg/500px-Brunei_%28orthographic_projection%29.svg.png"}, 
@@ -1120,7 +1120,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Jordan","url":"//en.wikipedia.org/wiki/Jordan"}, 
-        leader: {"title":"King","pos":"king","name":"Abdullah II","url":"//en.wikipedia.org/wiki/Abdullah_II_of_Jordan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/King_Abdullah_II_%28cropped%29.jpg/500px-King_Abdullah_II_%28cropped%29.jpg"}, 
+        leader: {"title":"King","pos":"king","name":"Abdullah II","url":"//en.wikipedia.org/wiki/Abdullah_II_of_Jordan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/King_Abdullah_Ii_of_Jordan.jpg/500px-King_Abdullah_Ii_of_Jordan.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Coat_of_arms_of_Jordan.svg/500px-Coat_of_arms_of_Jordan.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jordan_%28orthographic_projection%29.svg/500px-Jordan_%28orthographic_projection%29.svg.png"}, 
@@ -1575,7 +1575,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Nepal","url":"//en.wikipedia.org/wiki/Nepal"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pushpa Kamal Dahal","url":"//en.wikipedia.org/wiki/Pushpa_Kamal_Dahal","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Pushpa_Kamal_Dahal_in_2023.jpg/500px-Pushpa_Kamal_Dahal_in_2023.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Pushpa Kamal Dahal","url":"//en.wikipedia.org/wiki/Pushpa_Kamal_Dahal","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/66/Pushpa_Kamal_Dahal_2016.jpg/500px-Pushpa_Kamal_Dahal_2016.jpg"}, 
         flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Nepal.svg/500px-Flag_of_Nepal.svg.png"}, 
         symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/23/Emblem_of_Nepal.svg/500px-Emblem_of_Nepal.svg.png"}, 
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Nepal_%28orthographic_projection%29.svg/500px-Nepal_%28orthographic_projection%29.svg.png"}, 

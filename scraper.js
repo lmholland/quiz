@@ -118,6 +118,9 @@ async function getData(){
                     default:
                         leader_00_20_2();
                         break;
+                    case 25:    // Brunei
+                        leader_00_40_4();
+                        break;
                     case 27:    // Burkina Faso
                         leader_00010_03_03();
                         break; 
@@ -188,6 +191,21 @@ async function getData(){
                             pos: pos_00(),
                             name: data(`td.table-success`)[countryNum].children[2].children[0].data,
                             url: data(`td.table-success`)[countryNum].children[2].attribs.href,
+                        },
+                    }
+                }
+
+                function leader_00_40_4(){
+                    info = {
+                        country: {
+                            name: countryName,
+                            url: countryURL,
+                        },  
+                        leader: {
+                            title: data(`td.table-success`)[countryNum].children[0].children[0].data,
+                            pos: pos_00(),
+                            name: data(`td.table-success`)[countryNum].children[4].children[0].data,
+                            url: data(`td.table-success`)[countryNum].children[4].attribs.href,
                         },
                     }
                 }
@@ -3192,9 +3210,6 @@ async function getData(){
                         break;
                     case 23:    // Brazil
                         leaderImg(5, "jpg");
-                        break;
-                    case 24:    // Brunei
-                        leaderImg(1, "jpg");
                         break;
                     case 26:    // Burkina Faso
                         leaderImg_thumbless(3);
