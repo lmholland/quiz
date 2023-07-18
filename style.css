@@ -35,7 +35,13 @@ body {
 #title-blurb {
   display: grid;
   font-size: 3em;
-  margin: auto 1em;
+  justify-content: center;
+  align-content: center;
+}
+
+#update {
+  display: grid;
+  font-size: 3em;
   justify-content: center;
   align-content: center;
 }
