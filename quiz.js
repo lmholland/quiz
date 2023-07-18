@@ -2613,8 +2613,9 @@
         let allAnswers = [];
         let otherAnswers = [];
         let possibleAnswers = [];
-
         let currName;
+
+        document.getElementById("start-btn").addEventListener('click', toggleWelcome);
     
         screenSize();
         chooseQA();
@@ -2622,6 +2623,11 @@
         deduplicateAnswers();
         shuffleAnswers();
         displayInfo();
+
+        function toggleWelcome(){
+            welcomeScreen = false;
+            displayInfo();
+        }
 
         function chooseQA(){
             let qaList = [
@@ -3068,8 +3074,6 @@
         function displayInfo(){
             let img1, img2, img3, img4, rightAns;
 
-            document.getElementById("start-btn").addEventListener('click', toggleWelcome);
-
             if(!welcomeScreen){
                 document.getElementById("welcome-screen").style.display = "none";
                 document.getElementById("quiz").style.display = "block";
@@ -3207,11 +3211,6 @@
                     document.getElementById("answer3").addEventListener('click', wrongAnswer);
                     document.getElementById("answer4").addEventListener('click', rightAnswer);
                 }
-            }
-
-            function toggleWelcome(){
-                welcomeScreen = false;
-                displayInfo();
             }
 
             function rightAnswer(e){
