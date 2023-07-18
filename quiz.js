@@ -2617,6 +2617,12 @@
         let otherAnswers = [];
         let possibleAnswers = [];
         let currName;
+        let chars = {
+            " ": "_",
+            "ã": "a",
+            "é": "e",
+            "í": "i",
+        }
 
         document.getElementById("start-btn").addEventListener('click', toggleWelcome);
     
@@ -2667,7 +2673,7 @@
                 {
                     // 4 
                     question: `What is this leader's name?`,
-                    questionImg: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/leader.jpg`,
+                    questionImg: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/leader.jpg`,
                     answer: `${randomCountry.leader.name}`,
                     ansProp: "leader",
                     ansSub: "name",
@@ -2675,7 +2681,7 @@
                 {
                     // 5
                     question: `Which country's leader is this?`,
-                    questionImg: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/leader.jpg`,
+                    questionImg: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/leader.jpg`,
                     answer: `${randomCountry.country.name}`,
                     ansProp: "country",
                     ansSub: "name",
@@ -2683,7 +2689,7 @@
                 {
                     // 6
                     question: `Who is the leader of ${randomCountry.country.name}?`,
-                    answer: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/leader.jpg`,
+                    answer: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/leader.jpg`,
                     ansProp: "country",
                     ansSub: "name",
                     check: "leim_cona",
@@ -2691,7 +2697,7 @@
                 {
                     // 7
                     question: `Which leader's name is ${randomCountry.leader.name}?`,
-                    answer: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/leader.jpg`,
+                    answer: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/leader.jpg`,
                     ansProp: "country",
                     ansSub: "name",
                     check: "leim_cona",
@@ -2699,7 +2705,7 @@
                 {
                     // 8
                     question: `Which country does this flag belong to?`,
-                    questionImg: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/flag.jpg`,
+                    questionImg: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/flag.jpg`,
                     answer: `${randomCountry.country.name}`,
                     ansProp: "country",
                     ansSub: "name",
@@ -2707,7 +2713,7 @@
                 {
                     // 9
                     question: `Which flag belongs to ${randomCountry.country.name}?`,
-                    answer: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/flag.jpg`,
+                    answer: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/flag.jpg`,
                     ansProp: "country",
                     ansSub: "name",
                     check: "flim_cona",
@@ -2715,7 +2721,7 @@
                 {
                     // 10
                     question: `Which country is this symbol associated with?`,
-                    questionImg: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/symbol.jpg`,
+                    questionImg: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/symbol.jpg`,
                     answer: `${randomCountry.country.name}`,
                     ansProp: "country",
                     ansSub: "name",
@@ -2723,7 +2729,7 @@
                 {
                     // 11
                     question: `Which symbol is associated with ${randomCountry.country.name}?`,
-                    answer: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/symbol.jpg`,
+                    answer: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/symbol.jpg`,
                     ansProp: "country",
                     ansSub: "name",
                     check: "syim_cona",
@@ -2731,7 +2737,7 @@
                 {
                     // 12
                     question: `Which country is highlighted on this map?`,
-                    questionImg: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/map.jpg`,
+                    questionImg: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/map.jpg`,
                     answer: `${randomCountry.country.name}`,
                     ansProp: "country",
                     ansSub: "name",
@@ -2739,7 +2745,7 @@
                 {
                     // 13
                     question: `Which map shows ${randomCountry.country.name} being highlighted?`,
-                    answer: `./images/${randomCountry.country.name.replaceAll(" ", "_")}/map.jpg`,
+                    answer: `./images/${randomCountry.country.name.replaceAll(/[ ãéí]/g, m => chars[m])}/map.jpg`,
                     ansProp: "country",
                     ansSub: "name",
                     check: "maim_cona",
@@ -3022,32 +3028,32 @@
                         if(randomCountry[qa.ansProp][qa.ansSub] == randDedupedAns){
                             continue;
                         } else {
-                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(" ", "_")}/leader.jpg`;
-                            randDedupedAns = `./images/${randDedupedAns.replaceAll(" ", "_")}/leader.jpg`;
+                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(/[ ãéí]/g, m => chars[m])}/leader.jpg`;
+                            randDedupedAns = `./images/${randDedupedAns.replaceAll(/[ ãéí]/g, m => chars[m])}/leader.jpg`;
                             break;
                         }
                     case (qa.check == "flim_cona"):
                         if(randomCountry[qa.ansProp][qa.ansSub] == randDedupedAns){
                             continue;
                         } else {
-                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(" ", "_")}/flag.jpg`;
-                            randDedupedAns = `./images/${randDedupedAns.replaceAll(" ", "_")}/flag.jpg`;
+                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(/[ ãéí]/g, m => chars[m])}/flag.jpg`;
+                            randDedupedAns = `./images/${randDedupedAns.replaceAll(/[ ãéí]/g, m => chars[m])}/flag.jpg`;
                             break;
                         }
                     case (qa.check == "syim_cona"):
                         if(randomCountry[qa.ansProp][qa.ansSub] == randDedupedAns){
                             continue;
                         } else {
-                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(" ", "_")}/symbol.jpg`;
-                            randDedupedAns = `./images/${randDedupedAns.replaceAll(" ", "_")}/symbol.jpg`;
+                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(/[ ãéí]/g, m => chars[m])}/symbol.jpg`;
+                            randDedupedAns = `./images/${randDedupedAns.replaceAll(/[ ãéí]/g, m => chars[m])}/symbol.jpg`;
                             break;
                         }
                     case (qa.check == "maim_cona"):
                         if(randomCountry[qa.ansProp][qa.ansSub] == randDedupedAns){
                             continue;
                         } else {
-                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(" ", "_")}/map.jpg`;
-                            randDedupedAns = `./images/${randDedupedAns.replaceAll(" ", "_")}/map.jpg`;
+                            possibleAnswers[0] = `./images/${randomCountry[qa.ansProp][qa.ansSub].replaceAll(/[ ãéí]/g, m => chars[m])}/map.jpg`;
+                            randDedupedAns = `./images/${randDedupedAns.replaceAll(/[ ãéí]/g, m => chars[m])}/map.jpg`;
                             break;
                         }              
                 }

@@ -29,7 +29,7 @@ const { currentInfo } = require('./currentInfo.js');
 // }
 
 for(let i=0; i < currentInfo.length; i++){
-    console.log(currentInfo[i].language)
+    console.log(currentInfo[i].country.name)
 }
 
 // Uniques:
