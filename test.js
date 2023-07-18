@@ -5,72 +5,27 @@ async function getData(){
         const data = require('cheerio').load(response.data);
         const size= "500px";
 
-        // flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+        for(let j=0; j < data(`th.infobox-label`).length; j++){
+        }
 
-        // function flag_symbol_map(flagNum, flagType, symbolNum, symbolType, mapNum, mapType){
-        //     try{
-        //         flagURL = data(`img`)[flagNum].attribs.src;
-        //         pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
-        //         flagURL = flagURL.replace(pxSize, size);
-        //         // masterList[i].flag = {}
-        //         // masterList[i].flag.url = flagURL;
-        //         console.log(flagURL)
+        function language_nc41k00_k2(){
+            if( 
+                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
+                ||  data(`th.infobox-label`)[j].children[0].data == "Official"
+            ){
+                // masterList[i].language = {};
+                // masterList[i].language.list = [];
 
-        //         symbolURL = data(`img`)[symbolNum].attribs.src;
-        //         pxSize = symbolURL.substring(symbolURL.indexOf(`.${symbolType}/`) + 5, symbolURL.lastIndexOf("px") + 2);
-        //         symbolURL = symbolURL.replace(pxSize, size);
-        //         // masterList[i].symbol = {}
-        //         // masterList[i].symbol.url = symbolURL;
-        //         console.log(symbolURL)
-
-
-        //         mapURL = data(`img`)[mapNum].attribs.src;
-        //         pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
-        //         mapURL = mapURL.replace(pxSize, size);
-        //         // masterList[i].map = {}
-        //         // masterList[i].map.url = mapURL;       
-        //         console.log(mapURL)
- 
-        //     } catch (error) {
-        //         console.log(`error in ${masterList[i].country.name}'s image urls`);
-        //     }
-        // }
-
-        // __________________________
-
-        // leaderImg(3, "jpg");
-
-        // function leaderImg(num, type){
-        //     try {
-        //         imgURL = data(`img`)[num].attribs.src;
-        //         pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
-        //         imgURL = imgURL.replace(pxSize, "500");
-        //         console.log(imgURL);
-        //         // masterList[i].leader.imgUrl = imgURL;
-        //     } catch(error){
-        //     }
-        // }
-
-        // __________________________
-
-        // leaderImg_thumbless(3);
-
-        // function leaderImg_thumbless(num){
-        //     try {
-        //         imgURL = data(`img`)[num].attribs.src;
-        //         afterCommons = imgURL.substring(imgURL.lastIndexOf("commons/") + 8);
-        //         imgURL = imgURL.replace(afterCommons, "thumb/" + afterCommons);
-        //         fileName = imgURL.substring(imgURL.lastIndexOf("/") + 1);
-        //         imgURL = imgURL.replace(fileName, fileName + "/500px-" + fileName);
-        //         console.log(imgURL);
-        //         // masterList[i].leader.imgUrl = imgURL;
-        //     } catch(error){
-        //     }
-        // }
-
-        // ___________________________
-
-        console.log(data(`td.table-success`)[25].children[4].attribs.href)
+                for(let k=0; k < data(`th.infobox-label`)[j].next.children[4].children[1].children.length; k+=2){
+                    console.log(data(`th.infobox-label`)[j].next.children[4].children[1].children[k].children[0].children[0].data)
+                    // masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[4].children[1].children[k].children[0].children[0].data);
+                }
+            }
+        }
 
 
     } catch (error) {

@@ -1,17 +1,17 @@
-const { info } = require('./currentInfo.js')
+const { currentInfo } = require('./currentInfo.js')
 const axios = require('axios');
 const fs = require('fs')
 const timer = ms => new Promise(res => setTimeout(res, ms))
 
 const downloadFiles = async () => {
-    for(let i=0; i < info.length; i++){
+    for(let i=0; i < currentInfo.length; i++){
         if(i==178){     // Turkey has no symbol
             continue;
         }
 
         try {
-            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/symbol.jpg`;
-            let url = `${info[i].symbol.url}`;
+            let name = `./images/${currentInfo[i].country.name.replaceAll(" ", "_")}/symbol.jpg`;
+            let url = `${currentInfo[i].symbol.url}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
                 url,
@@ -19,18 +19,18 @@ const downloadFiles = async () => {
                 responseType: 'stream'
             });
             response.data.pipe(file);
-            console.log(info[i].country.name, ": symbol @ ", info[i].symbol.url);
+            console.log(currentInfo[i].country.name, ": symbol @ ", currentInfo[i].symbol.url);
             await timer(10000);
         } catch (error){
-            console.log(info[i].country.name, "symbol", error);
+            console.log(currentInfo[i].country.name, "symbol", error);
         }
 
     }
 
-    for(let i=0; i < info.length; i++){
+    for(let i=0; i < currentInfo.length; i++){
         try {
-            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/flag.jpg`;
-            let url = `${info[i].flag.url}`;
+            let name = `./images/${currentInfo[i].country.name.replaceAll(" ", "_")}/flag.jpg`;
+            let url = `${currentInfo[i].flag.url}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
                 url,
@@ -38,17 +38,17 @@ const downloadFiles = async () => {
                 responseType: 'stream'
             });
             response.data.pipe(file);
-            console.log(info[i].country.name, ": flag @ ", info[i].flag.url);
+            console.log(currentInfo[i].country.name, ": flag @ ", currentInfo[i].flag.url);
             await timer(10000);
         } catch (error){
-            console.log(info[i].country.name, "flag", error);
+            console.log(currentInfo[i].country.name, "flag", error);
         }
     }
 
-    for(let i=0; i < info.length; i++){
+    for(let i=0; i < currentInfo.length; i++){
         try {
-            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/map.jpg`;
-            let url = `${info[i].map.url}`;
+            let name = `./images/${currentInfo[i].country.name.replaceAll(" ", "_")}/map.jpg`;
+            let url = `${currentInfo[i].map.url}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
                 url,
@@ -56,17 +56,17 @@ const downloadFiles = async () => {
                 responseType: 'stream'
             })
             response.data.pipe(file);
-            console.log(info[i].country.name, ": map @ ", info[i].map.url);
+            console.log(currentInfo[i].country.name, ": map @ ", currentInfo[i].map.url);
             await timer(10000);
         } catch (error){
-            console.log(i, info[i].map.url, "map", error)
+            console.log(i, currentInfo[i].map.url, "map", error)
         }
     }
 
-    for(let i=0; i < info.length; i++){
+    for(let i=0; i < currentInfo.length; i++){
         try {
-            let name = `./images/${info[i].country.name.replaceAll(" ", "_")}/leader.jpg`;
-            let url = `${info[i].leader.imgUrl}`;
+            let name = `./images/${currentInfo[i].country.name.replaceAll(" ", "_")}/leader.jpg`;
+            let url = `${currentInfo[i].leader.imgUrl}`;
             let file = fs.createWriteStream(name);
             const response = await axios({
                 url,
@@ -74,10 +74,10 @@ const downloadFiles = async () => {
                 responseType: 'stream'
             })
             response.data.pipe(file);
-            console.log(info[i].country.name, ": leader @ ", info[i].leader.imgUrl);
+            console.log(currentInfo[i].country.name, ": leader @ ", currentInfo[i].leader.imgUrl);
             await timer(10000);
         } catch (error){
-            console.log(i, info[i].country.name, "leader", error)
+            console.log(i, currentInfo[i].country.name, "leader", error)
         }
     }
 }
