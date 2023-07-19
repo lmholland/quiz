@@ -627,7 +627,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 45:    // Denmark
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 46:    // Djibouti
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -738,7 +738,7 @@ async function getData(){
                         flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
                         break;
                     case 82:    // Italy
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 83:    // Ivory Coast
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -882,7 +882,7 @@ async function getData(){
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 130:    // Oman
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 131:    // Pakistan
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -1649,22 +1649,6 @@ async function getData(){
                             }
                         }
 
-                        function language_nc00_pnc100(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [
-                                    data(`th.infobox-label`)[j].next.children[0].children[0].data,
-                                    data(`th.infobox-label`)[j].parent.next.children[1].children[0].children[0].data
-                                ]
-                            }
-                        }
-
                         function language_nc00_pnc111k00(){
                             if( 
                                     data(`th.infobox-label`)[j].children[0].data == "Official language"
@@ -1760,22 +1744,6 @@ async function getData(){
                                 for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children.length; k++){
                                     masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[k].children[0].children[0].data);
                                 }
-                            }
-                        }
-
-                        function language_nc100_nc140(){
-                            if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
-                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
-                            ){
-                                masterList[i].language = {};
-                                masterList[i].language.list = [
-                                    data(`th.infobox-label`)[j].next.children[1].children[0].children[0].data,
-                                    data(`th.infobox-label`)[j].next.children[1].children[4].children[0].data
-                                ]
                             }
                         }
 
@@ -1960,13 +1928,7 @@ async function getData(){
                                 masterList[i].language.list = [];
                 
                                 for(let k=0; k < data(`th.infobox-label`)[j].next.children[5].children[0].children.length; k++){
-                                    if (k==5){
-                                        masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[3].children[0].data);
-                                    } else if (k==9){
-                                        masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[1].attribs.title);
-                                    } else {
-                                        masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[0].children[0].data);
-                                    }
+                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[0].children[k].children[0].children[0].data);
                                 }
                             }
                         }
@@ -3362,7 +3324,7 @@ async function getData(){
                         leaderImg(3, "png");
                         break;
                     case 189:   // Vatican
-                        leaderImg(4, "jpg");
+                        leaderImg(4, "jpeg");
                         break;
                     case 190:   // Venezuela
                         leaderImg(4, "jpeg");
