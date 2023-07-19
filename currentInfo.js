@@ -1,5 +1,5 @@
-const lastChecked = "July 15, 2023";
-const currentInfo = [
+const lastChecked = "July 19, 2023";
+const newInfo = [
     {
         country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
         leader: {"title":"Supreme Leader","pos":"supreme leader","name":"Hibatullah Akhundzada","url":"//en.wikipedia.org/wiki/Hibatullah_Akhundzada","imgUrl":"//upload.wikimedia.org/wikipedia/en/thumb/3/3a/Hibatullah_Akhundzada.jpg/500px-Hibatullah_Akhundzada.jpg"}, 
@@ -2535,5 +2535,5 @@ const currentInfo = [
         tld: {"name":".zw"}, 
         largestCity: [{"name":"Harare","type":"largest city"}], 
     }, 
-]
+];
 module.exports = { currentInfo }

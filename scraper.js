@@ -780,7 +780,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 96:    // Liberia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 97:    // Libya
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -3376,7 +3376,7 @@ async function getData(){
             })
             file.write("    }, " + "\n");
         });
-        file.write("]" + "\n");
+        file.write("];" + "\n");
         file.write("module.exports = { newInfo }")
         file.end();
     } 

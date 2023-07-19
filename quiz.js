@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "July 15, 2023";
+    const lastChecked = "July 19, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -173,7 +173,7 @@
         }, 
         {
             country: {"name":"Bangladesh","url":"//en.wikipedia.org/wiki/Bangladesh"}, 
-            leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"//en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sheikh_Hasina_in_New_York_-_2018_%2844057292035%29_%28cropped%29.jpg/500px-Sheikh_Hasina_in_New_York_-_2018_%2844057292035%29_%28cropped%29.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"//en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sheikh-hasina-image2023.jpg/500px-Sheikh-hasina-image2023.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/500px-Flag_of_Bangladesh.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/81/National_emblem_of_Bangladesh.svg/500px-National_emblem_of_Bangladesh.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/500px-Bangladesh_%28orthographic_projection%29.svg.png"}, 
@@ -214,8 +214,8 @@
             country: {"name":"Belgium","url":"//en.wikipedia.org/wiki/Belgium"}, 
             leader: {"title":"Prime Minister","pos":"prime minister","name":"Alexander De Croo","url":"//en.wikipedia.org/wiki/Alexander_De_Croo","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Alexander_De_Croo_%282022-04-28%29_%28cropped%29.jpg/500px-Alexander_De_Croo_%282022-04-28%29_%28cropped%29.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/65/Flag_of_Belgium.svg/500px-Flag_of_Belgium.svg.png"}, 
-            symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Royal_Arms_of_Belgium.svg/500px-Royal_Arms_of_Belgium.svg.png"}, 
-            map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/67/EU-Belgium.svg/500px-EU-Belgium.svg.png"}, 
+            symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Great_coat_of_arms_of_Belgium.svg/500px-Great_coat_of_arms_of_Belgium.svg.png"}, 
+            map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/79/Belgium_%28orthographic_projection%29.svg/500px-Belgium_%28orthographic_projection%29.svg.png"}, 
             capital: [{"name":"Brussels","type":"capital"}], 
             language: {"list":["Dutch","French","German"]}, 
             demonym: {"name":"Belgian"}, 
@@ -592,7 +592,7 @@
             leader: {"title":"Prime Minister","pos":"prime minister","name":"Mette Frederiksen","url":"//en.wikipedia.org/wiki/Mette_Frederiksen","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Mette_Frederiksen_K%C3%B6%C3%B6penhaminassa_4.5.2022_%2852049397038%29_%28cropped%29.jpg/500px-Mette_Frederiksen_K%C3%B6%C3%B6penhaminassa_4.5.2022_%2852049397038%29_%28cropped%29.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Denmark.svg/500px-Flag_of_Denmark.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/National_Coat_of_arms_of_Denmark.svg/500px-National_Coat_of_arms_of_Denmark.svg.png"}, 
-            map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/9a/EU-Denmark.svg/500px-EU-Denmark.svg.png"}, 
+            map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Denmark_%28orthographic_projection%29.svg/500px-Denmark_%28orthographic_projection%29.svg.png"}, 
             capital: [{"name":"Copenhagen","type":"capital"}], 
             language: {"list":["Danish"]}, 
             demonym: {"name":"Danish"}, 
@@ -1044,7 +1044,7 @@
         }, 
         {
             country: {"name":"Ireland","url":"//en.wikipedia.org/wiki/Republic_of_Ireland"}, 
-            leader: {"title":"Taoiseach","pos":"taoiseach","name":"Leo Varadkar","url":"//en.wikipedia.org/wiki/Leo_Varadkar","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/8/81/Leo_Varadkar_TD_%28cropped%29.jpg/500px-Leo_Varadkar_TD_%28cropped%29.jpg"}, 
+            leader: {"title":"Taoiseach","pos":"taoiseach","name":"Leo Varadkar","url":"//en.wikipedia.org/wiki/Leo_Varadkar","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/48/Leo_Varadkar_2016.jpg/500px-Leo_Varadkar_2016.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/500px-Flag_of_Ireland.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Coat_of_arms_of_Ireland.svg/500px-Coat_of_arms_of_Ireland.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/2/2a/EU-Ireland.svg/500px-EU-Ireland.svg.png"}, 
@@ -1122,7 +1122,7 @@
         }, 
         {
             country: {"name":"Jordan","url":"//en.wikipedia.org/wiki/Jordan"}, 
-            leader: {"title":"King","pos":"king","name":"Abdullah II","url":"//en.wikipedia.org/wiki/Abdullah_II_of_Jordan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/cf/King_Abdullah_Ii_of_Jordan.jpg/500px-King_Abdullah_Ii_of_Jordan.jpg"}, 
+            leader: {"title":"King","pos":"king","name":"Abdullah II","url":"//en.wikipedia.org/wiki/Abdullah_II_of_Jordan","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/King_Abdullah_II_%28cropped%29.jpg/500px-King_Abdullah_II_%28cropped%29.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Flag_of_Jordan.svg/500px-Flag_of_Jordan.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Coat_of_arms_of_Jordan.svg/500px-Coat_of_arms_of_Jordan.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Jordan_%28orthographic_projection%29.svg/500px-Jordan_%28orthographic_projection%29.svg.png"}, 
@@ -1252,7 +1252,7 @@
         }, 
         {
             country: {"name":"Liberia","url":"//en.wikipedia.org/wiki/Liberia"}, 
-            leader: {"title":"President","pos":"president","name":"George Weah","url":"//en.wikipedia.org/wiki/George_Weah","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/42/President_George_Weah_in_2019_%28cropped%29.jpg/500px-President_George_Weah_in_2019_%28cropped%29.jpg"}, 
+            leader: {"title":"President","pos":"president","name":"George Weah","url":"//en.wikipedia.org/wiki/George_Weah","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/3/39/George_Weah_in_2019_%28cropped%29.jpg/500px-George_Weah_in_2019_%28cropped%29.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/500px-Flag_of_Liberia.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coat_of_arms_of_Liberia.svg/500px-Coat_of_arms_of_Liberia.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/9/91/Liberia_%28orthographic_projection%29.svg/500px-Liberia_%28orthographic_projection%29.svg.png"}, 
@@ -1850,7 +1850,7 @@
         }, 
         {
             country: {"name":"Romania","url":"//en.wikipedia.org/wiki/Romania"}, 
-            leader: {"title":"President","pos":"president","name":"Klaus Iohannis","url":"//en.wikipedia.org/wiki/Klaus_Iohannis","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/18/EPP_Athens%2C_2-3_December%2C_2022_%2852539790143%29_%28cropped%29.jpg/500px-EPP_Athens%2C_2-3_December%2C_2022_%2852539790143%29_%28cropped%29.jpg"}, 
+            leader: {"title":"President","pos":"president","name":"Klaus Iohannis","url":"//en.wikipedia.org/wiki/Klaus_Iohannis","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Fotografie_oficial%C4%83_Pre%C8%99edintele_Rom%C3%A2niei.jpg/500px-Fotografie_oficial%C4%83_Pre%C8%99edintele_Rom%C3%A2niei.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/500px-Flag_of_Romania.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Romania.svg/500px-Coat_of_arms_of_Romania.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/c/c5/EU-Romania_%28orthographic_projection%29.svg/500px-EU-Romania_%28orthographic_projection%29.svg.png"}, 
@@ -2461,7 +2461,7 @@
         }, 
         {
             country: {"name":"Vatican City","url":"//en.wikipedia.org/wiki/Vatican_City"}, 
-            leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"//en.wikipedia.org/wiki/Pope_Francis","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Portrait_of_Pope_Francis_%282021%29.jpg/500px-Portrait_of_Pope_Francis_%282021%29.jpg"}, 
+            leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"//en.wikipedia.org/wiki/Pope_Francis","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Papa_Francesco_%282021%29.jpeg/500px-Papa_Francesco_%282021%29.jpeg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/500px-Flag_of_the_Vatican_City.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Coat_of_arms_of_the_Vatican_City.svg/500px-Coat_of_arms_of_the_Vatican_City.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/89/Location_of_the_Vatican_City_in_Europe.svg/500px-Location_of_the_Vatican_City_in_Europe.svg.png"}, 
@@ -2531,7 +2531,7 @@
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/0/01/Coat_of_arms_of_Zimbabwe.svg/500px-Coat_of_arms_of_Zimbabwe.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Zimbabwe_%28orthographic_projection%29.svg/500px-Zimbabwe_%28orthographic_projection%29.svg.png"}, 
             capital: [{"name":"Harare","type":"capital"}], 
-            language: {"list":["Shona","Ndebele","Chibarwe","English","Kalanga","Tsoa","Nambya","Ndau","Shangani","Zimbabwean sign languages","Sotho","Tonga","Tswana","Venda","Xhosa","Chewa"]}, 
+            language: {"list":["Chewa","Chibarwe","English","Kalanga","Koisan","Nambya","Ndau","Ndebele","Shangani","Shona","Sotho","Tonga","Tswana","Venda","Xhosa","Zimbabwean sign language"]}, 
             demonym: {"name":"Zimbabwean"}, 
             currency: [{"demonym":"Zimbabwean","unit":"dollar"},{"other":"United States dollar"},{"other":"South African rand"}], 
             tld: {"name":".zw"}, 
