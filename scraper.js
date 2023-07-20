@@ -738,7 +738,7 @@ async function getData(){
                         flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
                         break;
                     case 82:    // Italy
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 83:    // Ivory Coast
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");

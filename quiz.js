@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "July 19, 2023";
+    const lastChecked = "July 20, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -173,7 +173,7 @@
         }, 
         {
             country: {"name":"Bangladesh","url":"//en.wikipedia.org/wiki/Bangladesh"}, 
-            leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"//en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/1/19/Sheikh-hasina-image2023.jpg/500px-Sheikh-hasina-image2023.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"//en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/a/ad/Sheikh_Hasina_in_New_York_-_2018_%2844057292035%29_%28cropped%29.jpg/500px-Sheikh_Hasina_in_New_York_-_2018_%2844057292035%29_%28cropped%29.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/500px-Flag_of_Bangladesh.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/8/81/National_emblem_of_Bangladesh.svg/500px-National_emblem_of_Bangladesh.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/500px-Bangladesh_%28orthographic_projection%29.svg.png"}, 
@@ -394,7 +394,7 @@
         }, 
         {
             country: {"name":"Canada","url":"//en.wikipedia.org/wiki/Canada"}, 
-            leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"//en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Justin_Trudeau_March_2022.jpg/500px-Justin_Trudeau_March_2022.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"//en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"//upload.wikimedia.org/wikipedia/commons/thumb/4/47/Justin_Trudeau_at_Eurasia_Group_2023_US-Canada_Summit_%2852807415495%29_%28cropped%29_%28cropped%29.jpg/500px-Justin_Trudeau_at_Eurasia_Group_2023_US-Canada_Summit_%2852807415495%29_%28cropped%29_%28cropped%29.jpg"}, 
             flag: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/500px-Flag_of_Canada_%28Pantone%29.svg.png"}, 
             symbol: {"url":"//upload.wikimedia.org/wikipedia/en/thumb/4/4f/Coat_of_arms_of_Canada.svg/500px-Coat_of_arms_of_Canada.svg.png"}, 
             map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/500px-CAN_orthographic.svg.png"}, 
@@ -2541,26 +2541,28 @@
     let contentClone = document.getElementById("content").cloneNode(true);
     let welcomeScreen = true;
     let score = 0;
-    let aImgHeight, aImgWidth;
+    let height, width, aImgHeight, aImgWidth;
 
-    window.addEventListener("resize", screenSize)
+    document.addEventListener("resize", resizer)
     document.getElementById("update").innerHTML = `Last updated: ${lastChecked}`;
 
     generateQA();
 
-    function screenSize(){
+    function resizer(){
         const fontSize = 16;
-        const height = window.innerHeight
+        height = window.innerHeight
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
-        const width = window.innerWidth
+        width = window.innerWidth
             ||  document.documentElement.clientWidth
             ||  document.body.clientWidth;
         const welcomeHeight = ((height/fontSize)) + "em";
-        const quizHeight = ((height/fontSize) * 0.85) + "em";
+        const quizHeight = ((height/fontSize) * 0.90) + "em";
         const qImgHeight = ((height/fontSize) * 0.40) + "em";
-        aImgHeight = ((height/fontSize) * 0.05) + "em";
-        aImgWidth = ((width/fontSize) * 0.07) + "em";
+        aImgHeight = ((height/fontSize) * 0.04) + "em";
+        aImgWidth = ((width/fontSize) * 0.06) + "em";
+
+        console.log(width);
 
         document.getElementById("welcome-screen").style.height = welcomeHeight;
         document.getElementById("content").style.height = quizHeight;
@@ -2626,7 +2628,7 @@
 
         document.getElementById("start-btn").addEventListener('click', toggleWelcome);
     
-        screenSize();
+        resizer();
         chooseQA();
         getAllAnswers();
         deduplicateAnswers();
@@ -3098,10 +3100,10 @@
                 }
         
                 if(possibleAnswers[0].endsWith(".jpg")){
-                    document.getElementById("answers-container").style.display = "flex";
-                    document.getElementById("answers-container").style.flexWrap = "wrap";
-                    document.getElementById("answers-container").style.justifyContent = "space-evenly";
-                    document.getElementById("answers-container").style.alignItems = "stretch";
+                    document.getElementById("answers-container").style.display = "grid";
+                    document.getElementById("answers-container").style.gri
+                    document.getElementById("answers-container").style.gridTemplateAreas = "a b c d";
+                    document.getElementById("answers-container").style.gridAutoColumns = "20vw";
 
                     img1 = document.createElement("img");
                     img2 = document.createElement("img");
