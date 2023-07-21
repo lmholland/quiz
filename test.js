@@ -1,11 +1,11 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Italy");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Thailand");
         const data = require('cheerio').load(response.data);
         const size= "500px";
 
-        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
         // leaderImg(4, "jpeg");
 
         function flag_symbol_map(flagNum, flagType, symbolNum, symbolType, mapNum, mapType){

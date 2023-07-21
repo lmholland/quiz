@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "July 20, 2023";
+    const lastChecked = "July 21, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -2541,7 +2541,8 @@
     let contentClone = document.getElementById("content").cloneNode(true);
     let welcomeScreen = true;
     let score = 0;
-    let height, width, aImgHeight, aImgWidth;
+    const fontSize = 16;
+    let height, width;
 
     document.addEventListener("resize", resizer)
     document.getElementById("update").innerHTML = `Last updated: ${lastChecked}`;
@@ -2549,7 +2550,6 @@
     generateQA();
 
     function resizer(){
-        const fontSize = 16;
         height = window.innerHeight
             ||  document.documentElement.clientHeight
             ||  document.body.clientHeight;
@@ -2557,50 +2557,14 @@
             ||  document.documentElement.clientWidth
             ||  document.body.clientWidth;
         const welcomeHeight = ((height/fontSize)) + "em";
-        const quizHeight = ((height/fontSize) * 0.90) + "em";
+        const quizHeight = ((height/fontSize) * 0.85) + "em";
         const qImgHeight = ((height/fontSize) * 0.40) + "em";
-        aImgHeight = ((height/fontSize) * 0.04) + "em";
-        aImgWidth = ((width/fontSize) * 0.06) + "em";
-
-        console.log(width);
 
         document.getElementById("welcome-screen").style.height = welcomeHeight;
         document.getElementById("content").style.height = quizHeight;
 
         if(document.getElementById("question-image")){
             document.getElementById("question-image").style.height = qImgHeight;
-        }
-
-        if(document.getElementById("aImg1")){
-            if(document.getElementById("aImg1").style.width >= document.getElementById("aImg1").style.height){
-                document.getElementById("aImg1").style.width = aImgWidth;
-            } else {
-                document.getElementById("aImg1").style.height = aImgHeight;
-            }
-        }
-
-        if(document.getElementById("aImg2")){
-            if(document.getElementById("aImg2").style.width >= document.getElementById("aImg2").style.height){
-                document.getElementById("aImg2").style.width = aImgWidth;
-            } else {
-                document.getElementById("aImg2").style.height = aImgHeight;
-            }
-        }
-
-        if(document.getElementById("aImg3")){
-            if(document.getElementById("aImg3").style.width >= document.getElementById("aImg3").style.height){
-                document.getElementById("aImg3").style.width = aImgWidth;
-            } else {
-                document.getElementById("aImg3").style.height = aImgHeight;
-            }
-        }
-
-        if(document.getElementById("aImg4")){
-            if(document.getElementById("aImg4").style.width >= document.getElementById("aImg4").style.height){
-                document.getElementById("aImg4").style.width = aImgWidth;
-            } else {
-                document.getElementById("aImg4").style.height = aImgHeight;
-            }
         }
     }
 
@@ -3083,7 +3047,7 @@
         }
     
         function displayInfo(){
-            let img1, img2, img3, img4, rightAns;
+            let img1, img2, img3, img4, aImgHeight, aImgWidth, rightAns;
 
             if(!welcomeScreen){
                 document.getElementById("welcome-screen").style.display = "none";
@@ -3100,10 +3064,23 @@
                 }
         
                 if(possibleAnswers[0].endsWith(".jpg")){
-                    document.getElementById("answers-container").style.display = "grid";
-                    document.getElementById("answers-container").style.gri
-                    document.getElementById("answers-container").style.gridTemplateAreas = "a b c d";
-                    document.getElementById("answers-container").style.gridAutoColumns = "20vw";
+                    if(width > 1217){
+                        aImgHeight = ((height/fontSize) * 0.04) + "em";
+                        aImgWidth = ((width/fontSize) * 0.06) + "em";
+
+                        document.getElementById("answers-container").style.display = "grid";
+                        document.getElementById("answers-container").style.gridAutoFlow = "column";
+                        document.getElementById("answers-container").style.gridTemplateAreas = "a b c d";
+                        document.getElementById("answers-container").style.gridAutoColumns = "auto";
+                    }
+
+                    if(width <= 1216){
+                        aImgHeight = ((height/fontSize) * 0.04) + "em";
+                        aImgWidth = ((width/fontSize) * 0.06) + "em";
+
+                        document.getElementById("answers-container").style.display = "grid";
+                        document.getElementById("answers-container").style.gridTemplateColumns = "repeat(2, 1fr)";
+                    }
 
                     img1 = document.createElement("img");
                     img2 = document.createElement("img");
@@ -3148,6 +3125,7 @@
                     } else {
                         document.getElementById("aImg4").style.height = aImgHeight;
                     }
+
                 } else {
                     document.getElementById("answer1").innerHTML = possibleAnswers[0];
                     document.getElementById("answer2").innerHTML = possibleAnswers[1];

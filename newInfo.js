@@ -1,4 +1,4 @@
-const lastChecked = "July 20, 2023";
+const lastChecked = "July 21, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -1724,7 +1724,7 @@ const newInfo = [
         map: {"url":"//upload.wikimedia.org/wikipedia/commons/thumb/5/57/Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg/500px-Palau_on_the_globe_%28Southeast_Asia_centered%29_%28small_islands_magnified%29.svg.png"}, 
         capital: [{"name":"Ngerulmud","type":"capital"}], 
         largestCity: [{"name":"Koror","type":"largest city"}], 
-        language: {"list":["Palauan","English"]}, 
+        language: {"list":["Palauan"]}, 
         demonym: {"name":"Palauan"}, 
         currency: [{"full":"United States dollar"}], 
         tld: {"name":".pw"}, 
