@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "July 21, 2023";
+    const lastChecked = "July 22, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 
@@ -2556,9 +2556,13 @@
         width = window.innerWidth
             ||  document.documentElement.clientWidth
             ||  document.body.clientWidth;
-        const welcomeHeight = ((height/fontSize)) + "em";
-        const quizHeight = ((height/fontSize) * 0.85) + "em";
-        const qImgHeight = ((height/fontSize) * 0.40) + "em";
+        let welcomeHeight = ((height/fontSize)) + "em";
+        let quizHeight = ((height/fontSize) * 0.85) + "em";
+        let qImgHeight = ((height/fontSize) * 0.40) + "em";
+
+        if(width < 600){
+            qImgHeight = ((height/fontSize) * 0.30) + "em";
+        }
 
         document.getElementById("welcome-screen").style.height = welcomeHeight;
         document.getElementById("content").style.height = quizHeight;

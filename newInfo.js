@@ -1,4 +1,4 @@
-const lastChecked = "July 21, 2023";
+const lastChecked = "July 22, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"//en.wikipedia.org/wiki/Afghanistan"}, 

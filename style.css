@@ -35,6 +35,8 @@ body {
 #title-blurb {
   display: grid;
   font-size: 3em;
+  padding: 0 1em;
+  text-align: center;
   justify-content: center;
   align-content: center;
 }
@@ -123,4 +125,59 @@ body {
   text-align: center;
   justify-content: center;
   align-content: center;
+}
+
+@media only screen and (max-width: 60em) { /* 960px */
+  #title {
+    font-size: 7em;
+  }
+
+  #welcome-img {
+    height: 28em;
+    border-radius: 9em;
+  }
+
+  #title-blurb {
+    font-size: 2.8em;
+  }
+
+  #update {
+    font-size: 2.5em;
+  }
+  
+}
+
+@media only screen and (max-width: 55.625em) { /* 890px */
+  #title {
+    font-size: 6em;
+  }
+
+  #welcome-img {
+    height: 25em;
+  }
+
+  #title-blurb {
+    font-size: 2.5em;
+  }
+
+  #update {
+    font-size: 2em;
+  }
+  
+}
+
+@media only screen and (max-width: 40em) { /* 600px */
+  #title {
+    font-size: 5em;
+  }
+
+  #welcome-img {
+    height: 23em;
+    border-radius: 7.5em;
+  }
+
+  #title-blurb {
+    font-size: 2.2em;
+  }
+  
 }
