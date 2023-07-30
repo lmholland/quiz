@@ -9,6 +9,7 @@ async function getData(){
         const response = await require('axios').get("https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government");
         const data = require('cheerio').load(response.data)
         const skipList = [
+            // this is a list of skipped leaders, (ex. there are both a blue & green highlighted leader in the country row, this number skips the green leader (who is lesser))
             // changes here affect the second switch statement in grabInfo(), so update the numbers of countries there that are or come after any changes here
             // numbers here mean country position in list, comment numbers are leader position minus position in this list
             // * -1 is used so the list can start at 0, this affects countryRow in skipDeJureLeaders
@@ -16,18 +17,19 @@ async function getData(){
             -1,     //  000-00  start*
             21,     //  022-01  Bosnia
             26,     //  028-02  Burkina Faso
-            69,     //  072-03  Guinea
-            97,     //  101-04  Liechtenstein
-            112,    //  117-05  Moldova
-            118,    //  124-06  Myanmar
-            139,    //  146-07  Poland
-            142,    //  150-08  Romania
-            148,    //  157-09  San Marino
-            150,    //  160-10  Saudi Arabia
-            153,    //  164-11  Serbia
-            160,    //  172-12  Somalia
-            165,    //  178-13  Sudan
-            179,    //  193-14  Turkmenistan
+            28,     //  031-03  Cambodia
+            69,     //  073-04  Guinea
+            97,     //  102-05  Liechtenstein
+            112,    //  118-06  Moldova
+            118,    //  125-07  Myanmar
+            139,    //  147-08  Poland
+            142,    //  151-09  Romania
+            148,    //  158-10  San Marino
+            150,    //  161-11  Saudi Arabia
+            153,    //  165-12  Serbia
+            160,    //  173-13  Somalia
+            165,    //  179-14  Sudan
+            179,    //  194-15  Turkmenistan
         ]
         let info = [];
 
@@ -122,45 +124,48 @@ async function getData(){
                         leader_00_40_4();
                         break;
                     case 27:    // Burkina Faso
-                        leader_00010_03_03();
+                        leader_00cc010_03_03();
                         break; 
-                    case 35:    // Chad
-                        leader_00010_03_03();
+                    case 36:    // Chad
+                        leader_00cc010_03_03();
                         break; 
-                    case 71:    // Guinea
+                    case 72:    // Guinea
                         leader_0001_03_03();
                         break; 
-                    case 75:    // Haiti
-                        leader_00010_03_03();
+                    case 76:    // Haiti
+                        leader_00cc010_03_03();
                         break; 
-                    case 102:   // Liechtenstein
+                    case 103:   // Liechtenstein
                         leader_000_0101020_02();
                         break; 
-                    case 109:   // Mali
-                        leader_00010_03_03();
+                    case 110:   // Mali
+                        leader_00cc010_03_03();
                         break; 
-                    case 123:   // Myanmar
+                    case 124:   // Myanmar
                         leader_000_02_02();
                         break;
-                    case 149:   // Qatar
+                    case 132:   // Niger
+                        leader_0001_03_03();
+                        break;
+                    case 150:   // Qatar
                         leader_00_112_2();
                         break; 
-                    case 168:   // Slovakia
-                        leader_00010_03_03();
+                    case 169:   // Slovakia
+                        leader_00cc010_03_03();
                         break;
-                    case 179:   // Sudan
+                    case 180:   // Sudan
                         leader_0101_00_00();
                         break;
-                    case 182:   // Switzerland 
+                    case 183:   // Switzerland 
                         leader_00_00_0();
                         break;          
-                    case 192:   // Turkmenistan
+                    case 193:   // Turkmenistan
                         leader_010_3_3();
                         break; 
-                    case 197:   // UAE
+                    case 198:   // UAE
                         leader_00_112_2();
                         break; 
-                    case 206:   // Yemen
+                    case 207:   // Yemen
                         leader_000_02_02();
                         break; 
                 }
@@ -307,7 +312,7 @@ async function getData(){
                     }
                 }
 
-                function leader_00010_03_03(){
+                function leader_00cc010_03_03(){
                     info = {
                         country: {
                             name: countryName,
@@ -465,8 +470,8 @@ async function getData(){
             }
 
             function formatURLs(){
-                info.country.url = "//en.wikipedia.org" + info.country.url;
-                info.leader.url = "//en.wikipedia.org" + info.leader.url;
+                info.country.url = "https://en.wikipedia.org" + info.country.url;
+                info.leader.url = "https://en.wikipedia.org" + info.leader.url;
             }
 
             function addInfoToMasterList(){
@@ -1084,18 +1089,21 @@ async function getData(){
                         flagURL = data(`img`)[flagNum].attribs.src;
                         pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
                         flagURL = flagURL.replace(pxSize, size);
+                        flagURL = flagURL.replace("//", "https://")
                         masterList[i].flag = {}
                         masterList[i].flag.url = flagURL;
         
                         symbolURL = data(`img`)[symbolNum].attribs.src;
                         pxSize = symbolURL.substring(symbolURL.indexOf(`.${symbolType}/`) + 5, symbolURL.lastIndexOf("px") + 2);
                         symbolURL = symbolURL.replace(pxSize, size);
+                        symbolURL = symbolURL.replace("//", "https://")
                         masterList[i].symbol = {}
                         masterList[i].symbol.url = symbolURL;
         
                         mapURL = data(`img`)[mapNum].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
+                        mapURL = mapURL.replace("//", "https://")
                         masterList[i].map = {}
                         masterList[i].map.url = mapURL;        
                     } catch (error) {
@@ -1108,15 +1116,17 @@ async function getData(){
                         flagURL = data(`img`)[flagNum].attribs.src;
                         pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
                         flagURL = flagURL.replace(pxSize, size);
+                        flagURL = flagURL.replace("//", "https://")
                         masterList[i].flag = {}
                         masterList[i].flag.url = flagURL;
         
                         masterList[i].symbol = {}
-                        masterList[i].symbol.url = "//upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
+                        masterList[i].symbol.url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
         
                         mapURL = data(`img`)[mapNum].attribs.src;
                         pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
                         mapURL = mapURL.replace(pxSize, size);
+                        mapURL = mapURL.replace("//", "https://")
                         masterList[i].map = {}
                         masterList[i].map.url = mapURL;        
                     } catch (error) {
@@ -1518,7 +1528,7 @@ async function getData(){
                                 language_nck0_k2();
                                 break;
                             case 161:   // South Africa
-                                language_nc41k00_k2();
+                                language_nc51k00_k2();
                                 break;
                             case 164:   // Spain
                                 language_c00_1();
@@ -1898,7 +1908,7 @@ async function getData(){
                             }
                         }
 
-                        function language_nc41k00_k2(){
+                        function language_nc51k00_k2(){
                             if( 
                                     data(`th.infobox-label`)[j].children[0].data == "Official language"
                                 ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
@@ -1910,8 +1920,8 @@ async function getData(){
                                 masterList[i].language = {};
                                 masterList[i].language.list = [];
                 
-                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[4].children[1].children.length; k+=2){
-                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[4].children[1].children[k].children[0].children[0].data);
+                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[5].children[1].children.length; k+=2){
+                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[5].children[1].children[k].children[0].children[0].data);
                                 }
                             }
                         }
@@ -3257,9 +3267,6 @@ async function getData(){
                     case 121:   // Nepal
                         leaderImg(4, "jpg");
                         break;
-                    case 122:   // Netherlands
-                        leaderImg(4, "jpg");
-                        break;
                     case 126:   // Nigeria
                         leaderImg(4, "jpg");
                         break;
@@ -3324,7 +3331,7 @@ async function getData(){
                         leaderImg(3, "png");
                         break;
                     case 189:   // Vatican
-                        leaderImg(4, "jpeg");
+                        leaderImg(4, "jpg");
                         break;
                     case 190:   // Venezuela
                         leaderImg(4, "jpeg");
@@ -3340,6 +3347,7 @@ async function getData(){
                         imgURL = data(`img`)[num].attribs.src;
                         pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
                         imgURL = imgURL.replace(pxSize, "500");
+                        imgURL = imgURL.replace("//", "https://")
                         masterList[i].leader.imgUrl = imgURL;
                     } catch(error){
                     }
@@ -3352,6 +3360,7 @@ async function getData(){
                         imgURL = imgURL.replace(afterCommons, "thumb/" + afterCommons);
                         fileName = imgURL.substring(imgURL.lastIndexOf("/") + 1);
                         imgURL = imgURL.replace(fileName, fileName + "/500px-" + fileName);
+                        imgURL = imgURL.replace("//", "https://")
                         masterList[i].leader.imgUrl = imgURL;
                     } catch(error){
                     }

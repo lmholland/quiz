@@ -2564,6 +2564,10 @@
             qImgHeight = ((height/fontSize) * 0.30) + "em";
         }
 
+        if(width < 550){
+            qImgHeight = ((height/fontSize) * 0.25) + "em";
+        }
+
         document.getElementById("welcome-screen").style.height = welcomeHeight;
         document.getElementById("content").style.height = quizHeight;
 
@@ -3079,11 +3083,26 @@
                     }
 
                     if(width <= 1216){
-                        aImgHeight = ((height/fontSize) * 0.04) + "em";
-                        aImgWidth = ((width/fontSize) * 0.06) + "em";
+                        aImgHeight = ((height/fontSize) * 0.06) + "em";
+                        aImgWidth = ((width/fontSize) * 0.08) + "em";
 
                         document.getElementById("answers-container").style.display = "grid";
                         document.getElementById("answers-container").style.gridTemplateColumns = "repeat(2, 1fr)";
+                    }
+
+                    if(width <= 850){
+                        aImgHeight = ((height/fontSize) * 0.08) + "em";
+                        aImgWidth = ((width/fontSize) * 0.1) + "em";
+                    }
+
+                    if(width <= 650){
+                        aImgHeight = ((height/fontSize) * 0.1) + "em";
+                        aImgWidth = ((width/fontSize) * 0.12) + "em";
+                    }
+
+                    if(width <= 500){
+                        aImgHeight = ((height/fontSize) * 0.12) + "em";
+                        aImgWidth = ((width/fontSize) * 0.14) + "em";
                     }
 
                     img1 = document.createElement("img");
