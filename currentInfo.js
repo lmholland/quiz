@@ -1588,7 +1588,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"the Netherlands","url":"https://en.wikipedia.org/wiki/Kingdom_of_the_Netherlands"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mark Rutte","url":"https://en.wikipedia.org/wiki/Mark_Rutte","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mark_Rutte%2C_23.03.23_(cropped).jpg/500px-Mark_Rutte%2C_23.03.23_(cropped).jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mark Rutte","url":"https://en.wikipedia.org/wiki/Mark_Rutte","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Mark_Rutte%2C_23.03.23_%28cropped%29.jpg/500px-Mark_Rutte%2C_23.03.23_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Flag_of_the_Netherlands.svg/500px-Flag_of_the_Netherlands.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Koninklijk_wapen_van_het_koninkrijk_der_Nederlanden.svg/500px-Koninklijk_wapen_van_het_koninkrijk_der_Nederlanden.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Kingdom_of_the_Netherlands_%28orthographic_projection%29.svg/500px-Kingdom_of_the_Netherlands_%28orthographic_projection%29.svg.png"}, 
@@ -1627,10 +1627,10 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Niger","url":"https://en.wikipedia.org/wiki/Niger"}, 
-        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://up500px-Ambox_current_red.svg.png"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Ambox_current_red.svg/500px-Ambox_current_red.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
+        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Abdourahamane_Tchiani_Delivering_a_Speech.jpg/500px-Abdourahamane_Tchiani_Delivering_a_Speech.jpg"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/500px-Niger_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Niamey","type":"capital"}], 
         language: {"list":["French"]}, 
         demonym: {"name":"Nigerien"}, 
@@ -1666,7 +1666,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"North Macedonia","url":"https://en.wikipedia.org/wiki/North_Macedonia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dimitar Kovačevski","url":"https://en.wikipedia.org/wiki/Dimitar_Kova%C4%8Devski","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Prime_Minister_Dimitar_Kova%C4%8Devski_%28Kovachevski%29_of_North_Macedonia_in_Washington%2C_D.C._on_8_May_2023_-_52882131968_%28cropped%29.jpg/500px-Prime_Minister_Dimitar_Kova%C4%8Devski_%28Kovachevski%29_of_North_Macedonia_in_Washington%2C_D.C._on_8_May_2023_-_52882131968_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dimitar Kovačevski","url":"https://en.wikipedia.org/wiki/Dimitar_Kova%C4%8Devski","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Dimitar_Kovachevski_official_portrait_2020_%28cropped%29.jpg/500px-Dimitar_Kovachevski_official_portrait_2020_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Flag_of_North_Macedonia.svg/500px-Flag_of_North_Macedonia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Coat_of_arms_of_North_Macedonia.svg/500px-Coat_of_arms_of_North_Macedonia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Europe-Republic_of_North_Macedonia.svg/500px-Europe-Republic_of_North_Macedonia.svg.png"}, 
@@ -2459,7 +2459,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Vatican City","url":"https://en.wikipedia.org/wiki/Vatican_City"}, 
-        leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"https://en.wikipedia.org/wiki/Pope_Francis","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Portrait_of_Pope_Francis_(2021)_FXD.jpg/500px-Portrait_of_Pope_Francis_(2021)_FXD.jpg"}, 
+        leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"https://en.wikipedia.org/wiki/Pope_Francis","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Portrait_of_Pope_Francis_%282021%29_FXD.jpg/500px-Portrait_of_Pope_Francis_%282021%29_FXD.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/500px-Flag_of_the_Vatican_City.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Coat_of_arms_of_Vatican_City_State_-_2023_version.svg/500px-Coat_of_arms_of_Vatican_City_State_-_2023_version.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Location_of_the_Vatican_City_in_Europe.svg/500px-Location_of_the_Vatican_City_in_Europe.svg.png"}, 

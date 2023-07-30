@@ -971,7 +971,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 158:    // Slovenia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 159:    // Solomon Islands
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
