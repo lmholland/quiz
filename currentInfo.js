@@ -1,4 +1,4 @@
-const lastChecked = "July 29, 2023";
+const lastChecked = "July 31, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -1783,7 +1783,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Peru","url":"https://en.wikipedia.org/wiki/Peru"}, 
-        leader: {"title":"President","pos":"president","name":"Dina Boluarte","url":"https://en.wikipedia.org/wiki/Dina_Boluarte","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/MINISTRO_DE_DEFENSA_JUNTO_A_PRESIDENTA_DE_LA_REP%C3%9ABLICA_PARTICIPAN_EN_EL_EMBARQUE_DE_REMESAS_DE_EFECTIVO_Y_MEDICINAS_PARA_LA_REGI%C3%93N_DE_PUNO_%28cropped%29.jpg/500px-MINISTRO_DE_DEFENSA_JUNTO_A_PRESIDENTA_DE_LA_REP%C3%9ABLICA_PARTICIPAN_EN_EL_EMBARQUE_DE_REMESAS_DE_EFECTIVO_Y_MEDICINAS_PARA_LA_REGI%C3%93N_DE_PUNO_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Dina Boluarte","url":"https://en.wikipedia.org/wiki/Dina_Boluarte","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Dina_Boluarte_%28diciembre_2022%29.jpg/500px-Dina_Boluarte_%28diciembre_2022%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/500px-Flag_of_Peru.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Escudo_nacional_del_Per%C3%BA.svg/500px-Escudo_nacional_del_Per%C3%BA.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/PER_orthographic.svg/500px-PER_orthographic.svg.png"}, 

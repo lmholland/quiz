@@ -1,4 +1,4 @@
-const lastChecked = "July 30, 2023";
+const lastChecked = "July 31, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -1627,7 +1627,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Niger","url":"https://en.wikipedia.org/wiki/Niger"}, 
-        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://up500px-Flag_of_Niger.svg.png"}, 
+        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Abdourahamane_Tchiani_Delivering_a_Speech.jpg/500px-Abdourahamane_Tchiani_Delivering_a_Speech.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/500px-Niger_%28orthographic_projection%29.svg.png"}, 
@@ -1783,7 +1783,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Peru","url":"https://en.wikipedia.org/wiki/Peru"}, 
-        leader: {"title":"President","pos":"president","name":"Dina Boluarte","url":"https://en.wikipedia.org/wiki/Dina_Boluarte","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/MINISTRO_DE_DEFENSA_JUNTO_A_PRESIDENTA_DE_LA_REP%C3%9ABLICA_PARTICIPAN_EN_EL_EMBARQUE_DE_REMESAS_DE_EFECTIVO_Y_MEDICINAS_PARA_LA_REGI%C3%93N_DE_PUNO_%28cropped%29.jpg/500px-MINISTRO_DE_DEFENSA_JUNTO_A_PRESIDENTA_DE_LA_REP%C3%9ABLICA_PARTICIPAN_EN_EL_EMBARQUE_DE_REMESAS_DE_EFECTIVO_Y_MEDICINAS_PARA_LA_REGI%C3%93N_DE_PUNO_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Dina Boluarte","url":"https://en.wikipedia.org/wiki/Dina_Boluarte","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Dina_Boluarte_%28diciembre_2022%29.jpg/500px-Dina_Boluarte_%28diciembre_2022%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/500px-Flag_of_Peru.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/Escudo_nacional_del_Per%C3%BA.svg/500px-Escudo_nacional_del_Per%C3%BA.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/PER_orthographic.svg/500px-PER_orthographic.svg.png"}, 
@@ -2057,9 +2057,9 @@ const newInfo = [
     {
         country: {"name":"Slovenia","url":"https://en.wikipedia.org/wiki/Slovenia"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Robert Golob","url":"https://en.wikipedia.org/wiki/Robert_Golob","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Robert_Golob_-_52114942369_%28cropped%29.jpg/500px-Robert_Golob_-_52114942369_%28cropped%29.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Coat_of_arms_of_Slovenia.svg/500px-Coat_of_arms_of_Slovenia.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/500px-EU-Slovenia.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Increase_Neutral.svg/500px-Increase_Neutral.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Flag_of_Slovenia.svg/500px-Flag_of_Slovenia.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Coat_of_arms_of_Slovenia.svg/500px-Coat_of_arms_of_Slovenia.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/500px-EU-Slovenia.svg.png"}, 
         capital: [{"name":"Ljubljana","type":"capital"}], 
         language: {"list":["Slovene"]}, 
         demonym: {"name":"Slovene"}, 
@@ -2165,11 +2165,11 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Emblem_of_Sudan.svg/500px-Emblem_of_Sudan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Sudan_%28orthographic_projection%29_highlighted.svg/500px-Sudan_%28orthographic_projection%29_highlighted.svg.png"}, 
         capital: [{"name":"Khartoum","type":"capital"}], 
-        largestCity: [{"name":"Omdurman","type":"largest city"}], 
         language: {"list":["Arabic","English"]}, 
         demonym: {"name":"Sudanese"}, 
         currency: [{"demonym":"Sudanese","unit":"pound"}], 
         tld: {"name":".sd"}, 
+        largestCity: [{"name":"Khartoum","type":"largest city"}], 
     }, 
     {
         country: {"name":"Suriname","url":"https://en.wikipedia.org/wiki/Suriname"}, 
