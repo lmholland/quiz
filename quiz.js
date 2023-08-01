@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "July 31, 2023";
+    const lastChecked = "August 1, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -1388,7 +1388,7 @@
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/EU-Malta.svg/500px-EU-Malta.svg.png"}, 
             capital: [{"name":"Valletta","type":"capital"}], 
             largestCity: [{"name":"St. Paul's Bay","type":"largest administrative unit"}], 
-            language: {"list":["Maltese","English"]}, 
+            language: {"list":["Maltese","English","Maltese Sign Language"]}, 
             demonym: {"name":"Maltese"}, 
             currency: [{"full":"euro"}], 
             tld: {"name":".mt"}, 
@@ -1499,7 +1499,7 @@
         }, 
         {
             country: {"name":"Montenegro","url":"https://en.wikipedia.org/wiki/Montenegro"}, 
-            leader: {"title":"Prime Minister","pos":"prime minister","name":"Dritan Abazović","url":"https://en.wikipedia.org/wiki/Dritan_Abazovi%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Dritan_Abazovi%C4%87_PM.jpg/500px-Dritan_Abazovi%C4%87_PM.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"Dritan Abazović","url":"https://en.wikipedia.org/wiki/Dritan_Abazovi%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Dritan_Abazovi%C4%87_PM_%28cropped%29.jpg/500px-Dritan_Abazovi%C4%87_PM_%28cropped%29.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/500px-Flag_of_Montenegro.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Coat_of_arms_of_Montenegro.svg/500px-Coat_of_arms_of_Montenegro.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Europe-Montenegro.svg/500px-Europe-Montenegro.svg.png"}, 

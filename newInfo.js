@@ -1,4 +1,4 @@
-const lastChecked = "July 31, 2023";
+const lastChecked = "August 1, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -1386,7 +1386,7 @@ const newInfo = [
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/EU-Malta.svg/500px-EU-Malta.svg.png"}, 
         capital: [{"name":"Valletta","type":"capital"}], 
         largestCity: [{"name":"St. Paul's Bay","type":"largest administrative unit"}], 
-        language: {"list":["Maltese","English"]}, 
+        language: {"list":["Maltese","English","Maltese Sign Language"]}, 
         demonym: {"name":"Maltese"}, 
         currency: [{"full":"euro"}], 
         tld: {"name":".mt"}, 
@@ -1497,7 +1497,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Montenegro","url":"https://en.wikipedia.org/wiki/Montenegro"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dritan Abazović","url":"https://en.wikipedia.org/wiki/Dritan_Abazovi%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Dritan_Abazovi%C4%87_PM.jpg/500px-Dritan_Abazovi%C4%87_PM.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dritan Abazović","url":"https://en.wikipedia.org/wiki/Dritan_Abazovi%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Dritan_Abazovi%C4%87_PM_%28cropped%29.jpg/500px-Dritan_Abazovi%C4%87_PM_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Montenegro.svg/500px-Flag_of_Montenegro.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Coat_of_arms_of_Montenegro.svg/500px-Coat_of_arms_of_Montenegro.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Europe-Montenegro.svg/500px-Europe-Montenegro.svg.png"}, 
@@ -1627,7 +1627,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Niger","url":"https://en.wikipedia.org/wiki/Niger"}, 
-        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Abdourahamane_Tchiani_Delivering_a_Speech.jpg/500px-Abdourahamane_Tchiani_Delivering_a_Speech.jpg"}, 
+        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://up500px-Flag_of_Niger.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/500px-Niger_%28orthographic_projection%29.svg.png"}, 
