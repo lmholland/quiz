@@ -3241,11 +3241,13 @@ async function getData(){
                         leaderImg(4, "jpg");
                         break;
                     case 95:    // Lesotho
-                        leaderImg(5, "jpg");
+                        leaderImg(6, "jpg");
                         break;
                     case 101:   // Madagascar
                         leaderImg(3, "png");
                         break;
+                    case 105:   // Mali
+                        leaderImg(3, "png");
                     case 108:   // Mauritania
                         leaderImg(4, "jpg");
                         break;

@@ -1,4 +1,4 @@
-const lastChecked = "August 1, 2023";
+const lastChecked = "August 3, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -28,7 +28,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Algeria","url":"https://en.wikipedia.org/wiki/Algeria"}, 
-        leader: {"title":"President","pos":"president","name":"Abdelmadjid Tebboune","url":"https://en.wikipedia.org/wiki/Abdelmadjid_Tebboune","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/%D0%90%D0%B1%D0%B4%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0%D0%B4%D0%B6%D0%B8%D0%B4_%D0%A2%D0%B5%D0%B1%D0%B1%D1%83%D0%BD_%2806-11-2021%29.jpg/500px-%D0%90%D0%B1%D0%B4%D0%B5%D0%BB%D1%8C%D0%BC%D0%B0%D0%B4%D0%B6%D0%B8%D0%B4_%D0%A2%D0%B5%D0%B1%D0%B1%D1%83%D0%BD_%2806-11-2021%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Abdelmadjid Tebboune","url":"https://en.wikipedia.org/wiki/Abdelmadjid_Tebboune","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Abdelmadjid_Tebboune_%282023%29_%28cropped%29.jpg/500px-Abdelmadjid_Tebboune_%282023%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Algeria.svg/500px-Flag_of_Algeria.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/National_Emblem_of_Algeria.svg/500px-National_Emblem_of_Algeria.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Algeria_%28centered_orthographic_projection%29.svg/500px-Algeria_%28centered_orthographic_projection%29.svg.png"}, 
@@ -392,7 +392,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Canada","url":"https://en.wikipedia.org/wiki/Canada"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Justin_Trudeau_at_Eurasia_Group_2023_US-Canada_Summit_%2852807415495%29_%28cropped%29_%28cropped%29.jpg/500px-Justin_Trudeau_at_Eurasia_Group_2023_US-Canada_Summit_%2852807415495%29_%28cropped%29_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Justin_Trudeau_March_2022.jpg/500px-Justin_Trudeau_March_2022.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/500px-Flag_of_Canada_%28Pantone%29.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Coat_of_arms_of_Canada.svg/500px-Coat_of_arms_of_Canada.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/500px-CAN_orthographic.svg.png"}, 
@@ -914,7 +914,7 @@ const currentInfo = [
         country: {"name":"Guinea-Bissau","url":"https://en.wikipedia.org/wiki/Guinea-Bissau"}, 
         leader: {"title":"President","pos":"president","name":"Umaro Sissoco Embaló","url":"https://en.wikipedia.org/wiki/Umaro_Sissoco_Embal%C3%B3","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Umaro_Sissoco_Embal%C3%B3_2019.jpg/500px-Umaro_Sissoco_Embal%C3%B3_2019.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/500px-Flag_of_Guinea-Bissau.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Emblem_of_Guinea-Bissau.svg/500px-Emblem_of_Guinea-Bissau.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Coat_of_arms_of_Guinea-Bissau_%28variant%29.svg/500px-Coat_of_arms_of_Guinea-Bissau_%28variant%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Location_Guinea_Bissau_AU_Africa.svg/500px-Location_Guinea_Bissau_AU_Africa.svg.png"}, 
         capital: [{"name":"Bissau","type":"capital"}], 
         language: {"list":["Portuguese"]}, 
@@ -1367,7 +1367,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Mali","url":"https://en.wikipedia.org/wiki/Mali"}, 
-        leader: {"title":"Interim President","pos":"interim president","name":"Assimi Goïta","url":"https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Linda_Thomas-Greenfield_met_with_Malian_Transition_President_Go%C3%AFta_-_2021_%28cropped%29.jpg/500px-Linda_Thomas-Greenfield_met_with_Malian_Transition_President_Go%C3%AFta_-_2021_%28cropped%29.jpg"}, 
+        leader: {"title":"Interim President","pos":"interim president","name":"Assimi Goïta","url":"https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Assimi_Goita%2C_August_2021_%28cropped%29.png/500px-Assimi_Goita%2C_August_2021_%28cropped%29.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/500px-Flag_of_Mali.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Coat_of_arms_of_Mali.svg/500px-Coat_of_arms_of_Mali.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mali_%28orthographic_projection%29.svg/500px-Mali_%28orthographic_projection%29.svg.png"}, 
