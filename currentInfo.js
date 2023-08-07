@@ -1,4 +1,4 @@
-const lastChecked = "August 3, 2023";
+const lastChecked = "August 7, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -392,7 +392,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Canada","url":"https://en.wikipedia.org/wiki/Canada"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Justin_Trudeau_March_2022.jpg/500px-Justin_Trudeau_March_2022.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Justin_Trudeau_in_2019_at_the_G7_%28Biarritz%29_%2848622478973%29_%28cropped%29.jpg/500px-Justin_Trudeau_in_2019_at_the_G7_%28Biarritz%29_%2848622478973%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/500px-Flag_of_Canada_%28Pantone%29.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Coat_of_arms_of_Canada.svg/500px-Coat_of_arms_of_Canada.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/500px-CAN_orthographic.svg.png"}, 
@@ -509,7 +509,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Congo-Brazzaville","url":"https://en.wikipedia.org/wiki/Republic_of_the_Congo"}, 
-        leader: {"title":"President","pos":"president","name":"Denis Sassou Nguesso","url":"https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sassou-Nguesso.jpg/500px-Sassou-Nguesso.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Denis Sassou Nguesso","url":"https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Denis_Sassou_Nguesso_2014.jpg/500px-Denis_Sassou_Nguesso_2014.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/500px-Flag_of_the_Republic_of_the_Congo.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Coat_of_arms_of_the_Republic_of_the_Congo.svg/500px-Coat_of_arms_of_the_Republic_of_the_Congo.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg/500px-Republic_of_the_Congo_%28orthographic_projection%29.svg.png"}, 

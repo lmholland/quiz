@@ -1,18 +1,18 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Yemen");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta");
         const data = require('cheerio').load(response.data);
         const size= "500px";
 
-        let flagNum = 4;
-        let flagType = "svg";
+        let num = 3;
+        let type = "png";
 
-        flagURL = data(`img`)[flagNum].attribs.src;
-        pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
-        flagURL = flagURL.replace(pxSize, size);
-        flagURL = flagURL.replace("//", "https://")
-        console.log(flagURL);
+        imgURL = data(`img`)[num].attribs.src;
+        pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
+        imgURL = imgURL.replace(pxSize, "500");
+        imgURL = imgURL.replace("//", "https://")
+        console.log(imgURL);
 
     } catch (error) {
     }

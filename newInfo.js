@@ -1,4 +1,4 @@
-const lastChecked = "August 3, 2023";
+const lastChecked = "August 7, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -392,7 +392,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Canada","url":"https://en.wikipedia.org/wiki/Canada"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Justin_Trudeau_March_2022.jpg/500px-Justin_Trudeau_March_2022.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Justin_Trudeau_in_2019_at_the_G7_%28Biarritz%29_%2848622478973%29_%28cropped%29.jpg/500px-Justin_Trudeau_in_2019_at_the_G7_%28Biarritz%29_%2848622478973%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/500px-Flag_of_Canada_%28Pantone%29.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Coat_of_arms_of_Canada.svg/500px-Coat_of_arms_of_Canada.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/500px-CAN_orthographic.svg.png"}, 
@@ -509,7 +509,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Congo-Brazzaville","url":"https://en.wikipedia.org/wiki/Republic_of_the_Congo"}, 
-        leader: {"title":"President","pos":"president","name":"Denis Sassou Nguesso","url":"https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Sassou-Nguesso.jpg/500px-Sassou-Nguesso.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Denis Sassou Nguesso","url":"https://en.wikipedia.org/wiki/Denis_Sassou_Nguesso","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/97/Denis_Sassou_Nguesso_2014.jpg/500px-Denis_Sassou_Nguesso_2014.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_the_Republic_of_the_Congo.svg/500px-Flag_of_the_Republic_of_the_Congo.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Coat_of_arms_of_the_Republic_of_the_Congo.svg/500px-Coat_of_arms_of_the_Republic_of_the_Congo.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg/500px-Republic_of_the_Congo_%28orthographic_projection%29.svg.png"}, 
@@ -1315,7 +1315,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Madagascar","url":"https://en.wikipedia.org/wiki/Madagascar"}, 
-        leader: {"title":"President","pos":"president","name":"Andry Rajoelina","url":"https://en.wikipedia.org/wiki/Andry_Rajoelina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Andry_Nirina_Rajoelina.png/500px-Andry_Nirina_Rajoelina.png"}, 
+        leader: {"title":"President","pos":"president","name":"Andry Rajoelina","url":"https://en.wikipedia.org/wiki/Andry_Rajoelina","imgUrl":"https://up500px-Andry_Rajoelina_greeting_crowd_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/500px-Flag_of_Madagascar.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Seal_of_Madagascar.svg/500px-Seal_of_Madagascar.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Madagascar_%28centered_orthographic_projection%29.svg/500px-Madagascar_%28centered_orthographic_projection%29.svg.png"}, 
@@ -1367,7 +1367,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Mali","url":"https://en.wikipedia.org/wiki/Mali"}, 
-        leader: {"title":"Interim President","pos":"interim president","name":"Assimi Goïta","url":"https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Assimi_Goita%2C_August_2021_%28cropped%29.png/500px-Assimi_Goita%2C_August_2021_%28cropped%29.png"}, 
+        leader: {"title":"Interim President","pos":"interim president","name":"Assimi Goïta","url":"https://en.wikipedia.org/wiki/Assimi_Go%C3%AFta","imgUrl":"https://up500px-Flag_of_Mali.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Flag_of_Mali.svg/500px-Flag_of_Mali.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Coat_of_arms_of_Mali.svg/500px-Coat_of_arms_of_Mali.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mali_%28orthographic_projection%29.svg/500px-Mali_%28orthographic_projection%29.svg.png"}, 
@@ -2460,7 +2460,7 @@ const newInfo = [
     {
         country: {"name":"Vatican City","url":"https://en.wikipedia.org/wiki/Vatican_City"}, 
         leader: {"title":"Sovereign","pos":"sovereign","name":"Pope Francis","url":"https://en.wikipedia.org/wiki/Pope_Francis","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Portrait_of_Pope_Francis_%282021%29_FXD.jpg/500px-Portrait_of_Pope_Francis_%282021%29_FXD.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Flag_of_the_Vatican_City.svg/500px-Flag_of_the_Vatican_City.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Vatican_City_State_-_2023_version.svg/500px-Flag_of_Vatican_City_State_-_2023_version.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Coat_of_arms_of_Vatican_City_State_-_2023_version.svg/500px-Coat_of_arms_of_Vatican_City_State_-_2023_version.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Location_of_the_Vatican_City_in_Europe.svg/500px-Location_of_the_Vatican_City_in_Europe.svg.png"}, 
         capital: [{"name":"Vatican City","type":"capital"}], 
@@ -2479,7 +2479,7 @@ const newInfo = [
         capital: [{"name":"Caracas","type":"capital"}], 
         language: {"list":["Spanish"]}, 
         demonym: {"name":"Venezuelan"}, 
-        currency: [{"demonym":"Venezuelan","unit":"bolívar"},{"other":"United States dollar"}], 
+        currency: [{"demonym":"United","unit":"states"},{"other":"Venezuelan bolívar"}], 
         tld: {"name":".ve"}, 
         largestCity: [{"name":"Caracas","type":"largest city"}], 
     }, 
@@ -2501,7 +2501,7 @@ const newInfo = [
         leader: {"title":"Chairman of the Presidential Leadership Council","pos":"chairman of the Presidential Leadership Council","name":"Rashad al-Alimi","url":"https://en.wikipedia.org/wiki/Rashad_al-Alimi","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Rashad_al-Alimi_-_2023_%28cropped%29.jpg/500px-Rashad_al-Alimi_-_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/500px-Flag_of_Yemen.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Emblem_of_Yemen_%282%29.svg/500px-Emblem_of_Yemen_%282%29.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Yemen_on_the_globe_%28Afro-Eurasia_centered%29.svg/500px-Yemen_on_the_globe_%28Afro-Eurasia_centered%29.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Yemen_on_the_globe_%28Yemen_centered%29.svg/500px-Yemen_on_the_globe_%28Yemen_centered%29.svg.png"}, 
         capital: [{"name":"Sanaa","type":"capital"}], 
         language: {"list":["Arabic"]}, 
         demonym: {"name":"Yemeni"}, 
