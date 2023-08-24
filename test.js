@@ -1,13 +1,45 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Cyril_Ramaphosa");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Venezuela");
         const data = require('cheerio').load(response.data);
         const size= "500px";
 
-        // flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
-        leaderImg(4, "jpg");
+        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+        // leaderImg(3, "jpg");
+        // leader_00_20_2();
 
+        function pos_00(){
+            if(
+                    data(`td.table-success`)[countryNum].children[0].children[0].data.indexOf("of") > -1
+                ||  data(`td.table-success`)[countryNum].children[0].children[0].data.indexOf("for") > -1
+            ){
+                let arr = data(`td.table-success`)[countryNum].children[0].children[0].data.split(" ");
+                let pos = [];
+                let rest = [];
+
+                for(let word = 0; word < arr.length; word++){
+                    if(arr[word] == "of" || arr[word] == "for" || rest.length > 0){
+                        rest.push(arr[word]);
+                    } else {
+                        pos.push(arr[word].toLowerCase());
+                    }
+                }
+
+                return console.log("pos_00", pos.concat(rest).join(" "))
+
+            } else {
+                let arr = data(`td.table-success`)[countryNum].children[0].children[0].data.split(" ");
+                let pos = [];
+
+                for(let word = 0; word < arr.length; word++){
+                    pos.push(arr[word].toLowerCase());
+                }
+
+                return console.log(pos.join(" "))
+
+            }
+        }
 
         function flag_symbol_map(flagNum, flagType, symbolNum, symbolType, mapNum, mapType){
             try{
