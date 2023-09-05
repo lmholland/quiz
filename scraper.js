@@ -9,27 +9,28 @@ async function getData(){
         const response = await require('axios').get("https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government");
         const data = require('cheerio').load(response.data)
         const skipList = [
-            // this is a list of skipped leaders, (ex. there are both a blue & green highlighted leader in the country row, this number skips the green leader (who is lesser))
+            // this is a list of skipped leaders, (ex. there are both a blue & green highlighted leader in the country row, this number skips the blue leader (who is lesser))
             // changes here affect the second switch statement in grabInfo(), so update the numbers of countries there that are or come after any changes here
             // numbers here mean country position in list, comment numbers are leader position minus position in this list
             // * -1 is used so the list can start at 0, this affects countryRow in skipDeJureLeaders
 
-            -1,     //  000-00  start*
+            -1,     //  000-00  start*  000 <- the one being skipped, 00 <- it's place in this list 
             21,     //  022-01  Bosnia
             26,     //  028-02  Burkina Faso
             28,     //  031-03  Cambodia
-            69,     //  073-04  Guinea
-            97,     //  102-05  Liechtenstein
-            112,    //  118-06  Moldova
-            118,    //  125-07  Myanmar
-            139,    //  147-08  Poland
-            142,    //  151-09  Romania
-            148,    //  158-10  San Marino
-            150,    //  161-11  Saudi Arabia
-            153,    //  165-12  Serbia
-            160,    //  173-13  Somalia
-            165,    //  179-14  Sudan
-            179,    //  194-15  Turkmenistan
+            61,     //  065-04  Gabon
+            69,     //  074-05  Guinea
+            96,     //  102-06  Liechtenstein
+            112,    //  119-07  Moldova
+            118,    //  125-08  Myanmar
+            139,    //  148-09  Poland
+            142,    //  152-10  Romania
+            148,    //  159-11  San Marino
+            149,    //  161-12  Saudi Arabia
+            153,    //  166-13  Serbia
+            160,    //  174-14  Somalia
+            165,    //  180-15  Sudan
+            179,    //  195-16  Turkmenistan
         ]
         let info = [];
 
@@ -126,49 +127,55 @@ async function getData(){
                     case 27:    // Burkina Faso
                         leader_00cc010_03_03();
                         break; 
+                    case 30:    // Cambodia
+                        leader_010_3_3();
+                        break; 
                     case 36:    // Chad
                         leader_00cc010_03_03();
                         break; 
-                    case 72:    // Guinea
-                        leader_0001_03_03();
-                        break; 
-                    case 76:    // Haiti
+                    case 64:    // Gabon
                         leader_00cc010_03_03();
                         break; 
-                    case 103:   // Liechtenstein
+                    case 73:    // Guinea
+                        leader_0001_03_03();
+                        break; 
+                    case 77:    // Haiti
+                        leader_00cc010_03_03();
+                        break; 
+                    case 104:   // Liechtenstein
                         leader_000_0101020_02();
                         break; 
-                    case 110:   // Mali
+                    case 111:   // Mali
                         leader_00cc010_03_03();
                         break; 
-                    case 124:   // Myanmar
+                    case 125:   // Myanmar
                         leader_000_02_02();
                         break;
-                    case 132:   // Niger
+                    case 133:   // Niger
                         leader_0001_03_03();
                         break;
-                    case 138:   // Pakistan
+                    case 139:   // Pakistan
                         leader_000_02_02();
                         break;
-                    case 150:   // Qatar
+                    case 151:   // Qatar
                         leader_00_112_2();
                         break; 
-                    case 169:   // Slovakia
+                    case 170:   // Slovakia
                         leader_00cc010_03_03();
                         break;
-                    case 180:   // Sudan
+                    case 181:   // Sudan
                         leader_0101_00_00();
                         break;
-                    case 183:   // Switzerland 
+                    case 184:   // Switzerland 
                         leader_00_00_0();
                         break;          
-                    case 193:   // Turkmenistan
+                    case 194:   // Turkmenistan
                         leader_010_3_3();
                         break; 
-                    case 198:   // UAE
+                    case 199:   // UAE
                         leader_00_112_2();
                         break; 
-                    case 207:   // Yemen
+                    case 208:   // Yemen
                         leader_000_02_02();
                         break; 
                 }
