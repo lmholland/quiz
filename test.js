@@ -1,18 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/List_of_current_heads_of_state_and_government");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Faure_Gnassingbé");
         const data = require('cheerio').load(response.data);
         const size= "500px";
-
-        // flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
-        // leaderImg(3, "jpg");
-
         const countryNum = 30;
 
-        console.log(data(`td.table-success`)[countryNum].children[0].data);
-        console.log(data(`td.table-success`)[countryNum].children[1].children[0].data);
-        console.log(data(`td.table-success`)[countryNum].children[3].children[0].data);
+        // flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+        leaderImg(3, "jpg");
 
 
         function pos_00(){

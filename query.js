@@ -1,7 +1,7 @@
 const { newInfo } = require('./newInfo.js');
 
 for(let i=0; i < newInfo.length; i++){
-    console.log(newInfo[i].largestCity)
+    console.log(newInfo[i].language)
 }
 
 //_____________________________________________________

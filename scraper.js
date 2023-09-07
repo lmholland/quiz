@@ -20,13 +20,13 @@ async function getData(){
             28,     //  031-03  Cambodia
             61,     //  065-04  Gabon
             69,     //  074-05  Guinea
-            96,     //  102-06  Liechtenstein
+            97,     //  103-06  Liechtenstein
             112,    //  119-07  Moldova
             118,    //  125-08  Myanmar
             139,    //  148-09  Poland
             142,    //  152-10  Romania
             148,    //  159-11  San Marino
-            149,    //  161-12  Saudi Arabia
+            150,    //  162-12  Saudi Arabia
             153,    //  166-13  Serbia
             160,    //  174-14  Somalia
             165,    //  180-15  Sudan
@@ -513,7 +513,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "png");
                         break;
                     case 2:     // Algeria
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 5, "svg");
                         break;
                     case 3:     // Andorra
                         flag_symbol_map(3, "svg", 4, "svg", 5, "png");
@@ -672,7 +672,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 55:    // Estonia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 56:    // Eswatini
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -741,7 +741,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 78:    // Iran
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 79:    // Iraq
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -774,7 +774,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 89:    // Kiribati
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(3, "jpg", 4, "png", 5, "svg");
                         break;
                     case 90:    // Kuwait
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -789,7 +789,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 94:    // Lebanon
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 5, "svg");
                         break;
                     case 95:    // Lesotho
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -852,7 +852,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 115:    // Montenegro
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 116:    // Morocco
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -861,7 +861,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 118:    // Myanmar
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 119:    // Namibia
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -894,7 +894,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 129:    // Norway
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 130:    // Oman
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1547,7 +1547,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 166:   // Sudan
-                                language_nc10k00();
+                                language_nck0_k2();
                                 break;
                             case 169:   // Switzerland
                                 language_nc11k00();
@@ -3223,11 +3223,11 @@ async function getData(){
                     case 60:    // France
                         leaderImg(5, "jpg");
                         break;
+                    case 61:    // Gabon
+                        leaderImg(4, "jpg");
+                        break;
                     case 68:    // Guatemala
                         leaderImg(3, "png");
-                        break;
-                    case 73:    // Honduras
-                        leaderImg(4, "jpg");
                         break;
                     case 74:    // Hungary
                         leaderImg(4, "jpg");
@@ -3268,20 +3268,20 @@ async function getData(){
                     case 110:   // Mexico
                         leaderImg(4, "jpg");
                         break;
+                    case 133:   // Monaco
+                        leaderImg(4, "jpg");
+                        break;
                     case 114:   // Mongolia
                         leaderImg(4, "jpg");
                         break;
                     case 118:   // Myanmar
                         leaderImg(4, "jpg");
                         break;
-                    case 120:   // Nauru
-                        leaderImg_thumbless(3);
-                        break;
                     case 121:   // Nepal
                         leaderImg(4, "jpg");
                         break;
                     case 125:   // Niger
-                        leaderImg(3, "png");
+                        leaderImg(3, "jpg");
                         break;
                     case 126:   // Nigeria
                         leaderImg(4, "jpg");
@@ -3313,10 +3313,7 @@ async function getData(){
                     case 153:   // Serbia
                         leaderImg(4, "jpg");
                         break;
-                    case 164:   // South Africa
-                        leaderImg(4, "jpg");
-                        break;
-                    case 164:   // Spain
+                    case 161:   // South Africa
                         leaderImg(4, "jpg");
                         break;
                     case 166:   // Sudan
@@ -3327,9 +3324,6 @@ async function getData(){
                         break;
                     case 170:   // Syria
                         leaderImg(4, "jpeg");
-                        break;
-                    case 174:   // Togo
-                        leaderImg(3, "png");
                         break;
                     case 178:   // Turkey
                         leaderImg(4, "jpg");
