@@ -2544,10 +2544,11 @@
     const fontSize = 16;
     let height, width;
 
-    document.addEventListener("resize", resizer)
     document.getElementById("update").innerHTML = `Last updated: ${lastChecked}`;
 
     generateQA();
+
+    addEventListener("resize", resizer)
 
     function resizer(){
         height = window.innerHeight
