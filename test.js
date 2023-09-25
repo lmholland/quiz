@@ -7,7 +7,7 @@ async function getData(){
         const countryNum = 30;
 
         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
-        // leaderImg(3, "png");
+        // leaderImg(4, "jpg");
 
         function pos_00(){
             if(

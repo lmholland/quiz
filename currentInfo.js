@@ -1,4 +1,4 @@
-const lastChecked = "September 24, 2023";
+const lastChecked = "September 25, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -135,7 +135,7 @@ const currentInfo = [
         leader: {"title":"President","pos":"president","name":"Ilham Aliyev","url":"https://en.wikipedia.org/wiki/Ilham_Aliyev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Ilham_Aliyev_in_2023.jpg/500px-Ilham_Aliyev_in_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Flag_of_Azerbaijan.svg/500px-Flag_of_Azerbaijan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Emblem_of_Azerbaijan.svg/500px-Emblem_of_Azerbaijan.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Azerbaijan_with_Nagorno_Karabakh_region.svg/500px-Azerbaijan_with_Nagorno_Karabakh_region.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Azerbaijan_orthographic_projection.svg/500px-Azerbaijan_orthographic_projection.svg.png"}, 
         capital: [{"name":"Baku","type":"capital"}], 
         language: {"list":["Azerbaijani"]}, 
         demonym: {"name":"Azerbaijani"}, 
@@ -1135,7 +1135,7 @@ const currentInfo = [
         country: {"name":"Kazakhstan","url":"https://en.wikipedia.org/wiki/Kazakhstan"}, 
         leader: {"title":"President","pos":"president","name":"Kassym-Jomart Tokayev","url":"https://en.wikipedia.org/wiki/Kassym-Jomart_Tokayev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%2813-12-2022%29.jpg/500px-%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%2813-12-2022%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/500px-Flag_of_Kazakhstan.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Emblem_of_Kazakhstan_3d.png/500px-Emblem_of_Kazakhstan_3d.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Emblem_of_Kazakhstan_latin.svg/500px-Emblem_of_Kazakhstan_latin.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/500px-Kazakhstan_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Astana","type":"capital"}], 
         largestCity: [{"name":"Almaty","type":"largest city"}], 
@@ -1705,7 +1705,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Pakistan","url":"https://en.wikipedia.org/wiki/Pakistan"}, 
-        leader: {"title":"Caretaker Prime Minister","pos":"caretaker prime minister","name":"Anwaar ul Haq Kakar","url":"https://en.wikipedia.org/wiki/Anwaar_ul_Haq_Kakar","imgUrl":""}, 
+        leader: {"title":"Caretaker Prime Minister","pos":"caretaker prime minister","name":"Anwaar ul Haq Kakar","url":"https://en.wikipedia.org/wiki/Anwaar_ul_Haq_Kakar","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Anwaar-ul-Haq_Kakar.jpg/500px-Anwaar-ul-Haq_Kakar.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/500px-Flag_of_Pakistan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/500px-State_emblem_of_Pakistan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/PAK_orthographic.svg/500px-PAK_orthographic.svg.png"}, 
@@ -2082,7 +2082,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Somalia","url":"https://en.wikipedia.org/wiki/Somalia"}, 
-        leader: {"title":"President","pos":"president","name":"Hassan Sheikh Mohamud","url":"https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/His_Excellency_President_Hassan_Sheikh_Mohamud.jpg/500px-His_Excellency_President_Hassan_Sheikh_Mohamud.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Hassan Sheikh Mohamud","url":"https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Somali_President_Hassan_Sheikh_Mohamud_at_Djiboutian_presidential_palace_in_Djibouti%2C_Djibouti%2C_September_24%2C_2023_-_%28cropped%29.jpg/500px-Somali_President_Hassan_Sheikh_Mohamud_at_Djiboutian_presidential_palace_in_Djibouti%2C_Djibouti%2C_September_24%2C_2023_-_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/500px-Flag_of_Somalia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Somalia.svg/500px-Coat_of_arms_of_Somalia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Somalia_%28orthographic_projection%29.svg/500px-Somalia_%28orthographic_projection%29.svg.png"}, 
@@ -2381,7 +2381,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"the United Arab Emirates","url":"https://en.wikipedia.org/wiki/United_Arab_Emirates"}, 
-        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mohamed_bin_Zayed_Al_Nahyan.jpg/500px-Mohamed_bin_Zayed_Al_Nahyan.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/His_Highness_Sheikh_Mohammed_Bin_Zayed_Al_Nahyan%2C_at_Hyderabad_House%2C_in_New_Delhi_on_February_11%2C_2016.jpg/500px-His_Highness_Sheikh_Mohammed_Bin_Zayed_Al_Nahyan%2C_at_Hyderabad_House%2C_in_New_Delhi_on_February_11%2C_2016.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/500px-Flag_of_the_United_Arab_Emirates.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_the_United_Arab_Emirates.svg/500px-Emblem_of_the_United_Arab_Emirates.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Arab_Emirates_%28orthographic_projection%29.svg/500px-United_Arab_Emirates_%28orthographic_projection%29.svg.png"}, 
