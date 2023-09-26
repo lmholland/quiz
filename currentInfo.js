@@ -1,4 +1,4 @@
-const lastChecked = "September 25, 2023";
+const lastChecked = "September 26, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -314,7 +314,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Brunei","url":"https://en.wikipedia.org/wiki/Brunei"}, 
-        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
+        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hassanal_Bolkiah_2013.jpg/500px-Hassanal_Bolkiah_2013.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/500px-Flag_of_Brunei.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_Brunei.svg/500px-Emblem_of_Brunei.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Brunei_%28orthographic_projection%29.svg/500px-Brunei_%28orthographic_projection%29.svg.png"}, 
@@ -366,7 +366,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Cambodia","url":"https://en.wikipedia.org/wiki/Cambodia"}, 
-        leader: {"title":"President of the People's Party","pos":"president of the People's Party","name":"Hun Sen","url":"https://en.wikipedia.org/wiki/Hun_Sen","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Hun_Sen_July_2019.jpg/500px-Hun_Sen_July_2019.jpg"}, 
+        leader: {"title":"President of the People's Party","pos":"president of the People's Party","name":"Hun Sen","url":"https://en.wikipedia.org/wiki/Hun_Sen","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Prime_Minister_Hun_Sen_in_2022.jpg/500px-Prime_Minister_Hun_Sen_in_2022.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/500px-Flag_of_Cambodia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Royal_arms_of_Cambodia.svg/500px-Royal_arms_of_Cambodia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cambodia_on_the_globe_%28Cambodia_centered%29.svg/500px-Cambodia_on_the_globe_%28Cambodia_centered%29.svg.png"}, 
@@ -600,7 +600,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Djibouti","url":"https://en.wikipedia.org/wiki/Djibouti"}, 
-        leader: {"title":"President","pos":"president","name":"Ismaïl Omar Guelleh","url":"https://en.wikipedia.org/wiki/Isma%C3%AFl_Omar_Guelleh","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Ismail_Omar_Guelleh_2010.jpg/500px-Ismail_Omar_Guelleh_2010.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Ismaïl Omar Guelleh","url":"https://en.wikipedia.org/wiki/Isma%C3%AFl_Omar_Guelleh","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Djiboutian_President_Ismail_Omar_Guelleh_at_the_presidential_palace_in_Djibouti%2C_Republic_of_Djibouti%2C_September_24%2C_2023_-_%28cropped%29.jpg/500px-Djiboutian_President_Ismail_Omar_Guelleh_at_the_presidential_palace_in_Djibouti%2C_Republic_of_Djibouti%2C_September_24%2C_2023_-_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_Djibouti.svg/500px-Flag_of_Djibouti.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Emblem_of_Djibouti.svg/500px-Emblem_of_Djibouti.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Djibouti_%28orthographic_projection%29.svg/500px-Djibouti_%28orthographic_projection%29.svg.png"}, 
@@ -795,7 +795,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Gabon","url":"https://en.wikipedia.org/wiki/Gabon"}, 
-        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Oligui_Nguema_during_presidential_oath.jpg/500px-Oligui_Nguema_during_presidential_oath.jpg"}, 
+        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":""}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
@@ -1226,7 +1226,7 @@ const currentInfo = [
         country: {"name":"Lebanon","url":"https://en.wikipedia.org/wiki/Lebanon"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Najib Mikati","url":"https://en.wikipedia.org/wiki/Najib_Mikati","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Najib_Mikati_portrait.jpg/500px-Najib_Mikati_portrait.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/500px-Flag_of_Lebanon.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Lebanon.svg/500px-Coat_of_arms_of_Lebanon.svg.png"}, 
+        symbol: {"url":""}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/500px-Lebanon_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Beirut","type":"capital"}], 
         language: {"list":["Arabic"]}, 
@@ -1705,7 +1705,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Pakistan","url":"https://en.wikipedia.org/wiki/Pakistan"}, 
-        leader: {"title":"Caretaker Prime Minister","pos":"caretaker prime minister","name":"Anwaar ul Haq Kakar","url":"https://en.wikipedia.org/wiki/Anwaar_ul_Haq_Kakar","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/Anwaar-ul-Haq_Kakar.jpg/500px-Anwaar-ul-Haq_Kakar.jpg"}, 
+        leader: {"title":"Caretaker Prime Minister","pos":"caretaker prime minister","name":"Anwaar ul Haq Kakar","url":"https://en.wikipedia.org/wiki/Anwaar_ul_Haq_Kakar","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Anwar_ul_Haq_Kakar.jpg/500px-Anwar_ul_Haq_Kakar.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/500px-Flag_of_Pakistan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/500px-State_emblem_of_Pakistan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/PAK_orthographic.svg/500px-PAK_orthographic.svg.png"}, 
