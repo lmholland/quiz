@@ -1,13 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/uzbekistan");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Albert_II,_Prince_of_Monaco");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
-        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
-        // leaderImg(4, "jpg");
+        // flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+        leaderImg(3, "jpg");
 
         function pos_00(){
             if(

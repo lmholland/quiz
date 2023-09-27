@@ -546,7 +546,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 13:    // Bangladesh
-                        flag_symbol_map(5, "svg", 6, "svg", 8, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 14:    // Barbados
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -3290,7 +3290,7 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 113:   // Monaco
-                            leaderImg(4, "jpg");
+                            leaderImg(3, "jpg");
                             break;
                         case 114:   // Mongolia
                             leaderImg(4, "jpg");

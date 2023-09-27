@@ -1,4 +1,4 @@
-const lastChecked = "September 26, 2023";
+const lastChecked = "September 27, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -171,7 +171,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Bangladesh","url":"https://en.wikipedia.org/wiki/Bangladesh"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"https://en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Sheikh_Hasina_%281%29.jpg/500px-Sheikh_Hasina_%281%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"https://en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/The_Prime_Minister%2C_Shri_Narendra_Modi_meeting_the_Prime_Minister_of_Bangladesh%2C_Mrs._Sheikh_Hasina%2C_at_New_York_on_September_24%2C_2015_%28cropped%29.jpg/500px-The_Prime_Minister%2C_Shri_Narendra_Modi_meeting_the_Prime_Minister_of_Bangladesh%2C_Mrs._Sheikh_Hasina%2C_at_New_York_on_September_24%2C_2015_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/500px-Flag_of_Bangladesh.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/National_emblem_of_Bangladesh.svg/500px-National_emblem_of_Bangladesh.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/500px-Bangladesh_%28orthographic_projection%29.svg.png"}, 
@@ -314,7 +314,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Brunei","url":"https://en.wikipedia.org/wiki/Brunei"}, 
-        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hassanal_Bolkiah_2013.jpg/500px-Hassanal_Bolkiah_2013.jpg"}, 
+        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/500px-Flag_of_Brunei.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_Brunei.svg/500px-Emblem_of_Brunei.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Brunei_%28orthographic_projection%29.svg/500px-Brunei_%28orthographic_projection%29.svg.png"}, 
@@ -2238,7 +2238,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Tanzania","url":"https://en.wikipedia.org/wiki/Tanzania"}, 
-        leader: {"title":"President","pos":"president","name":"Samia Suluhu Hassan","url":"https://en.wikipedia.org/wiki/Samia_Suluhu_Hassan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Samia_Suluhu_Hassan_in_May_2017.jpg/500px-Samia_Suluhu_Hassan_in_May_2017.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Samia Suluhu Hassan","url":"https://en.wikipedia.org/wiki/Samia_Suluhu_Hassan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/International_leaders_sign_joint_statement_at_COP26_%2851649202102%29_%28Suluhu_crop%29.jpg/500px-International_leaders_sign_joint_statement_at_COP26_%2851649202102%29_%28Suluhu_crop%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/500px-Flag_of_Tanzania.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_arms_of_Tanzania.svg/500px-Coat_of_arms_of_Tanzania.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tanzania_%28orthographic_projection%29.svg/500px-Tanzania_%28orthographic_projection%29.svg.png"}, 
