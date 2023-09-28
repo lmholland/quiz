@@ -687,7 +687,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 60:    // France
-                        flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
+                        flag_symbol_map(8, "svg", 9, "svg",10, "svg");
                         break;
                     case 61:    // Gabon
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -3213,9 +3213,6 @@ async function getData(){
                             break;
                         case 23:    // Brazil
                             leaderImg(5, "jpg");
-                            break;
-                        case 26:    // Burkina Faso
-                            leaderImg_thumbless(3);
                             break;
                         case 29:    // Cameroon
                             leaderImg(3, "png");

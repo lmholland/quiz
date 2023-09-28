@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "September 27, 2023";
+    const lastChecked = "September 28, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -342,7 +342,7 @@
         }, 
         {
             country: {"name":"Burkina Faso","url":"https://en.wikipedia.org/wiki/Burkina_Faso"}, 
-            leader: {"title":"President of the Patriotic Movement for Safeguard and Restoration","pos":"president of the Patriotic Movement for Safeguard and Restoration","name":"Ibrahim Traoré","url":"https://en.wikipedia.org/wiki/Ibrahim_Traor%C3%A9","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/thumb/d/d7/Ibrahim_Traor%C3%A9_-_2023_%28cropped%29.png/220px-Ibrahim_Traor%C3%A9_-_2023_%28cropped%29.png/500px-220px-Ibrahim_Traor%C3%A9_-_2023_%28cropped%29.png"}, 
+            leader: {"title":"President of the Patriotic Movement for Safeguard and Restoration","pos":"president of the Patriotic Movement for Safeguard and Restoration","name":"Ibrahim Traoré","url":"https://en.wikipedia.org/wiki/Ibrahim_Traor%C3%A9","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ibrahim_Traor%C3%A9_2023_%28cropped%29.jpg/500px-Ibrahim_Traor%C3%A9_2023_%28cropped%29.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/500px-Flag_of_Burkina_Faso.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Burkina_Faso.svg/500px-Coat_of_arms_of_Burkina_Faso.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Burkina_Faso_%28orthographic_projection%29.svg/500px-Burkina_Faso_%28orthographic_projection%29.svg.png"}, 
@@ -1629,7 +1629,7 @@
         }, 
         {
             country: {"name":"Niger","url":"https://en.wikipedia.org/wiki/Niger"}, 
-            leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/General-Tchiani.png/500px-General-Tchiani.png"}, 
+            leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":""}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/500px-Niger_%28orthographic_projection%29.svg.png"}, 
