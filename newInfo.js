@@ -1,4 +1,4 @@
-const lastChecked = "September 29, 2023";
+const lastChecked = "October 1, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -171,7 +171,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Bangladesh","url":"https://en.wikipedia.org/wiki/Bangladesh"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"https://en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Sheikh_Hasina_Darshana_Jardosh_G20_New_Delhi_2023_%28cropped%29.jpg/500px-Sheikh_Hasina_Darshana_Jardosh_G20_New_Delhi_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Sheikh Hasina","url":"https://en.wikipedia.org/wiki/Sheikh_Hasina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Sheikh_Hasina_and_Narendra_Modi_New_Delhi_Sep_2023.jpg/500px-Sheikh_Hasina_and_Narendra_Modi_New_Delhi_Sep_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Flag_of_Bangladesh.svg/500px-Flag_of_Bangladesh.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/81/National_emblem_of_Bangladesh.svg/500px-National_emblem_of_Bangladesh.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Bangladesh_%28orthographic_projection%29.svg/500px-Bangladesh_%28orthographic_projection%29.svg.png"}, 
@@ -215,11 +215,11 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Great_coat_of_arms_of_Belgium.svg/500px-Great_coat_of_arms_of_Belgium.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Belgium_%28orthographic_projection%29.svg/500px-Belgium_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Brussels","type":"capital"}], 
-        largestCity: [{"name":"Antwerp","type":"largest city"}], 
         language: {"list":["Dutch","French","German"]}, 
         demonym: {"name":"Belgian"}, 
         currency: [{"full":"euro"}], 
         tld: {"name":".be"}, 
+        largestCity: [{"name":"Brussels","type":"largest city"}], 
     }, 
     {
         country: {"name":"Belize","url":"https://en.wikipedia.org/wiki/Belize"}, 
@@ -340,7 +340,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Burkina Faso","url":"https://en.wikipedia.org/wiki/Burkina_Faso"}, 
-        leader: {"title":"President of the Patriotic Movement for Safeguard and Restoration","pos":"president of the Patriotic Movement for Safeguard and Restoration","name":"Ibrahim Traoré","url":"https://en.wikipedia.org/wiki/Ibrahim_Traor%C3%A9","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Ibrahim_Traor%C3%A9_2023_%28cropped%29.jpg/500px-Ibrahim_Traor%C3%A9_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"President of the Patriotic Movement for Safeguard and Restoration","pos":"president of the Patriotic Movement for Safeguard and Restoration","name":"Ibrahim Traoré","url":"https://en.wikipedia.org/wiki/Ibrahim_Traor%C3%A9","imgUrl":"https://up500px-Ibrahim_Traor%C3%A9_-_2023_%28cropped%29.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Burkina_Faso.svg/500px-Flag_of_Burkina_Faso.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Burkina_Faso.svg/500px-Coat_of_arms_of_Burkina_Faso.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Burkina_Faso_%28orthographic_projection%29.svg/500px-Burkina_Faso_%28orthographic_projection%29.svg.png"}, 
@@ -783,9 +783,9 @@ const newInfo = [
     {
         country: {"name":"France","url":"https://en.wikipedia.org/wiki/France"}, 
         leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"https://en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emmanuel_Macron_2023_%28cropped%29.jpg/500px-Emmanuel_Macron_2023_%28cropped%29.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Armoiries_r%C3%A9publique_fran%C3%A7aise.svg/500px-Armoiries_r%C3%A9publique_fran%C3%A7aise.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EU-France_%28orthographic_projection%29.svg/500px-EU-France_%28orthographic_projection%29.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/500px-Edit-clear.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Armoiries_r%C3%A9publique_fran%C3%A7aise.svg/500px-Armoiries_r%C3%A9publique_fran%C3%A7aise.svg.png"}, 
         capital: [{"name":"Paris","type":"capital"}], 
         language: {"list":["French"]}, 
         demonym: {"name":"French"}, 
@@ -1058,7 +1058,7 @@ const newInfo = [
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Benjamin Netanyahu","url":"https://en.wikipedia.org/wiki/Benjamin_Netanyahu","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/500px-Benjamin_Netanyahu%2C_February_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/500px-Flag_of_Israel.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Israel.svg/500px-Emblem_of_Israel.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Israel_%28orthographic_projection%29_with_occupied_territories.svg/500px-Israel_%28orthographic_projection%29_with_occupied_territories.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Israel_%28orthographic_projection%29_new.svg/500px-Israel_%28orthographic_projection%29_new.svg.png"}, 
         capital: [{"name":"Jerusalem","type":"capital"}], 
         language: {"list":["Hebrew"]}, 
         demonym: {"name":"Israeli"}, 
@@ -1511,7 +1511,7 @@ const newInfo = [
     {
         country: {"name":"Morocco","url":"https://en.wikipedia.org/wiki/Morocco"}, 
         leader: {"title":"King","pos":"king","name":"Mohammed VI","url":"https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/King_Mohammed_VI_%28cropped%29.jpg/500px-King_Mohammed_VI_%28cropped%29.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Morocco_%28large_stroke%29.svg/500px-Flag_of_Morocco_%28large_stroke%29.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/500px-Flag_of_Morocco.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Coat_of_arms_of_Morocco.svg/500px-Coat_of_arms_of_Morocco.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Morocco_%28orthographic_projection%2C_WS_claimed%29.svg/500px-Morocco_%28orthographic_projection%2C_WS_claimed%29.svg.png"}, 
         capital: [{"name":"Rabat","type":"capital"}], 
@@ -1861,7 +1861,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Russia","url":"https://en.wikipedia.org/wiki/Russia"}, 
-        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"https://en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg/500px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"https://en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"https://up500px-Edit-clear.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/500px-Flag_of_Russia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg/500px-Coat_of_Arms_of_the_Russian_Federation.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg/500px-Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg.png"}, 
@@ -2043,7 +2043,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Slovakia","url":"https://en.wikipedia.org/wiki/Slovakia"}, 
-        leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PMSZ-78_%28cropped%29.jpg/500px-PMSZ-78_%28cropped%29.jpg"}, 
+        leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%C4%BDudov%C3%ADt_%C3%93dor_%E2%80%94_%C3%93dor_Lajos_%E2%80%94_21._august_%E2%80%94_pietna_spomienka%2C_%C5%A0af%C3%A1rikovo_n%C3%A1mestie_%28cropped%29.jpg/500px-%C4%BDudov%C3%ADt_%C3%93dor_%E2%80%94_%C3%93dor_Lajos_%E2%80%94_21._august_%E2%80%94_pietna_spomienka%2C_%C5%A0af%C3%A1rikovo_n%C3%A1mestie_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/500px-Flag_of_Slovakia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/500px-Coat_of_arms_of_Slovakia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/500px-EU-Slovakia.svg.png"}, 
@@ -2381,7 +2381,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"the United Arab Emirates","url":"https://en.wikipedia.org/wiki/United_Arab_Emirates"}, 
-        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/His_Highness_Sheikh_Mohammed_Bin_Zayed_Al_Nahyan%2C_at_Hyderabad_House%2C_in_New_Delhi_on_February_11%2C_2016.jpg/500px-His_Highness_Sheikh_Mohammed_Bin_Zayed_Al_Nahyan%2C_at_Hyderabad_House%2C_in_New_Delhi_on_February_11%2C_2016.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mohamed_bin_Zayed_Al_Nahyan.jpg/500px-Mohamed_bin_Zayed_Al_Nahyan.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/500px-Flag_of_the_United_Arab_Emirates.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_the_United_Arab_Emirates.svg/500px-Emblem_of_the_United_Arab_Emirates.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Arab_Emirates_%28orthographic_projection%29.svg/500px-United_Arab_Emirates_%28orthographic_projection%29.svg.png"}, 
@@ -2408,9 +2408,9 @@ const newInfo = [
     {
         country: {"name":"the United States","url":"https://en.wikipedia.org/wiki/United_States"}, 
         leader: {"title":"President","pos":"president","name":"Joe Biden","url":"https://en.wikipedia.org/wiki/Joe_Biden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/500px-Joe_Biden_presidential_portrait.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/USA_orthographic.svg/500px-USA_orthographic.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/500px-Edit-clear.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
         capital: [{"name":"Washington, D.C.","type":"capital"}], 
         largestCity: [{"name":"New York City","type":"largest city"}], 
         language: {"list":["English"]}, 

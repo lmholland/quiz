@@ -1,4 +1,4 @@
-const lastChecked = "September 28, 2023";
+const lastChecked = "October 1, 2023";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -821,7 +821,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Georgia","url":"https://en.wikipedia.org/wiki/Georgia_(country)"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Garibashvili","url":"https://en.wikipedia.org/wiki/Irakli_Garibashvili","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg/500px-PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Garibashvili","url":"https://en.wikipedia.org/wiki/Irakli_Garibashvili","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Irakli_Garibashvili.jpg/500px-Irakli_Garibashvili.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/500px-Flag_of_Georgia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/500px-Greater_coat_of_arms_of_Georgia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/500px-Georgia_%28orthographic_projection_with_inset%29.svg.png"}, 
@@ -1511,7 +1511,7 @@ const currentInfo = [
     {
         country: {"name":"Morocco","url":"https://en.wikipedia.org/wiki/Morocco"}, 
         leader: {"title":"King","pos":"king","name":"Mohammed VI","url":"https://en.wikipedia.org/wiki/Mohammed_VI_of_Morocco","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/King_Mohammed_VI_%28cropped%29.jpg/500px-King_Mohammed_VI_%28cropped%29.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Morocco_%28large_stroke%29.svg/500px-Flag_of_Morocco_%28large_stroke%29.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Morocco.svg/500px-Flag_of_Morocco.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Coat_of_arms_of_Morocco.svg/500px-Coat_of_arms_of_Morocco.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Morocco_%28orthographic_projection%2C_WS_claimed%29.svg/500px-Morocco_%28orthographic_projection%2C_WS_claimed%29.svg.png"}, 
         capital: [{"name":"Rabat","type":"capital"}], 
@@ -2043,7 +2043,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Slovakia","url":"https://en.wikipedia.org/wiki/Slovakia"}, 
-        leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/PMSZ-78_%28cropped%29.jpg/500px-PMSZ-78_%28cropped%29.jpg"}, 
+        leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%C4%BDudov%C3%ADt_%C3%93dor_%E2%80%94_%C3%93dor_Lajos_%E2%80%94_21._august_%E2%80%94_pietna_spomienka%2C_%C5%A0af%C3%A1rikovo_n%C3%A1mestie_%28cropped%29.jpg/500px-%C4%BDudov%C3%ADt_%C3%93dor_%E2%80%94_%C3%93dor_Lajos_%E2%80%94_21._august_%E2%80%94_pietna_spomienka%2C_%C5%A0af%C3%A1rikovo_n%C3%A1mestie_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/500px-Flag_of_Slovakia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/500px-Coat_of_arms_of_Slovakia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/500px-EU-Slovakia.svg.png"}, 
@@ -2381,7 +2381,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"the United Arab Emirates","url":"https://en.wikipedia.org/wiki/United_Arab_Emirates"}, 
-        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/His_Highness_Sheikh_Mohammed_Bin_Zayed_Al_Nahyan%2C_at_Hyderabad_House%2C_in_New_Delhi_on_February_11%2C_2016.jpg/500px-His_Highness_Sheikh_Mohammed_Bin_Zayed_Al_Nahyan%2C_at_Hyderabad_House%2C_in_New_Delhi_on_February_11%2C_2016.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Sheikh Mohamed bin Zayed Al Nahyan","url":"https://en.wikipedia.org/wiki/Mohamed_bin_Zayed_Al_Nahyan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Mohamed_bin_Zayed_Al_Nahyan.jpg/500px-Mohamed_bin_Zayed_Al_Nahyan.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Flag_of_the_United_Arab_Emirates.svg/500px-Flag_of_the_United_Arab_Emirates.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_the_United_Arab_Emirates.svg/500px-Emblem_of_the_United_Arab_Emirates.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/United_Arab_Emirates_%28orthographic_projection%29.svg/500px-United_Arab_Emirates_%28orthographic_projection%29.svg.png"}, 
