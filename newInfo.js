@@ -1,4 +1,4 @@
-const lastChecked = "October 1, 2023";
+const lastChecked = "October 2, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -696,7 +696,7 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_arms_of_Equatorial_Guinea.svg/500px-Coat_of_arms_of_Equatorial_Guinea.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNQ_orthographic.svg/500px-GNQ_orthographic.svg.png"}, 
         capital: [{"name":"Malabo","type":"capital"}], 
-        largestCity: [{"name":"Malabo","type":"largest city"}], 
+        largestCity: [{"name":"Bata","type":"largest city"}], 
         language: {"list":["Spanish","French","Portuguese"]}, 
         demonym: {"name":"Equatoguinean"}, 
         currency: [{"full":"Central African CFA franc"}], 
@@ -821,7 +821,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Georgia","url":"https://en.wikipedia.org/wiki/Georgia_(country)"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Garibashvili","url":"https://en.wikipedia.org/wiki/Irakli_Garibashvili","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Irakli_Garibashvili.jpg/500px-Irakli_Garibashvili.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Garibashvili","url":"https://en.wikipedia.org/wiki/Irakli_Garibashvili","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg/500px-PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Merge-split-transwiki_default.svg/500px-Merge-split-transwiki_default.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/500px-Flag_of_Georgia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/500px-Greater_coat_of_arms_of_Georgia.svg.png"}, 
@@ -1058,7 +1058,7 @@ const newInfo = [
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Benjamin Netanyahu","url":"https://en.wikipedia.org/wiki/Benjamin_Netanyahu","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/500px-Benjamin_Netanyahu%2C_February_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/500px-Flag_of_Israel.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Israel.svg/500px-Emblem_of_Israel.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Israel_%28orthographic_projection%29_new.svg/500px-Israel_%28orthographic_projection%29_new.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Israel_%28orthographic_projection%29_with_occupied_territories.svg/500px-Israel_%28orthographic_projection%29_with_occupied_territories.svg.png"}, 
         capital: [{"name":"Jerusalem","type":"capital"}], 
         language: {"list":["Hebrew"]}, 
         demonym: {"name":"Israeli"}, 
@@ -1135,7 +1135,7 @@ const newInfo = [
         country: {"name":"Kazakhstan","url":"https://en.wikipedia.org/wiki/Kazakhstan"}, 
         leader: {"title":"President","pos":"president","name":"Kassym-Jomart Tokayev","url":"https://en.wikipedia.org/wiki/Kassym-Jomart_Tokayev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%2813-12-2022%29.jpg/500px-%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%2813-12-2022%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Flag_of_Kazakhstan.svg/500px-Flag_of_Kazakhstan.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Emblem_of_Kazakhstan_latin.svg/500px-Emblem_of_Kazakhstan_latin.svg.png"}, 
+        symbol: {"url":"https://up500px-Emblem_of_Kazakhstan_3d.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/500px-Kazakhstan_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Astana","type":"capital"}], 
         largestCity: [{"name":"Almaty","type":"largest city"}], 
