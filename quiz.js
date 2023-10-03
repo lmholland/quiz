@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "October 2, 2023";
+    const lastChecked = "October 3, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 

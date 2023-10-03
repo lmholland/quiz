@@ -1,4 +1,4 @@
-const lastChecked = "October 2, 2023";
+const lastChecked = "October 3, 2023";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -314,7 +314,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Brunei","url":"https://en.wikipedia.org/wiki/Brunei"}, 
-        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Hassanal_Bolkiah_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
+        leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Hassanal_Bolkiah_2013.jpg/500px-Hassanal_Bolkiah_2013.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/500px-Flag_of_Brunei.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_Brunei.svg/500px-Emblem_of_Brunei.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Brunei_%28orthographic_projection%29.svg/500px-Brunei_%28orthographic_projection%29.svg.png"}, 
@@ -366,7 +366,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Cambodia","url":"https://en.wikipedia.org/wiki/Cambodia"}, 
-        leader: {"title":"President of the People's Party","pos":"president of the People's Party","name":"Hun Sen","url":"https://en.wikipedia.org/wiki/Hun_Sen","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Hun_Sen_July_2019.jpg/500px-Hun_Sen_July_2019.jpg"}, 
+        leader: {"title":"President of the People's Party","pos":"president of the People's Party","name":"Hun Sen","url":"https://en.wikipedia.org/wiki/Hun_Sen","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Prime_Minister_Hun_Sen_in_2022.jpg/500px-Prime_Minister_Hun_Sen_in_2022.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/500px-Flag_of_Cambodia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Royal_arms_of_Cambodia.svg/500px-Royal_arms_of_Cambodia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cambodia_on_the_globe_%28Cambodia_centered%29.svg/500px-Cambodia_on_the_globe_%28Cambodia_centered%29.svg.png"}, 
@@ -822,9 +822,9 @@ const newInfo = [
     {
         country: {"name":"Georgia","url":"https://en.wikipedia.org/wiki/Georgia_(country)"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Garibashvili","url":"https://en.wikipedia.org/wiki/Irakli_Garibashvili","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg/500px-PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/Merge-split-transwiki_default.svg/500px-Merge-split-transwiki_default.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/500px-Flag_of_Georgia.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/500px-Greater_coat_of_arms_of_Georgia.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/500px-Flag_of_Georgia.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/500px-Greater_coat_of_arms_of_Georgia.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/500px-Georgia_%28orthographic_projection_with_inset%29.svg.png"}, 
         capital: [{"name":"Tbilisi","type":"capital"}], 
         language: {"list":["Georgian"]}, 
         demonym: {"name":"Georgian"}, 
@@ -834,7 +834,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Germany","url":"https://en.wikipedia.org/wiki/Germany"}, 
-        leader: {"title":"Chancellor","pos":"chancellor","name":"Olaf Scholz","url":"https://en.wikipedia.org/wiki/Olaf_Scholz","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Olaf_Scholz_in_2023_%28cropped%29.jpg/500px-Olaf_Scholz_in_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Chancellor","pos":"chancellor","name":"Olaf Scholz","url":"https://en.wikipedia.org/wiki/Olaf_Scholz","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Olaf_Scholz_In_March_2022.jpg/500px-Olaf_Scholz_In_March_2022.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Flag_of_Germany.svg/500px-Flag_of_Germany.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Coat_of_arms_of_Germany.svg/500px-Coat_of_arms_of_Germany.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/EU-Germany_%28orthographic_projection%29.svg/500px-EU-Germany_%28orthographic_projection%29.svg.png"}, 
@@ -860,7 +860,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Greece","url":"https://en.wikipedia.org/wiki/Greece"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Kyriakos Mitsotakis","url":"https://en.wikipedia.org/wiki/Kyriakos_Mitsotakis","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Kyriakos_Mitsotakis_%282021-12-08%29_03_%28cropped%29.jpg/500px-Kyriakos_Mitsotakis_%282021-12-08%29_03_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Kyriakos Mitsotakis","url":"https://en.wikipedia.org/wiki/Kyriakos_Mitsotakis","imgUrl":"https://up500px-Semi-protection-shackle.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Greece.svg/500px-Flag_of_Greece.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Coat_of_arms_of_Greece.svg/500px-Coat_of_arms_of_Greece.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f7/EU-Greece_%28orthographic_projection%29.svg/500px-EU-Greece_%28orthographic_projection%29.svg.png"}, 
@@ -2408,9 +2408,9 @@ const newInfo = [
     {
         country: {"name":"the United States","url":"https://en.wikipedia.org/wiki/United_States"}, 
         leader: {"title":"President","pos":"president","name":"Joe Biden","url":"https://en.wikipedia.org/wiki/Joe_Biden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/500px-Joe_Biden_presidential_portrait.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f2/Edit-clear.svg/500px-Edit-clear.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/USA_orthographic.svg/500px-USA_orthographic.svg.png"}, 
         capital: [{"name":"Washington, D.C.","type":"capital"}], 
         largestCity: [{"name":"New York City","type":"largest city"}], 
         language: {"list":["English"]}, 
