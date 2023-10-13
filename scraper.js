@@ -513,7 +513,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "png");
                         break;
                     case 2:     // Algeria
-                        flag_symbol_map(4, "svg", 5, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 3:     // Andorra
                         flag_symbol_map(3, "svg", 4, "svg", 5, "png");
@@ -768,13 +768,13 @@ async function getData(){
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 87:    // Kazakhstan
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(5, "svg", 6, "png", 7, "svg");
                         break;
                     case 88:    // Kenya
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 89:    // Kiribati
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 90:    // Kuwait
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -825,7 +825,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 106:    // Malta
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 107:    // Marshall Islands
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -960,7 +960,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 151:    // Saudi Arabia
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 152:    // Senegal
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -2249,7 +2249,7 @@ async function getData(){
                             try{
                                 if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
                                     masterList[i].demonym = {};
-                                    masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].data.split(" ")[0];;
+                                    masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].data.split(" ")[0];
                                 }
                             } catch(error){
                             }
@@ -3214,6 +3214,9 @@ async function getData(){
                         case 23:    // Brazil
                             leaderImg(5, "jpg");
                             break;
+                        case 26:    // Botswana
+                            leaderImg(3, "png");
+                            break;
                         case 29:    // Cameroon
                             leaderImg(3, "png");
                             break;
@@ -3230,6 +3233,9 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 51:    // Egypt
+                            leaderImg(4, "jpg");
+                            break;
+                        case 54:    // Eritrea
                             leaderImg(4, "jpg");
                             break;
                         case 57:    // Ethiopia
@@ -3323,7 +3329,7 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 143:   // Russia
-                            leaderImg(4, "jpg");
+                            leaderImg(5, "jpg");
                             break;
                         case 146:   // St. Lucia
                             leaderImg(3, "png");
