@@ -678,7 +678,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 57:    // Ethiopia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 58:    // Fiji
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -768,7 +768,7 @@ async function getData(){
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 87:    // Kazakhstan
-                        flag_symbol_map(5, "svg", 6, "png", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 88:    // Kenya
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1056,7 +1056,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 183:    // UAE
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 184:    // UK
                         flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
@@ -1472,7 +1472,7 @@ async function getData(){
                                 language_nc100();
                                 break;
                             case 105:   // Mali
-                                language_sl_nc10k00();
+                                language_nc10000_wl();
                                 break;
                             case 106:   // Malta
                                 language_nc10k00();
@@ -1542,9 +1542,6 @@ async function getData(){
                                 break;
                             case 161:   // South Africa
                                 language_nc51k00_k2();
-                                break;
-                            case 164:   // Spain
-                                language_c00_1();
                                 break;
                             case 165:   // Sri Lanka
                                 language_nc10k00();
@@ -1716,6 +1713,19 @@ async function getData(){
                             ){
                                 masterList[i].language = {};
                                 masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data];
+                            }
+                        }
+
+                        function language_nc10000_wl(){
+                            try{
+                                if( 
+                                        data(`th.infobox-label`)[j].children[0].attribs.title == "Working language"
+                                    ||  data(`th.infobox-label`)[j].children[0].attribs.title == "Working language"
+                                ){
+                                    masterList[i].language = {};
+                                    masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data];
+                                }
+                            } catch(err){
                             }
                         }
 
@@ -3304,6 +3314,12 @@ async function getData(){
                         case 121:   // Nepal
                             leaderImg(4, "jpg");
                             break;
+                        case 122:   // Netherlands
+                            leaderImg(4, "jpg");
+                            break;
+                        case 123:   // New Zealand
+                            leaderImg(4, "jpg");
+                            break;
                         case 125:   // Niger
                             leaderImg(3, "png");
                             break;
@@ -3367,14 +3383,11 @@ async function getData(){
                         case 185:   // US
                             leaderImg(4, "jpg");
                             break;
-                        case 188:   // Vanuatu
-                            leaderImg(3, "png");
-                            break;
                         case 189:   // Vatican
                             leaderImg(4, "jpg");
                             break;
                         case 190:   // Venezuela
-                            leaderImg(4, "jpeg");
+                            leaderImg(4, "jpg");
                             break;
                         case 193:   // Zambia
                             leaderImg(4, "jpg");
