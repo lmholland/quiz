@@ -160,9 +160,6 @@ async function getData(){
                     case 151:   // Qatar
                         leader_00_112_2();
                         break; 
-                    case 170:   // Slovakia
-                        leader_00cc010_03_03();
-                        break;
                     case 181:   // Sudan
                         leader_0101_00_00();
                         break;
@@ -507,7 +504,7 @@ async function getData(){
             function getImgInfo(){
                 switch(i){  
                     case 0:     // Afghanistan
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 1:     // Albania
                         flag_symbol_map(4, "svg", 5, "svg", 6, "png");
@@ -678,7 +675,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 57:    // Ethiopia
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 58:    // Fiji
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -687,7 +684,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 60:    // France
-                        flag_symbol_map(8, "svg", 9, "svg",10, "svg");
+                        flag_symbol_map(6, "svg", 7, "svg",8, "svg");
                         break;
                     case 61:    // Gabon
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -750,7 +747,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 81:    // Israel
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 82:    // Italy
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -789,7 +786,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 94:    // Lebanon
-                        flag_symbol_map(4, "svg", 5, "svg", 5, "svg");
+                        lebanon_noSymbol(4, "svg", 5, "svg");
                         break;
                     case 95:    // Lesotho
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -813,7 +810,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 102:    // Malawi
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 103:    // Malaysia
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -996,7 +993,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 163:    // South Sudan
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 164:    // Spain
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1059,7 +1056,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 184:    // UK
-                        flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
+                        uk_doubleSymbol(4, "svg", 6, "svg");
                         break;
                     case 185:    // USA
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1121,6 +1118,29 @@ async function getData(){
                     }
                 }
 
+                function lebanon_noSymbol(flagNum, flagType, mapNum, mapType){
+                    try{
+                        flagURL = data(`img`)[flagNum].attribs.src;
+                        pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
+                        flagURL = flagURL.replace(pxSize, size);
+                        flagURL = flagURL.replace("//", "https://")
+                        masterList[i].flag = {}
+                        masterList[i].flag.url = flagURL;
+        
+                        masterList[i].symbol = {}
+                        masterList[i].symbol.url = "https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Lebanon.svg/500px-Coat_of_arms_of_Lebanon.svg.png";
+        
+                        mapURL = data(`img`)[mapNum].attribs.src;
+                        pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
+                        mapURL = mapURL.replace(pxSize, size);
+                        mapURL = mapURL.replace("//", "https://")
+                        masterList[i].map = {}
+                        masterList[i].map.url = mapURL;        
+                    } catch (error) {
+                        console.log(`error in ${masterList[i].country.name}'s image urls`);
+                    }
+                }
+
                 function turkey_noSymbol(flagNum, flagType, mapNum, mapType){
                     try{
                         flagURL = data(`img`)[flagNum].attribs.src;
@@ -1143,6 +1163,33 @@ async function getData(){
                         console.log(`error in ${masterList[i].country.name}'s image urls`);
                     }
                 }
+
+                function uk_doubleSymbol(flagNum, flagType, mapNum, mapType){
+                    // the UK has two coats of arms, but the image displayed on their country page is the two grouped together in one image
+                    // So I chose the English coat of arms to be hardcoded as the one symbol to use, so the image doesn't get warped in the quiz
+        
+                    try{
+                        flagURL = data(`img`)[flagNum].attribs.src;
+                        pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
+                        flagURL = flagURL.replace(pxSize, size);
+                        flagURL = flagURL.replace("//", "https://")
+                        masterList[i].flag = {}
+                        masterList[i].flag.url = flagURL;
+        
+                        masterList[i].symbol = {}
+                        masterList[i].symbol.url = "https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_(Tudor_crown).svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_(Tudor_crown).svg.png";
+        
+                        mapURL = data(`img`)[mapNum].attribs.src;
+                        pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
+                        mapURL = mapURL.replace(pxSize, size);
+                        mapURL = mapURL.replace("//", "https://")
+                        masterList[i].map = {}
+                        masterList[i].map.url = mapURL;        
+                    } catch (error) {
+                        console.log(`error in ${masterList[i].country.name}'s image urls`);
+                    }
+                }
+
             }
 
             function getTextInfo(){
@@ -3255,7 +3302,7 @@ async function getData(){
                             leaderImg(5, "jpg");
                             break;
                         case 61:    // Gabon
-                            leaderImg(4, "jpg");
+                            leaderImg_thumbless(3);
                             break;
                         case 68:    // Guatemala
                             leaderImg(3, "png");
@@ -3315,9 +3362,6 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 122:   // Netherlands
-                            leaderImg(4, "jpg");
-                            break;
-                        case 123:   // New Zealand
                             leaderImg(4, "jpg");
                             break;
                         case 125:   // Niger

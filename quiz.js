@@ -1,6 +1,6 @@
 (() => {
     // replace lastChecked and currentInfo whenever currentInfo.js is confirmed
-    const lastChecked = "October 22, 2023";
+    const lastChecked = "October 29, 2023";
     const currentInfo = [
         {
             country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -126,7 +126,7 @@
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austria_Bundesadler.svg/500px-Austria_Bundesadler.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/EU-Austria_%28orthographic_projection%29.svg/500px-EU-Austria_%28orthographic_projection%29.svg.png"}, 
             capital: [{"name":"Vienna","type":"capital"}], 
-            language: {"list":["Austrian German"]}, 
+            language: {"list":["Austrian German (Austrian)"]}, 
             demonym: {"name":"Austrian"}, 
             currency: [{"full":"euro"}], 
             tld: {"name":".at"}, 
@@ -368,7 +368,7 @@
         }, 
         {
             country: {"name":"Cambodia","url":"https://en.wikipedia.org/wiki/Cambodia"}, 
-            leader: {"title":"President of the People's Party","pos":"president of the People's Party","name":"Hun Sen","url":"https://en.wikipedia.org/wiki/Hun_Sen","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Prime_Minister_Hun_Sen_in_2022.jpg/500px-Prime_Minister_Hun_Sen_in_2022.jpg"}, 
+            leader: {"title":"President of the People's Party","pos":"president of the People's Party","name":"Hun Sen","url":"https://en.wikipedia.org/wiki/Hun_Sen","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/46/Hun_Sen_July_2019.jpg/500px-Hun_Sen_July_2019.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_Cambodia.svg/500px-Flag_of_Cambodia.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Royal_arms_of_Cambodia.svg/500px-Royal_arms_of_Cambodia.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Cambodia_on_the_globe_%28Cambodia_centered%29.svg/500px-Cambodia_on_the_globe_%28Cambodia_centered%29.svg.png"}, 
@@ -786,7 +786,7 @@
             country: {"name":"France","url":"https://en.wikipedia.org/wiki/France"}, 
             leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"https://en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emmanuel_Macron_2023_%28cropped%29.jpg/500px-Emmanuel_Macron_2023_%28cropped%29.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png"}, 
-            symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Armoiries_r%C3%A9publique_fran%C3%A7aise.svg/500px-Armoiries_r%C3%A9publique_fran%C3%A7aise.svg.png"}, 
+            symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Arms_of_the_French_Republic.svg/500px-Arms_of_the_French_Republic.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EU-France_%28orthographic_projection%29.svg/500px-EU-France_%28orthographic_projection%29.svg.png"}, 
             capital: [{"name":"Paris","type":"capital"}], 
             language: {"list":["French"]}, 
@@ -797,7 +797,7 @@
         }, 
         {
             country: {"name":"Gabon","url":"https://en.wikipedia.org/wiki/Gabon"}, 
-            leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":""}, 
+            leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Brice_Clotaire_Oligui_Nguema_Cropped_photo.jpg/500px-Brice_Clotaire_Oligui_Nguema_Cropped_photo.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
@@ -1228,7 +1228,7 @@
             country: {"name":"Lebanon","url":"https://en.wikipedia.org/wiki/Lebanon"}, 
             leader: {"title":"Prime Minister","pos":"prime minister","name":"Najib Mikati","url":"https://en.wikipedia.org/wiki/Najib_Mikati","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Najib_Mikati_portrait.jpg/500px-Najib_Mikati_portrait.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/500px-Flag_of_Lebanon.svg.png"}, 
-            symbol: {"url":""}, 
+            symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Lebanon.svg/500px-Coat_of_arms_of_Lebanon.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/500px-Lebanon_%28orthographic_projection%29.svg.png"}, 
             capital: [{"name":"Beirut","type":"capital"}], 
             language: {"list":["Arabic"]}, 
@@ -1759,7 +1759,7 @@
         }, 
         {
             country: {"name":"Papua New Guinea","url":"https://en.wikipedia.org/wiki/Papua_New_Guinea"}, 
-            leader: {"title":"Prime Minister","pos":"prime minister","name":"James Marape","url":"https://en.wikipedia.org/wiki/James_Marape","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/James_Marape_-_2023_%2852829685765%29_%28cropped%29.jpg/500px-James_Marape_-_2023_%2852829685765%29_%28cropped%29.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"James Marape","url":"https://en.wikipedia.org/wiki/James_Marape","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Papua_New_Guinea_Prime_Minister_James_Marape_in_Port_Moresby%2C_Papua_New_Guinea_on_July_27%2C_2023_-_230727-D-TT977-0140_%28cropped%29.jpg/500px-Papua_New_Guinea_Prime_Minister_James_Marape_in_Port_Moresby%2C_Papua_New_Guinea_on_July_27%2C_2023_-_230727-D-TT977-0140_%28cropped%29.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Flag_of_Papua_New_Guinea.svg/500px-Flag_of_Papua_New_Guinea.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/National_emblem_of_Papua_New_Guinea.svg/500px-National_emblem_of_Papua_New_Guinea.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Papua_New_Guinea_%28orthographic_projection%29.svg/500px-Papua_New_Guinea_%28orthographic_projection%29.svg.png"}, 
@@ -1772,7 +1772,7 @@
         }, 
         {
             country: {"name":"Paraguay","url":"https://en.wikipedia.org/wiki/Paraguay"}, 
-            leader: {"title":"President","pos":"president","name":"Santiago Peña","url":"https://en.wikipedia.org/wiki/Santiago_Pe%C3%B1a","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Santi_Pe%C3%B1a_Foto_Oficial.jpg/500px-Santi_Pe%C3%B1a_Foto_Oficial.jpg"}, 
+            leader: {"title":"President","pos":"president","name":"Santiago Peña","url":"https://en.wikipedia.org/wiki/Santiago_Pe%C3%B1a","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Presidente_Santi_Pe%C3%B1a_16-08-2023.jpg/500px-Presidente_Santi_Pe%C3%B1a_16-08-2023.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/500px-Flag_of_Paraguay.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Paraguay.svg/500px-Coat_of_arms_of_Paraguay.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/PRY_orthographic.svg/500px-PRY_orthographic.svg.png"}, 
@@ -1811,7 +1811,7 @@
         }, 
         {
             country: {"name":"Poland","url":"https://en.wikipedia.org/wiki/Poland"}, 
-            leader: {"title":"President","pos":"president","name":"Andrzej Duda","url":"https://en.wikipedia.org/wiki/Andrzej_Duda","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Andrzej_Duda_in_the_Royal_Palace%2C_Warsaw_in_2023.jpg/500px-Andrzej_Duda_in_the_Royal_Palace%2C_Warsaw_in_2023.jpg"}, 
+            leader: {"title":"President","pos":"president","name":"Andrzej Duda","url":"https://en.wikipedia.org/wiki/Andrzej_Duda","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/President_of_Poland_Andrzej_Duda_Full_Resolution_%28cropped%29.jpg/500px-President_of_Poland_Andrzej_Duda_Full_Resolution_%28cropped%29.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/1/12/Flag_of_Poland.svg/500px-Flag_of_Poland.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Herb_Polski.svg/500px-Herb_Polski.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/EU-Poland_%28orthographic_projection%29.svg/500px-EU-Poland_%28orthographic_projection%29.svg.png"}, 
@@ -2045,7 +2045,7 @@
         }, 
         {
             country: {"name":"Slovakia","url":"https://en.wikipedia.org/wiki/Slovakia"}, 
-            leader: {"title":"Interim Prime Minister","pos":"interim prime minister","name":"Ľudovít Ódor","url":"https://en.wikipedia.org/wiki/%C4%BDudov%C3%ADt_%C3%93dor","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/%C4%BDudov%C3%ADt_%C3%93dor_%E2%80%94_%C3%93dor_Lajos_%E2%80%94_21._august_%E2%80%94_pietna_spomienka%2C_%C5%A0af%C3%A1rikovo_n%C3%A1mestie_%28cropped%29.jpg/500px-%C4%BDudov%C3%ADt_%C3%93dor_%E2%80%94_%C3%93dor_Lajos_%E2%80%94_21._august_%E2%80%94_pietna_spomienka%2C_%C5%A0af%C3%A1rikovo_n%C3%A1mestie_%28cropped%29.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"Robert Fico","url":"https://en.wikipedia.org/wiki/Robert_Fico","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Robert_Fico_2017.jpg/500px-Robert_Fico_2017.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/500px-Flag_of_Slovakia.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/500px-Coat_of_arms_of_Slovakia.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/500px-EU-Slovakia.svg.png"}, 
@@ -2292,7 +2292,7 @@
         }, 
         {
             country: {"name":"Trinidad and Tobago","url":"https://en.wikipedia.org/wiki/Trinidad_and_Tobago"}, 
-            leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"https://en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/KeithRowley.jpg/500px-KeithRowley.jpg"}, 
+            leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"https://en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_on_6_July_2023_-_%2853027345558%29_%28cropped%29.jpg/500px-Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_on_6_July_2023_-_%2853027345558%29_%28cropped%29.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/500px-Flag_of_Trinidad_and_Tobago.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/500px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trinidad_and_Tobago_%28orthographic_projection%29.svg/500px-Trinidad_and_Tobago_%28orthographic_projection%29.svg.png"}, 
@@ -2486,7 +2486,7 @@
         }, 
         {
             country: {"name":"Vietnam","url":"https://en.wikipedia.org/wiki/Vietnam"}, 
-            leader: {"title":"General Secretary of the Communist Party","pos":"general secretary of the Communist Party","name":"Nguyễn Phú Trọng","url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nguyen_Phu_Trong_HN2023.jpg/500px-Nguyen_Phu_Trong_HN2023.jpg"}, 
+            leader: {"title":"General Secretary of the Communist Party","pos":"general secretary of the Communist Party","name":"Nguyễn Phú Trọng","url":"https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Nguyen_Phu_Trong_HN2023.jpg/500px-Nguyen_Phu_Trong_HN2023.jpg"}, 
             flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Vietnam.svg/500px-Flag_of_Vietnam.svg.png"}, 
             symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Emblem_of_Vietnam.svg/500px-Emblem_of_Vietnam.svg.png"}, 
             map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Vietnam_%28orthographic_projection%29.svg/500px-Vietnam_%28orthographic_projection%29.svg.png"}, 
