@@ -145,6 +145,9 @@ async function getData(){
                     case 104:   // Liechtenstein
                         leader_000_0101020_02();
                         break; 
+                    case 107:   // Madagascar
+                        leader_00cc010_03_03();
+                        break;
                     case 111:   // Mali
                         leader_00cc010_03_03();
                         break; 
@@ -609,7 +612,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 35:    // China
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 36:    // Colombia
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -684,7 +687,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 60:    // France
-                        flag_symbol_map(6, "svg", 7, "svg",8, "svg");
+                        flag_symbol_map(6, "svg", 7, "svg",9, "svg");
                         break;
                     case 61:    // Gabon
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1038,7 +1041,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 178:    // Turkey
-                        turkey_noSymbol(5, "svg", 6, "svg");
+                        turkey_noSymbol(4, "svg", 5, "svg");
                         break;
                     case 179:    // Turkmenistan
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1582,6 +1585,9 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 156:   // Singapore
+                                language_nc10k00();
+                                break;
+                            case 159:   // Solomon Islands
                                 language_nc10k00();
                                 break;
                             case 160:   // Somalia
@@ -3355,6 +3361,9 @@ async function getData(){
                         case 114:   // Mongolia
                             leaderImg(4, "jpg");
                             break;
+                        case 115:   // Montenegro
+                            leaderImg(3, "png");
+                            break;
                         case 118:   // Myanmar
                             leaderImg(4, "jpg");
                             break;
@@ -3371,9 +3380,6 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 127:   // North Korea
-                            leaderImg(4, "jpg");
-                            break;
-                        case 128:   // North Macedonia
                             leaderImg(4, "jpg");
                             break;
                         case 131:   // Pakistan
