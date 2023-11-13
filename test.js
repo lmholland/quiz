@@ -1,14 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/turkey");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/David_Adeang");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
         // flag_symbol_map(6, "svg", 7, "svg", 9, "svg");
-        // leaderImg(3, "jpg")
-        turkey_noSymbol(4, "svg", 5, "svg");
+        leaderImg(4, "jpg")
         
         function pos_00(){
             if(
@@ -81,32 +80,6 @@ async function getData(){
                 // masterList[i].leader.imgUrl = imgURL;
                 console.log(imgURL);
             } catch(error){
-            }
-        }
-
-        function turkey_noSymbol(flagNum, flagType, mapNum, mapType){
-            try{
-                flagURL = data(`img`)[flagNum].attribs.src;
-                pxSize = flagURL.substring(flagURL.indexOf(`.${flagType}/`) + 5, flagURL.lastIndexOf("px") + 2);
-                flagURL = flagURL.replace(pxSize, size);
-                flagURL = flagURL.replace("//", "https://")
-                // masterList[i].flag = {}
-                // masterList[i].flag.url = flagURL;
-                console.log(flagURL);
-
-                // masterList[i].symbol = {}
-                // masterList[i].symbol.url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Emblem_of_Turkey.svg/500px-Emblem_of_Turkey.svg.png";
-
-                mapURL = data(`img`)[mapNum].attribs.src;
-                pxSize = mapURL.substring(mapURL.indexOf(`.${mapType}/`) + 5, mapURL.lastIndexOf("px") + 2);
-                mapURL = mapURL.replace(pxSize, size);
-                mapURL = mapURL.replace("//", "https://")
-                // masterList[i].map = {}
-                // masterList[i].map.url = mapURL;
-                console.log(mapURL);
-        
-            } catch (error) {
-                console.log(`error in ${masterList[i].country.name}'s image urls`);
             }
         }
 

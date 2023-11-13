@@ -678,7 +678,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 57:    // Ethiopia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 58:    // Fiji
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -3365,6 +3365,9 @@ async function getData(){
                             leaderImg(3, "png");
                             break;
                         case 118:   // Myanmar
+                            leaderImg(4, "jpg");
+                            break;
+                        case 120:   // Nauru
                             leaderImg(4, "jpg");
                             break;
                         case 121:   // Nepal
