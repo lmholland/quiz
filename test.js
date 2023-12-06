@@ -1,7 +1,7 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Emmerson_Mnangagwa");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_Ph%C3%BA_Tr%E1%BB%8Dng");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;

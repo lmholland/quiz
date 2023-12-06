@@ -14,23 +14,24 @@ async function getData(){
             // numbers here mean country position in list, comment numbers are leader position minus position in this list
             // * -1 is used so the list can start at 0, this affects countryRow in skipDeJureLeaders
 
-            -1,     //  000-00  start*  000 <- the one being skipped, 00 <- it's place in this list 
+            -1,     //  000-00  start*  000 <- the line being skipped, 00 <- the country's place in this list 
             21,     //  022-01  Bosnia
             26,     //  028-02  Burkina Faso
             28,     //  031-03  Cambodia
-            61,     //  065-04  Gabon
-            69,     //  074-05  Guinea
-            97,     //  103-06  Liechtenstein
-            112,    //  119-07  Moldova
-            118,    //  125-08  Myanmar
-            139,    //  148-09  Poland
-            142,    //  152-10  Romania
-            148,    //  159-11  San Marino
-            150,    //  162-12  Saudi Arabia
-            153,    //  166-13  Serbia
-            160,    //  174-14  Somalia
-            165,    //  180-15  Sudan
-            179,    //  195-16  Turkmenistan
+            52,     //  056-04  El Salvador
+            61,     //  066-05  Gabon
+            69,     //  075-06  Guinea
+            97,     //  104-07  Liechtenstein
+            112,    //  120-08  Moldova
+            118,    //  127-09  Myanmar
+            139,    //  149-10  Poland
+            142,    //  153-11  Romania
+            148,    //  160-12  San Marino
+            150,    //  163-13  Saudi Arabia
+            153,    //  167-14  Serbia
+            160,    //  175-15  Somalia
+            165,    //  181-16  Sudan
+            179,    //  196-17  Turkmenistan
         ]
         let info = [];
 
@@ -133,49 +134,49 @@ async function getData(){
                     case 36:    // Chad
                         leader_00cc010_03_03();
                         break; 
-                    case 64:    // Gabon
+                    case 65:    // Gabon
                         leader_00cc010_03_03();
                         break; 
-                    case 73:    // Guinea
+                    case 74:    // Guinea
                         leader_0001_03_03();
                         break; 
-                    case 77:    // Haiti
+                    case 78:    // Haiti
                         leader_00cc010_03_03();
                         break; 
-                    case 104:   // Liechtenstein
+                    case 105:   // Liechtenstein
                         leader_000_0101020_02();
                         break; 
-                    case 107:   // Madagascar
+                    case 108:   // Madagascar
                         leader_00cc010_03_03();
                         break;
-                    case 111:   // Mali
+                    case 112:   // Mali
                         leader_00cc010_03_03();
                         break; 
-                    case 125:   // Myanmar
+                    case 126:   // Myanmar
                         leader_000_02_02();
                         break;
-                    case 133:   // Niger
+                    case 134:   // Niger
                         leader_0001_03_03();
                         break;
-                    case 139:   // Pakistan
+                    case 140:   // Pakistan
                         leader_000_02_02();
                         break;
-                    case 151:   // Qatar
+                    case 152:   // Qatar
                         leader_00_112_2();
                         break; 
-                    case 181:   // Sudan
+                    case 182:   // Sudan
                         leader_0101_00_00();
                         break;
-                    case 184:   // Switzerland 
+                    case 185:   // Switzerland 
                         leader_00_00_0();
                         break;          
-                    case 194:   // Turkmenistan
+                    case 195:   // Turkmenistan
                         leader_010_3_3();
                         break; 
-                    case 199:   // UAE
+                    case 200:   // UAE
                         leader_00_112_2();
                         break; 
-                    case 208:   // Yemen
+                    case 209:   // Yemen
                         leader_000_02_02();
                         break; 
                 }
@@ -771,7 +772,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 88:    // Kenya
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 89:    // Kiribati
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1080,7 +1081,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 191:    // Vietnam
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 192:    // Yemen
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -3346,6 +3347,12 @@ async function getData(){
                         case 95:    // Lesotho
                             leaderImg(6, "jpg");
                             break;
+                        case 100:   // Luxembourg
+                            leaderImg(4, "jpg");
+                            break;
+                        case 104:   // Maldives
+                            leaderImg(4, "jpg");
+                            break;
                         case 108:   // Mauritania
                             leaderImg(4, "jpg");
                             break;
@@ -3355,14 +3362,8 @@ async function getData(){
                         case 110:   // Mexico
                             leaderImg(4, "jpg");
                             break;
-                        case 113:   // Monaco
-                            leaderImg(3, "jpg");
-                            break;
                         case 114:   // Mongolia
                             leaderImg(4, "jpg");
-                            break;
-                        case 115:   // Montenegro
-                            leaderImg(3, "png");
                             break;
                         case 118:   // Myanmar
                             leaderImg(4, "jpg");
@@ -3375,6 +3376,9 @@ async function getData(){
                             break;
                         case 122:   // Netherlands
                             leaderImg(4, "jpg");
+                            break;
+                        case 123:   // New Zealand
+                            leaderImg(3, "png");
                             break;
                         case 125:   // Niger
                             leaderImg(3, "png");
@@ -3440,7 +3444,7 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 190:   // Venezuela
-                            leaderImg(4, "jpg");
+                            leaderImg(4, "jpeg");
                             break;
                         case 193:   // Zambia
                             leaderImg(4, "jpg");
