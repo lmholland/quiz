@@ -24,14 +24,13 @@ async function getData(){
             97,     //  104-07  Liechtenstein
             112,    //  120-08  Moldova
             118,    //  127-09  Myanmar
-            139,    //  149-10  Poland
-            142,    //  153-11  Romania
-            148,    //  160-12  San Marino
-            150,    //  163-13  Saudi Arabia
-            153,    //  167-14  Serbia
-            160,    //  175-15  Somalia
-            165,    //  181-16  Sudan
-            179,    //  196-17  Turkmenistan
+            142,    //  152-10  Romania
+            148,    //  159-11  San Marino
+            150,    //  162-12  Saudi Arabia
+            153,    //  166-13  Serbia
+            160,    //  174-14  Somalia
+            165,    //  180-15  Sudan
+            179,    //  195-16  Turkmenistan
         ]
         let info = [];
 
@@ -146,9 +145,6 @@ async function getData(){
                     case 105:   // Liechtenstein
                         leader_000_0101020_02();
                         break; 
-                    case 108:   // Madagascar
-                        leader_00cc010_03_03();
-                        break;
                     case 112:   // Mali
                         leader_00cc010_03_03();
                         break; 
@@ -164,19 +160,19 @@ async function getData(){
                     case 152:   // Qatar
                         leader_00_112_2();
                         break; 
-                    case 182:   // Sudan
+                    case 181:   // Sudan
                         leader_0101_00_00();
                         break;
-                    case 185:   // Switzerland 
+                    case 184:   // Switzerland 
                         leader_00_00_0();
                         break;          
-                    case 195:   // Turkmenistan
+                    case 194:   // Turkmenistan
                         leader_010_3_3();
                         break; 
-                    case 200:   // UAE
+                    case 199:   // UAE
                         leader_00_112_2();
                         break; 
-                    case 209:   // Yemen
+                    case 208:   // Yemen
                         leader_000_02_02();
                         break; 
                 }
@@ -535,7 +531,7 @@ async function getData(){
                         flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
                         break;
                     case 9:     // Austria
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
                         break;
                     case 10:    // Azerbaijan
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -751,7 +747,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 81:    // Israel
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 82:    // Italy
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -1081,7 +1077,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 191:    // Vietnam
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 192:    // Yemen
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -3076,7 +3072,13 @@ async function getData(){
                             case 78:    // Iran
                                 tld_nc10000();
                                 break;
+                            case 79:    // Iraq
+                                tld_nc10000();
+                                break;   
                             case 87:    // Kazakhstan
+                                tld_nc10000();
+                                break;
+                            case 94:    // Lebanon
                                 tld_nc10000();
                                 break;
                             case 122:   // Netherlands
@@ -3254,6 +3256,9 @@ async function getData(){
                         case 3:     // Andorra
                             leaderImg(4, "jpg");
                             break;
+                        case 6:     // Argentina
+                            leaderImg(4, "jpg");
+                            break;
                         case 8:     // Australia
                             leaderImg(4, "jpg");
                             break;
@@ -3324,7 +3329,7 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 78:    // Iran
-                            leaderImg(4, "jpeg");
+                            leaderImg(4, "jpg");
                             break;
                         case 81:    // Israel
                             leaderImg(4, "jpg");
@@ -3424,6 +3429,9 @@ async function getData(){
                             break;
                         case 170:   // Syria
                             leaderImg(4, "jpeg");
+                            break;
+                        case 176:   // Trinidad
+                            leaderImg(3, "jpeg");
                             break;
                         case 178:   // Turkey
                             leaderImg(4, "jpg");
