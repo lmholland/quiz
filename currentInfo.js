@@ -1172,7 +1172,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Kuwait","url":"https://en.wikipedia.org/wiki/Kuwait"}, 
-        leader: {"title":"Emir","pos":"emir","name":"Mishal Al-Ahmad Al-Jaber Al-Sabah","url":"https://en.wikipedia.org/wiki/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah","imgUrl":" https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg/500px-Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Emir","pos":"emir","name":"Mishal Al-Ahmad Al-Jaber Al-Sabah","url":"https://en.wikipedia.org/wiki/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg/500px-Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/500px-Flag_of_Kuwait.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Emblem_of_Kuwait.svg/500px-Emblem_of_Kuwait.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/KWT_orthographic.svg/500px-KWT_orthographic.svg.png"}, 

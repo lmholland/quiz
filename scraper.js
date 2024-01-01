@@ -2121,9 +2121,6 @@ async function getData(){
                             case 54:    //  Eritrea
                                 demonym_nc11000();
                                 break;
-                            case 56:    //  Eswatini
-                                demonym_nc10000();
-                                break;
                             case 59:    //  Finland
                                 demonym_nc10000();
                                 break;
@@ -3426,9 +3423,6 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 127:   // North Korea
-                            leaderImg(4, "jpg");
-                            break;
-                        case 131:   // Pakistan
                             leaderImg(4, "jpg");
                             break;
                         case 133:   // Palestine

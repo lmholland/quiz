@@ -1,13 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Nguyễn_Phú_Trọng");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Asim_Munir_(general)");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
         // flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
-        leaderImg(4, "jpg")
+        leaderImg(3, "jpg")
 
         function pos_00(){
             if(
@@ -87,7 +87,7 @@ async function getData(){
 
         //     try{
         //         if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
-        //             console.log(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data);
+        //             console.log(data(`th.infobox-label`)[j].next.children[0].children[0].data);
         //             // masterList[i].demonym = {};
         //             // masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[0].data;
         //         }

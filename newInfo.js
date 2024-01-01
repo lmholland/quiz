@@ -249,7 +249,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Bhutan","url":"https://en.wikipedia.org/wiki/Bhutan"}, 
-        leader: {"title":"Chief Advisor","pos":"chief advisor","name":"Chogyal Dago Rigdzin","url":"https://en.wikipedia.org/wiki/Chogyal_Dago_Rigdzin","imgUrl":"missing"}, 
+        leader: {"title":"Chief Advisor","pos":"chief advisor","name":"Chogyal Dago Rigdzin","url":"https://en.wikipedia.org/wiki/Chogyal_Dago_Rigdzin","imgUrl":"https://up500px-Ambox_important.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/500px-Flag_of_Bhutan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_Bhutan.svg/500px-Emblem_of_Bhutan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bhutan_%28orthographic_projection%29.svg/500px-Bhutan_%28orthographic_projection%29.svg.png"}, 
@@ -737,7 +737,7 @@ const newInfo = [
         capital: [], 
         largestCity: [{"name":"Mbabane","type":"largest city"}], 
         language: {"list":["Swazi","English"]}, 
-        demonym: {"name":"Swazi"}, 
+        demonym: {}, 
         currency: [{"demonym":"Swazi","unit":"lilangeni"},{"other":"South African rand"}], 
         tld: {"name":".sz"}, 
     }, 
@@ -795,7 +795,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Gabon","url":"https://en.wikipedia.org/wiki/Gabon"}, 
-        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":"missing"}, 
+        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/thumb/0/04/Flag_of_Gabon.svg/20px-Flag_of_Gabon.svg.png/500px-20px-Flag_of_Gabon.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
@@ -1172,7 +1172,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Kuwait","url":"https://en.wikipedia.org/wiki/Kuwait"}, 
-        leader: {"title":"Emir","pos":"emir","name":"Mishal Al-Ahmad Al-Jaber Al-Sabah","url":"https://en.wikipedia.org/wiki/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah","imgUrl":" https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg/500px-Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Emir","pos":"emir","name":"Mishal Al-Ahmad Al-Jaber Al-Sabah","url":"https://en.wikipedia.org/wiki/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg/500px-Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/500px-Flag_of_Kuwait.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Emblem_of_Kuwait.svg/500px-Emblem_of_Kuwait.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/KWT_orthographic.svg/500px-KWT_orthographic.svg.png"}, 
@@ -1627,7 +1627,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Niger","url":"https://en.wikipedia.org/wiki/Niger"}, 
-        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"missing"}, 
+        leader: {"title":"President of the National Council for the Safeguard of the Homeland","pos":"president of the National Council for the Safeguard of the Homeland","name":"Abdourahamane Tchiani","url":"https://en.wikipedia.org/wiki/Abdourahamane_Tchiani","imgUrl":"https://up500px-Flag_of_Niger.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f4/Flag_of_Niger.svg/500px-Flag_of_Niger.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Niger.svg/500px-Coat_of_arms_of_Niger.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Niger_%28orthographic_projection%29.svg/500px-Niger_%28orthographic_projection%29.svg.png"}, 
@@ -1705,7 +1705,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Pakistan","url":"https://en.wikipedia.org/wiki/Pakistan"}, 
-        leader: {"title":"Chief of Army Staff","pos":"chief of Army Staff","name":"Asim Munir","url":"https://en.wikipedia.org/wiki/Asim_Munir_(general)","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/General_Asim_Munir_(Pakistan).jpg/500px-General_Asim_Munir_(Pakistan).jpg"}, 
+        leader: {"title":"Chief of Army Staff","pos":"chief of Army Staff","name":"Asim Munir","url":"https://en.wikipedia.org/wiki/Asim_Munir_(general)","imgUrl":"https://up500px-Flag_of_Pakistan.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Flag_of_Pakistan.svg/500px-Flag_of_Pakistan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/State_emblem_of_Pakistan.svg/500px-State_emblem_of_Pakistan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/PAK_orthographic.svg/500px-PAK_orthographic.svg.png"}, 
@@ -2436,7 +2436,7 @@ const newInfo = [
         leader: {"title":"President","pos":"president","name":"Shavkat Mirziyoyev","url":"https://en.wikipedia.org/wiki/Shavkat_Mirziyoyev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Shavkat_Mirziyoyev_official_portrait_%28cropped_2%29.jpg/500px-Shavkat_Mirziyoyev_official_portrait_%28cropped_2%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Uzbekistan.svg/500px-Flag_of_Uzbekistan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Emblem_of_Uzbekistan.svg/500px-Emblem_of_Uzbekistan.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Uzbekistan_on_the_globe_%28Uzbekistan_centered%29.svg/500px-Uzbekistan_on_the_globe_%28Uzbekistan_centered%29.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Uzbekistan_%28centered_orthographic_projection%29.svg/500px-Uzbekistan_%28centered_orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Tashkent","type":"capital"}], 
         language: {"list":["Uzbek"]}, 
         demonym: {"name":"Uzbekistani"}, 
