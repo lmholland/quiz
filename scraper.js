@@ -24,6 +24,7 @@ async function getData(){
             97,     //  104-07  Liechtenstein
             112,    //  120-08  Moldova
             118,    //  127-09  Myanmar
+            131,    //  141-10  Pakistan
             142,    //  152-10  Romania
             148,    //  159-11  San Marino
             150,    //  162-12  Saudi Arabia
@@ -154,25 +155,22 @@ async function getData(){
                     case 134:   // Niger
                         leader_0001_03_03();
                         break;
-                    case 140:   // Pakistan
-                        leader_000_02_02();
-                        break;
                     case 152:   // Qatar
                         leader_00_112_2();
                         break; 
-                    case 181:   // Sudan
+                    case 182:   // Sudan
                         leader_0101_00_00();
                         break;
-                    case 184:   // Switzerland 
+                    case 185:   // Switzerland 
                         leader_00_00_0();
                         break;          
-                    case 194:   // Turkmenistan
+                    case 195:   // Turkmenistan
                         leader_010_3_3();
                         break; 
-                    case 199:   // UAE
+                    case 200:   // UAE
                         leader_00_112_2();
                         break; 
-                    case 208:   // Yemen
+                    case 209:   // Yemen
                         leader_000_02_02();
                         break; 
                 }
@@ -738,7 +736,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 78:    // Iran
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 79:    // Iraq
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -882,7 +880,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 126:    // Nigeria
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 127:    // North Korea
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -924,7 +922,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 140:    // Portugal
-                        flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 141:    // Qatar
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1023,7 +1021,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 173:    // Thailand
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 174:    // Togo
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1065,7 +1063,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 5, "svg", 6, "svg");
                         break;
                     case 187:    // Uzbekistan
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 188:    // Vanuatu
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1429,7 +1427,10 @@ async function getData(){
                                 language_nc11k00m1();
                                 break;
                             case 21:    // Bosnia
-                                language_nc10k00();
+                                language_c00_3();
+                                break;
+                            case 26:    // Burkina Faso
+                                language_c00_3();
                                 break;
                             case 27:    // Burundi
                                 language_nc10k00();
@@ -1675,6 +1676,19 @@ async function getData(){
                                     }
                                 }
                             } catch(err){
+                            }
+                        }
+
+                        function language_c00_3(){
+                            if( 
+                                data(`th.infobox-label`)[j].children[0].children[0].data == "Recognised national languages"
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [];
+
+                                for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children.length; k++){
+                                    masterList[i].language.list.push(data(`th.infobox-label`)[j].next.children[1].children[0].children[k].children[0].children[0].data);
+                                }
                             }
                         }
 
@@ -2041,9 +2055,6 @@ async function getData(){
                             default:
                                 demonym_nc00();
                                 break;
-                            case 4:     //  Angola
-                                demonym_nc10000();
-                                break;
                             case 5:     //  Antigua and Barbuda
                                 demonym_nc0();
                                 break;
@@ -2075,7 +2086,7 @@ async function getData(){
                                 demonym_nc10000();
                                 break;
                             case 26:    //  Burkina Faso
-                                demonym_nc1000();
+                                demonym_nc0();
                                 break;
                             case 27:    //  Burundi
                                 demonym_nc10000();
@@ -2085,6 +2096,12 @@ async function getData(){
                                 break;
                             case 34:    //  Chile
                                 demonym_nc10000();
+                                break;
+                            case 38:    // Congo-Kinshasa
+                                demonym_nc000();
+                                break;
+                            case 39:    // Congo-Brazzaville
+                                demonym_nc000();
                                 break;
                             case 40:    //  Costa Rica
                                 demonym_nc10000();
@@ -2137,11 +2154,14 @@ async function getData(){
                             case 87:    //  Kazakhstan
                                 demonym_nc0();
                                 break;
+                            case 91:    //  Kyrgystan
+                                demonym_nc0();
+                                break;
                             case 92:    //  Laos
                                 demonym_nc20();
                                 break;
                             case 95:    //  Lesotho
-                                demonym_nc10000();
+                                demonym_nc1010_s0();
                                 break;
                             case 100:   //  Luxembourg
                                 demonym_nc10100();
@@ -2149,8 +2169,8 @@ async function getData(){
                             case 113:   //  Monaco
                                 demonym_nc1000();
                                 break;
-                            case 114:   //  Mongolia
-                                demonym_nc0();
+                            case 118:   //  Myanmar
+                                demonym_nc10000();
                                 break;
                             case 121:   //  Nepal
                                 demonym_nc10100();
@@ -2193,6 +2213,9 @@ async function getData(){
                                 break;
                             case 159:   //  Solomon Islands
                                 demonym_nc0();
+                                break;
+                            case 161:   //  South Africa
+                                demonym_nc10000();
                                 break;
                             case 162:   //  South Korea
                                 demonym_nc10000();
@@ -2275,6 +2298,16 @@ async function getData(){
                             }
                         }
 
+                        function demonym_nc000(){
+                            try{
+                                if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
+                                    masterList[i].demonym = {};
+                                    masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[0].children[0].children[0].data;
+                                }
+                            } catch(error){
+                            }
+                        }
+
                         function demonym_nc1000(){
                             try{
                                 if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
@@ -2342,6 +2375,16 @@ async function getData(){
                                 if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
                                     masterList[i].demonym = {};
                                     masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[1].children[0].children[1].children[0].data;
+                                }
+                            } catch(error){
+                            }
+                        }
+
+                        function demonym_nc1010_s0(){
+                            try{
+                                if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
+                                    masterList[i].demonym = {};
+                                    masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[1].children[0].children[1].children[0].data.split(" ")[0];
                                 }
                             } catch(error){
                             }
@@ -3298,9 +3341,6 @@ async function getData(){
                         case 38:    // Congo-Kinshasa
                             leaderImg(4, "jpg");
                             break;
-                        case 42:    // Cuba
-                            leaderImg(4, "jpg");
-                            break;
                         case 51:    // Egypt
                             leaderImg(4, "jpg");
                             break;
@@ -3343,9 +3383,6 @@ async function getData(){
                         case 86:    // Jordan
                             leaderImg(4, "jpg");
                             break;
-                        case 88:    // Kenya
-                            leaderImg(4, "jpg");
-                            break;
                         case 93:    // Latvia
                             leaderImg(4, "jpg");
                             break;
@@ -3355,9 +3392,6 @@ async function getData(){
                         case 100:   // Luxembourg
                             leaderImg(4, "jpg");
                             break;
-                        case 104:   // Maldives
-                            leaderImg(4, "jpg");
-                            break;
                         case 108:   // Mauritania
                             leaderImg(4, "jpg");
                             break;
@@ -3365,9 +3399,6 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 110:   // Mexico
-                            leaderImg(4, "jpg");
-                            break;
-                        case 114:   // Mongolia
                             leaderImg(4, "jpg");
                             break;
                         case 118:   // Myanmar
@@ -3384,6 +3415,9 @@ async function getData(){
                             break;
                         case 123:   // New Zealand
                             leaderImg(3, "png");
+                            break;
+                        case 124:   // Nicaragua
+                            leaderImg(4, "jpg");
                             break;
                         case 125:   // Niger
                             leaderImg(3, "png");
@@ -3453,6 +3487,9 @@ async function getData(){
                             break;
                         case 190:   // Venezuela
                             leaderImg(4, "jpeg");
+                            break;
+                        case 191:   //  Vietnam
+                            leaderImg(4, "jpg");
                             break;
                         case 193:   // Zambia
                             leaderImg(4, "jpg");

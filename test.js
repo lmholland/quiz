@@ -1,14 +1,14 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/vietnam");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Nguyễn_Phú_Trọng");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
-        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
-        // leaderImg(4, "jpg")
-        
+        // flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+        leaderImg(4, "jpg")
+
         function pos_00(){
             if(
                     data(`td.table-success`)[countryNum].children[0].children[0].data.indexOf("of") > -1
@@ -82,6 +82,19 @@ async function getData(){
             } catch(error){
             }
         }
+
+        // for(let j=0; j < data(`th.infobox-label`).length; j++){
+
+        //     try{
+        //         if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
+        //             console.log(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data);
+        //             // masterList[i].demonym = {};
+        //             // masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[0].data;
+        //         }
+        //     } catch(error){
+        //     }
+
+        // }
 
     } catch (error) {
     }

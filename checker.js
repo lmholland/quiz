@@ -19,6 +19,7 @@ for(let i=0; i < newInfo.length; i++){
             console.log(newInfo[i].country.name, "|| Language List || \n", newInfo[i].language.list, "!== \n", currentInfo[i].language.list);
         };
     }
+    if(newInfo[i].demonym.name !== currentInfo[i].demonym.name){console.log(newInfo[i].country.name, "|| Demonym || \n", newInfo[i].demonym.name, "!== \n", currentInfo[i].demonym.name)};
     if(newInfo[i].currency.demonym !== currentInfo[i].currency.demonym){console.log(newInfo[i].country.name, "|| Currency Demonym || \n", newInfo[i].currency.demonym, "!== \n", currentInfo[i].currency.demonym)};
     if(newInfo[i].currency.unit !== currentInfo[i].currency.unit){console.log(newInfo[i].country.name, "|| Currency Unit || \n", newInfo[i].currency.unit, "!== \n", currentInfo[i].currency.unit)};
     if(newInfo[i].currency.full !== currentInfo[i].currency.full){console.log(newInfo[i].country.name, "|| Currency Full || \n", newInfo[i].currency.full, "!== \n", currentInfo[i].currency.full)};
