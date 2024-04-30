@@ -1,0 +1,1 @@
+To run the scraper, navigate to the scraper.js folder and run "node scraper.js" in the terminal
