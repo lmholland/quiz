@@ -1,4 +1,4 @@
-const lastChecked = "January 1, 2024";
+const lastChecked = "April 30, 2024";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -15,7 +15,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Albania","url":"https://en.wikipedia.org/wiki/Albania"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Edi Rama","url":"https://en.wikipedia.org/wiki/Edi_Rama","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Sre%C4%8Danje_predsednika_vlade_Roberta_Goloba_s_predsednikom_vlade_Albanije_Edijem_Ramo_%2852320651109%29_%28cropped%29.jpg/500px-Sre%C4%8Danje_predsednika_vlade_Roberta_Goloba_s_predsednikom_vlade_Albanije_Edijem_Ramo_%2852320651109%29_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Edi Rama","url":"https://en.wikipedia.org/wiki/Edi_Rama","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Edi_Rama_%282024-02-29%29.jpg/500px-Edi_Rama_%282024-02-29%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Flag_of_Albania.svg/500px-Flag_of_Albania.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Coat_of_arms_of_Albania.svg/500px-Coat_of_arms_of_Albania.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Location_Albania_Europe.png/500px-Location_Albania_Europe.png"}, 
@@ -80,7 +80,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Argentina","url":"https://en.wikipedia.org/wiki/Argentina"}, 
-        leader: {"title":"President","pos":"president","name":"Javier Milei","url":"https://en.wikipedia.org/wiki/Javier_Milei","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Javier_Milei_en_el_Sal%C3%B3n_Blanco_2_%28cropped%29.jpg/500px-Javier_Milei_en_el_Sal%C3%B3n_Blanco_2_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Javier Milei","url":"https://en.wikipedia.org/wiki/Javier_Milei","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4f/Mattarella_Milei_2024_%28cropped%29.jpg/500px-Mattarella_Milei_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/500px-Flag_of_Argentina.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Sol_de_Mayo-Bandera_de_Argentina.svg/500px-Sol_de_Mayo-Bandera_de_Argentina.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/ARG_orthographic_%28%2Ball_claims%29.svg/500px-ARG_orthographic_%28%2Ball_claims%29.svg.png"}, 
@@ -119,7 +119,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Austria","url":"https://en.wikipedia.org/wiki/Austria"}, 
-        leader: {"title":"Chancellor","pos":"chancellor","name":"Karl Nehammer","url":"https://en.wikipedia.org/wiki/Karl_Nehammer","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/2020_Karl_Nehammer_Ministerrat_am_8.1.2020_%2849351366976%29_%28cropped%29_%28cropped%29.jpg/500px-2020_Karl_Nehammer_Ministerrat_am_8.1.2020_%2849351366976%29_%28cropped%29_%28cropped%29.jpg"}, 
+        leader: {"title":"Chancellor","pos":"chancellor","name":"Karl Nehammer","url":"https://en.wikipedia.org/wiki/Karl_Nehammer","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/12/Karl_Nehammer_2023.jpg/500px-Karl_Nehammer_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Flag_of_Austria.svg/500px-Flag_of_Austria.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Austria_Bundesadler.svg/500px-Austria_Bundesadler.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/EU-Austria_%28orthographic_projection%29.svg/500px-EU-Austria_%28orthographic_projection%29.svg.png"}, 
@@ -147,7 +147,7 @@ const currentInfo = [
         country: {"name":"The Bahamas","url":"https://en.wikipedia.org/wiki/The_Bahamas"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Philip Davis","url":"https://en.wikipedia.org/wiki/Philip_Davis_(Bahamian_politician)","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Philip_%22Brave%22_Davis_%28profile%29.jpg/500px-Philip_%22Brave%22_Davis_%28profile%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Flag_of_the_Bahamas.svg/500px-Flag_of_the_Bahamas.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Coat_of_arms_of_the_Bahamas.svg/500px-Coat_of_arms_of_the_Bahamas.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Coat_of_Arms_of_The_Bahamas.svg/500px-Coat_of_Arms_of_The_Bahamas.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/The_Bahamas_on_the_globe_%28Americas_centered%29.svg/500px-The_Bahamas_on_the_globe_%28Americas_centered%29.svg.png"}, 
         capital: [{"name":"Nassau","type":"capital"}], 
         language: {"list":["English"]}, 
@@ -158,7 +158,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Bahrain","url":"https://en.wikipedia.org/wiki/Bahrain"}, 
-        leader: {"title":"King","pos":"king","name":"Hamad bin Isa Al Khalifa","url":"https://en.wikipedia.org/wiki/Hamad_bin_Isa_Al_Khalifa","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/King_Hamad_bin_Isa_Al_Khalifa_of_Bahrain_Addresses_Reporters_at_the_Outset_of_a_Welcoming_Reception_for_Secretary_Kerry_in_Manama_%2826224844641%29_%28cropped%292.jpg/500px-King_Hamad_bin_Isa_Al_Khalifa_of_Bahrain_Addresses_Reporters_at_the_Outset_of_a_Welcoming_Reception_for_Secretary_Kerry_in_Manama_%2826224844641%29_%28cropped%292.jpg"}, 
+        leader: {"title":"King","pos":"king","name":"Hamad bin Isa Al Khalifa","url":"https://en.wikipedia.org/wiki/Hamad_bin_Isa_Al_Khalifa","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Donald_Trump_meets_with_King_Hamed_bin_Issa_of_Bahrain%2C_May_2017_%28cropped%29.jpg/500px-Donald_Trump_meets_with_King_Hamed_bin_Issa_of_Bahrain%2C_May_2017_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2c/Flag_of_Bahrain.svg/500px-Flag_of_Bahrain.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Coat_of_Arms_of_The_Kingdom_of_Bahrain.svg/500px-Coat_of_Arms_of_The_Kingdom_of_Bahrain.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Map_of_Bahrain.svg/500px-Map_of_Bahrain.svg.png"}, 
@@ -249,7 +249,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Bhutan","url":"https://en.wikipedia.org/wiki/Bhutan"}, 
-        leader: {"title":"Chief Advisor","pos":"chief advisor","name":"Chogyal Dago Rigdzin","url":"https://en.wikipedia.org/wiki/Chogyal_Dago_Rigdzin","imgUrl":"missing"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Tshering Tobgay","url":"https://en.wikipedia.org/wiki/Tshering_Tobgay","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Tshering_Tobgay.jpg/500px-Tshering_Tobgay.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Flag_of_Bhutan.svg/500px-Flag_of_Bhutan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Emblem_of_Bhutan.svg/500px-Emblem_of_Bhutan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Bhutan_%28orthographic_projection%29.svg/500px-Bhutan_%28orthographic_projection%29.svg.png"}, 
@@ -263,7 +263,7 @@ const currentInfo = [
     {
         country: {"name":"Bolivia","url":"https://en.wikipedia.org/wiki/Bolivia"}, 
         leader: {"title":"President","pos":"president","name":"Luis Arce","url":"https://en.wikipedia.org/wiki/Luis_Arce","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Luis_Alberto_Arce_Catacora_%28Official_Portrait%2C_2020%29_Cropped_I.png/500px-Luis_Alberto_Arce_Catacora_%28Official_Portrait%2C_2020%29_Cropped_I.png"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/de/Flag_of_Bolivia_%28state%29.svg/500px-Flag_of_Bolivia_%28state%29.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/500px-Flag_of_Bolivia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b7/Banner_of_the_Qulla_Suyu.svg/500px-Banner_of_the_Qulla_Suyu.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/BOL_orthographic.svg/500px-BOL_orthographic.svg.png"}, 
         capital: [{"name":"Sucre","type":"capital"}], 

@@ -1,8 +1,8 @@
 const { newInfo } = require('./newInfo.js');
 
 for(let i=0; i < newInfo.length; i++){
-    // console.log(newInfo[i].country.name)
-    console.log(newInfo[i].leader.pos)
+    console.log(newInfo[i].country.name)
+    console.log(newInfo[i].language.list)
 }
 
 //_____________________________________________________

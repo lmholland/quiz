@@ -534,7 +534,7 @@ async function getData(){
                         flag_symbol_map(6, "svg", 7, "svg", 8, "svg");
                         break;
                     case 9:     // Austria
-                        flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 10:    // Azerbaijan
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -1432,7 +1432,7 @@ async function getData(){
                                 language_nc11k00m1();
                                 break;
                             case 21:    // Bosnia
-                                language_c00_3();
+                                language_nc10k00();
                                 break;
                             case 26:    // Burkina Faso
                                 language_c00_3();
@@ -3092,6 +3092,9 @@ async function getData(){
                         switch(i){
                             default:
                                 tld_nc00();
+                                break;
+                            case 2:     // Algeria
+                                tld_nc10000();
                                 break;
                             case 7:     // Armenia
                                 tld_nc10000();
