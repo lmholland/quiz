@@ -1,13 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Bosnia_and_Herzegovina");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Luiz_Inácio_Lula_da_Silva");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
-        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
-        // leaderImg(3, "jpg")
+        // flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+        leaderImg(4, "jpg")
 
         // function pos_00(){
         //     if(
@@ -71,26 +71,26 @@ async function getData(){
         //     }
         // }
 
-        // function leaderImg(num, type){
-        //     try {
-        //         imgURL = data(`img`)[num].attribs.src;
-        //         pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
-        //         imgURL = imgURL.replace(pxSize, "500");
-        //         imgURL = imgURL.replace("//", "https://")
-        //         // masterList[i].leader.imgUrl = imgURL;
-        //         console.log(imgURL);
-        //     } catch(error){
-        //     }
-        // }
-
-        for(let j=0; j < data(`th.infobox-label`).length; j++){
-
-            try{
-                console.log(data(`th.infobox-label`)[j].children[0].data)
+        function leaderImg(num, type){
+            try {
+                imgURL = data(`img`)[num].attribs.src;
+                pxSize = imgURL.substring(imgURL.indexOf(`.${type}/`) + (type.length + 2), imgURL.lastIndexOf("px"));
+                imgURL = imgURL.replace(pxSize, "500");
+                imgURL = imgURL.replace("//", "https://")
+                // masterList[i].leader.imgUrl = imgURL;
+                console.log(imgURL);
             } catch(error){
             }
-
         }
+
+        // for(let j=0; j < data(`th.infobox-label`).length; j++){
+
+        //     try{
+        //         console.log(data(`th.infobox-label`)[j].children[0].data)
+        //     } catch(error){
+        //     }
+
+        // }
 
     } catch (error) {
     }

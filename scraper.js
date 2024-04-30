@@ -3329,7 +3329,7 @@ async function getData(){
                             leaderImg(3, "png");
                             break;
                         case 23:    // Brazil
-                            leaderImg(5, "jpg");
+                            leaderImg(4, "jpg");
                             break;
                         case 26:    // Botswana
                             leaderImg(3, "png");

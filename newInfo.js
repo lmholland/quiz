@@ -301,7 +301,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Brazil","url":"https://en.wikipedia.org/wiki/Brazil"}, 
-        leader: {"title":"President","pos":"president","name":"Luiz Inácio Lula da Silva","url":"https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva","imgUrl":"https://up500px-Signature_of_Luiz_In%C3%A1cio_Lula_da_Silva.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Luiz Inácio Lula da Silva","url":"https://en.wikipedia.org/wiki/Luiz_In%C3%A1cio_Lula_da_Silva","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/40/Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg/500px-Foto_oficial_de_Luiz_In%C3%A1cio_Lula_da_Silva_%28estreita%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/0/05/Flag_of_Brazil.svg/500px-Flag_of_Brazil.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Brazil.svg/500px-Coat_of_arms_of_Brazil.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/BRA_orthographic.svg/500px-BRA_orthographic.svg.png"}, 
