@@ -165,7 +165,6 @@ async function getData(){
                         leader_00_112_2();
                         break; 
                     case 182:   // Sudan
-                        // console.log(data(`td.table-success`)[countryNum].children[0].children[1].data)
                         leader_0101_00_00();
                         break;
                     case 185:   // Switzerland 
