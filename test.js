@@ -1,13 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Luiz_Inácio_Lula_da_Silva");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Dimitar_Glavchev");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
         // flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
-        leaderImg(4, "jpg")
+        leaderImg(3, "png")
 
         // function pos_00(){
         //     if(

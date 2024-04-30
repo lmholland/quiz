@@ -579,7 +579,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 24:    // Brunei
-                        flag_symbol_map(7, "svg", 8, "svg", 9, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 25:    // Bulgaria
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -3331,7 +3331,10 @@ async function getData(){
                         case 23:    // Brazil
                             leaderImg(4, "jpg");
                             break;
-                        case 26:    // Botswana
+                        case 25:    // Bulgaria
+                            leaderImg(4, "png");
+                            break;
+                        case 26:    // Burkina Faso
                             leaderImg(3, "png");
                             break;
                         case 29:    // Cameroon

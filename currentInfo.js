@@ -327,7 +327,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Bulgaria","url":"https://en.wikipedia.org/wiki/Bulgaria"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Nikolai Denkov","url":"https://en.wikipedia.org/wiki/Nikolai_Denkov","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Nikolai_Denkov_full_portrait_2021.jpg/500px-Nikolai_Denkov_full_portrait_2021.jpg"}, 
+        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Dimitar Glavchev","url":"https://en.wikipedia.org/wiki/Dimitar_Glavchev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Dimitar_Glavchev_%2846NS%29.png/500px-Dimitar_Glavchev_%2846NS%29.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Bulgaria.svg/500px-Flag_of_Bulgaria.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Coat_of_arms_of_Bulgaria.svg/500px-Coat_of_arms_of_Bulgaria.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/EU-Bulgaria.svg/500px-EU-Bulgaria.svg.png"}, 

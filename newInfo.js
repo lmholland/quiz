@@ -315,9 +315,9 @@ const newInfo = [
     {
         country: {"name":"Brunei","url":"https://en.wikipedia.org/wiki/Brunei"}, 
         leader: {"title":"Sultan","pos":"sultan","name":"Hassanal Bolkiah","url":"https://en.wikipedia.org/wiki/Hassanal_Bolkiah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/His_Majesty_Bolkiah_20231216.jpg/500px-His_Majesty_Bolkiah_20231216.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Location_Brunei_ASEAN.svg/500px-Location_Brunei_ASEAN.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/500px-Increase2.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/500px-Increase2.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Flag_of_Brunei.svg/500px-Flag_of_Brunei.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/Emblem_of_Brunei.svg/500px-Emblem_of_Brunei.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Brunei_%28orthographic_projection%29.svg/500px-Brunei_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Bandar Seri Begawan","type":"capital"}], 
         language: {"list":["Malay"]}, 
         demonym: {"name":"Bruneian"}, 
