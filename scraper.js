@@ -16,8 +16,7 @@ async function getData(){
 
             -1,     //  000-00  start*  000 <- the line being skipped, 00 <- the country's place in this list 
             21,     //  022-01  Bosnia
-            // 27,     //  028-02  Burkina Faso
-            28,     //  031-03  Cambodia
+            26,     //  028-02  Burkina Faso / Cambodia
             52,     //  056-04  El Salvador
             61,     //  066-05  Gabon
             69,     //  075-06  Guinea
