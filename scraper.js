@@ -22,16 +22,15 @@ async function getData(){
             61,     //  066-05  Gabon
             69,     //  075-06  Guinea
             71,     //  078-07  Haiti
-            97,     //  104-07  Liechtenstein
-            112,    //  120-08  Moldova
-            118,    //  127-09  Myanmar
-            131,    //  141-10  Pakistan
-            142,    //  152-10  Romania
-            148,    //  159-11  San Marino
-            150,    //  162-12  Saudi Arabia
-            153,    //  166-13  Serbia
-            160,    //  174-14  Somalia
-            165,    //  180-15  Sudan
+            97,     //  105-08  Liechtenstein
+            112,    //  121-09  Moldova
+            118,    //  128-10  Myanmar
+            142,    //  153-11  Romania
+            148,    //  160-12  San Marino
+            150,    //  163-13  Saudi Arabia
+            153,    //  167-14  Serbia
+            160,    //  175-15  Somalia
+            165,    //  181-16  Sudan
             179,    //  195-16  Turkmenistan
         ]
         let info = [];
@@ -145,27 +144,28 @@ async function getData(){
                         leader_0001_03_03();
                         break; 
                     case 79:    // Haiti
-                        // console.log(
-                        //     data(`td.table-success`)[countryNum].children[0].children[0].data,
-                        // )
                         leader_00cc010_03_03();
                         break; 
-                    case 105:   // Liechtenstein
+                    case 106:   // Liechtenstein
                         leader_000_0101020_02();
                         break; 
-                    case 112:   // Mali
+                    case 113:   // Mali
                         leader_00cc010_03_03();
                         break; 
-                    case 126:   // Myanmar
+                    case 127:   // Myanmar
                         leader_000_02_02();
                         break;
-                    case 134:   // Niger
+                    case 135:   // Niger
                         leader_0001_03_03();
                         break;
-                    case 152:   // Qatar
+                    case 138:   // North Macedonia
+                        leader_00cc010_03_03();
+                        break;
+                    case 153:   // Qatar
                         leader_00_112_2();
                         break; 
                     case 182:   // Sudan
+                        // console.log(data(`td.table-success`)[countryNum].children[0].children[1].data)
                         leader_0101_00_00();
                         break;
                     case 185:   // Switzerland 
