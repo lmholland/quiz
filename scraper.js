@@ -17,10 +17,11 @@ async function getData(){
             -1,     //  000-00  start*  000 <- the line being skipped, 00 <- the country's place in this list 
             21,     //  022-01  Bosnia
             26,     //  028-02  Burkina Faso
-            28,     //  032-03  Cambodia
+            28,     //  031-03  Cambodia
             52,     //  056-04  El Salvador
             61,     //  066-05  Gabon
             69,     //  075-06  Guinea
+            71,     //  078-07  Haiti
             97,     //  104-07  Liechtenstein
             112,    //  120-08  Moldova
             118,    //  127-09  Myanmar
@@ -126,7 +127,7 @@ async function getData(){
                         leader_00_40_4();
                         break;
                     case 26:    // Bulgaria
-                        leader_test();
+                        leader_00cc010_03_03();
                         break;
                     case 27:    // Burkina Faso
                         leader_00cc010_03_03();
@@ -143,7 +144,10 @@ async function getData(){
                     case 74:    // Guinea
                         leader_0001_03_03();
                         break; 
-                    case 78:    // Haiti
+                    case 79:    // Haiti
+                        // console.log(
+                        //     data(`td.table-success`)[countryNum].children[0].children[0].data,
+                        // )
                         leader_00cc010_03_03();
                         break; 
                     case 105:   // Liechtenstein
@@ -320,22 +324,6 @@ async function getData(){
                     }
                 }
 
-                function leader_test(){
-                    info = {
-                        country: {
-                            name: countryName,
-                            url: countryURL,
-                        },
-                        leader: {
-                            title: data(`td.table-success`)[countryNum].children[0].children[0].data
-                                .concat(data(`td.table-success`)[countryNum].children[0].children[1].children[0].data),
-                            pos: pos_00cc010(),
-                            name: data(`td.table-success`)[countryNum].children[0].children[3].attribs.title,
-                            url: data(`td.table-success`)[countryNum].children[0].children[3].attribs.href,
-                        },
-                    }
-                }
-
                 function leader_00cc010_03_03(){
                     info = {
                         country: {
@@ -490,7 +478,6 @@ async function getData(){
 
                     return pos.join(" ").substring(2, pos.join(" ").length-1);
                 }
-
             }
 
             function formatURLs(){
