@@ -16,7 +16,7 @@ async function getData(){
 
             -1,     //  000-00  start*  000 <- the line being skipped, 00 <- the country's place in this list 
             21,     //  022-01  Bosnia
-            26,     //  028-02  Burkina Faso
+            // 27,     //  028-02  Burkina Faso
             28,     //  031-03  Cambodia
             52,     //  056-04  El Salvador
             61,     //  066-05  Gabon
@@ -124,6 +124,9 @@ async function getData(){
                         break;
                     case 25:    // Brunei
                         leader_00_40_4();
+                        break;
+                    case 26:    // Bulgaria
+                        leader_test();
                         break;
                     case 27:    // Burkina Faso
                         leader_00cc010_03_03();
@@ -313,6 +316,22 @@ async function getData(){
                             pos: pos_01ss01(),
                             name: data(`td.table-success`)[countryNum].children[0].children[0].attribs.title,
                             url: data(`td.table-success`)[countryNum].children[0].children[0].attribs.href,
+                        },
+                    }
+                }
+
+                function leader_test(){
+                    info = {
+                        country: {
+                            name: countryName,
+                            url: countryURL,
+                        },
+                        leader: {
+                            title: data(`td.table-success`)[countryNum].children[0].children[0].data
+                                .concat(data(`td.table-success`)[countryNum].children[0].children[1].children[0].data),
+                            pos: pos_00cc010(),
+                            name: data(`td.table-success`)[countryNum].children[0].children[3].attribs.title,
+                            url: data(`td.table-success`)[countryNum].children[0].children[3].attribs.href,
                         },
                     }
                 }
