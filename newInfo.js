@@ -965,9 +965,9 @@ const newInfo = [
     {
         country: {"name":"Hungary","url":"https://en.wikipedia.org/wiki/Hungary"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Viktor Orbán","url":"https://en.wikipedia.org/wiki/Viktor_Orb%C3%A1n","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Orban_Viktor_2022_%28cropped%29.jpg/500px-Orban_Viktor_2022_%28cropped%29.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/500px-Coat_of_arms_of_Hungary.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/EU-Hungary.svg/500px-EU-Hungary.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/500px-Increase2.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Flag_of_Hungary.svg/500px-Flag_of_Hungary.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Coat_of_arms_of_Hungary.svg/500px-Coat_of_arms_of_Hungary.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/EU-Hungary.svg/500px-EU-Hungary.svg.png"}, 
         capital: [{"name":"Budapest","type":"capital"}], 
         language: {"list":["Hungarian"]}, 
         demonym: {"name":"Hungarian"}, 

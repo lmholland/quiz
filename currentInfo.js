@@ -977,7 +977,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Iceland","url":"https://en.wikipedia.org/wiki/Iceland"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Katrín Jakobsdóttir","url":"https://en.wikipedia.org/wiki/Katr%C3%ADn_Jakobsd%C3%B3ttir","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Katr%C3%ADn_Jakobsd%C3%B3ttir_in_August_2023.jpg/500px-Katr%C3%ADn_Jakobsd%C3%B3ttir_in_August_2023.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Bjarni Benediktsson","url":"https://en.wikipedia.org/wiki/Bjarni_Benediktsson_(born_1970)","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Bjarni_Benediktsson_-_2023_%28cropped%29.jpg/500px-Bjarni_Benediktsson_-_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Iceland.svg/500px-Flag_of_Iceland.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Coat_of_arms_of_Iceland.svg/500px-Coat_of_arms_of_Iceland.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Iceland_%28orthographic_projection%29.svg/500px-Iceland_%28orthographic_projection%29.svg.png"}, 
@@ -1016,7 +1016,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Iran","url":"https://en.wikipedia.org/wiki/Iran"}, 
-        leader: {"title":"Supreme Leader","pos":"supreme leader","name":"Ali Khamenei","url":"https://en.wikipedia.org/wiki/Ali_Khamenei","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Ali_Khamenei_at_IRGC_Aerospace_Force_2023.jpg/500px-Ali_Khamenei_at_IRGC_Aerospace_Force_2023.jpg"}, 
+        leader: {"title":"Supreme Leader","pos":"supreme leader","name":"Ali Khamenei","url":"https://en.wikipedia.org/wiki/Ali_Khamenei","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/%D8%B3%DB%8C%D8%AF_%D8%B9%D9%84%DB%8C_%D8%AE%D8%A7%D9%85%D9%86%D9%87%E2%80%8C%D8%A7%DB%8C_%D8%AF%D8%B1_%D8%B3%D8%A7%D9%84_%DB%B1%DB%B4%DB%B0%DB%B3.jpg/500px-%D8%B3%DB%8C%D8%AF_%D8%B9%D9%84%DB%8C_%D8%AE%D8%A7%D9%85%D9%86%D9%87%E2%80%8C%D8%A7%DB%8C_%D8%AF%D8%B1_%D8%B3%D8%A7%D9%84_%DB%B1%DB%B4%DB%B0%DB%B3.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Flag_of_Iran.svg/500px-Flag_of_Iran.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Emblem_of_Iran.svg/500px-Emblem_of_Iran.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Iran_%28orthographic_projection%29.svg/500px-Iran_%28orthographic_projection%29.svg.png"}, 
@@ -1029,7 +1029,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Iraq","url":"https://en.wikipedia.org/wiki/Iraq"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mohammed Shia' Al Sudani","url":"https://en.wikipedia.org/wiki/Mohammed_Shia%27_Al_Sudani","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Iraqi_PM_Visits_Shrine_of_Imam_Reza_%28AS%29_in_Mashhad_%28cropped%29.jpg/500px-Iraqi_PM_Visits_Shrine_of_Imam_Reza_%28AS%29_in_Mashhad_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mohammed Shia' Al Sudani","url":"https://en.wikipedia.org/wiki/Mohammed_Shia%27_Al_Sudani","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Mohammed_Shia%27_Al_Sudani_2023_%28cropped%29.jpg/500px-Mohammed_Shia%27_Al_Sudani_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Iraq.svg/500px-Flag_of_Iraq.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Coat_of_arms_of_Iraq.svg/500px-Coat_of_arms_of_Iraq.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Iraq_%28orthographic%29.svg/500px-Iraq_%28orthographic%29.svg.png"}, 
