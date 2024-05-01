@@ -1,4 +1,4 @@
-const lastChecked = "April 30, 2024";
+const lastChecked = "May 1, 2024";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -280,7 +280,7 @@ const currentInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_arms_of_Bosnia_and_Herzegovina.svg/500px-Coat_of_arms_of_Bosnia_and_Herzegovina.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Europe-Bosnia_and_Herzegovina.svg/500px-Europe-Bosnia_and_Herzegovina.svg.png"}, 
         capital: [{"name":"Sarajevo","type":"capital"}], 
-        language: {"list":["Bosnian","Croatian","Serbian"]}, 
+        language: {"list":["Bosnian","Serbian","Croatian"]}, 
         demonym: {"name":"Bosnian"}, 
         currency: [{"demonym":"Bosnia and Herzegovina","unit":"convertible mark"}], 
         tld: {"name":".ba"}, 
@@ -761,7 +761,7 @@ const currentInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Coat_of_arms_of_Fiji.svg/500px-Coat_of_arms_of_Fiji.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Fiji_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg/500px-Fiji_on_the_globe_%28small_islands_magnified%29_%28Polynesia_centered%29.svg.png"}, 
         capital: [{"name":"Suva","type":"capital"}], 
-        language: {"list":["iTaukei (Fijian)","English","Fiji Hindi"]}, 
+        language: {"list":["Fijian","English","Fiji Hindi"]}, 
         demonym: {"name":"Fijian"}, 
         currency: [{"demonym":"Fijian","unit":"dollar"}], 
         tld: {"name":".fj"}, 
@@ -782,7 +782,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"France","url":"https://en.wikipedia.org/wiki/France"}, 
-        leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"https://en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Macron_Michel_2023_%28cropped%29.jpg/500px-Macron_Michel_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"https://en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emmanuel_Macron_2023_%28cropped%29.jpg/500px-Emmanuel_Macron_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Arms_of_the_French_Republic.svg/500px-Arms_of_the_French_Republic.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EU-France_%28orthographic_projection%29.svg/500px-EU-France_%28orthographic_projection%29.svg.png"}, 
@@ -795,7 +795,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Gabon","url":"https://en.wikipedia.org/wiki/Gabon"}, 
-        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Clotaire Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Clotaire_Oligui_Nguema","imgUrl":"missing"}, 
+        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Oligui_Nguema","imgUrl":"missing"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
@@ -821,7 +821,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Georgia","url":"https://en.wikipedia.org/wiki/Georgia_(country)"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Garibashvili","url":"https://en.wikipedia.org/wiki/Irakli_Garibashvili","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg/500px-PM_Garibashvili%2C_Munich_Security_Conference%2C_Munich_-_Hotel_Bayerischer_Hof.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Kobakhidze","url":"https://en.wikipedia.org/wiki/Irakli_Kobakhidze","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Irakli_Kobakhidze_and_Volodymyr_Groysman_01_cropped.jpg/500px-Irakli_Kobakhidze_and_Volodymyr_Groysman_01_cropped.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/500px-Flag_of_Georgia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/500px-Greater_coat_of_arms_of_Georgia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/500px-Georgia_%28orthographic_projection_with_inset%29.svg.png"}, 
@@ -873,7 +873,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Grenada","url":"https://en.wikipedia.org/wiki/Grenada"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dickon Mitchell","url":"https://en.wikipedia.org/wiki/Dickon_Mitchell","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Dickon_Mitchell_2022-07-01.jpg/500px-Dickon_Mitchell_2022-07-01.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Dickon Mitchell","url":"https://en.wikipedia.org/wiki/Dickon_Mitchell","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/9_Dickon_Mitchell.jpg/500px-9_Dickon_Mitchell.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Grenada.svg/500px-Flag_of_Grenada.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/Coat_of_arms_of_Grenada.svg/500px-Coat_of_arms_of_Grenada.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Grenada_on_the_globe_%28Americas_centered%29.svg/500px-Grenada_on_the_globe_%28Americas_centered%29.svg.png"}, 
@@ -886,7 +886,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Guatemala","url":"https://en.wikipedia.org/wiki/Guatemala"}, 
-        leader: {"title":"President","pos":"president","name":"Alejandro Giammattei","url":"https://en.wikipedia.org/wiki/Alejandro_Giammattei","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Retrato_de_Alejandro_Giammattei%2C_Presidente_de_Guatemala_%282020-2024%29_%28cropped_4%29.png/500px-Retrato_de_Alejandro_Giammattei%2C_Presidente_de_Guatemala_%282020-2024%29_%28cropped_4%29.png"}, 
+        leader: {"title":"President","pos":"president","name":"Bernardo Arévalo","url":"hhttps://en.wikipedia.org/wiki/Bernardo_Ar%C3%A9valo","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Retrato_oficial_de_Presidente_Bernardo_Ar%C3%A9valo_%28cropped%29_3.jpg/500px-Retrato_oficial_de_Presidente_Bernardo_Ar%C3%A9valo_%28cropped%29_3.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/500px-Flag_of_Guatemala.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Guatemala.svg/500px-Coat_of_arms_of_Guatemala.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Guatemala_%28orthographic_projection%29.svg/500px-Guatemala_%28orthographic_projection%29.svg.png"}, 

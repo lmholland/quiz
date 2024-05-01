@@ -1,4 +1,4 @@
-const lastChecked = "April 30, 2024";
+const lastChecked = "May 1, 2024";
 const newInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -280,7 +280,7 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Coat_of_arms_of_Bosnia_and_Herzegovina.svg/500px-Coat_of_arms_of_Bosnia_and_Herzegovina.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Europe-Bosnia_and_Herzegovina.svg/500px-Europe-Bosnia_and_Herzegovina.svg.png"}, 
         capital: [{"name":"Sarajevo","type":"capital"}], 
-        language: {"list":["Bosnian","Croatian","Serbian"]}, 
+        language: {"list":["Bosnian","Serbian","Croatian"]}, 
         demonym: {"name":"Bosnian"}, 
         currency: [{"demonym":"Bosnia and Herzegovina","unit":"convertible mark"}], 
         tld: {"name":".ba"}, 
@@ -696,7 +696,7 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_arms_of_Equatorial_Guinea.svg/500px-Coat_of_arms_of_Equatorial_Guinea.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNQ_orthographic.svg/500px-GNQ_orthographic.svg.png"}, 
         capital: [{"name":"Malabo","type":"capital"}], 
-        largestCity: [{"name":"Bata","type":"largest city"}], 
+        largestCity: [{"name":"Malabo","type":"largest city"}], 
         language: {"list":["Spanish","French","Portuguese"]}, 
         demonym: {"name":"Equatoguinean"}, 
         currency: [{"full":"Central African CFA franc"}], 
@@ -734,7 +734,7 @@ const newInfo = [
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Flag_of_Eswatini.svg/500px-Flag_of_Eswatini.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Coat_of_arms_of_Eswatini.svg/500px-Coat_of_arms_of_Eswatini.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Eswatini_on_the_globe_%28special_marker%29_%28Madagascar_centered%29.svg/500px-Eswatini_on_the_globe_%28special_marker%29_%28Madagascar_centered%29.svg.png"}, 
-        capital: [], 
+        capital: [{"name":"Mbabane","type":"executive"},{"name":"Lobamba","type":"legislative"}], 
         largestCity: [{"name":"Mbabane","type":"largest city"}], 
         language: {"list":["Swazi","English"]}, 
         demonym: {"name":"Swazi"}, 
@@ -782,7 +782,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"France","url":"https://en.wikipedia.org/wiki/France"}, 
-        leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"https://en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"https://up500px-Signature_EM.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Emmanuel Macron","url":"https://en.wikipedia.org/wiki/Emmanuel_Macron","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Emmanuel_Macron_2023_%28cropped%29.jpg/500px-Emmanuel_Macron_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c3/Flag_of_France.svg/500px-Flag_of_France.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Arms_of_the_French_Republic.svg/500px-Arms_of_the_French_Republic.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/EU-France_%28orthographic_projection%29.svg/500px-EU-France_%28orthographic_projection%29.svg.png"}, 
@@ -795,7 +795,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Gabon","url":"https://en.wikipedia.org/wiki/Gabon"}, 
-        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Oligui_Nguema","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/thumb/0/04/Flag_of_Gabon.svg/20px-Flag_of_Gabon.svg.png/500px-20px-Flag_of_Gabon.svg.png"}, 
+        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Oligui_Nguema","imgUrl":"missing"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
@@ -821,7 +821,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Georgia","url":"https://en.wikipedia.org/wiki/Georgia_(country)"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Kobakhidze","url":"https://en.wikipedia.org/wiki/Irakli_Kobakhidze","imgUrl":"https://up500px-Extended-protection-shackle.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Irakli Kobakhidze","url":"https://en.wikipedia.org/wiki/Irakli_Kobakhidze","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Irakli_Kobakhidze_and_Volodymyr_Groysman_01_cropped.jpg/500px-Irakli_Kobakhidze_and_Volodymyr_Groysman_01_cropped.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Flag_of_Georgia.svg/500px-Flag_of_Georgia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Greater_coat_of_arms_of_Georgia.svg/500px-Greater_coat_of_arms_of_Georgia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Georgia_%28orthographic_projection_with_inset%29.svg/500px-Georgia_%28orthographic_projection_with_inset%29.svg.png"}, 
@@ -938,7 +938,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Haiti","url":"https://en.wikipedia.org/wiki/Haiti"}, 
-        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Michel Patrick Boisvert","url":"https://en.wikipedia.org/wiki/Michel_Patrick_Boisvert","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Michel_Patrick_Boisvert_2023_%28cropped%29.jpg/500px-Michel_Patrick_Boisvert_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Fritz Belizaire","url":"https://en.wikipedia.org/wiki/Fritz_Belizaire","imgUrl":"https://up500px-Flag_of_Haiti.svg.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/500px-Flag_of_Haiti.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/500px-Coat_of_arms_of_Haiti.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Haiti_%28orthographic_projection%29.svg/500px-Haiti_%28orthographic_projection%29.svg.png"}, 
@@ -2210,7 +2210,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Syria","url":"https://en.wikipedia.org/wiki/Syria"}, 
-        leader: {"title":"President","pos":"president","name":"Bashar al-Assad","url":"https://en.wikipedia.org/wiki/Bashar_al-Assad","imgUrl":"https://upl500px-Bashar_al-Assad_%282018-05-17%29_03.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Bashar al-Assad","url":"https://en.wikipedia.org/wiki/Bashar_al-Assad","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Al-Assad_2022_%28cropped%29.jpeg/500px-Al-Assad_2022_%28cropped%29.jpeg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/500px-Flag_of_Syria.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coat_of_arms_of_Syria.svg/500px-Coat_of_arms_of_Syria.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Syria_%28orthographic_projection%29_disputed.svg/500px-Syria_%28orthographic_projection%29_disputed.svg.png"}, 
@@ -2405,9 +2405,9 @@ const newInfo = [
     {
         country: {"name":"the United States","url":"https://en.wikipedia.org/wiki/United_States"}, 
         leader: {"title":"President","pos":"president","name":"Joe Biden","url":"https://en.wikipedia.org/wiki/Joe_Biden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Joe_Biden_presidential_portrait.jpg/500px-Joe_Biden_presidential_portrait.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/c/cf/Copyright-problem.svg/500px-Copyright-problem.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg/500px-Flag_of_the_United_States_%28DoS_ECA_Color_Standard%29.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Greater_coat_of_arms_of_the_United_States.svg/500px-Greater_coat_of_arms_of_the_United_States.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/USA_orthographic.svg/500px-USA_orthographic.svg.png"}, 
         capital: [{"name":"Washington, D.C.","type":"capital"}], 
         largestCity: [{"name":"New York City","type":"largest city"}], 
         language: {"list":["English"]}, 
