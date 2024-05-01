@@ -886,7 +886,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Guatemala","url":"https://en.wikipedia.org/wiki/Guatemala"}, 
-        leader: {"title":"President","pos":"president","name":"Bernardo Arévalo","url":"https://en.wikipedia.org/wiki/Bernardo_Ar%C3%A9valo","imgUrl":"https://up500px-Retrato_oficial_de_Presidente_Bernardo_Ar%C3%A9valo_%28cropped%29_3.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Bernardo Arévalo","url":"https://en.wikipedia.org/wiki/Bernardo_Ar%C3%A9valo","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Retrato_oficial_de_Presidente_Bernardo_Ar%C3%A9valo_%28cropped%29_3.jpg/500px-Retrato_oficial_de_Presidente_Bernardo_Ar%C3%A9valo_%28cropped%29_3.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/500px-Flag_of_Guatemala.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Guatemala.svg/500px-Coat_of_arms_of_Guatemala.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Guatemala_%28orthographic_projection%29.svg/500px-Guatemala_%28orthographic_projection%29.svg.png"}, 
@@ -902,7 +902,7 @@ const newInfo = [
         leader: {"title":"Chairman of the National Committee of Reconciliation and Development","pos":"chairman of the National Committee of Reconciliation and Development","name":"Mamady Doumbouya","url":"https://en.wikipedia.org/wiki/Mamady_Doumbouya","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Mamadi_Doumbouya_2022.jpg/500px-Mamadi_Doumbouya_2022.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Flag_of_Guinea.svg/500px-Flag_of_Guinea.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Coat_of_Arms_of_Guinea.svg/500px-Coat_of_Arms_of_Guinea.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Location_Guinea_AU_Africa.svg/500px-Location_Guinea_AU_Africa.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Guinea_%28orthographic_projection%29.svg/500px-Guinea_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Conakry","type":"capital"}], 
         language: {"list":["French"]}, 
         demonym: {"name":"Guinean"}, 
