@@ -494,7 +494,7 @@ async function getData(){
 
     // flag, symbol, map, capital, largestCity, language, demonym, currency, tld
     try {
-        for (let i = 50; i < countryTotal; i++){
+        for (let i = 57; i < countryTotal; i++){
             const response = await require('axios').get(masterList[i].country.url);
             const data = require('cheerio').load(response.data);
             let size = "500px";
@@ -669,7 +669,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 54:    // Eritrea
-                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 55:    // Estonia
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -1483,7 +1483,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 57:    // Ethiopia
-                                language_nck0_k4();
+                                language_nc10k00();
                                 break;
                             case 58:    // Fiji
                                 language_nc11k00();
@@ -3367,11 +3367,8 @@ async function getData(){
                         case 51:    // Egypt
                             leaderImg(4, "jpg");
                             break;
-                        case 54:    // Eritrea
-                            leaderImg(4, "jpg");
-                            break;
                         case 57:    // Ethiopia
-                            leaderImg(5, "jpeg");
+                            leaderImg(4, "jpeg");
                             break;
                         case 60:    // France
                             leaderImg(5, "jpg");

@@ -665,7 +665,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Egypt","url":"https://en.wikipedia.org/wiki/Egypt"}, 
-        leader: {"title":"President","pos":"president","name":"Abdel Fattah el-Sisi","url":"https://en.wikipedia.org/wiki/Abdel_Fattah_el-Sisi","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/Abdel_Fattah_el-Sisi_%282%29_-_2023.jpg/500px-Abdel_Fattah_el-Sisi_%282%29_-_2023.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Abdel Fattah el-Sisi","url":"https://en.wikipedia.org/wiki/Abdel_Fattah_el-Sisi","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/AbdelFattah_Elsisi.jpg/500px-AbdelFattah_Elsisi.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Egypt.svg/500px-Flag_of_Egypt.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Coat_of_arms_of_Egypt_%28Official%29.svg/500px-Coat_of_arms_of_Egypt_%28Official%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/EGY_orthographic.svg/500px-EGY_orthographic.svg.png"}, 
@@ -691,7 +691,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Equatorial Guinea","url":"https://en.wikipedia.org/wiki/Equatorial_Guinea"}, 
-        leader: {"title":"President","pos":"president","name":"Teodoro Obiang Nguema Mbasogo","url":"https://en.wikipedia.org/wiki/Teodoro_Obiang_Nguema_Mbasogo","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Teodoro_Obiang_2019_%28cropped%29.jpg/500px-Teodoro_Obiang_2019_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Teodoro Obiang Nguema Mbasogo","url":"https://en.wikipedia.org/wiki/Teodoro_Obiang_Nguema_Mbasogo","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Teodoro_Obiang_Nguema_Mbasogo_at_the_White_House_in_2014.jpg/500px-Teodoro_Obiang_Nguema_Mbasogo_at_the_White_House_in_2014.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Equatorial_Guinea.svg/500px-Flag_of_Equatorial_Guinea.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Coat_of_arms_of_Equatorial_Guinea.svg/500px-Coat_of_arms_of_Equatorial_Guinea.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/GNQ_orthographic.svg/500px-GNQ_orthographic.svg.png"}, 
@@ -704,7 +704,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Eritrea","url":"https://en.wikipedia.org/wiki/Eritrea"}, 
-        leader: {"title":"President","pos":"president","name":"Isaias Afwerki","url":"https://en.wikipedia.org/wiki/Isaias_Afwerki","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Ambassador_Nura_Abba_Rimi_%26_President_Isaias_Afwerki_of_Eritrea_%28cropped%29.jpg/500px-Ambassador_Nura_Abba_Rimi_%26_President_Isaias_Afwerki_of_Eritrea_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Isaias Afwerki","url":"https://en.wikipedia.org/wiki/Isaias_Afwerki","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Isaias_Afwerki_2024_%28cropped%29.jpg/500px-Isaias_Afwerki_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Flag_of_Eritrea.svg/500px-Flag_of_Eritrea.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Emblem_of_Eritrea_%28or_argent_azur%29.svg/500px-Emblem_of_Eritrea_%28or_argent_azur%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Eritrea_%28Africa_orthographic_projection%29.svg/500px-Eritrea_%28Africa_orthographic_projection%29.svg.png"}, 
