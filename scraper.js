@@ -494,7 +494,7 @@ async function getData(){
 
     // flag, symbol, map, capital, largestCity, language, demonym, currency, tld
     try {
-        for (let i = 0; i < countryTotal; i++){
+        for (let i = 26; i < countryTotal; i++){
             const response = await require('axios').get(masterList[i].country.url);
             const data = require('cheerio').load(response.data);
             let size = "500px";
@@ -1435,7 +1435,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 26:    // Burkina Faso
-                                language_c00_3();
+                                language_nc10k00();
                                 break;
                             case 27:    // Burundi
                                 language_nc10k00();
@@ -2091,7 +2091,7 @@ async function getData(){
                                 demonym_nc10000();
                                 break;
                             case 26:    //  Burkina Faso
-                                demonym_nc0();
+                                demonym_nc1000();
                                 break;
                             case 27:    //  Burundi
                                 demonym_nc10000();
