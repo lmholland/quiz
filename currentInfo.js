@@ -912,7 +912,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Guinea-Bissau","url":"https://en.wikipedia.org/wiki/Guinea-Bissau"}, 
-        leader: {"title":"President","pos":"president","name":"Umaro Sissoco Embaló","url":"https://en.wikipedia.org/wiki/Umaro_Sissoco_Embal%C3%B3","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Umaro_Sissoco_Embal%C3%B3_2019.jpg/500px-Umaro_Sissoco_Embal%C3%B3_2019.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Umaro Sissoco Embaló","url":"https://en.wikipedia.org/wiki/Umaro_Sissoco_Embal%C3%B3","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Umaro_Sissoco_Embal%C3%B3_en_2021.jpg/500px-Umaro_Sissoco_Embal%C3%B3_en_2021.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/Flag_of_Guinea-Bissau.svg/500px-Flag_of_Guinea-Bissau.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Coat_of_arms_of_Guinea-Bissau_%28variant%29.svg/500px-Coat_of_arms_of_Guinea-Bissau_%28variant%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Location_Guinea_Bissau_AU_Africa.svg/500px-Location_Guinea_Bissau_AU_Africa.svg.png"}, 
@@ -938,7 +938,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Haiti","url":"https://en.wikipedia.org/wiki/Haiti"}, 
-        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Ariel Henry","url":"https://en.wikipedia.org/wiki/Ariel_Henry","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Ariel_Henry_2023.jpg/500px-Ariel_Henry_2023.jpg"}, 
+        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Fritz Belizaire","url":"https://en.wikipedia.org/wiki/Fritz_Belizaire","imgUrl":"missing"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/500px-Flag_of_Haiti.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/500px-Coat_of_arms_of_Haiti.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Haiti_%28orthographic_projection%29.svg/500px-Haiti_%28orthographic_projection%29.svg.png"}, 

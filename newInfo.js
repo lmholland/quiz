@@ -938,7 +938,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Haiti","url":"https://en.wikipedia.org/wiki/Haiti"}, 
-        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Fritz Belizaire","url":"https://en.wikipedia.org/wiki/Fritz_Belizaire","imgUrl":"https://up500px-Flag_of_Haiti.svg.png"}, 
+        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Fritz Belizaire","url":"https://en.wikipedia.org/wiki/Fritz_Belizaire","imgUrl":"missing"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/500px-Flag_of_Haiti.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/500px-Coat_of_arms_of_Haiti.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Haiti_%28orthographic_projection%29.svg/500px-Haiti_%28orthographic_projection%29.svg.png"}, 
