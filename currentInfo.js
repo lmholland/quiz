@@ -392,7 +392,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Canada","url":"https://en.wikipedia.org/wiki/Canada"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/Justin_Trudeau_-_2023_-_P060471-887832_%28cropped%29.jpg/500px-Justin_Trudeau_-_2023_-_P060471-887832_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Justin Trudeau","url":"https://en.wikipedia.org/wiki/Justin_Trudeau","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Prime_Minister_Trudeau%27s_message_on_Christmas_2023_%280m29s%29_%28cropped%29.jpg/500px-Prime_Minister_Trudeau%27s_message_on_Christmas_2023_%280m29s%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Flag_of_Canada_%28Pantone%29.svg/500px-Flag_of_Canada_%28Pantone%29.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4f/Coat_of_arms_of_Canada.svg/500px-Coat_of_arms_of_Canada.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/CAN_orthographic.svg/500px-CAN_orthographic.svg.png"}, 
@@ -425,7 +425,7 @@ const currentInfo = [
         capital: [{"name":"Bangui","type":"capital"}], 
         language: {"list":["Sango","French"]}, 
         demonym: {"name":"Central African"}, 
-        currency: [{"full":"Central African CFA franc"},{"other":"bitcoin"}], 
+        currency: [{"full":"Central African CFA franc"}], 
         tld: {"name":".cf"}, 
         largestCity: [{"name":"Bangui","type":"largest city"}], 
     }, 
@@ -514,7 +514,7 @@ const currentInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Coat_of_arms_of_the_Republic_of_the_Congo.svg/500px-Coat_of_arms_of_the_Republic_of_the_Congo.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Republic_of_the_Congo_%28orthographic_projection%29.svg/500px-Republic_of_the_Congo_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Brazzaville","type":"capital"}], 
-        language: {"list":["French"]}, 
+        language: {"list":["French", "Lingala", "Kituba"]}, 
         demonym: {"name":"Congolese"}, 
         currency: [{"full":"Central African CFA franc"}], 
         tld: {"name":".cg"}, 
@@ -535,7 +535,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Croatia","url":"https://en.wikipedia.org/wiki/Croatia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Andrej Plenković","url":"https://en.wikipedia.org/wiki/Andrej_Plenkovi%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Obisk_predsednika_vlade_Hrva%C5%A1ke_Andreja_Plenkovi%C4%87a_-_28._3._2023_%2852776495077%29_%28cropped%29.jpg/500px-Obisk_predsednika_vlade_Hrva%C5%A1ke_Andreja_Plenkovi%C4%87a_-_28._3._2023_%2852776495077%29_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Andrej Plenković","url":"https://en.wikipedia.org/wiki/Andrej_Plenkovi%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Andrej_Plenkovi%C4%87_%282024-03-25%29.jpg/500px-Andrej_Plenkovi%C4%87_%282024-03-25%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Flag_of_Croatia.svg/500px-Flag_of_Croatia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coat_of_arms_of_Croatia.svg/500px-Coat_of_arms_of_Croatia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/EU-Croatia_%28orthographic_projection%29.png/500px-EU-Croatia_%28orthographic_projection%29.png"}, 
@@ -639,7 +639,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"East Timor","url":"https://en.wikipedia.org/wiki/East_Timor"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Xanana Gusmão","url":"https://en.wikipedia.org/wiki/Xanana_Gusm%C3%A3o","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Xanana_2011_%28cropped%29.jpg/500px-Xanana_2011_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Xanana Gusmão","url":"https://en.wikipedia.org/wiki/Xanana_Gusm%C3%A3o","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/PM_Kishida_meeting_with_PM_Gusm%C3%A3o_of_Timor-Leste_%28cropped%29.jpg/500px-PM_Kishida_meeting_with_PM_Gusm%C3%A3o_of_Timor-Leste_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Flag_of_East_Timor.svg/500px-Flag_of_East_Timor.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Coat_of_arms_of_East_Timor.svg/500px-Coat_of_arms_of_East_Timor.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Timor_Leste_%28orthographic_projection%29.svg/500px-Timor_Leste_%28orthographic_projection%29.svg.png"}, 
@@ -652,7 +652,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Ecuador","url":"https://en.wikipedia.org/wiki/Ecuador"}, 
-        leader: {"title":"President","pos":"president","name":"Daniel Noboa","url":"https://en.wikipedia.org/wiki/Daniel_Noboa","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/P._Daniel_Noboa_Azin.jpg/500px-P._Daniel_Noboa_Azin.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Daniel Noboa","url":"https://en.wikipedia.org/wiki/Daniel_Noboa","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Daniel_Noboa_Abril_2024.jpg/500px-Daniel_Noboa_Abril_2024.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/500px-Flag_of_Ecuador.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Coat_of_arms_of_Ecuador.svg/500px-Coat_of_arms_of_Ecuador.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/ECU_orthographic.svg/500px-ECU_orthographic.svg.png"}, 
@@ -661,7 +661,7 @@ const currentInfo = [
         demonym: {"name":"Ecuadorian"}, 
         currency: [{"full":"United States dollar"}], 
         tld: {"name":".ec"}, 
-        largestCity: [{"name":"Quito","type":"largest city"}], 
+        largestCity: [{"name":"Guayaquil","type":"largest city"}], 
     }, 
     {
         country: {"name":"Egypt","url":"https://en.wikipedia.org/wiki/Egypt"}, 

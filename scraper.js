@@ -494,7 +494,7 @@ async function getData(){
 
     // flag, symbol, map, capital, largestCity, language, demonym, currency, tld
     try {
-        for (let i = 0; i < countryTotal; i++){
+        for (let i = 50; i < countryTotal; i++){
             const response = await require('axios').get(masterList[i].country.url);
             const data = require('cheerio').load(response.data);
             let size = "500px";
@@ -621,7 +621,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 38:    // Congo-Kinshasa
-                        flag_symbol_map(3, "svg", 4, "png", 5, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 39:    // Congo-Brazzaville
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -645,7 +645,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 46:    // Djibouti
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 47:    // Dominica
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -657,7 +657,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 50:    // Ecuador
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 51:    // Egypt
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1455,7 +1455,13 @@ async function getData(){
                             case 34:    // Chile
                                 language_c00_1();
                                 break;
+                            case 35:    // China
+                                language_nc000();
+                                break;
                             case 37:    // Comoros
+                                language_nc10k00();
+                                break;
+                            case 39:    // Congo-Brazzaville
                                 language_nc10k00();
                                 break;
                             case 43:    // Cyprus
@@ -1735,6 +1741,19 @@ async function getData(){
                             ){
                                 masterList[i].language = {};
                                 masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[0].children[0].data];
+                            }
+                        }
+
+                        function language_nc000(){
+                            if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                                ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
+                            ){
+                                masterList[i].language = {};
+                                masterList[i].language.list = [data(`th.infobox-label`)[j].next.children[0].children[0].children[0].data];
                             }
                         }
 
@@ -2484,7 +2503,7 @@ async function getData(){
                                 currency_01_2();
                                 break;
                             case 32:    // CAR
-                                currency_nc1100_full_full();
+                                currency_nc1100_full();
                                 break;
                             case 33:    // Chad
                                 currency_full();
@@ -3049,18 +3068,14 @@ async function getData(){
                 
                         }
 
-                        function currency_nc1100_full_full(){
+                        function currency_nc1100_full(){
                             if( 
                                 data(`th.infobox-label`)[j].children[0].data == "Currency"
                             ){
                                 let fullCurrency = data(`th.infobox-label`)[j].next.children[1].children[1].children[0].children[0].attribs.title;
-                                let otherCurrency = data(`th.infobox-label`)[j].next.children[1].children[1].children[2].children[0].attribs.title.toLowerCase();
                                 masterList[i].currency = [];
                                 masterList[i].currency.push({
                                     full: fullCurrency,
-                                });
-                                masterList[i].currency.push({
-                                    other: otherCurrency,
                                 });
                             }
                         }
