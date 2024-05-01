@@ -345,6 +345,7 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Burkina_Faso.svg/500px-Coat_of_arms_of_Burkina_Faso.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Burkina_Faso_%28orthographic_projection%29.svg/500px-Burkina_Faso_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Ouagadougou","type":"capital"}], 
+        language: {"list":["Mooré","Bissa","Dyula","Fula"]}, 
         demonym: {"name":"Burkinabè"}, 
         currency: [{"full":"West African CFA franc"}], 
         tld: {"name":".bf"}, 
