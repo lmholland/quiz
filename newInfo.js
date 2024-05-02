@@ -2062,7 +2062,7 @@ const newInfo = [
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/EU-Slovenia.svg/500px-EU-Slovenia.svg.png"}, 
         capital: [{"name":"Ljubljana","type":"capital"}], 
         language: {"list":["Slovene"]}, 
-        demonym: {}, 
+        demonym: {"name":"Slovene"}, 
         currency: [{"full":"euro"}], 
         tld: {"name":".si"}, 
         largestCity: [{"name":"Ljubljana","type":"largest city"}], 
