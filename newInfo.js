@@ -1056,9 +1056,9 @@ const newInfo = [
     {
         country: {"name":"Israel","url":"https://en.wikipedia.org/wiki/Israel"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Benjamin Netanyahu","url":"https://en.wikipedia.org/wiki/Benjamin_Netanyahu","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Benjamin_Netanyahu%2C_February_2023.jpg/500px-Benjamin_Netanyahu%2C_February_2023.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Israel.svg/500px-Emblem_of_Israel.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Israel_%28orthographic_projection%29_with_occupied_territories.svg/500px-Israel_%28orthographic_projection%29_with_occupied_territories.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Israel_-_Location_Map_%282012%29_-_ISR_-_UNOCHA.svg/500px-Israel_-_Location_Map_%282012%29_-_ISR_-_UNOCHA.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d4/Flag_of_Israel.svg/500px-Flag_of_Israel.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Israel.svg/500px-Emblem_of_Israel.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Israel_%28orthographic_projection%29_with_occupied_territories.svg/500px-Israel_%28orthographic_projection%29_with_occupied_territories.svg.png"}, 
         capital: [{"name":"Jerusalem","type":"capital"}], 
         language: {"list":["Hebrew"]}, 
         demonym: {"name":"Israeli"}, 
@@ -1068,7 +1068,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Italy","url":"https://en.wikipedia.org/wiki/Italy"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Giorgia Meloni","url":"https://en.wikipedia.org/wiki/Giorgia_Meloni","imgUrl":"https://up500px-Giorgia_Meloni_signature.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Giorgia Meloni","url":"https://en.wikipedia.org/wiki/Giorgia_Meloni","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Giorgia_Meloni_Official_2023_%28cropped%29.jpg/500px-Giorgia_Meloni_Official_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/0/03/Flag_of_Italy.svg/500px-Flag_of_Italy.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Emblem_of_Italy.svg/500px-Emblem_of_Italy.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/EU-Italy_%28orthographic_projection%29.svg/500px-EU-Italy_%28orthographic_projection%29.svg.png"}, 
@@ -1094,7 +1094,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Jamaica","url":"https://en.wikipedia.org/wiki/Jamaica"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Andrew Holness","url":"https://en.wikipedia.org/wiki/Andrew_Holness","imgUrl":"https://up500px-Ambox_important.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Andrew Holness","url":"https://en.wikipedia.org/wiki/Andrew_Holness","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Andrew_Holness_Press_%28cropped%29_2.jpg/500px-Andrew_Holness_Press_%28cropped%29_2.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Flag_of_Jamaica.svg/500px-Flag_of_Jamaica.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Coat_of_arms_of_Jamaica.svg/500px-Coat_of_arms_of_Jamaica.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Jamaica_%28orthographic_projection%29.svg/500px-Jamaica_%28orthographic_projection%29.svg.png"}, 
@@ -1107,7 +1107,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Japan","url":"https://en.wikipedia.org/wiki/Japan"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Fumio Kishida","url":"https://en.wikipedia.org/wiki/Fumio_Kishida","imgUrl":"https://up500px-Fumio_Kishida_signature.svg.png"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Fumio Kishida","url":"https://en.wikipedia.org/wiki/Fumio_Kishida","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Fumio_Kishida_20211005.jpg/500px-Fumio_Kishida_20211005.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9e/Flag_of_Japan.svg/500px-Flag_of_Japan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Imperial_Seal_of_Japan.svg/500px-Imperial_Seal_of_Japan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Japan_%28orthographic_projection%29.svg/500px-Japan_%28orthographic_projection%29.svg.png"}, 
@@ -1146,7 +1146,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Kenya","url":"https://en.wikipedia.org/wiki/Kenya"}, 
-        leader: {"title":"President","pos":"president","name":"William Ruto","url":"https://en.wikipedia.org/wiki/William_Ruto","imgUrl":"https://up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"William Ruto","url":"https://en.wikipedia.org/wiki/William_Ruto","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/William_Ruto_2023.jpg/500px-William_Ruto_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Kenya.svg/500px-Flag_of_Kenya.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Coat_of_arms_of_Kenya_%28Official%29.svg/500px-Coat_of_arms_of_Kenya_%28Official%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Kenya_%28orthographic_projection%29.svg/500px-Kenya_%28orthographic_projection%29.svg.png"}, 

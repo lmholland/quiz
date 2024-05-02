@@ -1042,10 +1042,10 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Ireland","url":"https://en.wikipedia.org/wiki/Republic_of_Ireland"}, 
-        leader: {"title":"Taoiseach","pos":"taoiseach","name":"Leo Varadkar","url":"https://en.wikipedia.org/wiki/Leo_Varadkar","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Leo_Varadkar%2C_December_2022_%28cropped%29.jpg/500px-Leo_Varadkar%2C_December_2022_%28cropped%29.jpg"}, 
+        leader: {"title":"Taoiseach","pos":"taoiseach","name":"Simon Harris","url":"https://en.wikipedia.org/wiki/Simon_Harris","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/Simon_Harris_at_the_Special_European_Council_-_2024_%28cropped%29.jpg/500px-Simon_Harris_at_the_Special_European_Council_-_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Flag_of_Ireland.svg/500px-Flag_of_Ireland.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Coat_of_arms_of_Ireland.svg/500px-Coat_of_arms_of_Ireland.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/EU-Ireland.svg/500px-EU-Ireland.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/EU-Ireland_%28orthographic_projection%29.svg/500px-EU-Ireland_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Dublin","type":"capital"}], 
         language: {"list":["Irish","English"]}, 
         demonym: {"name":"Irish"}, 
@@ -1081,7 +1081,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"the Ivory Coast","url":"https://en.wikipedia.org/wiki/Ivory_Coast"}, 
-        leader: {"title":"President","pos":"president","name":"Alassane Ouattara","url":"https://en.wikipedia.org/wiki/Alassane_Ouattara","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/President_Alassane_Ouattara_in_Washington_-_2017_%2838244569701%29_%28cropped%29.jpg/500px-President_Alassane_Ouattara_in_Washington_-_2017_%2838244569701%29_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Alassane Ouattara","url":"https://en.wikipedia.org/wiki/Alassane_Ouattara","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Alassane_Ouattara_-_2024_%28cropped%29.jpg/500px-Alassane_Ouattara_-_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_C%C3%B4te_d%27Ivoire.svg/500px-Flag_of_C%C3%B4te_d%27Ivoire.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Coat_of_Arms_of_the_Ivory_Coast.svg/500px-Coat_of_Arms_of_the_Ivory_Coast.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/C%C3%B4te_d%27Ivoire_%28orthographic_projection%29.svg/500px-C%C3%B4te_d%27Ivoire_%28orthographic_projection%29.svg.png"}, 
@@ -1133,7 +1133,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Kazakhstan","url":"https://en.wikipedia.org/wiki/Kazakhstan"}, 
-        leader: {"title":"President","pos":"president","name":"Kassym-Jomart Tokayev","url":"https://en.wikipedia.org/wiki/Kassym-Jomart_Tokayev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%2813-12-2022%29.jpg/500px-%D0%9A%D0%B0%D1%81%D1%8B%D0%BC-%D0%96%D0%BE%D0%BC%D0%B0%D1%80%D1%82_%D0%A2%D0%BE%D0%BA%D0%B0%D0%B5%D0%B2_%2813-12-2022%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Kassym-Jomart Tokayev","url":"https://en.wikipedia.org/wiki/Kassym-Jomart_Tokayev","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/President_of_the_Republic_of_Kazakhstan_Kassym-Jomart_Tokayev_in_Astana_01_%28cropped%29.jpg/500px-President_of_the_Republic_of_Kazakhstan_Kassym-Jomart_Tokayev_in_Astana_01_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Kazakhstan_%28President_of_Kazakhstan_website%29.svg/500px-Flag_of_Kazakhstan_%28President_of_Kazakhstan_website%29.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b3/Emblem_of_Kazakhstan_3d.svg/500px-Emblem_of_Kazakhstan_3d.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kazakhstan_%28orthographic_projection%29.svg/500px-Kazakhstan_%28orthographic_projection%29.svg.png"}, 

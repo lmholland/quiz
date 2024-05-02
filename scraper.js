@@ -750,7 +750,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 81:    // Israel
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 82:    // Italy
                         flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
@@ -3394,10 +3394,13 @@ async function getData(){
                         case 82:    // Italy
                             leaderImg(4, "jpg");
                             break;
-                        case 85:    // Japan
+                        case 84:    // Jamaica
                             leaderImg(4, "jpg");
                             break;
                         case 86:    // Jordan
+                            leaderImg(4, "jpg");
+                            break;
+                        case 88:    // Kenya
                             leaderImg(4, "jpg");
                             break;
                         case 93:    // Latvia
