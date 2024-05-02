@@ -2530,7 +2530,7 @@ const currentInfo = [
         capital: [{"name":"Harare","type":"capital"}], 
         language: {"list":["Chewa","Chibarwe","English","Kalanga","Koisan","Nambya","Ndau","Ndebele","Shangani","Shona","Sotho","Tonga","Tswana","Venda","Xhosa","Zimbabwean sign language"]}, 
         demonym: {"name":"Zimbabwean"}, 
-        currency: [{"demonym":"Zimbabwean","unit":"dollar"},{"other":"United States dollar"},{"other":"South African rand"}], 
+        currency: [{"demonym":"Zimbabwe","unit":"gold"},{"other":"United States dollar"},{"other":"South African rand"}], 
         tld: {"name":".zw"}, 
         largestCity: [{"name":"Harare","type":"largest city"}], 
     }, 

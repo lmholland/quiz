@@ -494,7 +494,7 @@ async function getData(){
 
     // flag, symbol, map, capital, largestCity, language, demonym, currency, tld
     try {
-        for (let i = 0; i < countryTotal; i++){
+        for (let i = 194; i < countryTotal; i++){
             const response = await require('axios').get(masterList[i].country.url);
             const data = require('cheerio').load(response.data);
             let size = "500px";
@@ -1651,7 +1651,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 193:   // Zambia
-                                language_nc0();
+                                language_nc00();
                                 break;
                             case 194:   // Zimbabwe
                                 language_nc50k00();
@@ -2713,7 +2713,7 @@ async function getData(){
                                 currency_0_1_2();
                                 break;
                             case 194:   // Zimbabwe
-                                currency_0_1_28();
+                                currency_zim();
                                 break; 
                         }
 
@@ -2756,30 +2756,34 @@ async function getData(){
                             }
                         }
 
-                        function currency_0_1_28(){
-                            if( 
-                                data(`th.infobox-label`)[j].children[0].data == "Currency"
-                            ){
-                                let fullCurrency1 = data(`th.infobox-label`)[j].next.children[0].attribs.title;
-                                let words = fullCurrency1.split(" ");
-                                let demonym = words[0];
-                                let unit = words[1].toLowerCase();
-                                let otherCurrency1 = data(`th.infobox-label`)[j].next.children[2].attribs.title;
-                                let otherCurrency2 = data(`th.infobox-label`)[j].next.children[8].attribs.title;
-
-                                masterList[i].currency = [];
-                                masterList[i].currency.push({
-                                    demonym: demonym,
-                                    unit: unit,
-                                });
-                                masterList[i].currency.push({
-                                    other: otherCurrency1,
-                                });
-                                masterList[i].currency.push({
-                                    other: otherCurrency2,
-                                });
-                
+                        function currency_zim(){
+                            try{
+                                if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Currency"
+                                ){
+                                    let fullCurrency1 = data(`th.infobox-label`)[j].next.children[0].attribs.title;
+                                    let words = fullCurrency1.split(" ");
+                                    let demonym = words[0];
+                                    let unit = words[1].toLowerCase();
+                                    let otherCurrency1 = data(`th.infobox-label`)[j].next.children[3].attribs.title;
+                                    let otherCurrency2 = data(`th.infobox-label`)[j].next.children[9].attribs.title;
+    
+                                    masterList[i].currency = [];
+                                    masterList[i].currency.push({
+                                        demonym: demonym,
+                                        unit: unit,
+                                    });
+                                    masterList[i].currency.push({
+                                        other: otherCurrency1,
+                                    });
+                                    masterList[i].currency.push({
+                                        other: otherCurrency2,
+                                    });
+                    
+                                }
+                            } catch(error){
                             }
+
                         }
 
                         function currency_0_1_3(){
@@ -3506,9 +3510,6 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 193:   // Zambia
-                            leaderImg(4, "jpg");
-                            break;
-                        case 194:   // Zimbabwe
                             leaderImg(4, "jpg");
                             break;
                     }
