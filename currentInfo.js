@@ -1315,7 +1315,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Madagascar","url":"https://en.wikipedia.org/wiki/Madagascar"}, 
-        leader: {"title":"President","pos":"president","name":"Andry Rajoelina","url":"https://en.wikipedia.org/wiki/Andry_Rajoelina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/86/Andry_Rajoelina_in_December_2022_%28cropped%29.jpg/500px-Andry_Rajoelina_in_December_2022_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Andry Rajoelina","url":"https://en.wikipedia.org/wiki/Andry_Rajoelina","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/PM_Kishida_meeting_with_PM_Ibrahim_of_Malaysia_%28cropped%2C_3to4_portrait%29.jpg/500px-PM_Kishida_meeting_with_PM_Ibrahim_of_Malaysia_%28cropped%2C_3to4_portrait%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Flag_of_Madagascar.svg/500px-Flag_of_Madagascar.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Seal_of_Madagascar.svg/500px-Seal_of_Madagascar.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Madagascar_%28centered_orthographic_projection%29.svg/500px-Madagascar_%28centered_orthographic_projection%29.svg.png"}, 

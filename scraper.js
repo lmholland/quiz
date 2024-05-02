@@ -810,7 +810,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 101:    // Madagascar
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
                         break;
                     case 102:    // Malawi
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
@@ -3408,6 +3408,9 @@ async function getData(){
                             break;
                         case 96:    // Liberia
                             leaderImg(3, "png");
+                            break;
+                        case 103:   // Madagascar
+                            leaderImg(4, "jpg");
                             break;
                         case 108:   // Mauritania
                             leaderImg(4, "jpg");
