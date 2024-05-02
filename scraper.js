@@ -927,7 +927,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 140:    // Portugal
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 141:    // Qatar
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");

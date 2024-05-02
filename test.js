@@ -1,13 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Donald_Tusk");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Portugal");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
-        // flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
-        leaderImg(3, "png")
+        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+        // leaderImg(3, "png")
 
 
                 // for(let j=0; j < data(`th.infobox-label`).length; j++){

@@ -1823,9 +1823,9 @@ const newInfo = [
     {
         country: {"name":"Portugal","url":"https://en.wikipedia.org/wiki/Portugal"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Luís Montenegro","url":"https://en.wikipedia.org/wiki/Lu%C3%ADs_Montenegro","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Luis_Montenegro_at_EPP_Summit%2C_21_March%2C_Brussels.jpg/500px-Luis_Montenegro_at_EPP_Summit%2C_21_March%2C_Brussels.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Portugal.svg/500px-Coat_of_arms_of_Portugal.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/EU-Portugal_%28orthographic_projection%29.svg/500px-EU-Portugal_%28orthographic_projection%29.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/EU-Portugal_with_islands_circled.svg/500px-EU-Portugal_with_islands_circled.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/500px-Flag_of_Portugal.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/15/Coat_of_arms_of_Portugal.svg/500px-Coat_of_arms_of_Portugal.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/EU-Portugal_%28orthographic_projection%29.svg/500px-EU-Portugal_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Lisbon","type":"capital"}], 
         language: {"list":["Portuguese"]}, 
         demonym: {"name":"Portuguese"}, 
