@@ -1991,7 +1991,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Serbia","url":"https://en.wikipedia.org/wiki/Serbia"}, 
-        leader: {"title":"President","pos":"president","name":"Aleksandar Vučić","url":"https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Aleksandar_Vu%C4%8Di%C4%87_2019_%28cropped%29.jpg/500px-Aleksandar_Vu%C4%8Di%C4%87_2019_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Aleksandar Vučić","url":"https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aleksandar_Vu%C4%8Di%C4%87_%26_Nuclear_Energy_Summit_Brussels_2024_%28cropped%29.jpg/500px-Aleksandar_Vu%C4%8Di%C4%87_%26_Nuclear_Energy_Summit_Brussels_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/500px-Flag_of_Serbia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Serbia.svg/500px-Coat_of_arms_of_Serbia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Serbia_%28orthographic_projection%29.svg/500px-Serbia_%28orthographic_projection%29.svg.png"}, 
@@ -2043,10 +2043,10 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Slovakia","url":"https://en.wikipedia.org/wiki/Slovakia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Robert Fico","url":"https://en.wikipedia.org/wiki/Robert_Fico","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Robert_Fico%2C_2023.jpg/500px-Robert_Fico%2C_2023.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Robert Fico","url":"https://en.wikipedia.org/wiki/Robert_Fico","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/93/Robert_Fico%2C_April_2024.jpg/500px-Robert_Fico%2C_April_2024.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Flag_of_Slovakia.svg/500px-Flag_of_Slovakia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Coat_of_arms_of_Slovakia.svg/500px-Coat_of_arms_of_Slovakia.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/EU-Slovakia.svg/500px-EU-Slovakia.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Slovakia_on_the_globe_%28Europe_centered%29.svg/500px-Slovakia_on_the_globe_%28Europe_centered%29.svg.png"}, 
         capital: [{"name":"Bratislava","type":"capital"}], 
         language: {"list":["Slovak"]}, 
         demonym: {"name":"Slovak"}, 

@@ -1992,9 +1992,9 @@ const newInfo = [
     {
         country: {"name":"Serbia","url":"https://en.wikipedia.org/wiki/Serbia"}, 
         leader: {"title":"President","pos":"president","name":"Aleksandar Vučić","url":"https://en.wikipedia.org/wiki/Aleksandar_Vu%C4%8Di%C4%87","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Aleksandar_Vu%C4%8Di%C4%87_%26_Nuclear_Energy_Summit_Brussels_2024_%28cropped%29.jpg/500px-Aleksandar_Vu%C4%8Di%C4%87_%26_Nuclear_Energy_Summit_Brussels_2024_%28cropped%29.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Serbia.svg/500px-Coat_of_arms_of_Serbia.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Serbia_%28orthographic_projection%29.svg/500px-Serbia_%28orthographic_projection%29.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Map_of_Europe_and_Serbia_%282006%E2%80%932008%29.svg/500px-Map_of_Europe_and_Serbia_%282006%E2%80%932008%29.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/ff/Flag_of_Serbia.svg/500px-Flag_of_Serbia.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Coat_of_arms_of_Serbia.svg/500px-Coat_of_arms_of_Serbia.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Serbia_%28orthographic_projection%29.svg/500px-Serbia_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Belgrade","type":"capital"}], 
         language: {"list":["Serbian"]}, 
         demonym: {"name":"Serbian"}, 

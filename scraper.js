@@ -966,7 +966,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 153:    // Serbia
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 154:    // Seychelles
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
