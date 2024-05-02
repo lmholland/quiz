@@ -1861,7 +1861,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Russia","url":"https://en.wikipedia.org/wiki/Russia"}, 
-        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"https://en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg/500px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2818-06-2023%29_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"https://en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29.jpg/500px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/500px-Flag_of_Russia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg/500px-Coat_of_Arms_of_the_Russian_Federation.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg/500px-Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg.png"}, 
@@ -1965,7 +1965,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Saudi Arabia","url":"https://en.wikipedia.org/wiki/Saudi_Arabia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mohammed bin Salman","url":"https://en.wikipedia.org/wiki/Mohammed_bin_Salman","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/71/Mohammad_bin_Salman_December_2023_%28cropped%29.jpg/500px-Mohammad_bin_Salman_December_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Mohammed bin Salman","url":"https://en.wikipedia.org/wiki/Mohammed_bin_Salman","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Mohammad_bin_Salman_October_2019_%28cropped%29.jpg/500px-Mohammad_bin_Salman_October_2019_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Flag_of_Saudi_Arabia.svg/500px-Flag_of_Saudi_Arabia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Emblem_of_Saudi_Arabia.svg/500px-Emblem_of_Saudi_Arabia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/47/Saudi_Arabia_%28orthographic_projection%29.svg/500px-Saudi_Arabia_%28orthographic_projection%29.svg.png"}, 
@@ -1978,7 +1978,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Senegal","url":"https://en.wikipedia.org/wiki/Senegal"}, 
-        leader: {"title":"President","pos":"president","name":"Macky Sall","url":"https://en.wikipedia.org/wiki/Macky_Sall","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/President_Macky_Sall_in_2020.jpg/500px-President_Macky_Sall_in_2020.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Bassirou Diomaye Faye","url":"https://en.wikipedia.org/wiki/Bassirou_Diomaye_Faye","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/85/Bassirou_Diomaye_Faye_-_2024_%28cropped%29.jpg/500px-Bassirou_Diomaye_Faye_-_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Flag_of_Senegal.svg/500px-Flag_of_Senegal.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Coat_of_arms_of_Senegal.svg/500px-Coat_of_arms_of_Senegal.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Senegal_%28orthographic_projection%29.svg/500px-Senegal_%28orthographic_projection%29.svg.png"}, 

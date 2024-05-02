@@ -1848,7 +1848,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Romania","url":"https://en.wikipedia.org/wiki/Romania"}, 
-        leader: {"title":"President","pos":"president","name":"Klaus Iohannis","url":"https://en.wikipedia.org/wiki/Klaus_Iohannis","imgUrl":"https://up500px-Semi-protection-shackle.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Klaus Iohannis","url":"https://en.wikipedia.org/wiki/Klaus_Iohannis","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/EPP_Athens%2C_2-3_December%2C_2022_%2852539790143%29_%28cropped%29.jpg/500px-EPP_Athens%2C_2-3_December%2C_2022_%2852539790143%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Flag_of_Romania.svg/500px-Flag_of_Romania.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Coat_of_arms_of_Romania.svg/500px-Coat_of_arms_of_Romania.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c5/EU-Romania_%28orthographic_projection%29.svg/500px-EU-Romania_%28orthographic_projection%29.svg.png"}, 
@@ -1861,7 +1861,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Russia","url":"https://en.wikipedia.org/wiki/Russia"}, 
-        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"https://en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"https://up500px-Putin_signature.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Vladimir Putin","url":"https://en.wikipedia.org/wiki/Vladimir_Putin","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29.jpg/500px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/f/f3/Flag_of_Russia.svg/500px-Flag_of_Russia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Coat_of_Arms_of_the_Russian_Federation.svg/500px-Coat_of_Arms_of_the_Russian_Federation.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg/500px-Russian_Federation_%28orthographic_projection%29_-_All_Territorial_Disputes.svg.png"}, 
@@ -1983,7 +1983,7 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Coat_of_arms_of_Senegal.svg/500px-Coat_of_arms_of_Senegal.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Senegal_%28orthographic_projection%29.svg/500px-Senegal_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Dakar","type":"capital"}], 
-        language: {}, 
+        language: {"list":["French"]}, 
         demonym: {"name":"Senegalese"}, 
         currency: [{"full":"West African CFA franc"}], 
         tld: {"name":".sn"}, 

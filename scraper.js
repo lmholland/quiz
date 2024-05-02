@@ -3458,7 +3458,7 @@ async function getData(){
                             leaderImg(3, "png");
                             break;
                         case 143:   // Russia
-                            leaderImg(5, "jpg");
+                            leaderImg(4, "jpg");
                             break;
                         case 146:   // St. Lucia
                             leaderImg(3, "png");

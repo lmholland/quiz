@@ -1,16 +1,16 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Portugal");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Senegal");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
-        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
-        // leaderImg(3, "png")
+        // flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
+        // leaderImg(4, "jpg")
 
 
-                // for(let j=0; j < data(`th.infobox-label`).length; j++){
+        //         for(let j=0; j < data(`th.infobox-label`).length; j++){
         //     try{
         //         if( 
         //                 data(`th.infobox-label`)[j].children[0].data == "Official language"
@@ -19,9 +19,10 @@ async function getData(){
         //             ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
         //             ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
         //         ){
-        //             for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children.length; k++){
-        //                 console.log(data(`th.infobox-label`)[j].next.children[1].children[0].children[k].children[0].children[0].data);
-        //             }
+        //             // for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children.length; k++){
+        //             //     console.log(data(`th.infobox-label`)[j].next.children[1].children[0].children[k].children[0].children[0].data);
+        //             // }
+        //             console.log(data(`th.infobox-label`)[j].next.children[0].children[0].data);
         //         }
         //     } catch(error){
         //     }
