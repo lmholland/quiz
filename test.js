@@ -1,7 +1,7 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Slovenia");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Sudan");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
@@ -12,10 +12,22 @@ async function getData(){
 
         for(let j=0; j < data(`th.infobox-label`).length; j++){
             try{
-                if(data(`th.infobox-label`)[j].children[0].children[0].data == "Demonym(s)"){
-                    // masterList[i].demonym = {};
-                    // masterList[i].demonym.name = data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data;
-                    console.log(data(`th.infobox-label`)[j].next.children[1].children[0].children[0].children[0].children[0].data)
+                if( 
+                        data(`th.infobox-label`)[j].children[0].data == "Official language"
+                    ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                    ||  data(`th.infobox-label`)[j].children[0].data == "Official language"
+                    ||  data(`th.infobox-label`)[j].children[0].data == "Official languages"
+                    ||  data(`th.infobox-label`)[j].children[0].data == "Working language"
+                ){
+                    for(let k=0; k < data(`th.infobox-label`)[j].next.children[1].children[0].children.length; k++){
+                        console.log(data(`th.infobox-label`)[j].next.children[1].children[0].children[k].children[0].children[0].data);
+                    }
+
+
+                    // console.log(data(`th.infobox-label`)[j].next.children[1].children[1]);
+
+
+                    // console.log("ok")
                 }
             } catch(error){
             }

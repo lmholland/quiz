@@ -987,7 +987,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 160:    // Somalia
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 161:    // South Africa
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -996,7 +996,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 7, "svg");
                         break;
                     case 163:    // South Sudan
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 164:    // Spain
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1609,7 +1609,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 166:   // Sudan
-                                language_nck0_k2();
+                                language_nc10k00();
                                 break;
                             case 169:   // Switzerland
                                 language_nc11k00();

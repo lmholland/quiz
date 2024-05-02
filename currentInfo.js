@@ -2082,7 +2082,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Somalia","url":"https://en.wikipedia.org/wiki/Somalia"}, 
-        leader: {"title":"President","pos":"president","name":"Hassan Sheikh Mohamud","url":"https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Somali_President_Hassan_Sheikh_Mohamud_at_Djiboutian_presidential_palace_in_Djibouti%2C_Djibouti%2C_September_24%2C_2023_-_%28cropped%29.jpg/500px-Somali_President_Hassan_Sheikh_Mohamud_at_Djiboutian_presidential_palace_in_Djibouti%2C_Djibouti%2C_September_24%2C_2023_-_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Hassan Sheikh Mohamud","url":"https://en.wikipedia.org/wiki/Hassan_Sheikh_Mohamud","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/His_Excellency_President_Hassan_Sheikh_Mohamud_%28cropped%29.jpg/500px-His_Excellency_President_Hassan_Sheikh_Mohamud_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Flag_of_Somalia.svg/500px-Flag_of_Somalia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Coat_of_arms_of_Somalia.svg/500px-Coat_of_arms_of_Somalia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Somalia_%28orthographic_projection%29.svg/500px-Somalia_%28orthographic_projection%29.svg.png"}, 
@@ -2095,9 +2095,9 @@ const currentInfo = [
     }, 
     {
         country: {"name":"South Africa","url":"https://en.wikipedia.org/wiki/South_Africa"}, 
-        leader: {"title":"President","pos":"president","name":"Cyril Ramaphosa","url":"https://en.wikipedia.org/wiki/Cyril_Ramaphosa","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Cyril_Ramaphosa_June_2022.jpg/500px-Cyril_Ramaphosa_June_2022.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Cyril Ramaphosa","url":"https://en.wikipedia.org/wiki/Cyril_Ramaphosa","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Prime_Minister_Sunak_met_with_President_Ramaphosa_of_South_Africa_in_Number_10_-_2022_%28cropped%29.jpg/500px-Prime_Minister_Sunak_met_with_President_Ramaphosa_of_South_Africa_in_Number_10_-_2022_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Flag_of_South_Africa.svg/500px-Flag_of_South_Africa.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/2/21/Coat_of_arms_of_South_Africa.svg/500px-Coat_of_arms_of_South_Africa.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Coat_of_arms_of_South_Africa_%28heraldic%29.svg/500px-Coat_of_arms_of_South_Africa_%28heraldic%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/ZAF_orthographic.svg/500px-ZAF_orthographic.svg.png"}, 
         capital: [{"name":"Pretoria","type":"executive"},{"name":"Cape Town","type":"legislative"},{"name":"Bloemfontein","type":"judicial"}], 
         largestCity: [{"name":"Johannesburg","type":"largest city"}], 
