@@ -3403,14 +3403,11 @@ async function getData(){
                         case 88:    // Kenya
                             leaderImg(4, "jpg");
                             break;
-                        case 93:    // Latvia
-                            leaderImg(4, "jpg");
-                            break;
                         case 95:    // Lesotho
                             leaderImg(6, "jpg");
                             break;
-                        case 100:   // Luxembourg
-                            leaderImg(4, "jpg");
+                        case 96:    // Liberia
+                            leaderImg(3, "png");
                             break;
                         case 108:   // Mauritania
                             leaderImg(4, "jpg");

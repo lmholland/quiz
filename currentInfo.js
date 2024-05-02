@@ -1186,7 +1186,7 @@ const currentInfo = [
     {
         country: {"name":"Kyrgyzstan","url":"https://en.wikipedia.org/wiki/Kyrgyzstan"}, 
         leader: {"title":"President","pos":"president","name":"Sadyr Japarov","url":"https://en.wikipedia.org/wiki/Sadyr_Japarov","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Official_Photo_of_the_President_of_the_Kyrgyz_Republic_H.E._Mr._Sadyr_Zhaparov.jpg/500px-Official_Photo_of_the_President_of_the_Kyrgyz_Republic_H.E._Mr._Sadyr_Zhaparov.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Flag_of_Kyrgyzstan_%282023%29.svg/500px-Flag_of_Kyrgyzstan_%282023%29.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Flag_of_Kyrgyzstan.svg/500px-Flag_of_Kyrgyzstan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Emblem_of_Kyrgyzstan.svg/500px-Emblem_of_Kyrgyzstan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Kyrgyzstan_%28orthographic_projection%29.svg/500px-Kyrgyzstan_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Bishkek","type":"capital"}], 
@@ -1224,7 +1224,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Lebanon","url":"https://en.wikipedia.org/wiki/Lebanon"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Najib Mikati","url":"https://en.wikipedia.org/wiki/Najib_Mikati","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Najib_Mikati_portrait.jpg/500px-Najib_Mikati_portrait.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Najib Mikati","url":"https://en.wikipedia.org/wiki/Najib_Mikati","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0a/Najib_Mikati%2C_Lebanon_Jan_2024_%28cropped%29.jpg/500px-Najib_Mikati%2C_Lebanon_Jan_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Flag_of_Lebanon.svg/500px-Flag_of_Lebanon.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/98/Coat_of_arms_of_Lebanon.svg/500px-Coat_of_arms_of_Lebanon.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Lebanon_%28orthographic_projection%29.svg/500px-Lebanon_%28orthographic_projection%29.svg.png"}, 
@@ -1250,7 +1250,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Liberia","url":"https://en.wikipedia.org/wiki/Liberia"}, 
-        leader: {"title":"President","pos":"president","name":"George Weah","url":"https://en.wikipedia.org/wiki/George_Weah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/George_Weah_in_2019_%28cropped%29.jpg/500px-George_Weah_in_2019_%28cropped%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Joseph Boakai","url":"https://en.wikipedia.org/wiki/Joseph_Boakai","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Joseph_Boakai_%28cropped%29.png/500px-Joseph_Boakai_%28cropped%29.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/500px-Flag_of_Liberia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coat_of_arms_of_Liberia.svg/500px-Coat_of_arms_of_Liberia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Liberia_%28orthographic_projection%29.svg/500px-Liberia_%28orthographic_projection%29.svg.png"}, 
@@ -1289,7 +1289,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Lithuania","url":"https://en.wikipedia.org/wiki/Lithuania"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ingrida Šimonytė","url":"https://en.wikipedia.org/wiki/Ingrida_%C5%A0imonyt%C4%97","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Fumio_Kishida_and_Ingrida_%C5%A0imonyt%C4%97_at_the_sidelines_of_the_2023_NATO_Summit_%28cropped%29.jpg/500px-Fumio_Kishida_and_Ingrida_%C5%A0imonyt%C4%97_at_the_sidelines_of_the_2023_NATO_Summit_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ingrida Šimonytė","url":"https://en.wikipedia.org/wiki/Ingrida_%C5%A0imonyt%C4%97","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fb/Ingrida_Simonyte_2019_crop_2.jpg/500px-Ingrida_Simonyte_2019_crop_2.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Flag_of_Lithuania.svg/500px-Flag_of_Lithuania.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/dd/Coat_of_arms_of_Lithuania.svg/500px-Coat_of_arms_of_Lithuania.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/EU-Lithuania.svg/500px-EU-Lithuania.svg.png"}, 
@@ -1302,9 +1302,9 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Luxembourg","url":"https://en.wikipedia.org/wiki/Luxembourg"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Luc Frieden","url":"https://en.wikipedia.org/wiki/Luc_Frieden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Luc_Frieden_EUCO_12_2023_%28cropped%29.jpg/500px-Luc_Frieden_EUCO_12_2023_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Luc Frieden","url":"https://en.wikipedia.org/wiki/Luc_Frieden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Frieden_EUCO_0424_%28cropped%29.jpg/500px-Frieden_EUCO_0424_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/500px-Flag_of_Luxembourg.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Greater-Coat-of-Arms-of-Luxembourg.svg/500px-Greater-Coat-of-Arms-of-Luxembourg.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Greater_coat_of_arms_of_the_grand-duchy_of_Luxembourg.svg/500px-Greater_coat_of_arms_of_the_grand-duchy_of_Luxembourg.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/500px-EU-Luxembourg.svg.png"}, 
         capital: [{"name":"Luxembourg","type":"capital"}], 
         language: {"list":["Luxembourgish","French","German"]}, 

@@ -1172,7 +1172,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Kuwait","url":"https://en.wikipedia.org/wiki/Kuwait"}, 
-        leader: {"title":"Emir","pos":"emir","name":"Mishal Al-Ahmad Al-Jaber Al-Sabah","url":"https://en.wikipedia.org/wiki/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah","imgUrl":"500load.wikimedia.org/wikipedia/commons/7/73/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_GCC.jpg"}, 
+        leader: {"title":"Emir","pos":"emir","name":"Mishal Al-Ahmad Al-Jaber Al-Sabah","url":"https://en.wikipedia.org/wiki/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg/500px-Mishal_Al-Ahmad_Al-Jaber_Al-Sabah_December_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Flag_of_Kuwait.svg/500px-Flag_of_Kuwait.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1c/Emblem_of_Kuwait.svg/500px-Emblem_of_Kuwait.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/KWT_orthographic.svg/500px-KWT_orthographic.svg.png"}, 
@@ -1211,7 +1211,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Latvia","url":"https://en.wikipedia.org/wiki/Latvia"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Evika Siliņa","url":"https://en.wikipedia.org/wiki/Evika_Sili%C5%86a","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Prime_Minister_Orpo_and_Prime_Minister_of_Latvia_Evika_Sili%C5%86a_met_in_Helsinki_24._November_2023_%2853353047759%29.jpg/500px-Prime_Minister_Orpo_and_Prime_Minister_of_Latvia_Evika_Sili%C5%86a_met_in_Helsinki_24._November_2023_%2853353047759%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Evika Siliņa","url":"https://en.wikipedia.org/wiki/Evika_Sili%C5%86a","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Jauniev%C4%93l%C4%93t%C4%81s_Ministru_prezidentes_Evikas_Sili%C5%86as_preses_konference_%28cropped%29.jpg/500px-Jauniev%C4%93l%C4%93t%C4%81s_Ministru_prezidentes_Evikas_Sili%C5%86as_preses_konference_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Flag_of_Latvia.svg/500px-Flag_of_Latvia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Coat_of_arms_of_Latvia.svg/500px-Coat_of_arms_of_Latvia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/EU-Latvia.svg/500px-EU-Latvia.svg.png"}, 
@@ -1250,7 +1250,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Liberia","url":"https://en.wikipedia.org/wiki/Liberia"}, 
-        leader: {"title":"President","pos":"president","name":"Joseph Boakai","url":"https://en.wikipedia.org/wiki/Joseph_Boakai","imgUrl":"https://up500px-Joseph_Boakai_%28cropped%29.png"}, 
+        leader: {"title":"President","pos":"president","name":"Joseph Boakai","url":"https://en.wikipedia.org/wiki/Joseph_Boakai","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Joseph_Boakai_%28cropped%29.png/500px-Joseph_Boakai_%28cropped%29.png"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Flag_of_Liberia.svg/500px-Flag_of_Liberia.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Coat_of_arms_of_Liberia.svg/500px-Coat_of_arms_of_Liberia.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Liberia_%28orthographic_projection%29.svg/500px-Liberia_%28orthographic_projection%29.svg.png"}, 
@@ -1302,7 +1302,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Luxembourg","url":"https://en.wikipedia.org/wiki/Luxembourg"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Luc Frieden","url":"https://en.wikipedia.org/wiki/Luc_Frieden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Frieden_von_der_Leyen_2023.jpg/500px-Frieden_von_der_Leyen_2023.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Luc Frieden","url":"https://en.wikipedia.org/wiki/Luc_Frieden","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Frieden_EUCO_0424_%28cropped%29.jpg/500px-Frieden_EUCO_0424_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Flag_of_Luxembourg.svg/500px-Flag_of_Luxembourg.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/Greater_coat_of_arms_of_the_grand-duchy_of_Luxembourg.svg/500px-Greater_coat_of_arms_of_the_grand-duchy_of_Luxembourg.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/EU-Luxembourg.svg/500px-EU-Luxembourg.svg.png"}, 
