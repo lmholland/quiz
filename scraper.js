@@ -2713,7 +2713,7 @@ async function getData(){
                                 currency_0_1_2();
                                 break;
                             case 194:   // Zimbabwe
-                                currency_zim();
+                                currency_0_3_9();
                                 break; 
                         }
 
@@ -2754,36 +2754,6 @@ async function getData(){
                                 });
 
                             }
-                        }
-
-                        function currency_zim(){
-                            try{
-                                if( 
-                                    data(`th.infobox-label`)[j].children[0].data == "Currency"
-                                ){
-                                    let fullCurrency1 = data(`th.infobox-label`)[j].next.children[0].attribs.title;
-                                    let words = fullCurrency1.split(" ");
-                                    let demonym = words[0];
-                                    let unit = words[1].toLowerCase();
-                                    let otherCurrency1 = data(`th.infobox-label`)[j].next.children[3].attribs.title;
-                                    let otherCurrency2 = data(`th.infobox-label`)[j].next.children[9].attribs.title;
-    
-                                    masterList[i].currency = [];
-                                    masterList[i].currency.push({
-                                        demonym: demonym,
-                                        unit: unit,
-                                    });
-                                    masterList[i].currency.push({
-                                        other: otherCurrency1,
-                                    });
-                                    masterList[i].currency.push({
-                                        other: otherCurrency2,
-                                    });
-                    
-                                }
-                            } catch(error){
-                            }
-
                         }
 
                         function currency_0_1_3(){
@@ -2865,6 +2835,36 @@ async function getData(){
                                     unit: unit,
                                 });
                             }
+                        }
+
+                        function currency_0_3_9(){
+                            try{
+                                if( 
+                                    data(`th.infobox-label`)[j].children[0].data == "Currency"
+                                ){
+                                    let fullCurrency1 = data(`th.infobox-label`)[j].next.children[0].attribs.title;
+                                    let words = fullCurrency1.split(" ");
+                                    let demonym = words[0];
+                                    let unit = words[1].toLowerCase();
+                                    let otherCurrency1 = data(`th.infobox-label`)[j].next.children[3].attribs.title;
+                                    let otherCurrency2 = data(`th.infobox-label`)[j].next.children[9].attribs.title;
+    
+                                    masterList[i].currency = [];
+                                    masterList[i].currency.push({
+                                        demonym: demonym,
+                                        unit: unit,
+                                    });
+                                    masterList[i].currency.push({
+                                        other: otherCurrency1,
+                                    });
+                                    masterList[i].currency.push({
+                                        other: otherCurrency2,
+                                    });
+                    
+                                }
+                            } catch(error){
+                            }
+
                         }
 
                         function currency_01_2(){
