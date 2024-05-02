@@ -1080,7 +1080,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 191:    // Vietnam
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 192:    // Yemen
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -2267,9 +2267,6 @@ async function getData(){
                                 break;
                             case 184:   //  UK
                                 demonym_nc10000();
-                                break;
-                            case 188:   //  Vanuatu
-                                demonym_nc0_s1();
                                 break;
                             case 189:   //  Vatican
                                 demonym_nc2_s2();
