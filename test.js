@@ -1,13 +1,13 @@
 async function getData(){
 
     try {
-        const response = await require('axios').get("https://en.wikipedia.org/wiki/Anwar_Ibrahim");
+        const response = await require('axios').get("https://en.wikipedia.org/wiki/Mohamed_Muizzu");
         const data = require('cheerio').load(response.data);
         const size= "500px";
         const countryNum = 30;
 
         // flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
-        leaderImg(4, "jpg")
+        leaderImg(5, "jpg")
 
 
                 // for(let j=0; j < data(`th.infobox-label`).length; j++){

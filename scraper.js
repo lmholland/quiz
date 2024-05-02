@@ -494,7 +494,7 @@ async function getData(){
 
     // flag, symbol, map, capital, largestCity, language, demonym, currency, tld
     try {
-        for (let i = 35; i < countryTotal; i++){
+        for (let i = 105; i < countryTotal; i++){
             const response = await require('axios').get(masterList[i].country.url);
             const data = require('cheerio').load(response.data);
             let size = "500px";
@@ -2595,9 +2595,6 @@ async function getData(){
                             case 100:   // Luxembourg
                                 currency_full();
                                 break;
-                            case 104:   // Maldives
-                                currency_nc1000_0_1_full_nc1010();
-                                break;
                             case 105:   // Mali
                                 currency_full();
                                 break;
@@ -3409,8 +3406,11 @@ async function getData(){
                         case 96:    // Liberia
                             leaderImg(3, "png");
                             break;
-                        case 103:   // Madagascar
+                        case 103:   // Malaysia
                             leaderImg(4, "jpg");
+                            break;
+                        case 104:   // Maldives
+                            leaderImg(5, "jpg");
                             break;
                         case 108:   // Mauritania
                             leaderImg(4, "jpg");
