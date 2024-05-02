@@ -1038,7 +1038,7 @@ async function getData(){
                         flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 177:    // Tunisia
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
+                        flag_symbol_map(3, "svg", 4, "svg", 5, "svg");
                         break;
                     case 178:    // Turkey
                         turkey_noSymbol(4, "svg", 5, "svg");
@@ -3481,8 +3481,8 @@ async function getData(){
                         case 170:   // Syria
                             leaderImg(4, "jpeg");
                             break;
-                        case 176:   // Trinidad
-                            leaderImg(3, "jpeg");
+                        case 172:   // Tanzania
+                            leaderImg(4, "jpg");
                             break;
                         case 178:   // Turkey
                             leaderImg(4, "jpg");

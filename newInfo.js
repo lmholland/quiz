@@ -2238,7 +2238,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Tanzania","url":"https://en.wikipedia.org/wiki/Tanzania"}, 
-        leader: {"title":"President","pos":"president","name":"Samia Suluhu Hassan","url":"https://en.wikipedia.org/wiki/Samia_Suluhu_Hassan","imgUrl":"https://up500px-Symbol_support_vote.svg.png"}, 
+        leader: {"title":"President","pos":"president","name":"Samia Suluhu Hassan","url":"https://en.wikipedia.org/wiki/Samia_Suluhu_Hassan","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/International_leaders_sign_joint_statement_at_COP26_%2851649202102%29_%28Suluhu_crop%29.jpg/500px-International_leaders_sign_joint_statement_at_COP26_%2851649202102%29_%28Suluhu_crop%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tanzania.svg/500px-Flag_of_Tanzania.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Coat_of_arms_of_Tanzania.svg/500px-Coat_of_arms_of_Tanzania.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tanzania_%28orthographic_projection%29.svg/500px-Tanzania_%28orthographic_projection%29.svg.png"}, 
@@ -2290,7 +2290,7 @@ const newInfo = [
     }, 
     {
         country: {"name":"Trinidad and Tobago","url":"https://en.wikipedia.org/wiki/Trinidad_and_Tobago"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"https://en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"https://upl500px-Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_at_the_United_States_Department_of_State_in_Washington%2C_D.C.%2C_January_29%2C_2024_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"https://en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_at_the_United_States_Department_of_State_in_Washington%2C_D.C.%2C_January_29%2C_2024_%28cropped%29.jpg/500px-Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_at_the_United_States_Department_of_State_in_Washington%2C_D.C.%2C_January_29%2C_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/500px-Flag_of_Trinidad_and_Tobago.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/500px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trinidad_and_Tobago_%28orthographic_projection%29.svg/500px-Trinidad_and_Tobago_%28orthographic_projection%29.svg.png"}, 
@@ -2304,9 +2304,9 @@ const newInfo = [
     {
         country: {"name":"Tunisia","url":"https://en.wikipedia.org/wiki/Tunisia"}, 
         leader: {"title":"President","pos":"president","name":"Kaïs Saïed","url":"https://en.wikipedia.org/wiki/Kais_Saied","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/Kais_Saied_2023.jpg/500px-Kais_Saied_2023.jpg"}, 
-        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/500px-Coat_of_arms_of_Tunisia.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tunisia_location_%28orthographic_projection%29.svg/500px-Tunisia_location_%28orthographic_projection%29.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Increase2.svg/500px-Increase2.svg.png"}, 
+        flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ce/Flag_of_Tunisia.svg/500px-Flag_of_Tunisia.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Coat_of_arms_of_Tunisia.svg/500px-Coat_of_arms_of_Tunisia.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Tunisia_location_%28orthographic_projection%29.svg/500px-Tunisia_location_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Tunis","type":"capital"}], 
         language: {"list":["Arabic"]}, 
         demonym: {"name":"Tunisian"}, 
@@ -2399,6 +2399,7 @@ const newInfo = [
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_(Tudor_crown).svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_(Tudor_crown).svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Europe-UK_%28orthographic_projection%29.svg/500px-Europe-UK_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"London","type":"capital"}], 
+        language: {"list":["English"]}, 
         demonym: {"name":"British"}, 
         currency: [{"full":"Pound sterling"}], 
         tld: {"name":".uk"}, 

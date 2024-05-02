@@ -2186,7 +2186,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Sweden","url":"https://en.wikipedia.org/wiki/Sweden"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ulf Kristersson","url":"https://en.wikipedia.org/wiki/Ulf_Kristersson","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/P061521-697284_%28cropped%29.jpg/500px-P061521-697284_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Ulf Kristersson","url":"https://en.wikipedia.org/wiki/Ulf_Kristersson","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/Ulf_Kristersson_on_29_June_2023.jpg/500px-Ulf_Kristersson_on_29_June_2023.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/en/thumb/4/4c/Flag_of_Sweden.svg/500px-Flag_of_Sweden.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Great_coat_of_arms_of_Sweden.svg/500px-Great_coat_of_arms_of_Sweden.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/EU-Sweden_%28orthographic_projection%29.svg/500px-EU-Sweden_%28orthographic_projection%29.svg.png"}, 
@@ -2212,7 +2212,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Syria","url":"https://en.wikipedia.org/wiki/Syria"}, 
-        leader: {"title":"President","pos":"president","name":"Bashar al-Assad","url":"https://en.wikipedia.org/wiki/Bashar_al-Assad","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Bashar_al-Assad_meets_with_Khamenei_2022_%28cropped%29.jpeg/500px-Bashar_al-Assad_meets_with_Khamenei_2022_%28cropped%29.jpeg"}, 
+        leader: {"title":"President","pos":"president","name":"Bashar al-Assad","url":"https://en.wikipedia.org/wiki/Bashar_al-Assad","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Al-Assad_2022_%28cropped%29.jpeg/500px-Al-Assad_2022_%28cropped%29.jpeg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Flag_of_Syria.svg/500px-Flag_of_Syria.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Coat_of_arms_of_Syria.svg/500px-Coat_of_arms_of_Syria.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Syria_%28orthographic_projection%29_disputed.svg/500px-Syria_%28orthographic_projection%29_disputed.svg.png"}, 
@@ -2225,7 +2225,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Tajikistan","url":"https://en.wikipedia.org/wiki/Tajikistan"}, 
-        leader: {"title":"President","pos":"president","name":"Emomali Rahmon","url":"https://en.wikipedia.org/wiki/Emomali_Rahmon","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Ilham_Aliyev_held_one-on-one_meeting_with_President_of_Tajikistan_Emomali_Rahmon_in_Dushanbe_%28Rahmon_Infobox_crop%29.jpg/500px-Ilham_Aliyev_held_one-on-one_meeting_with_President_of_Tajikistan_Emomali_Rahmon_in_Dushanbe_%28Rahmon_Infobox_crop%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Emomali Rahmon","url":"https://en.wikipedia.org/wiki/Emomali_Rahmon","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Emomali_Rahmon_%2873613%29.jpg/500px-Emomali_Rahmon_%2873613%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Flag_of_Tajikistan.svg/500px-Flag_of_Tajikistan.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Emblem_of_Tajikistan.svg/500px-Emblem_of_Tajikistan.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Tajikistan_%28orthographic_projection%29.svg/500px-Tajikistan_%28orthographic_projection%29.svg.png"}, 
@@ -2251,7 +2251,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Thailand","url":"https://en.wikipedia.org/wiki/Thailand"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Srettha Thavisin","url":"https://en.wikipedia.org/wiki/Srettha_Thavisin","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/PM_Kishida_meeting_with_PM_Thavisin_of_Thailand_%28cropped%29.jpg/500px-PM_Kishida_meeting_with_PM_Thavisin_of_Thailand_%28cropped%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Srettha Thavisin","url":"https://en.wikipedia.org/wiki/Srettha_Thavisin","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/PM_Srettha_Thavisin_2023_%28cropped%29.jpg/500px-PM_Srettha_Thavisin_2023_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Flag_of_Thailand.svg/500px-Flag_of_Thailand.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8f/Emblem_of_Thailand.svg/500px-Emblem_of_Thailand.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Thailand_%28orthographic_projection%29.svg/500px-Thailand_%28orthographic_projection%29.svg.png"}, 
@@ -2264,7 +2264,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Togo","url":"https://en.wikipedia.org/wiki/Togo"}, 
-        leader: {"title":"President","pos":"president","name":"Faure Gnassingbé","url":"https://en.wikipedia.org/wiki/Faure_Gnassingb%C3%A9","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Photo_Faure_Gnassingbe_2023.jpg/500px-Photo_Faure_Gnassingbe_2023.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Faure Gnassingbé","url":"https://en.wikipedia.org/wiki/Faure_Gnassingb%C3%A9","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/aa/Fumio_Kishida_and_Faure_Gnassingb%C3%A9_before_the_funeral_of_Shinzo_Abe_%281%29_%28cropped%29.jpg/500px-Fumio_Kishida_and_Faure_Gnassingb%C3%A9_before_the_funeral_of_Shinzo_Abe_%281%29_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Flag_of_Togo.svg/500px-Flag_of_Togo.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/Armoiries_du_Togo.svg/500px-Armoiries_du_Togo.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Location_Togo_AU_Africa.svg/500px-Location_Togo_AU_Africa.svg.png"}, 
@@ -2290,7 +2290,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Trinidad and Tobago","url":"https://en.wikipedia.org/wiki/Trinidad_and_Tobago"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"https://en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Rowley2018Cropped.jpeg/500px-Rowley2018Cropped.jpeg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Keith Rowley","url":"https://en.wikipedia.org/wiki/Keith_Rowley","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_at_the_United_States_Department_of_State_in_Washington%2C_D.C.%2C_January_29%2C_2024_%28cropped%29.jpg/500px-Trinidad_and_Tobago_Prime_Minister_Keith_Rowley_at_the_United_States_Department_of_State_in_Washington%2C_D.C.%2C_January_29%2C_2024_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Flag_of_Trinidad_and_Tobago.svg/500px-Flag_of_Trinidad_and_Tobago.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Coat_of_arms_of_Trinidad_and_Tobago.svg/500px-Coat_of_arms_of_Trinidad_and_Tobago.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/Trinidad_and_Tobago_%28orthographic_projection%29.svg/500px-Trinidad_and_Tobago_%28orthographic_projection%29.svg.png"}, 
@@ -2342,7 +2342,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Tuvalu","url":"https://en.wikipedia.org/wiki/Tuvalu"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Kausea Natano","url":"https://en.wikipedia.org/wiki/Kausea_Natano","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Kausea_Natano_June_2022.jpg/500px-Kausea_Natano_June_2022.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Feleti Teo","url":"https://en.wikipedia.org/wiki/Feleti_Teo","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/db/Feleti_Teo_2016_%28cropped%29.jpg/500px-Feleti_Teo_2016_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Flag_of_Tuvalu.svg/500px-Flag_of_Tuvalu.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c9/Coat_of_arms_of_Tuvalu.svg/500px-Coat_of_arms_of_Tuvalu.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Tuvalu_on_the_globe_%28Polynesia_centered%29.svg/500px-Tuvalu_on_the_globe_%28Polynesia_centered%29.svg.png"}, 
@@ -2368,10 +2368,10 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Ukraine","url":"https://en.wikipedia.org/wiki/Ukraine"}, 
-        leader: {"title":"President","pos":"president","name":"Volodymyr Zelenskyy","url":"https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%2831-12-2023%29.jpg/500px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9_%2831-12-2023%29.jpg"}, 
+        leader: {"title":"President","pos":"president","name":"Volodymyr Zelenskyy","url":"https://en.wikipedia.org/wiki/Volodymyr_Zelenskyy","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Volodymyr_Zelenskyy_in_2022.jpg/500px-Volodymyr_Zelenskyy_in_2022.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Flag_of_Ukraine.svg/500px-Flag_of_Ukraine.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Lesser_Coat_of_Arms_of_Ukraine.svg/500px-Lesser_Coat_of_Arms_of_Ukraine.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9e/Ukraine_-_disputed_%28orthographic_projection%29.svg/500px-Ukraine_-_disputed_%28orthographic_projection%29.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Coat_of_Arms_of_Ukraine.svg/500px-Coat_of_Arms_of_Ukraine.svg.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Ukraine_%28orthographic_projection%29.svg/500px-Ukraine_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Kyiv","type":"capital"}], 
         language: {"list":["Ukrainian"]}, 
         demonym: {"name":"Ukrainian"}, 
@@ -2396,7 +2396,7 @@ const currentInfo = [
         country: {"name":"the United Kingdom","url":"https://en.wikipedia.org/wiki/United_Kingdom"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Rishi Sunak","url":"https://en.wikipedia.org/wiki/Rishi_Sunak","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg/500px-Portrait_of_Prime_Minister_Rishi_Sunak_%28cropped%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Flag_of_the_United_Kingdom_%281-2%29.svg/500px-Flag_of_the_United_Kingdom_%281-2%29.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_%28Tudor_crown%29.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Royal_Coat_of_Arms_of_the_United_Kingdom_(Tudor_crown).svg/500px-Royal_Coat_of_Arms_of_the_United_Kingdom_(Tudor_crown).svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Europe-UK_%28orthographic_projection%29.svg/500px-Europe-UK_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"London","type":"capital"}], 
         language: {"list":["English"]}, 
