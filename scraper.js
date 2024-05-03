@@ -494,7 +494,7 @@ async function getData(){
 
     // flag, symbol, map, capital, largestCity, language, demonym, currency, tld
     try {
-        for (let i = 194; i < countryTotal; i++){
+        for (let i = 169; i < countryTotal; i++){
             const response = await require('axios').get(masterList[i].country.url);
             const data = require('cheerio').load(response.data);
             let size = "500px";
@@ -729,7 +729,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 74:    // Hungary
-                        flag_symbol_map(5, "svg", 6, "svg", 7, "svg");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 75:    // Iceland
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -846,7 +846,7 @@ async function getData(){
                         flag_symbol_map(4, "svg", 5, "svg", 6, "png");
                         break;
                     case 113:    // Monaco
-                        flag_symbol_map(4, "svg", 5, "svg", 6, "png");
+                        flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
                         break;
                     case 114:    // Mongolia
                         flag_symbol_map(4, "svg", 5, "svg", 6, "svg");
@@ -1612,7 +1612,7 @@ async function getData(){
                                 language_nc10k00();
                                 break;
                             case 169:   // Switzerland
-                                language_nc11k00();
+                                language_nc10k00();
                                 break;
                             case 171:   // Tajikistan
                                 language_nc100k0_k3();
@@ -3374,8 +3374,8 @@ async function getData(){
                         case 60:    // France
                             leaderImg(4, "jpg");
                             break;
-                        case 61:    // Gabon
-                            leaderImg_thumbless(3);
+                        case 63:    // Georgia
+                            leaderImg(4, "jpg");
                             break;
                         case 74:    // Hungary
                             leaderImg(4, "jpg");
@@ -3390,9 +3390,6 @@ async function getData(){
                             leaderImg(4, "jpg");
                             break;
                         case 81:    // Israel
-                            leaderImg(4, "jpg");
-                            break;
-                        case 82:    // Italy
                             leaderImg(4, "jpg");
                             break;
                         case 84:    // Jamaica

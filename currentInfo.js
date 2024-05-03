@@ -1,4 +1,4 @@
-const lastChecked = "May 1, 2024";
+const lastChecked = "May 2, 2024";
 const currentInfo = [
     {
         country: {"name":"Afghanistan","url":"https://en.wikipedia.org/wiki/Afghanistan"}, 
@@ -498,7 +498,7 @@ const currentInfo = [
         country: {"name":"Congo-Kinshasa","url":"https://en.wikipedia.org/wiki/Democratic_Republic_of_the_Congo"}, 
         leader: {"title":"President","pos":"president","name":"Félix Tshisekedi","url":"https://en.wikipedia.org/wiki/F%C3%A9lix_Tshisekedi","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/F%C3%A9lix_Tshisekedi_in_2021.jpg/500px-F%C3%A9lix_Tshisekedi_in_2021.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Flag_of_the_Democratic_Republic_of_the_Congo.svg/500px-Flag_of_the_Democratic_Republic_of_the_Congo.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Coat_of_Arms_Democratic_Republic_of_Congo.png/500px-Coat_of_Arms_Democratic_Republic_of_Congo.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Coat_of_arms_of_the_Democratic_Republic_of_the_Congo_%28black_spear%29.svg/500px-Coat_of_arms_of_the_Democratic_Republic_of_the_Congo_%28black_spear%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg/500px-Democratic_Republic_of_the_Congo_%28orthographic_projection%29.svg.png"}, 
         capital: [{"name":"Kinshasa","type":"capital"}], 
         language: {"list":["French"]}, 
@@ -795,7 +795,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Gabon","url":"https://en.wikipedia.org/wiki/Gabon"}, 
-        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Oligui_Nguema","imgUrl":"missing"}, 
+        leader: {"title":"Chairman of the Committee for the Transition and Restoration of Institutions","pos":"chairman of the Committee for the Transition and Restoration of Institutions","name":"Brice Oligui Nguema","url":"https://en.wikipedia.org/wiki/Brice_Oligui_Nguema","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/BriceOliguiNguema.jpg/500px-BriceOliguiNguema.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Flag_of_Gabon.svg/500px-Flag_of_Gabon.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Coat_of_arms_of_Gabon.svg/500px-Coat_of_arms_of_Gabon.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/Gabon_%28orthographic_projection%29.svg/500px-Gabon_%28orthographic_projection%29.svg.png"}, 
@@ -938,7 +938,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Haiti","url":"https://en.wikipedia.org/wiki/Haiti"}, 
-        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Fritz Belizaire","url":"https://en.wikipedia.org/wiki/Fritz_Belizaire","imgUrl":"missing"}, 
+        leader: {"title":"Acting Prime Minister","pos":"acting prime minister","name":"Fritz Bélizaire","url":"https://en.wikipedia.org/wiki/Fritz_B%C3%A9lizaire","imgUrl":"missing"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/500px-Flag_of_Haiti.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Coat_of_arms_of_Haiti.svg/500px-Coat_of_arms_of_Haiti.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Haiti_%28orthographic_projection%29.svg/500px-Haiti_%28orthographic_projection%29.svg.png"}, 
@@ -1421,7 +1421,7 @@ const currentInfo = [
         country: {"name":"Mauritius","url":"https://en.wikipedia.org/wiki/Mauritius"}, 
         leader: {"title":"Prime Minister","pos":"prime minister","name":"Pravind Jugnauth","url":"https://en.wikipedia.org/wiki/Pravind_Jugnauth","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/The_Prime_Minister%2C_Shri_Narendra_Modi_meeting_the_Prime_Minister_of_the_Republic_of_Mauritius%2C_Mr._Pravind_Kumar_Jugnauth%2C_in_New_Delhi_on_December_06%2C_2019_%281%29_%28cropped%29.jpg/500px-thumbnail.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Flag_of_Mauritius.svg/500px-Flag_of_Mauritius.svg.png"}, 
-        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Coat_of_arms_of_Mauritius.svg/500px-Coat_of_arms_of_Mauritius.svg.png"}, 
+        symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Coat_of_arms_of_Mauritius_%28Original_version%29.svg/500px-Coat_of_arms_of_Mauritius_%28Original_version%29.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/4/4b/Mauritius_%28orthographic_projection_with_inset%29.svg/500px-Mauritius_%28orthographic_projection_with_inset%29.svg.png"}, 
         capital: [{"name":"Port Louis","type":"capital"}], 
         language: {"list":["English","French","Mauritian Creole"]}, 
@@ -1474,7 +1474,7 @@ const currentInfo = [
         leader: {"title":"Sovereign Prince","pos":"sovereign prince","name":"Albert II","url":"https://en.wikipedia.org/wiki/Albert_II,_Prince_of_Monaco","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Prince_Albert_II_of_Monaco_at_the_Enthronement_of_Naruhito_%281%29.jpg/500px-Prince_Albert_II_of_Monaco_at_the_Enthronement_of_Naruhito_%281%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ea/Flag_of_Monaco.svg/500px-Flag_of_Monaco.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Great_coat_of_arms_of_the_house_of_Grimaldi.svg/500px-Great_coat_of_arms_of_the_house_of_Grimaldi.svg.png"}, 
-        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Location_Monaco_Europe.png/500px-Location_Monaco_Europe.png"}, 
+        map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Location_Monaco_Europe.svg/500px-Location_Monaco_Europe.svg.png"}, 
         capital: [{"name":"Monaco","type":"capital"}], 
         language: {"list":["French"]}, 
         demonym: {"name":"Monégasque"}, 
@@ -2069,7 +2069,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"the Solomon Islands","url":"https://en.wikipedia.org/wiki/Solomon_Islands"}, 
-        leader: {"title":"Prime Minister","pos":"prime minister","name":"Manasseh Sogavare","url":"https://en.wikipedia.org/wiki/Manasseh_Sogavare","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%81%D0%B5_%D0%A1%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%B5_%2828532489095%29.jpg/500px-%D0%9C%D0%B0%D0%BD%D0%B0%D1%81%D1%81%D0%B5_%D0%A1%D0%BE%D0%B3%D0%B0%D0%B2%D0%B0%D1%80%D0%B5_%2828532489095%29.jpg"}, 
+        leader: {"title":"Prime Minister","pos":"prime minister","name":"Jeremiah Manele","url":"https://en.wikipedia.org/wiki/Jeremiah_Manele","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Jeremiah_Manele.jpg/500px-Jeremiah_Manele.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/Flag_of_the_Solomon_Islands.svg/500px-Flag_of_the_Solomon_Islands.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Coat_of_arms_of_the_Solomon_Islands.svg/500px-Coat_of_arms_of_the_Solomon_Islands.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg/500px-Solomon_Islands_on_the_globe_%28Oceania_centered%29.svg.png"}, 
@@ -2451,7 +2451,7 @@ const currentInfo = [
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Vanuatu_on_the_globe_%28Polynesia_centered%29.svg/500px-Vanuatu_on_the_globe_%28Polynesia_centered%29.svg.png"}, 
         capital: [{"name":"Port Vila","type":"capital"}], 
         language: {"list":["Bislama","English","French"]}, 
-        demonym: {"name":"Ni-Vanatu"}, 
+        demonym: {"name":"Ni-Vanuatu"}, 
         currency: [{"demonym":"Vanuatu","unit":"vatu"}], 
         tld: {"name":".vu"}, 
         largestCity: [{"name":"Port Vila","type":"largest city"}], 
@@ -2497,7 +2497,7 @@ const currentInfo = [
     }, 
     {
         country: {"name":"Yemen","url":"https://en.wikipedia.org/wiki/Yemen"}, 
-        leader: {"title":"Chairman of the Presidential Leadership Council","pos":"chairman of the Presidential Leadership Council","name":"Rashad al-Alimi","url":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Rashad_al-Alimi_%282023%29.jpg/500px-Rashad_al-Alimi_%282023%29.jpg"}, 
+        leader: {"title":"Chairman of the Presidential Leadership Council","pos":"chairman of the Presidential Leadership Council","name":"Rashad al-Alimi","url":"https://en.wikipedia.org/wiki/Rashad_al-Alimi","imgUrl":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Rashad_al-Alimi_%282023%29.jpg/500px-Rashad_al-Alimi_%282023%29.jpg"}, 
         flag: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/Flag_of_Yemen.svg/500px-Flag_of_Yemen.svg.png"}, 
         symbol: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Emblem_of_Yemen.svg/500px-Emblem_of_Yemen.svg.png"}, 
         map: {"url":"https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Yemen_%28orthographic_projection%29.svg/500px-Yemen_%28orthographic_projection%29.svg.png"}, 
